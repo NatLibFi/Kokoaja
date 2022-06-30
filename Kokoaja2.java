@@ -767,7 +767,8 @@ public class Kokoaja2 {
 				this.ontoKokoResurssivastaavuudetJotkaNykyKokossaMap.put(ontoSubj, kokoSubj);
 
 				//tämä päätyy tiedostoon:
-				this.ontoKokoResurssivastaavuudetMap.put(ontoSubj, kokoSubj);
+				if (!this.ontoKokoResurssivastaavuudetMap.containsKey(ontoSubj))
+					this.ontoKokoResurssivastaavuudetMap.put(ontoSubj, kokoSubj);
 			}
 //			try {
 //				tmpWriter.write(tmpString+"\n");
