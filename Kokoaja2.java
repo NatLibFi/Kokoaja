@@ -45,6 +45,7 @@ public class Kokoaja2 {
 	private Set<Resource> mustaLista;
 
 	private Set<String> deprekoidut;
+	private Set<String> ysoUrit;
 
 	private int viimeisinKokoUrinLoppuosa;
 
@@ -61,6 +62,7 @@ public class Kokoaja2 {
 		this.ontoKokoResurssivastaavuudetJotkaNykyKokossaMap = new HashMap<Resource, Resource>();
 		this.kokoFiLabelitResurssitMap = new HashMap<String, Resource>();
 		this.deprekoidut = new HashSet<String>();
+		this.ysoUrit = new HashSet<String>();
 	}
 
 	public Model luoAihio() {
@@ -121,6 +123,14 @@ public class Kokoaja2 {
 
 		Property skosInScheme = this.koko.createProperty(this.skosNs + "inScheme");
 		Resource ysoConceptScheme = this.koko.createResource("http://www.yso.fi/onto/yso/");
+
+		//Luodaan ensiksi lista sallituista YSO-ureista. Muita YSO-käsitteitä ei oteta KOKOssa huomioon
+		ResIterator sallitut = this.onto.listResourcesWithProperty(skosInScheme, ysoConceptScheme);
+		while (sallitut.hasNext()) {
+			Resource ysoSubj = sallitut.next();
+			this.ysoUrit.add(ysoSubj.getURI());
+		}
+
 		ResIterator resIter = this.onto.listResourcesWithProperty(skosInScheme, ysoConceptScheme);
 		while (resIter.hasNext()) {
 			Resource ysoSubj = resIter.nextResource();
@@ -1637,13 +1647,17 @@ public class Kokoaja2 {
 	 * - Allars
 	 * - Liito
 	 * - STAMETA
+	 * - TEROn linkittämät osaontologiat
 	 */
 	private boolean eiToivottuViittaus(Statement viittaus) {
-		List<String> poisMatchNs = Arrays.asList("http://www.yso.fi/onto/liito/" ,
-												 "http://www.yso.fi/onto/allars/" ,
-												 "http://www.yso.fi/onto/ysa/",
-												 "http://www.yso.fi/onto/stameta/");
-
+		List<String> poisMatchNs = Arrays.asList(
+				"http://www.yso.fi/onto/liito/" ,
+				"http://www.yso.fi/onto/hpmulti/",
+				"http://www.yso.fi/onto/ttl/",
+				"http://www.yso.fi/onto/allars/" ,
+				"http://www.yso.fi/onto/ysa/",
+				"http://www.yso.fi/onto/stameta/");
+		try {
 		//poistetaan exactMatch-viittaukset
 		if ( viittaus.getPredicate().equals(SKOS.exactMatch) && poisMatchNs.contains(viittaus.getResource().getNameSpace()) )
 				return true;
@@ -1655,6 +1669,17 @@ public class Kokoaja2 {
 		//poistetaan vanhentuneet tyypit
 		if ( viittaus.getPredicate().equals(RDF.type) && viittaus.getResource().getURI().startsWith("http://www.yso.fi/onto/liito-meta"))
 			return true;
+
+		//ei oteta huomioon sellaisia YSO-käsitteitä, jotka eivät kuulu senhetkisen YSOn käsiteskeemaan
+		if ( viittaus.getObject().isResource() &&
+			 viittaus.getResource().getURI().startsWith("http://www.yso.fi/onto/yso/") &&
+			 !this.ysoUrit.contains(viittaus.getResource().getURI()) )
+			return true;
+		} catch (Exception e) {
+			System.out.println("Tripleä " +  viittaus + " ei otettu mukaan KOKOon");
+			return true;
+		}
+
 
 		return false;
 	}
