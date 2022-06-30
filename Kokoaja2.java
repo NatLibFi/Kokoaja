@@ -791,41 +791,6 @@ public class Kokoaja2 {
 //			e.printStackTrace();
 //		}
 
-		//Siivotaan lopuksi hierarkiasta erikoisonto- ja ysourit joihin on saatettu viitata exactMatcheilla
-		Property broader = this.koko.getProperty(this.skosNs+"broader");
-		Property narrower = this.koko.getProperty(this.skosNs+"narrower");
-		HashSet<Statement> korvattavatHierarkiset = new HashSet<Statement>();
-		StmtIterator broaderIter = this.koko.listStatements(null, broader, (RDFNode)null);
-		while (broaderIter.hasNext()) {
-			Statement s = broaderIter.next();
-			if (!s.getResource().getNameSpace().endsWith("/koko/")) {
-				korvattavatHierarkiset.add(s);
-			}
-		}
-		StmtIterator narrowerIter = this.koko.listStatements(null, narrower, (RDFNode)null);
-		while (narrowerIter.hasNext()) {
-			Statement s = narrowerIter.next();
-			if (!s.getResource().getNameSpace().endsWith("/koko/")) {
-				korvattavatHierarkiset.add(s);
-			}
-		}
-
-		for (Statement s : korvattavatHierarkiset) {
-			Resource korvaava = this.ontoKokoResurssivastaavuudetMap.get(s.getResource());
-			this.koko.remove(s);
-			if (korvaava == null) {
-				System.out.println("Käsitteelle " + s.getResource() + " ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.");
-			} else {
-				this.koko.add(s.getSubject(), s.getPredicate(), korvaava);
-			}
-		}
-
-		//testataan käsitteiden määrää 2.
-		System.out.println("Kokossa käsitteitä urittamisen jälkeen: " + this.koko.listSubjects().toList().size());
-		
-		
-		//TODO: tarkistetaan tähän väliin väliaikaisena tarkistuksena koko.listSubjects() -tyyliin vielä kaikki sellaiset käsitteet jotka jäivät tämän funktion kohdalla käsittelemättä, ja listataan ne erilliseen tiedostoon
-
 	}
 
 	private void haeAikaleimat(HashSet<Resource> ryhma, Resource kokoRes) {
@@ -1044,6 +1009,42 @@ public class Kokoaja2 {
 		}
 		for (Statement stmt:poistettavat) this.koko.remove(stmt);
 		for (Statement stmt:lisattavat) this.koko.add(stmt);
+
+		//Siivotaan lopuksi hierarkiasta erikoisonto- ja ysourit joihin on saatettu viitata exactMatcheilla
+		Property broader = this.koko.getProperty(this.skosNs+"broader");
+		Property narrower = this.koko.getProperty(this.skosNs+"narrower");
+		HashSet<Statement> korvattavatHierarkiset = new HashSet<Statement>();
+		StmtIterator broaderIter = this.koko.listStatements(null, broader, (RDFNode)null);
+		while (broaderIter.hasNext()) {
+			Statement s = broaderIter.next();
+			if (!s.getResource().getNameSpace().endsWith("/koko/")) {
+				korvattavatHierarkiset.add(s);
+			}
+		}
+		StmtIterator narrowerIter = this.koko.listStatements(null, narrower, (RDFNode)null);
+		while (narrowerIter.hasNext()) {
+			Statement s = narrowerIter.next();
+			if (!s.getResource().getNameSpace().endsWith("/koko/")) {
+				korvattavatHierarkiset.add(s);
+			}
+		}
+
+		for (Statement s : korvattavatHierarkiset) {
+			Resource korvaava = this.ontoKokoResurssivastaavuudetMap.get(s.getResource());
+			this.koko.remove(s);
+			if (korvaava == null) {
+				System.out.println("Käsitteelle " + s.getResource() + " ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.");
+			} else {
+				this.koko.add(s.getSubject(), s.getPredicate(), korvaava);
+			}
+		}
+
+		//testataan käsitteiden määrää 2.
+		System.out.println("Kokossa käsitteitä urittamisen jälkeen: " + this.koko.listSubjects().toList().size());
+
+
+		//TODO: tarkistetaan tähän väliin väliaikaisena tarkistuksena koko.listSubjects() -tyyliin vielä kaikki sellaiset käsitteet jotka jäivät tämän funktion kohdalla käsittelemättä, ja listataan ne erilliseen tiedostoon
+
 	}
 
 	public void tulostaPrefLabelMuutoksetEdelliseenVerrattuna(Model aiempiKoko, String lang) {
