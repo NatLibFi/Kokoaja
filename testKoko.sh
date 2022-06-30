@@ -1,4 +1,4 @@
-cd ~/git/Finto-data/tools/kokoaja
+cd ~/git/Kokoaja
 cp ~/eclipse-workspace/Kokoaja/src/*.java .
 ./compile.sh
 ./run_local.sh

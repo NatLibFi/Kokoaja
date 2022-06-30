@@ -66,3 +66,4 @@ http://www.yso.fi/onto/kulo/k1214
 http://www.yso.fi/onto/kulo/k1222
 http://www.yso.fi/onto/kulo/k558
 http://www.yso.fi/onto/tsr/p9767
+http://www.yso.fi/onto/tsr/p7191
