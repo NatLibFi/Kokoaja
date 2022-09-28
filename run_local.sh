@@ -2,10 +2,10 @@
 
 VASTAAVUUDET=kokoUriVastaavuudet.txt
 VASTAAVUUDETUUDET=kokoUriVastaavuudet-test.txt
-YSO=../../vocabularies/yso/yso-skos.ttl
+YSO=../Finto-data/vocabularies/yso/yso-skos.ttl
 KOOSTUMUS=conf/kokoKoostumus.txt
-KOKOOLD=../../vocabularies/koko/koko-skos.ttl
-KOKONEW=../../vocabularies/koko/koko-test.ttl
+KOKOOLD=../Finto-data/vocabularies/koko/koko-skos.ttl
+KOKONEW=../Finto-data/vocabularies/koko/koko-test.ttl
 MUSTALISTA=conf/kokoMustalista.txt
 
 ARGS="$VASTAAVUUDET $YSO $KOOSTUMUS $VASTAAVUUDETUUDET $KOKOOLD $KOKONEW $MUSTALISTA"
