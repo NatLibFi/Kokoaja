@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -1525,14 +1526,10 @@ public class Kokoaja2 {
 	public void kirjoitaKoko(String kokonPolku) {
 
 		try {
-			System.out.println("Kirjoitetaan välikoko...");
-			this.koko.write((new FileWriter(kokonPolku+".alt")), "TTL");
+		   this.koko.write(new FileOutputStream(kokonPolku), "TURTLE");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-
-
-		JenaHelpers.kirjoitaMalli(this.koko, kokonPolku, true);
 	}
 	private Resource haeKorvaava(Resource res, Model model) {
 		List<Resource> results = new ArrayList<>();
