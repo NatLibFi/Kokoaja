@@ -42,6 +42,9 @@ public class Kokoaja2 {
 	private Map<Resource, Resource> ontoKokoResurssivastaavuudetMap;
 	private Map<Resource, Resource> ontoKokoResurssivastaavuudetJotkaNykyKokossaMap;
 
+	private Map<Resource, String> urivastaavuusTimestampit;
+	private String timestampNow;
+
 	private Set<String> sallittujenPropertyjenNimiavaruudet;
 	private Set<Resource> mustaLista;
 
@@ -52,6 +55,7 @@ public class Kokoaja2 {
 
 	private int romautetut;
 
+
 	public Kokoaja2(String uriVastaavuuksiePolku) {
 		this.romautetut = 0;
 
@@ -59,6 +63,9 @@ public class Kokoaja2 {
 		this.koko = this.luoAihio();
 		this.aikaLeimat = this.luoAihio();
 		this.lueUriVastaavuudetTiedostosta(uriVastaavuuksiePolku);
+
+		this.urivastaavuusTimestampit = new HashMap<Resource, String>();
+		this.timestampNow = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").format(new Date());
 
 		this.ontoKokoResurssivastaavuudetJotkaNykyKokossaMap = new HashMap<Resource, Resource>();
 		this.kokoFiLabelitResurssitMap = new HashMap<String, Resource>();
@@ -100,6 +107,8 @@ public class Kokoaja2 {
 				String[] uriTaulukko = rivi.split(" ");
 				Resource ontoRes = this.koko.createResource(uriTaulukko[0].trim());
 				Resource kokoRes = this.koko.createResource(uriTaulukko[1].trim());
+				if (uriTaulukko.length > 2)
+					this.urivastaavuusTimestampit.put(ontoRes, uriTaulukko[3].trim());
 				this.ontoKokoResurssivastaavuudetMap.put(ontoRes, kokoRes);
 				int uriNro = Integer.parseInt(kokoRes.getLocalName().substring(1));
 				if (uriNro > korkeinNro) korkeinNro = uriNro;
@@ -744,11 +753,18 @@ public class Kokoaja2 {
 			//Jos kokourivastaavuutta ei löydy, luo uusi kokouri
 			if (ryhmanKokot.size() == 0 || ryhmanKokot.get(0) == null) {
 				ryhmanKokot.add(luoUusiKokoResurssi());
+
+				//Lisätään ontojen resursseille uusi timestamp
+				for (Resource r : ryhma) {
+					this.urivastaavuusTimestampit.put(r, this.timestampNow);
+				}
 			} else {
 
 				Collections.sort(ryhmanKokot, new ResourceComparator());
 			}
 			Resource kokoSubj = ryhmanKokot.get(0);
+
+
 			for (Resource ontoSubj:ryhma) {
 				//Miksi tama tehdaan kummallekin?
 				this.ontoKokoResurssivastaavuudetJotkaNykyKokossaMap.put(ontoSubj, kokoSubj);
@@ -1320,7 +1336,9 @@ public class Kokoaja2 {
 			for (Resource vanhaUriRes:this.ontoKokoResurssivastaavuudetMap.keySet()) {
 				String vanhaUriString = vanhaUriRes.getURI();
 				String kokoUriString = this.ontoKokoResurssivastaavuudetMap.get(vanhaUriRes).getURI();
-				out.write(vanhaUriString + " " + kokoUriString + "\n");
+				String timestampString = this.urivastaavuusTimestampit.get(vanhaUriRes);
+				if (timestampString != null && timestampString.length() > 0) timestampString = " " + timestampString;
+				out.write(vanhaUriString + " " + kokoUriString + timestampString + "\n");
 			}
 			out.close();
 		} catch (Exception e) {
@@ -1491,7 +1509,7 @@ public class Kokoaja2 {
 	public void kirjoitaKoko(String kokonPolku) {
 
 		try {
-		   this.koko.write(new FileOutputStream(kokonPolku), "TURTLE");
+			this.koko.write(new FileOutputStream(kokonPolku), "TURTLE");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
