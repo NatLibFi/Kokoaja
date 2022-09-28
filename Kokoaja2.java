@@ -731,14 +731,6 @@ public class Kokoaja2 {
 
 		}
 
-		//Väliaikainen säätö, kirjaitetaan kokoryhmät tiedostoon:
-//		BufferedWriter tmpWriter = null;
-//		try {
-//			tmpWriter = new BufferedWriter(new FileWriter("kokon-pussukat.txt"));
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-
 		//Jokaiselle käsiteryhmalle, listaa kaikki käsitteet ja valitse niistä pienin kokourivastaavuus vanhasta kokosta
 		for (HashSet<Resource> ryhma : ryhmaIndeksi.values()) {
 
@@ -757,13 +749,7 @@ public class Kokoaja2 {
 				Collections.sort(ryhmanKokot, new ResourceComparator());
 			}
 			Resource kokoSubj = ryhmanKokot.get(0);
-			Statement tmpSt = kokoSubj.getProperty(SKOS.prefLabel, "fi");
-			String tmpLabel = (tmpSt != null ? tmpSt.getLiteral().getLexicalForm() : "null");
-			String tmpString = kokoSubj.getURI() + " ("+ tmpLabel +") :   ";
 			for (Resource ontoSubj:ryhma) {
-				Statement tmpSt2 = ontoSubj.getProperty(SKOS.prefLabel, "fi");
-				String ontoLiteral = (tmpSt2 != null ? tmpSt2.getLiteral().getLexicalForm() : "null");
-				tmpString += ontoSubj + "(" + ontoLiteral + ") , ";
 				//Miksi tama tehdaan kummallekin?
 				this.ontoKokoResurssivastaavuudetJotkaNykyKokossaMap.put(ontoSubj, kokoSubj);
 
@@ -771,11 +757,6 @@ public class Kokoaja2 {
 				if (!this.ontoKokoResurssivastaavuudetMap.containsKey(ontoSubj))
 					this.ontoKokoResurssivastaavuudetMap.put(ontoSubj, kokoSubj);
 			}
-//			try {
-//				tmpWriter.write(tmpString+"\n");
-//			} catch (IOException e) {
-//				e.printStackTrace();
-//			}
 			for (Resource r : ryhma) {
 				this.muutaKokoSubj(r, kokoSubj);
 			}
@@ -787,12 +768,6 @@ public class Kokoaja2 {
 			//lisätään kokon käsitteelle aikaleimat
 			this.haeAikaleimat(ryhma, kokoSubj);
 		}
-//		try {
-//			tmpWriter.close();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//		}
-
 	}
 
 	private void haeAikaleimat(HashSet<Resource> ryhma, Resource kokoRes) {
@@ -830,8 +805,8 @@ public class Kokoaja2 {
 				}
 			}
 		}
-		Collections.sort(created);
-		Collections.sort(modified, Collections.reverseOrder());
+		Collections.sort(created); //vanhin luomispäivä
+		Collections.sort(modified, Collections.reverseOrder()); //uusin muokkauspäivä
 
 		if (!created.isEmpty()) {
 			String dateString = format.format(created.get(0));
@@ -1364,24 +1339,14 @@ public class Kokoaja2 {
 			this.lueOnto(polku, ontonTyyppi);
 		}
 		this.korjaaYlataso();
-		this.valiTarkistus("koko-0-ontot.ttl");
 		this.muutaCandidateLabelitPrefJaAltLabeleiksi();
-		this.valiTarkistus("koko-1-candidate.ttl");
 		this.romautaFiPrefLabelienJaVanhempienPerusteella();
-		this.valiTarkistus("koko-2-romautettu.ttl");
-		//this.muutaUritKokoUreiksi();
 		this.vaihtoehtoinenMuutaUritKokoUreiksi();
-		this.valiTarkistus("koko-3-kuritettu.ttl");
 		this.korjaaLopuksiObjectit();
-		this.valiTarkistus("koko-4-obejktitkorjattu.ttl");
 		this.lisaaExactMatchitAiemmassaKokossaOlleisiin(edellisenKokonPolku);
-		//this.valiTarkistus("koko-5-exactMatch.ttl");
 		this.tarkistaEtteiKorvattuihinMeneSuhteitaJaPuraMahdollisetKorvaavuusKetjut();
-		//this.valiTarkistus("koko-6-purettuKorvaavuus.ttl");
 		this.tulostaMuutoksetEdelliseenVerrattuna(edellisenKokonPolku);
-		//this.valiTarkistus("koko-7-eiEroa-muutokset-verrattu.ttl");
 		this.kirjoitaUudetUriVastaavuudet(uusienUrivastaavuuksienPolku);
-		//this.valiTarkistus("koko-8-uudetUriVastaavuudet.ttl");
 		
 		this.korjaaHierarkia(edellisenKokonPolku);
 		//this.korjaaSulkutarkenteet();
