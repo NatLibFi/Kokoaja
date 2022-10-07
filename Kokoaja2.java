@@ -62,10 +62,10 @@ public class Kokoaja2 {
 		this.taytaSallittujenPropertyjenNimiavaruudet();
 		this.koko = this.luoAihio();
 		this.aikaLeimat = this.luoAihio();
-		this.lueUriVastaavuudetTiedostosta(uriVastaavuuksiePolku);
-
 		this.urivastaavuusTimestampit = new HashMap<Resource, String>();
 		this.timestampNow = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").format(new Date());
+		this.lueUriVastaavuudetTiedostosta(uriVastaavuuksiePolku);
+
 
 		this.ontoKokoResurssivastaavuudetJotkaNykyKokossaMap = new HashMap<Resource, Resource>();
 		this.kokoFiLabelitResurssitMap = new HashMap<String, Resource>();
@@ -107,8 +107,9 @@ public class Kokoaja2 {
 				String[] uriTaulukko = rivi.split(" ");
 				Resource ontoRes = this.koko.createResource(uriTaulukko[0].trim());
 				Resource kokoRes = this.koko.createResource(uriTaulukko[1].trim());
-				if (uriTaulukko.length > 2)
-					this.urivastaavuusTimestampit.put(ontoRes, uriTaulukko[3].trim());
+				if (uriTaulukko.length > 2) {
+					this.urivastaavuusTimestampit.put(ontoRes, uriTaulukko[2].trim());
+				}
 				this.ontoKokoResurssivastaavuudetMap.put(ontoRes, kokoRes);
 				int uriNro = Integer.parseInt(kokoRes.getLocalName().substring(1));
 				if (uriNro > korkeinNro) korkeinNro = uriNro;
@@ -273,7 +274,7 @@ public class Kokoaja2 {
 		// kaivetaan HashSettiin kaikki erikoisontologian oman tyyppiset kasitteet
 		HashSet<Resource> ontonOntoTyyppisetResurssit = new HashSet<Resource>();
 		ResIterator resIter = this.onto.listResourcesWithProperty(RDF.type, ontoTyyppi);
-		Resource deprecated = this.onto.createResource(skosextNs+"DeprecatedConcept");
+		//Resource deprecated = this.onto.createResource(skosextNs+"DeprecatedConcept");
 
 		while (resIter.hasNext()) {
 			Resource ontoSubj = resIter.nextResource();
@@ -311,7 +312,6 @@ public class Kokoaja2 {
 				System.out.println("Tyhjä node : " + subj.getURI() + " skos:exactMatch");
 			}
 		}
-
 		Vector<String> ontoUritVektori = new Vector<String>();
 		resIter = this.onto.listResourcesWithProperty(RDF.type, ontoTyyppi);
 		while (resIter.hasNext()) {
@@ -321,7 +321,6 @@ public class Kokoaja2 {
 			}
 		}
 		Collections.sort(ontoUritVektori);
-
 		for (String uri:ontoUritVektori) {
 			Resource ontoSubj = this.onto.createResource(uri);
 			Resource kokoSubj = null;
@@ -348,7 +347,6 @@ public class Kokoaja2 {
 			}
 		}
 
-
 		// kaivetaan KOKOon viela isReplacedBy-tyyppiset suhteet
 		iter = this.onto.listStatements((Resource)null, DCTerms.isReplacedBy, (RDFNode)null);
 		while (iter.hasNext()) {
@@ -359,8 +357,6 @@ public class Kokoaja2 {
 			Resource object = this.haeKorvaava(subject, this.onto);
 			this.koko.add(subject, DCTerms.isReplacedBy, object);
 		}
-		
-		//TODO: otetaanko mukaan deprekoidut käsitteet jotka on linkitetty johonkin toiseen sanastoon?
 	}
 
 	public Model teeExactMatcheistaKaksisuuntaisia(Model ontologia) {
@@ -667,34 +663,36 @@ public class Kokoaja2 {
 		this.siivoaPoisTuplaVastaavuudet(kaikkiLinkitetytKasitteet);
 		System.out.println("Siivouksen jälkeen linkitettyjä on " + kaikkiLinkitetytKasitteet.size());
 
-		//Tähän väliin otetaan mukaan kaikki KOKOn käsitteet, joilla on dct:isReplacedBY, koska se on ainoa tieto mitä otamme mukaan deprekoiduista erikoisontologiakäsitteistä
-		
-		StmtIterator kaikkiKorvatutKasitteet = this.koko.listStatements(null, DCTerms.isReplacedBy, (RDFNode)null);
-		while (kaikkiKorvatutKasitteet.hasNext()) {
-			kaikkiLinkitetytKasitteet.add(kaikkiKorvatutKasitteet.next());
-		}
-		
-		//Tehdään sama vielä skos:relatedMatch, skos:broadMatch ja skos:narrowMatch -ominaisuuksille, joita deprekoiduilla käsitteillä saattaa olla
-		
-		kaikkiKorvatutKasitteet.close();
-		HashSet<Statement> muutSuhteet = new HashSet<Statement>();
-		
-		kaikkiKorvatutKasitteet = this.koko.listStatements(null, SKOS.relatedMatch, (RDFNode)null);
-		while (kaikkiKorvatutKasitteet.hasNext()) {
-			muutSuhteet.add(kaikkiKorvatutKasitteet.next());
-		}
-		kaikkiKorvatutKasitteet = this.koko.listStatements(null, SKOS.broadMatch, (RDFNode)null);
-		while (kaikkiKorvatutKasitteet.hasNext()) {
-			muutSuhteet.add(kaikkiKorvatutKasitteet.next());
-		}
-		kaikkiKorvatutKasitteet = this.koko.listStatements(null, SKOS.narrowMatch, (RDFNode)null);
-		while (kaikkiKorvatutKasitteet.hasNext()) {
-			muutSuhteet.add(kaikkiKorvatutKasitteet.next());
-		}
-		for (Statement s : muutSuhteet) {
-			if (!this.koko.contains(s.getSubject(), DCTerms.isReplacedBy, (RDFNode)null))
-				kaikkiLinkitetytKasitteet.add(s);
-		}
+//	 Edit: 2022-10-07 Ei ryhmitellä deprekoituja käsitteitä kokossa, korvaavuussuhteet riittäköön
+//
+//		//Tähän väliin otetaan mukaan kaikki KOKOn käsitteet, joilla on dct:isReplacedBY, koska se on ainoa tieto mitä otamme mukaan deprekoiduista erikoisontologiakäsitteistä
+//
+//		StmtIterator kaikkiKorvatutKasitteet = this.koko.listStatements(null, DCTerms.isReplacedBy, (RDFNode)null);
+//		while (kaikkiKorvatutKasitteet.hasNext()) {
+//			kaikkiLinkitetytKasitteet.add(kaikkiKorvatutKasitteet.next());
+//		}
+//
+//		//Tehdään sama vielä skos:relatedMatch, skos:broadMatch ja skos:narrowMatch -ominaisuuksille, joita deprekoiduilla käsitteillä saattaa olla
+//
+//		kaikkiKorvatutKasitteet.close();
+//		HashSet<Statement> muutSuhteet = new HashSet<Statement>();
+//
+//		kaikkiKorvatutKasitteet = this.koko.listStatements(null, SKOS.relatedMatch, (RDFNode)null);
+//		while (kaikkiKorvatutKasitteet.hasNext()) {
+//			muutSuhteet.add(kaikkiKorvatutKasitteet.next());
+//		}
+//		kaikkiKorvatutKasitteet = this.koko.listStatements(null, SKOS.broadMatch, (RDFNode)null);
+//		while (kaikkiKorvatutKasitteet.hasNext()) {
+//			muutSuhteet.add(kaikkiKorvatutKasitteet.next());
+//		}
+//		kaikkiKorvatutKasitteet = this.koko.listStatements(null, SKOS.narrowMatch, (RDFNode)null);
+//		while (kaikkiKorvatutKasitteet.hasNext()) {
+//			muutSuhteet.add(kaikkiKorvatutKasitteet.next());
+//		}
+//		for (Statement s : muutSuhteet) {
+//			if (!this.koko.contains(s.getSubject(), DCTerms.isReplacedBy, (RDFNode)null))
+//				kaikkiLinkitetytKasitteet.add(s);
+//		}
 
 		for (Statement linkki : kaikkiLinkitetytKasitteet) {
 
@@ -833,17 +831,6 @@ public class Kokoaja2 {
 			this.koko.add(kokoRes, DCTerms.modified, this.koko.createTypedLiteral(dateString, XSDDatatype.XSDdate));
 		}
 
-	}
-
-	private void valiTarkistus(String filename) {
-
-		//Tehdaan valitallennus kokosta tassa kohtaa:
-		try {
-			System.out.println("Kirjoitetaan välikoko...");
-			this.koko.write(new FileWriter(filename), "TTL");
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 	}
 
 	/* 
@@ -1336,8 +1323,9 @@ public class Kokoaja2 {
 			for (Resource vanhaUriRes:this.ontoKokoResurssivastaavuudetMap.keySet()) {
 				String vanhaUriString = vanhaUriRes.getURI();
 				String kokoUriString = this.ontoKokoResurssivastaavuudetMap.get(vanhaUriRes).getURI();
-				String timestampString = this.urivastaavuusTimestampit.get(vanhaUriRes);
-				if (timestampString != null && timestampString.length() > 0) timestampString = " " + timestampString;
+				String timestampString = (this.urivastaavuusTimestampit.containsKey(vanhaUriRes))
+						? this.urivastaavuusTimestampit.get(vanhaUriRes) : "";
+				if (timestampString.length() > 0) timestampString = " " + timestampString;
 				out.write(vanhaUriString + " " + kokoUriString + timestampString + "\n");
 			}
 			out.close();
@@ -1350,7 +1338,6 @@ public class Kokoaja2 {
 	public void kokoa(String ysonPolku, String erikoisontologiaTxtnPolku, String edellisenKokonPolku, String uusienUrivastaavuuksienPolku, String mustanListanPolku) {
 		this.lueMustaLista(mustanListanPolku);
 		this.lueYso(ysonPolku);
-		//this.valiTarkistus("koko-vain-YSO.ttl");
 		this.parsiErikoisontologioidenPolutVektoriin(erikoisontologiaTxtnPolku);
 		for (Resource ontonTyyppi:this.ontologioidenTyypitPolutMap.keySet()) {
 			String polku = this.ontologioidenTyypitPolutMap.get(ontonTyyppi);
@@ -1552,6 +1539,14 @@ public class Kokoaja2 {
 
 
 	private void siivoaPoisTuplaVastaavuudet(HashSet<Statement> kaikkiLinkitetytKasitteet) {
+
+		//poistetaan alkuun kaikki viitaukset itseensä
+		HashSet<Statement> pois = new HashSet<>();
+		for (Statement s : kaikkiLinkitetytKasitteet) {
+			if (s.getSubject().equals(s.getObject()))
+				pois.add(s);
+		}
+		kaikkiLinkitetytKasitteet.removeAll(pois);
 
 		HashMap<Resource, HashSet<Statement>> kaikkiLinkitMap = new HashMap<Resource, HashSet<Statement>>();
 		for (Statement s : kaikkiLinkitetytKasitteet) {
