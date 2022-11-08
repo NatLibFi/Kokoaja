@@ -1,6 +1,6 @@
 SLF4J: Class path contains multiple SLF4J bindings.
-SLF4J: Found binding in [jar:file:/home/local/joelitak/git/Kokoaja/lib/slf4j-log4j12-1.7.26.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: Found binding in [jar:file:/home/local/joelitak/git/Kokoaja/lib/slf4j-log4j12-1.6.4.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/local/joelitak/git/Kokoaja/lib/slf4j-log4j12-1.7.26.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
 log4j:WARN No appenders could be found for logger (org.apache.jena.util.FileManager).
@@ -9,142 +9,309 @@ log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more in
 Luetaan URI-vastaavuudet tiedostosta kokoUriVastaavuudet.txt
 luetaan malli sisään.
 malli luettu sisään.
-Luetaan ../../vocabularies/jupo/jupo-skos.ttl
+Luetaan ../Finto-data/vocabularies/jupo/jupo-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 5837 http://www.yso.fi/onto/jupo-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/soto/soto-skos.ttl
+Luetaan ../Finto-data/vocabularies/soto/soto-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 2390 http://www.yso.fi/onto/soto-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/tsr/tsr-skos.ttl
+Luetaan ..//Finto-data/vocabularies/oma/oma-skos.ttl
+luetaan malli sisään.
+malli luettu sisään.
+Lisätään KOKOon 1592 http://www.yso.fi/onto/oma-meta/Concept -tyyppistä resurssia.
+Luetaan ../Finto-data/vocabularies/tsr/tsr-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 5104 http://www.yso.fi/onto/tsr-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/kauno/kauno-skos.ttl
+Luetaan ../Finto-data/vocabularies/kauno/kauno-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 6064 http://www.yso.fi/onto/kauno-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/maotao/maotao-skos.ttl
+Luetaan ../Finto-data/vocabularies/maotao/maotao-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 2514 http://www.yso.fi/onto/tao-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/juho/juho-skos.ttl
+Luetaan ../Finto-data/vocabularies/juho/juho-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
-Lisätään KOKOon 6577 http://www.yso.fi/onto/juho-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/liito/liito-skos.ttl
+Lisätään KOKOon 1586 http://www.yso.fi/onto/juho-meta/Concept -tyyppistä resurssia.
+Luetaan ../Finto-data/vocabularies/jupo/jupo-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
-Lisätään KOKOon 3941 http://www.yso.fi/onto/liito-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/tero/tero-skos-koko.ttl
+Lisätään KOKOon 0 http://www.yso.fi/onto/liito-meta/Concept -tyyppistä resurssia.
+Luetaan ../Finto-data/vocabularies/tero/tero-skos-koko.ttl
 luetaan malli sisään.
 malli luettu sisään.
-Lisätään KOKOon 6595 http://www.yso.fi/onto/tero-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/kto/kto-skos.ttl
+Lisätään KOKOon 3396 http://www.yso.fi/onto/tero-meta/Concept -tyyppistä resurssia.
+Luetaan ../Finto-data/vocabularies/kto/kto-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 953 http://www.yso.fi/onto/kto-meta/Concept -tyyppistä resurssia.
 Tyhjä node : http://www.yso.fi/onto/kto/p672 skos:exactMatch
-Tripleä [http://www.yso.fi/onto/kto/p672, http://www.w3.org/2004/02/skos/core#exactMatch, 987e4fc83463aab7955cb40a4c6a9a36] ei otettu mukaan KOKOon
-Luetaan ../../vocabularies/muso/muso-tynkäraato.ttl
+Tripleä [http://www.yso.fi/onto/kto/p672, http://www.w3.org/2004/02/skos/core#exactMatch, 82ba89523a24839a2dd6e9fcd00e1c2c] ei otettu mukaan KOKOon
+Luetaan ../Finto-data/vocabularies/muso/muso-tynkäraato.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 0 http://www.yso.fi/onto/muso-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/liiko/mero-skos.ttl
+Luetaan ../Finto-data/vocabularies/liiko/mero-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 3650 http://www.yso.fi/onto/mero-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/kito/kito-skos.ttl
+Luetaan ../Finto-data/vocabularies/kito/kito-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 847 http://www.yso.fi/onto/kito-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/afo/afo-skos.ttl
+Luetaan ../Finto-data/vocabularies/afo/afo-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 5988 http://www.yso.fi/onto/afo-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/kulo/kulo-tynkäraato.ttl
+Luetaan ../Finto-data/vocabularies/kulo/kulo-tynkäraato.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 0 http://www.yso.fi/onto/kulo-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/maotao/maotao-skos.ttl
+Luetaan ../Finto-data/vocabularies/maotao/maotao-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 11396 http://www.yso.fi/onto/mao-meta/Concept -tyyppistä resurssia.
-Luetaan ../../vocabularies/valo/valo-skos.ttl
+Luetaan ../Finto-data/vocabularies/valo/valo-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 1933 http://www.yso.fi/onto/valo-meta/Concept -tyyppistä resurssia.
-Kirjoitetaan välikoko...
 Käsitteellä http://www.yso.fi/onto/afo/p926 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
-Käsitteellä http://www.yso.fi/onto/yso/p25730 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
-Käsitteellä http://www.yso.fi/onto/yso/p25772 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
-Käsitteellä http://www.yso.fi/onto/yso/p26049 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
-Käsitteellä http://www.yso.fi/onto/yso/p25914 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
-Käsitteellä http://www.yso.fi/onto/yso/p25913 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
-Käsitteellä http://www.yso.fi/onto/yso/p25954 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
-Käsitteellä http://www.yso.fi/onto/yso/p25961 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
+Käsitteellä http://www.yso.fi/onto/juho/p12988 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
 Käsitteellä http://www.yso.fi/onto/afo/p886 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
-Käsitteellä http://www.yso.fi/onto/yso/p25694 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
+Käsitteellä http://www.yso.fi/onto/juho/p14169 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
 Käsitteellä http://www.yso.fi/onto/afo/p7809 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
 Käsitteellä http://www.yso.fi/onto/afo/p3003 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
-Kirjoitetaan välikoko...
-Ongelma romautuksien labeleissa:  -- http://www.yso.fi/onto/juho/p4304 -- http://www.yso.fi/onto/juho/p5875 ajoneuvotekniikka
+Ongelma romautuksien labeleissa:  -- http://www.yso.fi/onto/juho/p363 -- http://www.yso.fi/onto/juho/p2151 kehittämishankkeet
 Ongelma romautuksien labeleissa:  -- http://www.yso.fi/onto/kauno/p2178 -- http://www.yso.fi/onto/yso/p10936 pyykinpesu
-Kirjoitetaan välikoko...
-Kokossa käsitteitä: 67894
-Linkitettyjä käsitteitä oli 90733
-Siivouksen jälkeen linkitettyjä on 71288
-Kirjoitetaan välikoko...
+Kokossa käsitteitä: 75014
+Linkitettyjä käsitteitä oli 83732
+Siivouksen jälkeen linkitettyjä on 10286
 Korjataan KOKOn objektit.
-Kokossa käsitteitä urittamisen jälkeen: 59257
-Kirjoitetaan välikoko...
+Käsitteelle http://www.yso.fi/onto/valo/p332 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/juho/p363 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/mao/p11070 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/oma/p1486 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/kauno/p697 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/oma/p1486 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/oma/p1486 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/tero/t31678 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/tero/t31678 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/tero/t31678 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/tero/t31678 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/oma/p590 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/mao/p11070 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/oma/p593 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/tero/t31657 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/valo/p332 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/mero/m11895 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/kauno/p3665 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/mero/m11892 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/mero/m11892 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/valo/p332 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/tero/t31657 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/tero/t31678 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/tero/t31678 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/oma/p1486 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Käsitteelle http://www.yso.fi/onto/tsr/p9337 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
+Kokossa käsitteitä urittamisen jälkeen: 74515
 Lisätään linkit aiemmassa KOKOssa olleisiin käsitteisiin.
 luetaan malli sisään.
 malli luettu sisään.
-1. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: eroaminen (keskinäinen toiminta) -- http://www.yso.fi/onto/koko/p88985
-2. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: talous- ja velkaneuvonta (neuvontapalvelu) -- http://www.yso.fi/onto/koko/p78550
-3. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: välittäjä -- http://www.yso.fi/onto/koko/p78574
-4. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: TERESA -- http://www.yso.fi/onto/koko/p26036
-5. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Aatu -- http://www.yso.fi/onto/koko/p25481
-6. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ESTES -- http://www.yso.fi/onto/koko/p25493
-7. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kuponki -- http://www.yso.fi/onto/koko/p64840
-8. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tuluspussit -- http://www.yso.fi/onto/koko/p37680
-9. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: materiaalista luonti -- http://www.yso.fi/onto/koko/p89226
-10. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Morbacka -- http://www.yso.fi/onto/koko/p2602
-11. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: SHAMAN -- http://www.yso.fi/onto/koko/p26132
-12. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kansalaisjournalismi (kansalaismedia) -- http://www.yso.fi/onto/koko/p92689
-13. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Päämaja -- http://www.yso.fi/onto/koko/p24957
-14. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: eroaminen (henkilön aseman muuttaminen, toiminta) -- http://www.yso.fi/onto/koko/p89663
-15. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: CARD -- http://www.yso.fi/onto/koko/p25215
-16. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hierarkian ulkopuoliset -- http://www.yso.fi/onto/koko/p88222
-17. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: AURORA -- http://www.yso.fi/onto/koko/p25280
-18. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ruoko -- http://www.yso.fi/onto/koko/p72833
-19. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Penni -- http://www.yso.fi/onto/koko/p26284
-20. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kielikurssi -- http://www.yso.fi/onto/koko/p89641
-21. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: julkinen organisaatio -- http://www.yso.fi/onto/koko/p59220
-22. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: risteytyminen -- http://www.yso.fi/onto/koko/p69798
-23. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: katutyöntekijät -- http://www.yso.fi/onto/koko/p16733
-24. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Peräseinäjoen kirkko -- http://www.yso.fi/onto/koko/p51871
-25. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kalastus (alkutuotanto) -- http://www.yso.fi/onto/koko/p89362
-26. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työkalu -- http://www.yso.fi/onto/koko/p57221
-27. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: KIVA DDDC -- http://www.yso.fi/onto/koko/p26113
-28. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: uskonnolliset tuotokset -- http://www.yso.fi/onto/koko/p1216
-29. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kehitysoppi -- http://www.yso.fi/onto/koko/p7376
-30. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: matkanjärjestäjä -- http://www.yso.fi/onto/koko/p57986
-1. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p7063, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p8664]
-2. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/kulo/k785, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3904]
-3. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p32400, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p1216]
-4. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/kulo/k779, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p1532]
-5. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p79966, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p78917]
-6. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p25898, http://purl.org/dc/terms/isReplacedBy, http://urn.fi/URN:NBN:fi:au:finaf:000214099]
-7. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/muso/p190, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p2841]
-8. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/muso/p68410, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p12534]
-9. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/muso/p447, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p12534]
-10. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/kulo/k1224, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4268]
-11. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p48268, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p15508]
-Lisättiin 7581 replacedByta aiemmasta KOKOsta.
-Kirjoitetaan välikoko...
+1. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: neuvottelukunta -- http://www.yso.fi/onto/koko/p60706
+2. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työmatka -- http://www.yso.fi/onto/koko/p89626
+3. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kemiallinen tekijä -- http://www.yso.fi/onto/koko/p61742
+4. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: medialukutaito (sisäinen ominaisuus, taidot) -- http://www.yso.fi/onto/koko/p78781
+5. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: veronkorotus -- http://www.yso.fi/onto/koko/p62844
+6. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: varasto -- http://www.yso.fi/onto/koko/p89596
+7. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: liiketoimintamalli -- http://www.yso.fi/onto/koko/p64938
+8. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: verkkotunnus -- http://www.yso.fi/onto/koko/p59554
+9. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Verohallitus -- http://www.yso.fi/onto/koko/p60609
+10. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kalusto (fyysiset kokonaisuudet) -- http://www.yso.fi/onto/koko/p63019
+11. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: vaatimusmäärittely -- http://www.yso.fi/onto/koko/p74735
+12. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toiminimi -- http://www.yso.fi/onto/koko/p60642
+13. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: visuaalinen -- http://www.yso.fi/onto/koko/p52579
+14. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yritysmuoto -- http://www.yso.fi/onto/koko/p56678
+15. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: keräilykortti -- http://www.yso.fi/onto/koko/p58200
+16. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: valtion menot (menot) -- http://www.yso.fi/onto/koko/p78441
+17. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kasvuyritys -- http://www.yso.fi/onto/koko/p56786
+18. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ulkomaalainen opiskelija -- http://www.yso.fi/onto/koko/p62100
+19. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: uskonto (uskominen) (yhteiskunnalliset järjestelmät) -- http://www.yso.fi/onto/koko/p89082
+20. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: käynnistäminen -- http://www.yso.fi/onto/koko/p57742
+21. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Arvopaperikeskus -- http://www.yso.fi/onto/koko/p58051
+22. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Evira -- http://www.yso.fi/onto/koko/p55200
+23. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mittari -- http://www.yso.fi/onto/koko/p49887
+24. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: lähetetty työntekijä -- http://www.yso.fi/onto/koko/p58770
+25. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työsuhdekeksintö -- http://www.yso.fi/onto/koko/p58358
+26. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työnilo (ilo, tunteet) -- http://www.yso.fi/onto/koko/p54190
+27. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: seksuaalivähemmistö -- http://www.yso.fi/onto/koko/p64047
+28. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mentaalinen ilmiö -- http://www.yso.fi/onto/koko/p89061
+29. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Zaire -- http://www.yso.fi/onto/koko/p64035
+30. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tilinpäätös (yhteiskunnalliset objektit) -- http://www.yso.fi/onto/koko/p77851
+31. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yleishyödyllinen yhteisö -- http://www.yso.fi/onto/koko/p54269
+32. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kulttuuriseteli -- http://www.yso.fi/onto/koko/p58577
+33. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: suuryritys -- http://www.yso.fi/onto/koko/p52327
+34. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: matkustaminen (liikkuminen (liikkuminen ja liikuttaminen)) -- http://www.yso.fi/onto/koko/p70944
+35. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työrajoitteiset -- http://www.yso.fi/onto/koko/p89246
+36. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: biologinen tekijä -- http://www.yso.fi/onto/koko/p60216
+37. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hamppu (luonnonkuidut) -- http://www.yso.fi/onto/koko/p89597
+38. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: pääkonttori -- http://www.yso.fi/onto/koko/p57978
+39. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: harjoittelu (toisenlaiseksi muuttaminen) -- http://www.yso.fi/onto/koko/p89060
+40. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tuluspussit -- http://www.yso.fi/onto/koko/p37680
+41. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tarjouspyyntö -- http://www.yso.fi/onto/koko/p51715
+42. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: käsityö (konkreettinen eloton objekti) -- http://www.yso.fi/onto/koko/p63060
+43. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Ulkomaalaisvirasto -- http://www.yso.fi/onto/koko/p61451
+44. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: veropohja (yhteiskunnalliset ilmiöt) -- http://www.yso.fi/onto/koko/p61487
+45. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yhtiöjärjestys (säännöt) -- http://www.yso.fi/onto/koko/p71949
+46. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: materiaalista luonti -- http://www.yso.fi/onto/koko/p89226
+47. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sijoittaminen -- http://www.yso.fi/onto/koko/p56185
+48. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: enologia (elintarviketieteet) -- http://www.yso.fi/onto/koko/p62063
+49. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: pitkäaikaissairas -- http://www.yso.fi/onto/koko/p63913
+50. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tasa-arvosuunnitelma -- http://www.yso.fi/onto/koko/p62051
+51. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kenkä -- http://www.yso.fi/onto/koko/p60253
+52. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: nimitykset (yhteiskunnalliset tapahtumat) -- http://www.yso.fi/onto/koko/p77823
+53. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: verosopimus -- http://www.yso.fi/onto/koko/p59994
+54. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: verotoimisto -- http://www.yso.fi/onto/koko/p63370
+55. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kannustaminen -- http://www.yso.fi/onto/koko/p59057
+56. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: transihminen -- http://www.yso.fi/onto/koko/p56051
+57. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tilaaja -- http://www.yso.fi/onto/koko/p78772
+58. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Maa- ja metsätalousministeriön tietopalvelukeskus -- http://www.yso.fi/onto/koko/p58706
+59. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: aukioloaika -- http://www.yso.fi/onto/koko/p64705
+60. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: terveysala (toimialat) -- http://www.yso.fi/onto/koko/p89107
+61. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Päämaja -- http://www.yso.fi/onto/koko/p24957
+62. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sisäinen viestintä (viestintä) -- http://www.yso.fi/onto/koko/p56823
+63. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: vihkiminen -- http://www.yso.fi/onto/koko/p89687
+64. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: eroaminen (henkilön aseman muuttaminen, toiminta) -- http://www.yso.fi/onto/koko/p89663
+65. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sairauspoissaolo -- http://www.yso.fi/onto/koko/p63283
+66. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Saimaan kanava -- http://www.yso.fi/onto/koko/p25300
+67. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: muovikassit -- http://www.yso.fi/onto/koko/p54875
+68. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toiminnanohjausjärjestelmä -- http://www.yso.fi/onto/koko/p54415
+69. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: nimikirjat -- http://www.yso.fi/onto/koko/p89118
+70. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hierarkian ulkopuoliset -- http://www.yso.fi/onto/koko/p88222
+71. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: rikostausta (ulkoinen ominaisuus) -- http://www.yso.fi/onto/koko/p75861
+72. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: palvelutarve -- http://www.yso.fi/onto/koko/p58938
+73. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Jemenin arabitasavalta -- http://www.yso.fi/onto/koko/p62506
+74. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mentaalinen toiminta -- http://www.yso.fi/onto/koko/p89553
+75. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: rakennustyömaa -- http://www.yso.fi/onto/koko/p55830
+76. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toimisto -- http://www.yso.fi/onto/koko/p64339
+77. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Merenkulkulaitos (valtion laitokset) -- http://www.yso.fi/onto/koko/p57239
+78. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: liikuntaseteli -- http://www.yso.fi/onto/koko/p60191
+79. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: etuoikeus -- http://www.yso.fi/onto/koko/p52758
+80. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: muutosturva (tukimuodot) -- http://www.yso.fi/onto/koko/p65185
+81. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: rahoitussuunnittelu (suunnittelu) -- http://www.yso.fi/onto/koko/p60257
+82. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: henkilönsuojain -- http://www.yso.fi/onto/koko/p62545
+83. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työterveyspalvelu -- http://www.yso.fi/onto/koko/p62412
+84. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sharia (oikeusjärjestelmät) -- http://www.yso.fi/onto/koko/p57606
+85. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: pääomatulo -- http://www.yso.fi/onto/koko/p61698
+86. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: telekuuntelu (valvonta) -- http://www.yso.fi/onto/koko/p74424
+87. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kohdentuminen -- http://www.yso.fi/onto/koko/p6947
+88. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: eettisyys (ulkoinen ominaisuus) -- http://www.yso.fi/onto/koko/p78765
+89. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: johtaja -- http://www.yso.fi/onto/koko/p89108
+90. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yksikköhinta -- http://www.yso.fi/onto/koko/p58022
+91. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kasvu (yhteiskunnalliset ilmiöt) -- http://www.yso.fi/onto/koko/p89078
+92. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: poikkeuslupa -- http://www.yso.fi/onto/koko/p56572
+93. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: MIKES -- http://www.yso.fi/onto/koko/p64236
+94. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toiminta- ja taloussuunnitelma -- http://www.yso.fi/onto/koko/p59745
+95. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Geodeettinen laitos -- http://www.yso.fi/onto/koko/p64979
+96. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: perhevapaa -- http://www.yso.fi/onto/koko/p59135
+97. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: MEK -- http://www.yso.fi/onto/koko/p61293
+98. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ennakkoäänestys (äänestykset) -- http://www.yso.fi/onto/koko/p61211
+99. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Kilpailuvirasto -- http://www.yso.fi/onto/koko/p59747
+100. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ohjelmisto -- http://www.yso.fi/onto/koko/p89656
+101. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tuoteväärennös -- http://www.yso.fi/onto/koko/p54802
+102. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: aikasarja-analyysi (analyysimenetelmät, yhteiskunnalliset objektit) -- http://www.yso.fi/onto/koko/p45542
+103. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Maaseutuvirasto -- http://www.yso.fi/onto/koko/p62349
+104. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sijoituspalvelu -- http://www.yso.fi/onto/koko/p78521
+105. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: TEKES -- http://www.yso.fi/onto/koko/p62911
+106. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: julkinen osakeyhtiö -- http://www.yso.fi/onto/koko/p57442
+107. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: palvelukeskus -- http://www.yso.fi/onto/koko/p53442
+108. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ympärileikkaus -- http://www.yso.fi/onto/koko/p89655
+109. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: luova ala -- http://www.yso.fi/onto/koko/p61725
+110. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: remburssi (yhteiskunnalliset objektit) -- http://www.yso.fi/onto/koko/p60462
+111. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kirjaamo -- http://www.yso.fi/onto/koko/p58877
+112. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: barometri -- http://www.yso.fi/onto/koko/p60159
+113. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hiljainen tieto (osaaminen) -- http://www.yso.fi/onto/koko/p63044
+114. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: liittymät -- http://www.yso.fi/onto/koko/p25713
+115. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: avaruusteknologia -- http://www.yso.fi/onto/koko/p63149
+116. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Tshekkoslovakia -- http://www.yso.fi/onto/koko/p60605
+117. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Jemenin demokraattinen tasavalta -- http://www.yso.fi/onto/koko/p58594
+118. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: metsänhoitomaksu -- http://www.yso.fi/onto/koko/p52168
+119. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: takaaja -- http://www.yso.fi/onto/koko/p61815
+120. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: terveydenhuoltoala -- http://www.yso.fi/onto/koko/p88980
+121. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: elinkeino-, liikenne- ja ympäristökeskus -- http://www.yso.fi/onto/koko/p58648
+122. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Vankeinhoitolaitos -- http://www.yso.fi/onto/koko/p62036
+123. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: organisaatiomuutos (muutos) -- http://www.yso.fi/onto/koko/p72215
+124. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työsuojelupäällikkö -- http://www.yso.fi/onto/koko/p63463
+125. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yritysviestintä (viestintä) -- http://www.yso.fi/onto/koko/p89398
+126. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kalastus (alkutuotanto) -- http://www.yso.fi/onto/koko/p89362
+127. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tullivirkamiehet (tullivirkamiehet) -- http://www.yso.fi/onto/koko/p62917
+128. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työ- ja elinkeinotoimisto -- http://www.yso.fi/onto/koko/p58070
+129. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kuljetuspalvelut (sosiaalihuolto) (sosiaalipalvelut) -- http://www.yso.fi/onto/koko/p89669
+130. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: markkinavalvonta (valvonta) -- http://www.yso.fi/onto/koko/p78515
+131. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: idea -- http://www.yso.fi/onto/koko/p56997
+132. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: perhe (ryhmät) -- http://www.yso.fi/onto/koko/p89240
+133. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kulttuuri (sivilisaatio) -- http://www.yso.fi/onto/koko/p89058
+134. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Metsäntutkimuslaitos -- http://www.yso.fi/onto/koko/p55937
+135. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: lehdistötiedote -- http://www.yso.fi/onto/koko/p60129
+136. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työllistetty -- http://www.yso.fi/onto/koko/p55775
+137. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Riista- ja kalatalouden tutkimuslaitos -- http://www.yso.fi/onto/koko/p55569
+138. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hygienia (puhtaus, ulkoinen ominaisuus) -- http://www.yso.fi/onto/koko/p89648
+139. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: itämaiset kielet -- http://www.yso.fi/onto/koko/p11943
+140. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Finpro -- http://www.yso.fi/onto/koko/p56904
+141. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kuljetusliikkeet (yritykset) -- http://www.yso.fi/onto/koko/p58572
+142. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yhdistysrekisteri -- http://www.yso.fi/onto/koko/p56397
+143. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: päälliköt (toimintaan liittyvä rooli) -- http://www.yso.fi/onto/koko/p71097
+144. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: UNCHR -- http://www.yso.fi/onto/koko/p60332
+145. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kaukolämpö (tekniset järjestelmät) -- http://www.yso.fi/onto/koko/p60259
+146. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: aluehallintovirasto -- http://www.yso.fi/onto/koko/p59128
+147. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: positiivinen erityiskohtelu (keskinäinen toiminta) -- http://www.yso.fi/onto/koko/p60931
+148. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sovittelija -- http://www.yso.fi/onto/koko/p63974
+149. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Merentutkimuslaitos -- http://www.yso.fi/onto/koko/p58181
+150. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: nuori työntekijä -- http://www.yso.fi/onto/koko/p56299
+151. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: palmikointi -- http://www.yso.fi/onto/koko/p73154
+152. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yhtiövastike -- http://www.yso.fi/onto/koko/p64989
+153. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yrittäjäeläke -- http://www.yso.fi/onto/koko/p62558
+154. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ajanviete -- http://www.yso.fi/onto/koko/p78500
+155. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mikroyritys -- http://www.yso.fi/onto/koko/p53124
+156. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: business intelligence (osaaminen) -- http://www.yso.fi/onto/koko/p64638
+1. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p74827, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p10702]
+2. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p77752, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p5883]
+3. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p36051, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+4. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p35316, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4153]
+5. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p50118, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p70944]
+6. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p78054, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p5883]
+7. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p59608, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p6947]
+8. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p46878, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/afo/p5851]
+9. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p75334, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+10. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p48191, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p10702]
+11. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p48345, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p10702]
+12. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p74790, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/valo/p103]
+13. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p77627, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+14. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p77936, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+15. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p31916, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4503]
+16. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p90370, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p89596]
+17. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p25969, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p5883]
+18. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p26001, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p89656]
+19. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p69717, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p89656]
+20. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p79184, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+21. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p75889, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p60259]
+22. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p89617, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/tero/t32177]
+23. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p59848, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p13154]
+24. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p82050, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p2561]
+25. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p79966, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p78917]
+26. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p80099, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4503]
+27. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p47287, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/afo/p5851]
+28. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/juho/p6300, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p2342]
+29. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p76848, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+30. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p89637, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3585]
+31. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p81932, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p16758]
+32. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p82181, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p12635]
+33. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p88983, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p61555]
+34. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p25898, http://purl.org/dc/terms/isReplacedBy, http://urn.fi/URN:NBN:fi:au:finaf:000214099]
+Lisättiin 7834 replacedByta aiemmasta KOKOsta.
 Tarkistetaan ettei korvattuihin mene suhteita ja puretaan mahdolliset korvaavuusketjut.
 poistettiin:
 lisättiin:
@@ -152,1332 +319,338 @@ triplet korvattuihin muutettu
 poistettiin:
 lisättiin:
 Tarkistettu.
-Kirjoitetaan välikoko...
 Tulostetaan prefLabel-muutokset edelliseen KOKOon verrattuna.
 luetaan malli sisään.
 malli luettu sisään.
 KOKOn prefLabel muutokset edelliseen versioon verrattuna kielellä fi:
-1. http://www.yso.fi/onto/koko/p78758 -- liitännäissopimus => liitännäissopimukset
-2. http://www.yso.fi/onto/koko/p55663 -- yritysneuvoja => yritysneuvojat
-3. http://www.yso.fi/onto/koko/p57396 -- varastointikulu => varastointikulut
-4. http://www.yso.fi/onto/koko/p57760 -- esitäytetty veroilmoitus => esitäytetyt veroilmoitukset
-5. http://www.yso.fi/onto/koko/p63623 -- tilisiirto => tilisiirrot (siirto (kohdistuva toiminta))
-6. http://www.yso.fi/onto/koko/p78784 -- kosteusongelma => kosteusongelmat
-7. http://www.yso.fi/onto/koko/p57289 -- myyntituotot => myyntituotto
-8. http://www.yso.fi/onto/koko/p60743 -- palvelutuote => palvelutuotteet
-9. http://www.yso.fi/onto/koko/p62164 -- matkakulu => matkakulut
-10. http://www.yso.fi/onto/koko/p48281 -- linkoaminen => sentrifugointi
-11. http://www.yso.fi/onto/koko/p53352 -- valuuttalaina => valuuttalainat
-12. http://www.yso.fi/onto/koko/p51706 -- verokannat => verokanta (yhteiskunnalliset objektit)
-13. http://www.yso.fi/onto/koko/p17051 -- kampaajat => kosmetologit
-14. http://www.yso.fi/onto/koko/p55096 -- pankkilaina => pankkilainat
-15. http://www.yso.fi/onto/koko/p55384 -- patenttiperhe => patenttiperheet
-16. http://www.yso.fi/onto/koko/p53639 -- asuinvaltio => asuinvaltiot
-17. http://www.yso.fi/onto/koko/p78542 -- hyödykesidonnainen luotto => hyödykesidonnaiset luotot
-18. http://www.yso.fi/onto/koko/p62198 -- henkilöstösivukulu => henkilöstösivukulut
-19. http://www.yso.fi/onto/koko/p63594 -- palkitsemisjärjestelmä => palkitsemisjärjestelmät
-20. http://www.yso.fi/onto/koko/p58494 -- työnvälityspalvelu => työnvälityspalvelut
-21. http://www.yso.fi/onto/koko/p54054 -- keskeneräinen hankinta => keskeneräiset hankinnat
-22. http://www.yso.fi/onto/koko/p58357 -- teknologiakylä => teknologiakylät
-23. http://www.yso.fi/onto/koko/p55924 -- suojajärjestelmä => suojajärjestelmät
-24. http://www.yso.fi/onto/koko/p58470 -- rikosriski => rikosriskit
-25. http://www.yso.fi/onto/koko/p78582 -- viivästysviikko => viivästysviikot
-26. http://www.yso.fi/onto/koko/p58110 -- mittausero => mittauserot
-27. http://www.yso.fi/onto/koko/p61886 -- lähtevä ulkomaanmaksu => lähtevät ulkomaanmaksut
-28. http://www.yso.fi/onto/koko/p58108 -- yhteissääntely => yhteissääntelyt
-29. http://www.yso.fi/onto/koko/p64957 -- muistutus => muistutukset
-30. http://www.yso.fi/onto/koko/p56610 -- verotilivelat => verotilivelka
-31. http://www.yso.fi/onto/koko/p25775 -- elävän mallin maalaus => elävän mallin piirustus
-32. http://www.yso.fi/onto/koko/p81126 -- steel-kitara => pedal steel -kitara
-33. http://www.yso.fi/onto/koko/p59757 -- vientijohtaja => vientijohtajat
-34. http://www.yso.fi/onto/koko/p56403 -- sanamerkit => sanamerkki
-35. http://www.yso.fi/onto/koko/p64579 -- arvonlisäverotunniste => arvonlisäverotunnisteet
-36. http://www.yso.fi/onto/koko/p59638 -- kertalyhenteinen laina => kertalyhenteiset lainat
-37. http://www.yso.fi/onto/koko/p53048 -- maksupäätetapahtuma => maksupäätetapahtumat
-38. http://www.yso.fi/onto/koko/p58339 -- käytetty tavara => käytetyt tavarat
-39. http://www.yso.fi/onto/koko/p58493 -- globaali => globaalius
-40. http://www.yso.fi/onto/koko/p61713 -- vuorovaikutustaito => vuorovaikutustaidot
-41. http://www.yso.fi/onto/koko/p60189 -- selvä ero => selvät erot
-42. http://www.yso.fi/onto/koko/p53565 -- etuoikeusvuosi => etuoikeusvuodet
-43. http://www.yso.fi/onto/koko/p62860 -- ostopäivä => ostopäivät
-44. http://www.yso.fi/onto/koko/p78565 -- vertaislaina => vertaislainat
-45. http://www.yso.fi/onto/koko/p62752 -- mallin luoja => mallin luojat
-46. http://www.yso.fi/onto/koko/p69408 -- maksuvaikeus => maksuvaikeudet
-47. http://www.yso.fi/onto/koko/p30585 -- yliherkkyys => allergia (biologiset ilmiöt, immuunijärjestelmän sairaudet)
-48. http://www.yso.fi/onto/koko/p78594 -- ammattimainen => ammattimaisuus
-49. http://www.yso.fi/onto/koko/p63895 -- tekninen osa => tekniset osat
-50. http://www.yso.fi/onto/koko/p78581 -- vihje => vihjeet (käyttöön liittyvä rooli)
-51. http://www.yso.fi/onto/koko/p78661 -- kiinteä hinta => kiinteät hinnat
-52. http://www.yso.fi/onto/koko/p64833 -- tavaramerkin rekisteröintihakemus => tavaramerkin rekisteröintihakemukset
-53. http://www.yso.fi/onto/koko/p33386 -- ammattitaito => ammattitaitoinen
-54. http://www.yso.fi/onto/koko/p78734 -- lain soveltamisala => lain soveltamisalat
-55. http://www.yso.fi/onto/koko/p78640 -- väliaikainen kielto => väliaikaiset kiellot
-56. http://www.yso.fi/onto/koko/p63751 -- oikaisuerä => oikaisuerät
-57. http://www.yso.fi/onto/koko/p52436 -- peitelty osinko => peitellyt osingot
-58. http://www.yso.fi/onto/koko/p62204 -- tekemispäivä => tekemispäivät
-59. http://www.yso.fi/onto/koko/p58541 -- lastivero => lästimaksut
-60. http://www.yso.fi/onto/koko/p60455 -- maksutapahtuma => maksutapahtumat
-61. http://www.yso.fi/onto/koko/p58595 -- työttömyysturva-asiamies => työttömyysturva-asiamiehet
-62. http://www.yso.fi/onto/koko/p78492 -- hyvä luotonantotapa => hyvät luotonantotavat
-63. http://www.yso.fi/onto/koko/p64783 -- yhteisöaloite => yhteisöaloitteet
-64. http://www.yso.fi/onto/koko/p78602 -- osittainen tai epäasianmukainen hyvitys => osittaiset tai epäasianmukaiset hyvitykset
-65. http://www.yso.fi/onto/koko/p54937 -- työsuhde-etu => työsuhde-edut
-66. http://www.yso.fi/onto/koko/p51660 -- monimuotoinen työyhteisö => monimuotoiset työyhteisöt
-67. http://www.yso.fi/onto/koko/p56418 -- kuolemanlaakso => kuolemanlaaksot
-68. http://www.yso.fi/onto/koko/p56888 -- alaistaidot => työyhteisötaidot
-69. http://www.yso.fi/onto/koko/p59461 -- sähköinen ilmoitus => sähköiset ilmoitukset
-70. http://www.yso.fi/onto/koko/p57885 -- lyhytaikainen laina => lyhytaikaiset lainat
-71. http://www.yso.fi/onto/koko/p57796 -- patenttiviranomainen => patenttiviranomaiset
-72. http://www.yso.fi/onto/koko/p78534 -- rekisteröintitieto => rekisteröintitiedot
-73. http://www.yso.fi/onto/koko/p61676 -- sillensäjättöpäätös => sillensäjättöpäätökset
-74. http://www.yso.fi/onto/koko/p56354 -- suositushinta => suositushinnat
-75. http://www.yso.fi/onto/koko/p78539 -- virheilmoitus => virheilmoitukset
-76. http://www.yso.fi/onto/koko/p32450 -- kaniinit => kani (jäniseläimet)
-77. http://www.yso.fi/onto/koko/p54828 -- vuokratulo => vuokratulot
-78. http://www.yso.fi/onto/koko/p59830 -- henkilöstön edustaja => henkilöstön edustajat
-79. http://www.yso.fi/onto/koko/p78583 -- viivästyskuukausi => viivästyskuukaudet
-80. http://www.yso.fi/onto/koko/p58617 -- IPR-strategia => IPR-strategiat
-81. http://www.yso.fi/onto/koko/p78537 -- virheellinen lasku => virheelliset laskut
-82. http://www.yso.fi/onto/koko/p61032 -- tapaturmavakuutusmaksu => tapaturmavakuutusmaksut
-83. http://www.yso.fi/onto/koko/p63717 -- ulkomaalainen elinkeinonharjoittaja => ulkomaalaiset elinkeinonharjoittajat
-84. http://www.yso.fi/onto/koko/p59576 -- yritysverotoimisto => yritysverotoimistot
-85. http://www.yso.fi/onto/koko/p64660 -- eläkevaraus => eläkevaraukset
-86. http://www.yso.fi/onto/koko/p78524 -- laivalippu => laivaliput
-87. http://www.yso.fi/onto/koko/p49196 -- malli (mallisuoja) => mallit (mallisuoja)
-88. http://www.yso.fi/onto/koko/p64571 -- kertaluotot => kertaluotto
-89. http://www.yso.fi/onto/koko/p65244 -- erillishinta => erillishinnat
-90. http://www.yso.fi/onto/koko/p61819 -- vähennyskelpoinen => vähennyskelpoisuus
-91. http://www.yso.fi/onto/koko/p58063 -- mallioikeuden haltija => mallioikeuden haltijat
-92. http://www.yso.fi/onto/koko/p60908 -- kohdeyritys => kohdeyritykset
-93. http://www.yso.fi/onto/koko/p55593 -- keksinnön selitys => keksintöjen selitykset
-94. http://www.yso.fi/onto/koko/p61603 -- tuoteidea => tuoteideat
-95. http://www.yso.fi/onto/koko/p62092 -- maksumuistutus => maksumuistutukset
-96. http://www.yso.fi/onto/koko/p56709 -- puhelinetu => puhelinedut
-97. http://www.yso.fi/onto/koko/p62048 -- kokonaishinta => kokonaishinnat
-98. http://www.yso.fi/onto/koko/p63273 -- tulolähde => tulolähteet (käyttöön liittyvä rooli)
-99. http://www.yso.fi/onto/koko/p4724 -- ampujat => ampumaurheilijat
-100. http://www.yso.fi/onto/koko/p61275 -- sopimusaika => sopimusajat
-101. http://www.yso.fi/onto/koko/p33730 -- vesien saastuminen => merien saastuminen
-102. http://www.yso.fi/onto/koko/p78522 -- yhdistelmäkortit => yhdistelmäkortti
-103. http://www.yso.fi/onto/koko/p25842 -- kaupungit => Pähkinälinna (linna)
-104. http://www.yso.fi/onto/koko/p59931 -- eurooppapatentit => eurooppapatentti
-105. http://www.yso.fi/onto/koko/p56323 -- kehittämiskohde => kehittämiskohteet
-106. http://www.yso.fi/onto/koko/p62165 -- olennainen ero => olennaiset erot
-107. http://www.yso.fi/onto/koko/p61151 -- tilikauden tappio => tilikauden tappiot
-108. http://www.yso.fi/onto/koko/p65084 -- tutkijainsinööri => tutkijainsinöörit
-109. http://www.yso.fi/onto/koko/p61842 -- lähdeverokortit => lähdeverokortti
-110. http://www.yso.fi/onto/koko/p58216 -- bisnesenkeli => bisnesenkelit
-111. http://www.yso.fi/onto/koko/p78762 -- tekstiviestipalvelu => tekstiviestipalvelut
-112. http://www.yso.fi/onto/koko/p56928 -- lounasseteli => lounassetelit
-113. http://www.yso.fi/onto/koko/p78601 -- painettu mainos => painetut mainokset
-114. http://www.yso.fi/onto/koko/p70814 -- tuontilisenssi => tuontilisenssit
-115. http://www.yso.fi/onto/koko/p78519 -- myynti-ilmoitus => myynti-ilmoitukset
-116. http://www.yso.fi/onto/koko/p64230 -- säätösiipipotkurit => säätölapapotkurit
-117. http://www.yso.fi/onto/koko/p78538 -- virheellinen tieto => virheelliset tiedot
-118. http://www.yso.fi/onto/koko/p59309 -- ulkomainen ostaja => ulkomaiset ostajat
-119. http://www.yso.fi/onto/koko/p57784 -- rekisteriviranomainen => rekisteriviranomaiset
-120. http://www.yso.fi/onto/koko/p78481 -- asunto-osake => asunto-osakkeet
-121. http://www.yso.fi/onto/koko/p56454 -- aivoriihi => aivoriihet
-122. http://www.yso.fi/onto/koko/p17572 -- nuortenkirjat => nuortenkirjallisuus
-123. http://www.yso.fi/onto/koko/p60161 -- hyödyllisyysmallihakemus => hyödyllisyysmallihakemukset
-124. http://www.yso.fi/onto/koko/p57290 -- työsuojeluhenkilörekisteri => työsuojeluhenkilörekisterit
-125. http://www.yso.fi/onto/koko/p63802 -- osinkotuotot => osinkotuotto
-126. http://www.yso.fi/onto/koko/p58288 -- rangaistusmaksu => rangaistusmaksut
-127. http://www.yso.fi/onto/koko/p53504 -- palveludirektiivi => palveludirektiivit
-128. http://www.yso.fi/onto/koko/p55554 -- vähittäismyyntiyritys => vähittäismyyntiyritykset
-129. http://www.yso.fi/onto/koko/p59960 -- matalapalkkatuki => matalapalkkatuet
-130. http://www.yso.fi/onto/koko/p62071 -- pankkipäivä => pankkipäivät
-131. http://www.yso.fi/onto/koko/p78819 -- tarjous (ostokehotus) => tarjoukset (ostokehotus)
-132. http://www.yso.fi/onto/koko/p59785 -- korkotulo (pääomatulo) => korkotulot (pääomatulot)
-133. http://www.yso.fi/onto/koko/p58843 -- perusilmoitus kaupparekisteriin => perusilmoitukset kaupparekisteriin
-134. http://www.yso.fi/onto/koko/p61660 -- valvontasuunnitelma => valvontasuunnitelmat
-135. http://www.yso.fi/onto/koko/p78486 -- valmistaja => valmistajat
-136. http://www.yso.fi/onto/koko/p54391 -- suunnittelukulu => suunnittelukulut
-137. http://www.yso.fi/onto/koko/p54068 -- uskonnollinen yhdyskunta => uskonnolliset yhdyskunnat
-138. http://www.yso.fi/onto/koko/p70841 -- TEM-yhteistyöryhmä => TEM-yhteistyöryhmät
-139. http://www.yso.fi/onto/koko/p58385 -- ulkomainen suora investointi => ulkomaiset suorat investoinnit
-140. http://www.yso.fi/onto/koko/p62086 -- koekappale => koekappaleet
-141. http://www.yso.fi/onto/koko/p6200 -- kolibakteerit => Escherichia coli
-142. http://www.yso.fi/onto/koko/p78785 -- junalippu => junaliput
-143. http://www.yso.fi/onto/koko/p78817 -- maksutili => maksutilit
-144. http://www.yso.fi/onto/koko/p34803 -- pengerrykset => penkereet ja vallit
-145. http://www.yso.fi/onto/koko/p60746 -- arvonlisäveroilmoitus => arvonlisäveroilmoitukset
-146. http://www.yso.fi/onto/koko/p58129 -- luonnonilmiöt => luonnontieteellinen ilmiö
-147. http://www.yso.fi/onto/koko/p55306 -- konsortio => konsortiot
-148. http://www.yso.fi/onto/koko/p54519 -- luotonsaaja => luotonsaajat
-149. http://www.yso.fi/onto/koko/p62828 -- työvoimaosasto => työvoimaosastot
-150. http://www.yso.fi/onto/koko/p35733 -- spontaani tapahtuma => tapahtumat (prosessit, tapahtumat ja toiminta)
-151. http://www.yso.fi/onto/koko/p78496 -- aikaosuusasunto => aikaosuusasunnot
-152. http://www.yso.fi/onto/koko/p89206 -- kielikurssit => kielikurssi
-153. http://www.yso.fi/onto/koko/p56840 -- EPC-hakemus => EPC-hakemukset
-154. http://www.yso.fi/onto/koko/p31281 -- muinaiseläimet => dinosaurukset
-155. http://www.yso.fi/onto/koko/p78814 -- markkinoinnin suorittaja => markkinoinnin suorittajat
-156. http://www.yso.fi/onto/koko/p35608 -- altisteet => allergeenit
-157. http://www.yso.fi/onto/koko/p14200 -- veroviranomainen => veroviranomaiset
-158. http://www.yso.fi/onto/koko/p13664 -- kuntien menot => julkiset menot
-159. http://www.yso.fi/onto/koko/p54450 -- atk-kulu => atk-kulut
-160. http://www.yso.fi/onto/koko/p59440 -- ylivaraustilanne => ylivaraustilanteet
-161. http://www.yso.fi/onto/koko/p58987 -- rahoitustuet => rahoitustuki (tukimuodot)
-162. http://www.yso.fi/onto/koko/p62614 -- keksintöasiamies => keksintöasiamiehet
-163. http://www.yso.fi/onto/koko/p57021 -- yrityksen taloudellinen arvo => yritysten taloudelliset arvot
-164. http://www.yso.fi/onto/koko/p62879 -- eläkekulu => eläkekulut
-165. http://www.yso.fi/onto/koko/p57167 -- rakennetuet => rakennetuki (tukimuodot)
-166. http://www.yso.fi/onto/koko/p33670 -- äänet => ääni (fysikaaliset ilmiöt)
-167. http://www.yso.fi/onto/koko/p63430 -- henkilökunta-alennus => henkilökunta-alennukset
-168. http://www.yso.fi/onto/koko/p57620 -- tuotenäyte => tuotenäytteet
-169. http://www.yso.fi/onto/koko/p58607 -- rahoitusvekseli => rahoitusvekselit
-170. http://www.yso.fi/onto/koko/p56284 -- palkan sivukulu => palkan sivukulut
-171. http://www.yso.fi/onto/koko/p61041 -- ikääntyvä => ikääntyvät
-172. http://www.yso.fi/onto/koko/p64408 -- tilinumero => tilinumerot
-173. http://www.yso.fi/onto/koko/p55255 -- rinnakkaisluotaus => akustiset mittausmenetelmät
-174. http://www.yso.fi/onto/koko/p64454 -- e-lasku => e-laskut
-175. http://www.yso.fi/onto/koko/p78528 -- viestipalvelu => viestipalvelut
-176. http://www.yso.fi/onto/koko/p59625 -- jäännösverot => jäännösvero (tulovero)
-177. http://www.yso.fi/onto/koko/p62877 -- agentuuritulo => agentuuritulot
-178. http://www.yso.fi/onto/koko/p59784 -- korttiluotot => korttiluotto
-179. http://www.yso.fi/onto/koko/p55251 -- asuntosäästöpalkkiolaina => asuntosäästöpalkkiolainat
-180. http://www.yso.fi/onto/koko/p54277 -- julkiseen rahoitukseen liittyvä ajanjakso => julkiseen rahoitukseen liittyvät ajanjaksot
-181. http://www.yso.fi/onto/koko/p3678 -- puolisot => aviopuolisot
-182. http://www.yso.fi/onto/koko/p64922 -- lepoaika => lepoajat (työsuhteeseen liittyvät ajanjaksot)
-183. http://www.yso.fi/onto/koko/p57017 -- demo => demot
-184. http://www.yso.fi/onto/koko/p39296 -- käyttölupa => käyttöluvat
-185. http://www.yso.fi/onto/koko/p64083 -- pääomavirta => pääomavirrat
-186. http://www.yso.fi/onto/koko/p57941 -- lähdevaltio => lähdevaltiot
-187. http://www.yso.fi/onto/koko/p57801 -- postpanamax-alukset => erikoisalukset (ammattikäyttöön tarkoitetut alukset)
-188. http://www.yso.fi/onto/koko/p33321 -- nokkoset => nokkoskuitu
-189. http://www.yso.fi/onto/koko/p74769 -- laatua koskeva valitus => laatua koskevat valitukset
-190. http://www.yso.fi/onto/koko/p78687 -- taloelementtien rakennusurakat => taloelementtien rakennusurakka
-191. http://www.yso.fi/onto/koko/p63037 -- toimenpidesuositus => toimenpidesuositukset
-192. http://www.yso.fi/onto/koko/p52132 -- veronalainen tulo => veronalaiset tulot
-193. http://www.yso.fi/onto/koko/p34679 -- urakehitys => työura (yhteiskunnalliset ilmiöt)
-194. http://www.yso.fi/onto/koko/p64616 -- IPC-luokat => IPC-luokka
-195. http://www.yso.fi/onto/koko/p50430 -- sisaruspuolet => uussisarukset
-196. http://www.yso.fi/onto/koko/p58127 -- velkakirjalaina => velkakirjalainat
-197. http://www.yso.fi/onto/koko/p60999 -- kilpailuvaltit => kilpailuvaltti
-198. http://www.yso.fi/onto/koko/p64809 -- vähimmäisostovelvoite => vähimmäisostovelvoitteet
-199. http://www.yso.fi/onto/koko/p25991 -- kirjallisuus (kirjalliset teokset, kulttuurinen tuotos) => antiikin kirjallisuus
-200. http://www.yso.fi/onto/koko/p54806 -- ylikurssirahasto => ylikurssirahastot
-201. http://www.yso.fi/onto/koko/p57548 -- knuupit => knaapit
-202. http://www.yso.fi/onto/koko/p34328 -- liitännäiselinkeinot => maatalouden liitännäiselinkeinot
-203. http://www.yso.fi/onto/koko/p62141 -- työolosuhteiden järjestelytuet => työolosuhteiden järjestelytuki
-204. http://www.yso.fi/onto/koko/p11827 -- työkirjat => harjoituskirjat
-205. http://www.yso.fi/onto/koko/p52032 -- sitalopraami => essitalopraami
-206. http://www.yso.fi/onto/koko/p58530 -- mainosaika => mainosajat
-207. http://www.yso.fi/onto/koko/p59917 -- valtionalukset => viranomaiskäyttöön tarkoitetut alukset
-208. http://www.yso.fi/onto/koko/p63335 -- tuki => tuet
-209. http://www.yso.fi/onto/koko/p53979 -- vastuusitoumus => vastuusitoumukset
-210. http://www.yso.fi/onto/koko/p65032 -- diaaritodistus => diaaritodistukset
-211. http://www.yso.fi/onto/koko/p60815 -- kehittämistuet => kehittämistuki (tukilaji)
-212. http://www.yso.fi/onto/koko/p61915 -- korkokulu => korkokulut
-213. http://www.yso.fi/onto/koko/p55871 -- eläkelaina => eläkelainat
-214. http://www.yso.fi/onto/koko/p59299 -- veronsaaja => veronsaajat (toimintaan liittyvä rooli)
-215. http://www.yso.fi/onto/koko/p78596 -- vekselisitoumus => vekselisitoumukset
-216. http://www.yso.fi/onto/koko/p78735 -- langattomat internetyhteydet => langaton internetyhteys (internetliittymä)
-217. http://www.yso.fi/onto/koko/p34390 -- vertaistuki => mielenterveystyö (sosiaalipalvelut)
-218. http://www.yso.fi/onto/koko/p78660 -- tiedonpuute => tiedonpuutteet
-219. http://www.yso.fi/onto/koko/p18530 -- sovintomenettely => sovinto (yhteiskunnalliset objektit)
-220. http://www.yso.fi/onto/koko/p51553 -- C-reaktiivinen proteiini => c-reaktiivinen proteiini
-221. http://www.yso.fi/onto/koko/p35123 -- loma => vanhempainvapaa
-222. http://www.yso.fi/onto/koko/p64817 -- maahantuontiyritys => maahantuontiyritykset
-223. http://www.yso.fi/onto/koko/p57379 -- tuotekonsepti => tuotekonseptit
-224. http://www.yso.fi/onto/koko/p60399 -- liikeneuvottelu => liikeneuvottelut
-225. http://www.yso.fi/onto/koko/p51801 -- oikaisulautakunta => oikaisulautakunnat
-226. http://www.yso.fi/onto/koko/p56654 -- katettava riski => katettavat riskit
-227. http://www.yso.fi/onto/koko/p78525 -- linja-autolippu => linja-autoliput
-228. http://www.yso.fi/onto/koko/p60122 -- erikoistarjous => erikoistarjoukset
-229. http://www.yso.fi/onto/koko/p62263 -- virallinen lehti => viralliset lehdet
-230. http://www.yso.fi/onto/koko/p64776 -- suojausstrategia => suojausstrategiat
-231. http://www.yso.fi/onto/koko/p64803 -- yhteispalvelupiste => yhteispalvelupisteet
-232. http://www.yso.fi/onto/koko/p60738 -- asiakkuudenhallintajärjestelmä => asiakkuudenhallintajärjestelmät
-233. http://www.yso.fi/onto/koko/p30733 -- järjestelmät => muu järjestelmä
-234. http://www.yso.fi/onto/koko/p70840 -- laatusertifikaatit => laatusertifikaatti
-235. http://www.yso.fi/onto/koko/p33546 -- viestintä => siirto (viestintä)
-236. http://www.yso.fi/onto/koko/p53420 -- e-laskuosoite => e-laskuosoitteet
-237. http://www.yso.fi/onto/koko/p58283 -- sijoitustuotot => sijoitustuotto
-238. http://www.yso.fi/onto/koko/p78510 -- mainostamistapa => mainostamistavat
-239. http://www.yso.fi/onto/koko/p10959 -- glaukooma => silmätaudit
-240. http://www.yso.fi/onto/koko/p55625 -- sähkömagneettinen propulsio => propulsiojärjestelmät
-241. http://www.yso.fi/onto/koko/p78597 -- velkaongelma => velkaongelmat
-242. http://www.yso.fi/onto/koko/p74761 -- henkilöstötutkimus => henkilöstötutkimukset
-243. http://www.yso.fi/onto/koko/p63609 -- kotitalouspalvelu => kotitalouspalvelut
-244. http://www.yso.fi/onto/koko/p58689 -- liikeriski => liikeriskit
-245. http://www.yso.fi/onto/koko/p89468 -- veljenpojat => sisarenpojat
-246. http://www.yso.fi/onto/koko/p78722 -- asiakasvalitus => asiakasvalitukset
-247. http://www.yso.fi/onto/koko/p63294 -- rahansiirto => rahansiirrot
-248. http://www.yso.fi/onto/koko/p58229 -- yhteismerkki => yhteismerkit
-249. http://www.yso.fi/onto/koko/p57609 -- mallirekisteri => mallirekisterit
-250. http://www.yso.fi/onto/koko/p61481 -- markkinointitutkimus (yhteiskunnallinen tuotos) => markkinointitutkimukset (yhteiskunnalliset objektit)
-251. http://www.yso.fi/onto/koko/p62705 -- kiinnitystodistus => kiinnitystodistukset
-252. http://www.yso.fi/onto/koko/p51489 -- pääsääntö => pääsäännöt
-253. http://www.yso.fi/onto/koko/p74771 -- suorituskyvyttömyysvakuus => suorituskyvyttömyysvakuudet
-254. http://www.yso.fi/onto/koko/p59559 -- luovutuslupa => luovutusluvat
-255. http://www.yso.fi/onto/koko/p64889 -- aukioloajat => aukioloaika (kauppaan liittyvä ajanjakso)
-256. http://www.yso.fi/onto/koko/p70829 -- telekommunikaatiosertifikaatit => telekommunikaatiosertifikaatti
-257. http://www.yso.fi/onto/koko/p82015 -- kuntomittaukset => kuntomittaus
-258. http://www.yso.fi/onto/koko/p78497 -- aikaosuussopimus => aikaosuussopimukset
-259. http://www.yso.fi/onto/koko/p71540 -- ompeluneulat => neulat (elottomat objektit, välineet)
-260. http://www.yso.fi/onto/koko/p55139 -- linjaratkaisu => linjaratkaisut
-261. http://www.yso.fi/onto/koko/p57265 -- asiakaskysely => asiakaskyselyt
-262. http://www.yso.fi/onto/koko/p54198 -- tili => tilit (taloudelliset tuotokset)
-263. http://www.yso.fi/onto/koko/p74766 -- hyvitystä koskeva valitus => hyvitystä koskevat valitukset
-264. http://www.yso.fi/onto/koko/p59948 -- etuoikeus (tavaramerkkiin liittyvä) => etuoikeudet (tavaramerkkiin liittyvä)
-265. http://www.yso.fi/onto/koko/p61898 -- yritysidea => yritysideat
-266. http://www.yso.fi/onto/koko/p58210 -- kansainvälistymisstrategia => kansainvälistymisstrategiat
-267. http://www.yso.fi/onto/koko/p61607 -- aiesopimus => aiesopimukset
-268. http://www.yso.fi/onto/koko/p62115 -- osamaksulisä => osamaksulisät
-269. http://www.yso.fi/onto/koko/p36344 -- ympäristövauriot => ympäristövaikutukset
-270. http://www.yso.fi/onto/koko/p60856 -- normaalihinta => normaalihinnat
-271. http://www.yso.fi/onto/koko/p78551 -- ennakkomaksukortit => ennakkomaksukortti
-272. http://www.yso.fi/onto/koko/p78650 -- luotonvälittäjä => luotonvälittäjät
-273. http://www.yso.fi/onto/koko/p51305 -- elinkeinotoiminnan tulolähde => elinkeinotoiminnan tulolähteet
-274. http://www.yso.fi/onto/koko/p55986 -- patentinhaltija => patentinhaltijat
-275. http://www.yso.fi/onto/koko/p33004 -- kalastus (pyynti) => metsästys
-276. http://www.yso.fi/onto/koko/p53654 -- konferenssi => konferenssit (kokoukset, yhteiskunnalliset tapahtumat)
-277. http://www.yso.fi/onto/koko/p14339 -- sosiaalivakuutus => työttömyysvakuutus
-278. http://www.yso.fi/onto/koko/p78743 -- välitön vahinko => välittömät vahingot
-279. http://www.yso.fi/onto/koko/p51519 -- työnhakukeskus => työnhakukeskukset
-280. http://www.yso.fi/onto/koko/p63069 -- markkinakatsaus => markkinakatsaukset
-281. http://www.yso.fi/onto/koko/p86081 -- eroaminen tehtävästä => eroaminen
-282. http://www.yso.fi/onto/koko/p58968 -- ryhmäpalvelu => ryhmäpalvelut
-283. http://www.yso.fi/onto/koko/p56991 -- sairausvakuutusmaksu => sairausvakuutusmaksut
-284. http://www.yso.fi/onto/koko/p78617 -- tavaraerä => tavaraerät
-285. http://www.yso.fi/onto/koko/p61061 -- lisäsuojatodistus => lisäsuojatodistukset
-286. http://www.yso.fi/onto/koko/p31110 -- tölkit => pakkaukset
-287. http://www.yso.fi/onto/koko/p78620 -- audiovisuaalisella mainoksella => audiovisuaalisilla mainoksilla
-288. http://www.yso.fi/onto/koko/p60986 -- suoraveloitusvaltakirja => suoraveloitusvaltakirjat
-289. http://www.yso.fi/onto/koko/p26150 -- varastotilat (tilat, varastologistiikka) => varastot (elottomat fyysiset kokonaisuudet, rakennukset)
-290. http://www.yso.fi/onto/koko/p62671 -- tilikauden voitot => tilikauden voitto
-291. http://www.yso.fi/onto/koko/p54972 -- työaikasäädös => työaikasäädökset
-292. http://www.yso.fi/onto/koko/p62567 -- verotuspäätös => verotuspäätökset
-293. http://www.yso.fi/onto/koko/p78638 -- yhteinen hinta => yhteiset hinnat
-294. http://www.yso.fi/onto/koko/p52699 -- väylänpito => vesiväylänpito
-295. http://www.yso.fi/onto/koko/p78628 -- käyttöönottovuosi => käyttöönottovuodet
-296. http://www.yso.fi/onto/koko/p78556 -- toimeksisaaja => toimeksisaajat
-297. http://www.yso.fi/onto/koko/p1354 -- kuljetus => omistuksen siirtäminen
-298. http://www.yso.fi/onto/koko/p62723 -- veroton => verottomuus
-299. http://www.yso.fi/onto/koko/p74773 -- päällysmerkintä => päällysmerkinnät
-300. http://www.yso.fi/onto/koko/p65067 -- mainoskampanja => mainoskampanjat
-301. http://www.yso.fi/onto/koko/p36000 -- kokoukset => konferenssit
-302. http://www.yso.fi/onto/koko/p37007 -- tulot => valtion tulot
-303. http://www.yso.fi/onto/koko/p62528 -- innovaatioasiantuntija => innovaatioasiantuntijat
-304. http://www.yso.fi/onto/koko/p54668 -- tuotekehityslaina => tuotekehityslainat
-305. http://www.yso.fi/onto/koko/p55211 -- kansainvälinen patenttihakemus => kansainväliset patenttihakemukset
-306. http://www.yso.fi/onto/koko/p59261 -- lisenssin haltija => lisenssin haltijat
-307. http://www.yso.fi/onto/koko/p78557 -- materiaalitoimittaja => materiaalitoimittajat
-308. http://www.yso.fi/onto/koko/p78531 -- kohtuuton kustannus => kohtuuttomat kustannukset
-309. http://www.yso.fi/onto/koko/p58469 -- panttikirja => panttikirjat
-310. http://www.yso.fi/onto/koko/p78760 -- lisämaksu => lisämaksut
-311. http://www.yso.fi/onto/koko/p63580 -- pääomasijoitus => pääomasijoitukset
-312. http://www.yso.fi/onto/koko/p62572 -- hallintokulu => hallintokulut
-313. http://www.yso.fi/onto/koko/p32330 -- virkamiehet => valtion virkamiehet
-314. http://www.yso.fi/onto/koko/p64419 -- tarkastusmerkit => tarkastusmerkki
-315. http://www.yso.fi/onto/koko/p78761 -- lisäkustannus => lisäkustannukset
-316. http://www.yso.fi/onto/koko/p65021 -- innovaatiopalvelu => innovaatiopalvelut
-317. http://www.yso.fi/onto/koko/p57177 -- perävantaat => perärangat
-318. http://www.yso.fi/onto/koko/p51577 -- luottotappiovaraus => luottotappiovaraukset
-319. http://www.yso.fi/onto/koko/p25305 -- C-kieli => C (ohjelmointikieli)
-320. http://www.yso.fi/onto/koko/p62697 -- lisäilmoitus => lisäilmoitukset
-321. http://www.yso.fi/onto/koko/p57604 -- takausosuus => takausosuudet
-322. http://www.yso.fi/onto/koko/p54145 -- pääomasijoittaja => pääomasijoittajat
-323. http://www.yso.fi/onto/koko/p54692 -- maihinnoususilta => laakongit
-324. http://www.yso.fi/onto/koko/p78705 -- mallisopimus => mallisopimukset
-325. http://www.yso.fi/onto/koko/p10213 -- kassamyyjät => kassatyöntekijät
-326. http://www.yso.fi/onto/koko/p57018 -- bruttotulos => bruttotulokset
-327. http://www.yso.fi/onto/koko/p78825 -- hyvä perintätapa => hyvät perintätavat
-328. http://www.yso.fi/onto/koko/p63624 -- mukavuusliput => avoimet rekisterit
-329. http://www.yso.fi/onto/koko/p70871 -- pakkauslista => pakkauslistat
-330. http://www.yso.fi/onto/koko/p62006 -- spin-off-yritys => spin-off-yritykset
-331. http://www.yso.fi/onto/koko/p78709 -- yrityskauppailmoitus => yrityskauppailmoitukset
-332. http://www.yso.fi/onto/koko/p63967 -- kotikunta => kotikunnat
-333. http://www.yso.fi/onto/koko/p25814 -- verkkokauppa => verkkokaupat (verkkosivut)
-334. http://www.yso.fi/onto/koko/p57376 -- maksupäivä => maksupäivät
-335. http://www.yso.fi/onto/koko/p24959 -- legionella => Legionella-bakteerit
-336. http://www.yso.fi/onto/koko/p56656 -- tuoteriski => tuoteriskit
-337. http://www.yso.fi/onto/koko/p60811 -- kaupparekisterinumero => kaupparekisterinumerot
-338. http://www.yso.fi/onto/koko/p53543 -- työnantajan sosiaaliturvamaksu => työnantajan sosiaaliturvamaksut
-339. http://www.yso.fi/onto/koko/p64523 -- myyntipiste => myyntipisteet
-340. http://www.yso.fi/onto/koko/p78653 -- osamaksu => osamaksut
-341. http://www.yso.fi/onto/koko/p52824 -- kauppaan liittyvä ajanjakso => kauppaan liittyvät ajanjaksot
-342. http://www.yso.fi/onto/koko/p58675 -- työmarkkinakatsaus => työmarkkinakatsaukset
-343. http://www.yso.fi/onto/koko/p55190 -- luonnonhaittakorvaus => luonnonhaittakorvaukset
-344. http://www.yso.fi/onto/koko/p37648 -- kupongit => kuponki
-345. http://www.yso.fi/onto/koko/p55735 -- palvelutieto => palvelutiedot
-346. http://www.yso.fi/onto/koko/p78625 -- käyttöhyöty => käyttöhyödyt
-347. http://www.yso.fi/onto/koko/p78639 -- vähäinen virhe => vähäiset virheet
-348. http://www.yso.fi/onto/koko/p62691 -- rekisteröity malli => rekisteröidyt mallit
-349. http://www.yso.fi/onto/koko/p58429 -- notariaattilaina => notariaattilainat
-350. http://www.yso.fi/onto/koko/p63600 -- huolintapalvelu => huolintapalvelut
-351. http://www.yso.fi/onto/koko/p61620 -- rajoitetusti verovelvollinen => rajoitetusti verovelvolliset
-352. http://www.yso.fi/onto/koko/p48856 -- johtaminen => orkesterinjohtaminen
-353. http://www.yso.fi/onto/koko/p18648 -- ensihoitajat => perushoitajat
-354. http://www.yso.fi/onto/koko/p5136 -- basistit => bassokitaristit
-355. http://www.yso.fi/onto/koko/p10141 -- asiakkuus => asiakassuhde
-356. http://www.yso.fi/onto/koko/p31350 -- lunastus => osakkeiden lunastus
-357. http://www.yso.fi/onto/koko/p55752 -- patenttitietokanta => patenttitietokannat
-358. http://www.yso.fi/onto/koko/p57393 -- lopputilitys => lopputilitykset
-359. http://www.yso.fi/onto/koko/p58503 -- valitusaika => valitusajat
-360. http://www.yso.fi/onto/koko/p61336 -- kaupallinen riski => kaupalliset riskit
-361. http://www.yso.fi/onto/koko/p34593 -- teknologia => tekniikka (tieteenalat, yhteiskunnalliset ilmiöt)
-362. http://www.yso.fi/onto/koko/p57719 -- patenttituotot => patenttituotto
-363. http://www.yso.fi/onto/koko/p56642 -- kiinteä toimipaikka => kiinteät toimipaikat
-364. http://www.yso.fi/onto/koko/p36235 -- asunnot => vapaa-ajan asunnot
-365. http://www.yso.fi/onto/koko/p57430 -- työnantajan työttömyysvakuutusmaksu => työnantajan työttömyysvakuutusmaksut
-366. http://www.yso.fi/onto/koko/p62912 -- PCT-hakemus => PCT-hakemukset
-367. http://www.yso.fi/onto/koko/p54928 -- valtionlaina => valtionlainat
-368. http://www.yso.fi/onto/koko/p32049 -- konkretismi => konkreettinen taide
-369. http://www.yso.fi/onto/koko/p59996 -- toimitusaika => toimitusajat
-370. http://www.yso.fi/onto/koko/p59758 -- palveluosto => palveluostot
-371. http://www.yso.fi/onto/koko/p53648 -- taide-esine => taide-esineet
-372. http://www.yso.fi/onto/koko/p78684 -- lentolippu => lentoliput
-373. http://www.yso.fi/onto/koko/p33379 -- virkistyskäyttö => luonnon virkistyskäyttö
-374. http://www.yso.fi/onto/koko/p78624 -- käyttötarkoitus => käyttötarkoitukset
-375. http://www.yso.fi/onto/koko/p51256 -- asiamiessopimus => asiamiessopimukset
-376. http://www.yso.fi/onto/koko/p59425 -- teknologiastrategia => teknologiastrategiat
-377. http://www.yso.fi/onto/koko/p59974 -- reaaliaika => reaaliajat
-378. http://www.yso.fi/onto/koko/p59271 -- työhaastattelu => työhaastattelut
-379. http://www.yso.fi/onto/koko/p58809 -- monikäyttöalukset => monitoimialukset
-380. http://www.yso.fi/onto/koko/p53977 -- etuoikeuspäivä => etuoikeuspäivät
-381. http://www.yso.fi/onto/koko/p72961 -- kuljetuspalvelu => logistiikkapalvelut
-382. http://www.yso.fi/onto/koko/p58732 -- haittatekijä => haittatekijät
-383. http://www.yso.fi/onto/koko/p24921 -- purkaminen (osiin) => purku (rakennusala)
-384. http://www.yso.fi/onto/koko/p16845 -- sairaudet => sairaus (biologiset ilmiöt, luonnontieteellinen ilmiö)
-385. http://www.yso.fi/onto/koko/p62529 -- EU-asetus => EU-asetukset
-386. http://www.yso.fi/onto/koko/p53170 -- totuudenvastainen tieto => totuudenvastaiset tiedot
-387. http://www.yso.fi/onto/koko/p78637 -- korjaustapa => korjaustavat
-388. http://www.yso.fi/onto/koko/p59712 -- sivukulu => sivukulut
-389. http://www.yso.fi/onto/koko/p60315 -- verotukseen liittyvä ajanjakso => verotukseen liittyvät ajanjaksot
-390. http://www.yso.fi/onto/koko/p78789 -- etuseteli => etusetelit
-391. http://www.yso.fi/onto/koko/p55046 -- säätiön perusilmoitus kaupparekisteriin => säätiön perusilmoitukset kaupparekisteriin
-392. http://www.yso.fi/onto/koko/p59014 -- asiakirjarekisteri => asiakirjarekisterit
-393. http://www.yso.fi/onto/koko/p54514 -- ensijulkaisu => ensijulkaisut
-394. http://www.yso.fi/onto/koko/p61339 -- maatalouden tulolähde => maatalouden tulolähteet
-395. http://www.yso.fi/onto/koko/p57258 -- verkkomaksu => verkkomaksut
-396. http://www.yso.fi/onto/koko/p74772 -- kuluttajaluotot => kuluttajaluotto
-397. http://www.yso.fi/onto/koko/p56116 -- yksinoikeus toiminimeen => yksinoikeudet toiminimiin
-398. http://www.yso.fi/onto/koko/p25369 -- lopettaminen => lopettava muuttaminen
-399. http://www.yso.fi/onto/koko/p60513 -- yhteenvetoilmoitus => yhteenvetoilmoitukset
-400. http://www.yso.fi/onto/koko/p52666 -- tavaramerkkiasia => tavaramerkkiasiat
-401. http://www.yso.fi/onto/koko/p57228 -- yhteistyökumppani => yhteistyökumppanit
-402. http://www.yso.fi/onto/koko/p60886 -- ohjelmistotuotevaatimus => ohjelmistotuotevaatimukset
-403. http://www.yso.fi/onto/koko/p78799 -- peruuttamisilmoitus => peruuttamisilmoitukset
-404. http://www.yso.fi/onto/koko/p5356 -- tulokaslajit => tulokaskasvit
-405. http://www.yso.fi/onto/koko/p55320 -- perheyhtiö => perheyhtiöt
-406. http://www.yso.fi/onto/koko/p55907 -- vakiosopimus => vakiosopimukset
-407. http://www.yso.fi/onto/koko/p60821 -- maksuviivästys => maksuviivästykset
-408. http://www.yso.fi/onto/koko/p64139 -- jälleenmyyjä => jälleenmyyjät
-409. http://www.yso.fi/onto/koko/p60302 -- oikaisuvaatimukset => oikaisuvaatimus (hakemukset, vaatimukset)
-410. http://www.yso.fi/onto/koko/p60703 -- rekisteröintitodistus => rekisteröintitodistukset
-411. http://www.yso.fi/onto/koko/p56007 -- tavaramerkkilehti => tavaramerkkilehdet
-412. http://www.yso.fi/onto/koko/p64549 -- toimituskulu => toimituskulut
-413. http://www.yso.fi/onto/koko/p12621 -- verkkojulkaisut => sähköiset julkaisut
-414. http://www.yso.fi/onto/koko/p78716 -- kaupallinen tarkoitus => kaupalliset tarkoitukset
-415. http://www.yso.fi/onto/koko/p59308 -- yrityskohtainen => yrityskohtaisuus
-416. http://www.yso.fi/onto/koko/p57102 -- verkostoitumisstrategia => verkostoitumisstrategiat
-417. http://www.yso.fi/onto/koko/p53998 -- kuluttajasopimus => kuluttajasopimukset
-418. http://www.yso.fi/onto/koko/p54936 -- työpaikkailmoitus => paikkailmoitus
-419. http://www.yso.fi/onto/koko/p62866 -- pienhankintakulu => pienhankintakulut
-420. http://www.yso.fi/onto/koko/p53885 -- tulossuunnitelma => tulossuunnitelmat
-421. http://www.yso.fi/onto/koko/p59328 -- perustamislupa => perustamisluvat
-422. http://www.yso.fi/onto/koko/p78475 -- käteishinta => käteishinnat
-423. http://www.yso.fi/onto/koko/p12529 -- palkat => palkkaus (yhteiskunnalliset ilmiöt)
-424. http://www.yso.fi/onto/koko/p36485 -- monikäyttö => metsien monikäyttö
-425. http://www.yso.fi/onto/koko/p10268 -- yhtymä => julkinen organisaatio
-426. http://www.yso.fi/onto/koko/p60437 -- alan ammattimies => alan ammattimiehet
-427. http://www.yso.fi/onto/koko/p78676 -- korvaava hyödyke => korvaavat hyödykkeet
-428. http://www.yso.fi/onto/koko/p54231 -- palkkasaatava => palkkasaatavat
-429. http://www.yso.fi/onto/koko/p60482 -- teollisuuskylä => teollisuuskylät
-430. http://www.yso.fi/onto/koko/p57045 -- kokonaisvaikutelma => kokonaisvaikutelmat
-431. http://www.yso.fi/onto/koko/p74768 -- saatavuutta koskeva valitus => saatavuutta koskevat valitukset
-432. http://www.yso.fi/onto/koko/p64008 -- ylivaraus => ylivaraukset
-433. http://www.yso.fi/onto/koko/p56892 -- PCT-maksu => PCT-maksut
-434. http://www.yso.fi/onto/koko/p62024 -- tilikauden vero => tilikauden verot
-435. http://www.yso.fi/onto/koko/p58998 -- kansaneläkemaksu (eläkemaksut) => kansaneläkemaksut
-436. http://www.yso.fi/onto/koko/p51816 -- kuntoutusraha (korvaukset) => kuntoutusrahat (kuntoutusetuudet, päivärahat)
-437. http://www.yso.fi/onto/koko/p63681 -- toimitilakulu => toimitilakulut
-438. http://www.yso.fi/onto/koko/p59017 -- säätiörekisteri => säätiörekisterit
-439. http://www.yso.fi/onto/koko/p61053 -- saajan pankki => saajien pankit
-440. http://www.yso.fi/onto/koko/p57599 -- kalustokulu => kalustokulut
-441. http://www.yso.fi/onto/koko/p51743 -- oikaisu => oikaisut
-442. http://www.yso.fi/onto/koko/p62600 -- yhdistelmämerkit => yhdistelmämerkki
-443. http://www.yso.fi/onto/koko/p78696 -- tulon menetys => tulon menetykset
-444. http://www.yso.fi/onto/koko/p74747 -- imagotutkimus => imagotutkimukset
-445. http://www.yso.fi/onto/koko/p62649 -- harhaanjohtava tieto => harhaanjohtavat tiedot
-446. http://www.yso.fi/onto/koko/p73080 -- kuljetuskustannus => kuljetuskustannukset
-447. http://www.yso.fi/onto/koko/p52647 -- osamaksuvelat => osamaksuvelka
-448. http://www.yso.fi/onto/koko/p48228 -- lapset (ikäryhmät) => adoptiolapset
-449. http://www.yso.fi/onto/koko/p10819 -- tietotekniikkarikokset => tieto- ja viestintärikokset
-450. http://www.yso.fi/onto/koko/p64512 -- annuiteettilaina => annuiteettilainat
-451. http://www.yso.fi/onto/koko/p57875 -- maahanmuuttajien järjestö => maahanmuuttajien järjestöt
-452. http://www.yso.fi/onto/koko/p25805 -- oppiaineet => äidinkieli (oppiaineet)
-453. http://www.yso.fi/onto/koko/p70863 -- vastaavuussertifikaatit => vastaavuussertifikaatti
-454. http://www.yso.fi/onto/koko/p53733 -- kuntotarkastus => kuntotarkastukset
-455. http://www.yso.fi/onto/koko/p52854 -- avoin työpaikka => avoimet työpaikat
-456. http://www.yso.fi/onto/koko/p82292 -- liikenteen hallintajärjestelmät => liikenteenhallintajärjestelmät
-457. http://www.yso.fi/onto/koko/p65231 -- tarjoustuote => tarjoustuotteet
-458. http://www.yso.fi/onto/koko/p57142 -- muu pitkäaikainen sijoitus => muut pitkäaikaiset sijoitukset
-459. http://www.yso.fi/onto/koko/p57472 -- verovaraus => verovaraukset
-460. http://www.yso.fi/onto/koko/p78756 -- loppusaldo => loppusaldot
-461. http://www.yso.fi/onto/koko/p62443 -- kohdekausi => kohdekaudet
-462. http://www.yso.fi/onto/koko/p58712 -- aineosto => aineostot
-463. http://www.yso.fi/onto/koko/p61828 -- satunnainen erä => satunnaiset erät
-464. http://www.yso.fi/onto/koko/p15244 -- terveysasemat (terveydenhuoltolaitokset) => terveyskeskukset (terveydenhuoltolaitokset, terveyspalveluja antavat palveluyksiköt)
-465. http://www.yso.fi/onto/koko/p53166 -- peruspankkipalvelu => peruspankkipalvelut
-466. http://www.yso.fi/onto/koko/p52235 -- riskiluokitus => riskiluokitukset
-467. http://www.yso.fi/onto/koko/p57915 -- yhtiökokouksen pöytäkirja => yhtiökokousten pöytäkirjat
-468. http://www.yso.fi/onto/koko/p78724 -- varausraha => varausrahat
-469. http://www.yso.fi/onto/koko/p58315 -- help desk => helpdeskit
-470. http://www.yso.fi/onto/koko/p62244 -- tarvikeosto => tarvikeostot
-471. http://www.yso.fi/onto/koko/p36844 -- varjostimet => lampunvarjostimet
-472. http://www.yso.fi/onto/koko/p61033 -- sarjalaina => sarjalainat
-473. http://www.yso.fi/onto/koko/p8135 -- sanktiot => seuraamukset
-474. http://www.yso.fi/onto/koko/p61146 -- yritystunnusjärjestelmä => yritystunnusjärjestelmät
-475. http://www.yso.fi/onto/koko/p59955 -- sähköinen kansalaisvarmenne => sähköiset kansalaisvarmenteet
-476. http://www.yso.fi/onto/koko/p31823 -- kehitys => kehittäminen
-477. http://www.yso.fi/onto/koko/p78754 -- valmistuttaja => valmistuttajat
-478. http://www.yso.fi/onto/koko/p52838 -- alkaen-hinta => alkaen-hinnat
-479. http://www.yso.fi/onto/koko/p61663 -- siirtokirja => siirtokirjat
-480. http://www.yso.fi/onto/koko/p49086 -- son mexicano => rancheramusiikki
-481. http://www.yso.fi/onto/koko/p11602 -- karismaattisuus => karisma
-482. http://www.yso.fi/onto/koko/p74736 -- vesistöntutkimukset => vesistöntutkimus (tiedollinen luonti, tutkimustoiminta)
-483. http://www.yso.fi/onto/koko/p57082 -- yritys- ja yhteisötunnus => yritys- ja yhteisötunnukset
-484. http://www.yso.fi/onto/koko/p64510 -- myyntiaika => myyntiajat
-485. http://www.yso.fi/onto/koko/p48567 -- hemoglobiini => hemoglobiinit
-486. http://www.yso.fi/onto/koko/p59945 -- kaupparekisteri-ilmoitus => kaupparekisteri-ilmoitukset
-487. http://www.yso.fi/onto/koko/p55390 -- tarjousaika => tarjousajat
-488. http://www.yso.fi/onto/koko/p63352 -- vientiassistentit => vientiassistentti
-489. http://www.yso.fi/onto/koko/p52984 -- kansainvälistymispalvelu => kansainvälistymispalvelut
-490. http://www.yso.fi/onto/koko/p60750 -- valmennusohjelma => valmennusohjelmat
-491. http://www.yso.fi/onto/koko/p62341 -- epäitsenäinen vaatimus => epäitsenäiset vaatimukset
-492. http://www.yso.fi/onto/koko/p64962 -- asiakassegmentit => asiakassegmentti
-493. http://www.yso.fi/onto/koko/p63699 -- henkilökohtainen tulo => henkilökohtaiset tulot
-494. http://www.yso.fi/onto/koko/p56996 -- toimitusveloitus => toimitusveloitukset
-495. http://www.yso.fi/onto/koko/p25699 -- kivet => kiviaines
-496. http://www.yso.fi/onto/koko/p32876 -- ilma => lämpötila (fyysiset ominaisuudet, perussuureet)
-497. http://www.yso.fi/onto/koko/p63962 -- markkinaselvitys => markkinaselvitykset
-498. http://www.yso.fi/onto/koko/p37340 -- tievalaistus => pihavalaistus
-499. http://www.yso.fi/onto/koko/p59303 -- reskontra => reskontrat
-500. http://www.yso.fi/onto/koko/p55367 -- kohtuuton sopimusehto => kohtuuttomat sopimusehdot
-501. http://www.yso.fi/onto/koko/p61324 -- PCT-valtio => PCT-valtiot
-502. http://www.yso.fi/onto/koko/p60366 -- ennakkotilaus => ennakkotilaukset
-503. http://www.yso.fi/onto/koko/p78666 -- mittarilukema => mittarilukemat
-504. http://www.yso.fi/onto/koko/p59094 -- tililuotot => tililuotto
-505. http://www.yso.fi/onto/koko/p68107 -- maksun palautus => maksujen palautukset
-506. http://www.yso.fi/onto/koko/p78577 -- kohtuuton => kohtuuttomuus (ominaisuudet)
-507. http://www.yso.fi/onto/koko/p61583 -- työvoimapoliittinen => työvoimapoliittisuus
-508. http://www.yso.fi/onto/koko/p78626 -- käyttelytili => käyttelytilit
-509. http://www.yso.fi/onto/koko/p61399 -- patenttimaisema => patenttimaisemat
-510. http://www.yso.fi/onto/koko/p60537 -- B-vitamiinit => B-vitamiinikompleksi
-511. http://www.yso.fi/onto/koko/p33903 -- sarvet => sarvi (materiaalit)
-512. http://www.yso.fi/onto/koko/p78629 -- sähkösopimus => sähkösopimukset
-513. http://www.yso.fi/onto/koko/p78793 -- irtisanomisehto => irtisanomisehdot
-514. http://www.yso.fi/onto/koko/p11635 -- tanssilajit => kansanmusiikki
-515. http://www.yso.fi/onto/koko/p56693 -- vientipäällikkö => vientipäälliköt
-516. http://www.yso.fi/onto/koko/p63436 -- luotsivartiotuvat => luotsituvat (luotsivartiorakennukset)
-517. http://www.yso.fi/onto/koko/p59432 -- alaruumat => ruumat
-518. http://www.yso.fi/onto/koko/p64946 -- markkinointikulu => markkinointikulut
-519. http://www.yso.fi/onto/koko/p53760 -- keräilyesine => keräilyesineet
-520. http://www.yso.fi/onto/koko/p73064 -- laukkakasvit => narsissikasvit
-521. http://www.yso.fi/onto/koko/p62556 -- verovelvollisuusryhmä => verovelvollisuusryhmät
-522. http://www.yso.fi/onto/koko/p60494 -- sopimus- ja vastuuriski => sopimus- ja vastuuriskit
-523. http://www.yso.fi/onto/koko/p64597 -- mainoskulu => mainoskulut
-524. http://www.yso.fi/onto/koko/p89346 -- veljentyttäret => sisarentyttäret
-525. http://www.yso.fi/onto/koko/p57360 -- tilisiirto puhelimitse => tilisiirrot puhelimitse
-526. http://www.yso.fi/onto/koko/p60725 -- yritysosasto => yritysosastot
-527. http://www.yso.fi/onto/koko/p54234 -- ravintoetu => ravintoedut
-528. http://www.yso.fi/onto/koko/p56281 -- liiketappio => liiketappiot
-529. http://www.yso.fi/onto/koko/p58702 -- hiivata => hiivaus
-530. http://www.yso.fi/onto/koko/p56351 -- veroparatiisi => veroparatiisit (järjestelmä)
-531. http://www.yso.fi/onto/koko/p63979 -- pookit => tunnusmajakat
-532. http://www.yso.fi/onto/koko/p55994 -- kansainvälinen työnvälityspalvelu => kansainväliset työnvälityspalvelut
-533. http://www.yso.fi/onto/koko/p56798 -- liitososa => liitososat
-534. http://www.yso.fi/onto/koko/p51607 -- yrityksen perustaja => yritysten perustajat
-535. http://www.yso.fi/onto/koko/p54476 -- työkuntoinen => työkuntoisuus
-536. http://www.yso.fi/onto/koko/p61800 -- yhteistyöverkosto => yhteistyöverkostot
-537. http://www.yso.fi/onto/koko/p53140 -- tukityöllistetty => tukityöllistetyt
-538. http://www.yso.fi/onto/koko/p60756 -- missio => missiot
-539. http://www.yso.fi/onto/koko/p64498 -- vaikuttamistaito => vaikuttamistaidot
-540. http://www.yso.fi/onto/koko/p60617 -- majakkavalot => majakan valot
-541. http://www.yso.fi/onto/koko/p53207 -- viestintäpalvelu => viestintäpalvelut
-542. http://www.yso.fi/onto/koko/p81710 -- junaliikenne (liikennemäärät) => junaliikenteen määrä
-543. http://www.yso.fi/onto/koko/p54196 -- etuoikeushakemus => etuoikeushakemukset
-544. http://www.yso.fi/onto/koko/p64103 -- työvoiman yhteispalvelupiste => työvoiman yhteispalvelupisteet
-545. http://www.yso.fi/onto/koko/p62853 -- kotimaantodistus => kotimaantodistukset
-546. http://www.yso.fi/onto/koko/p62067 -- mobiilisisältöpalvelu => mobiilisisältöpalvelut
-547. http://www.yso.fi/onto/koko/p58796 -- vaihtovelkakirjalaina => vaihtovelkakirjalainat
-548. http://www.yso.fi/onto/koko/p53515 -- 19-ilmoitus => 19-ilmoitukset
-549. http://www.yso.fi/onto/koko/p52395 -- ruoripotkurilaitteet => ruoripotkurit
-550. http://www.yso.fi/onto/koko/p72114 -- rikosetsivät => rikostutkijat
-551. http://www.yso.fi/onto/koko/p78526 -- omaisuudenhoitopalvelu => omaisuudenhoitopalvelut
-552. http://www.yso.fi/onto/koko/p25104 -- TILATAME => asiantuntijajärjestelmät
-553. http://www.yso.fi/onto/koko/p63752 -- kohdemaa => kohdemaat
-554. http://www.yso.fi/onto/koko/p60468 -- SWIFT-verkko => SWIFT-verkot
-555. http://www.yso.fi/onto/koko/p62101 -- luotonantaja => luotonantajat
-556. http://www.yso.fi/onto/koko/p74770 -- maksettu kausi => maksetut kaudet
-557. http://www.yso.fi/onto/koko/p78685 -- liitännäispalvelu => liitännäispalvelut
-558. http://www.yso.fi/onto/koko/p61184 -- kiinnelaina => kiinnelainat
-559. http://www.yso.fi/onto/koko/p63868 -- veronpalautus => veronpalautukset (määrä)
-560. http://www.yso.fi/onto/koko/p20820 -- afroaasialaiset kielet => nigeriläis-kongolaiset kielet
-561. http://www.yso.fi/onto/koko/p57648 -- työaikapankit => työaikapankki
-562. http://www.yso.fi/onto/koko/p71039 -- integraatio => integrointi
-563. http://www.yso.fi/onto/koko/p32415 -- suojelu => rakennetun ympäristön suojelu
-564. http://www.yso.fi/onto/koko/p82262 -- vesialueiden matalataajuusluotaus => matalataajuusluotaus
-565. http://www.yso.fi/onto/koko/p52567 -- lomaklubi => lomaklubit
-566. http://www.yso.fi/onto/koko/p52910 -- muu rooli => subjektius
-567. http://www.yso.fi/onto/koko/p55187 -- ennakkouutuustutkimus => ennakkouutuustutkimukset
-568. http://www.yso.fi/onto/koko/p60433 -- kiinteäsiipiset potkurit => kiinteälapaiset potkurit
-569. http://www.yso.fi/onto/koko/p17363 -- seuraelämä => sosiaalinen elämä
-570. http://www.yso.fi/onto/koko/p73208 -- sosiaali- ja terveysalueet => hyvinvointialueet (hallintoalueet)
-571. http://www.yso.fi/onto/koko/p63213 -- tuotepakkaus => tuotepakkaukset
-572. http://www.yso.fi/onto/koko/p59061 -- verollinen => verollisuus
-573. http://www.yso.fi/onto/koko/p52229 -- pakkausaine => pakkausaineet
-574. http://www.yso.fi/onto/koko/p53194 -- pientyönantaja => pientyönantajat
-575. http://www.yso.fi/onto/koko/p54157 -- sijainninohjauspalvelu => sijainninohjauspalvelut
-576. http://www.yso.fi/onto/koko/p34604 -- hakumenettely => haku (käyttöönottava muuttaminen)
-577. http://www.yso.fi/onto/koko/p57333 -- epätyypillinen työsuhde => epätyypilliset työsuhteet
-578. http://www.yso.fi/onto/koko/p61063 -- työntekijän oleskelulupa => työntekijöiden oleskeluluvat
-579. http://www.yso.fi/onto/koko/p54275 -- erikoistavara => erikoistavarat
-580. http://www.yso.fi/onto/koko/p61650 -- patenttivaatimus => patenttivaatimukset
-581. http://www.yso.fi/onto/koko/p3330 -- keksi => keksit
-582. http://www.yso.fi/onto/koko/p78711 -- kuntokeskus => kuntokeskukset
-583. http://www.yso.fi/onto/koko/p59693 -- kehittämispalvelu => kehittämispalvelut
-584. http://www.yso.fi/onto/koko/p35038 -- moduulit => modulaarisuus
-585. http://www.yso.fi/onto/koko/p34316 -- vapautuminen => vapaus
-586. http://www.yso.fi/onto/koko/p54307 -- teknologiaklinikat => teknologiaklinikka
-587. http://www.yso.fi/onto/koko/p30581 -- henkilöstö => henkilöstöryhmä (ryhmät)
-588. http://www.yso.fi/onto/koko/p14743 -- avioliitto => seka-avioliitto
-589. http://www.yso.fi/onto/koko/p62486 -- aputoiminimi => aputoiminimet
-590. http://www.yso.fi/onto/koko/p51563 -- ennakko => ennakkovero
-591. http://www.yso.fi/onto/koko/p63506 -- patenttimääräys => patenttimääräykset
-592. http://www.yso.fi/onto/koko/p54962 -- tavarantoimittaja => tavarantoimittajat
-593. http://www.yso.fi/onto/koko/p78504 -- luottoaika => luottoajat
-594. http://www.yso.fi/onto/koko/p60510 -- määräaikainen sopimus => määräaikaiset sopimukset
-595. http://www.yso.fi/onto/koko/p36761 -- rakennukset => Villa Cooper
-596. http://www.yso.fi/onto/koko/p140 -- osallistava journalismi => kansalaisjournalismi
-597. http://www.yso.fi/onto/koko/p61180 -- duopoli => duopolit
-598. http://www.yso.fi/onto/koko/p63266 -- kotimyyntiasiakirja => kotimyyntiasiakirjat
-599. http://www.yso.fi/onto/koko/p61380 -- tulolajin tappio => tulolajin tappiot
-600. http://www.yso.fi/onto/koko/p60406 -- kaupparekisterilehti => kaupparekisterilehdet
-601. http://www.yso.fi/onto/koko/p25016 -- hallitus => hallitukset (yhdistykset ja yritykset)
-602. http://www.yso.fi/onto/koko/p33632 -- lastenkirjallisuus => lastenkirjat (kirjat)
-603. http://www.yso.fi/onto/koko/p61407 -- vapaaehtoinen varaus => vapaaehtoiset varaukset
-604. http://www.yso.fi/onto/koko/p34816 -- hormit => savuhormit
-605. http://www.yso.fi/onto/koko/p13880 -- taide => kirjallisuus
-606. http://www.yso.fi/onto/koko/p55736 -- varausten vähennys => varausten vähennykset
-607. http://www.yso.fi/onto/koko/p64753 -- vuosi-ilmoitus => vuosi-ilmoitukset
-608. http://www.yso.fi/onto/koko/p55532 -- tavaraluokat => tavaraluokka
-609. http://www.yso.fi/onto/koko/p59871 -- mainosväline => mainosvälineet
-610. http://www.yso.fi/onto/koko/p52408 -- valmuskat => tuoksuvalmuska
-611. http://www.yso.fi/onto/koko/p51844 -- rahoituskulu => rahoituskulut
-612. http://www.yso.fi/onto/koko/p72433 -- kysely (yhteiskunnalliset objektit) => kyselyt (yhteiskunnalliset objektit)
-613. http://www.yso.fi/onto/koko/p55929 -- välittäjäorganisaatio => välittäjäorganisaatiot
-614. http://www.yso.fi/onto/koko/p41396 -- kuitit => kuitti
-615. http://www.yso.fi/onto/koko/p54636 -- kurssitappio => kurssitappiot
-616. http://www.yso.fi/onto/koko/p36801 -- malvakasvit => lehmuskasvit
-617. http://www.yso.fi/onto/koko/p62729 -- valuutan muuntokurssi => valuutan muuntokurssit
-618. http://www.yso.fi/onto/koko/p78598 -- palautuskulu => palautuskulut
-619. http://www.yso.fi/onto/koko/p47360 -- lisensiaatintyöt => lisensiaatintutkimukset
-620. http://www.yso.fi/onto/koko/p63240 -- myyntihinta => myyntihinnat
-621. http://www.yso.fi/onto/koko/p60043 -- veneonnettomuudet => veneilyonnettomuudet
-622. http://www.yso.fi/onto/koko/p33554 -- opetusaineisto => opetusmateriaali
-623. http://www.yso.fi/onto/koko/p52885 -- ulkomaanmaksu => ulkomaanmaksut
-624. http://www.yso.fi/onto/koko/p17240 -- murrosikäiset => teini-ikäiset (ikään liittyvä rooli)
-625. http://www.yso.fi/onto/koko/p55620 -- A(H1N1)-virus => influenssa A -virus, alatyyppi H1N1
-626. http://www.yso.fi/onto/koko/p55738 -- uutuustutkimus => uutuustutkimukset
-627. http://www.yso.fi/onto/koko/p57031 -- joukkovelkakirjalaina => joukkovelkakirjalainat
-628. http://www.yso.fi/onto/koko/p58351 -- arvonkorotusrahasto => arvonkorotusrahastot
-629. http://www.yso.fi/onto/koko/p51301 -- panttivelkakirja => panttivelkakirjat
-630. http://www.yso.fi/onto/koko/p61609 -- satunnaisesti palkkaa maksava työnantaja => satunnaisesti palkkaa maksavat työnantajat
-631. http://www.yso.fi/onto/koko/p63605 -- koulutusyhdyshenkilö => koulutusyhdyshenkilöt
-632. http://www.yso.fi/onto/koko/p62492 -- ulkomaalaislupahakemus => ulkomaalaislupahakemukset
-633. http://www.yso.fi/onto/koko/p59168 -- tuotteen elinkaari => tuotteiden elinkaaret
-634. http://www.yso.fi/onto/koko/p64170 -- lisenssin saaja => lisenssin saajat
-635. http://www.yso.fi/onto/koko/p64676 -- tavaramerkin haltija => tavaramerkin haltijat
-636. http://www.yso.fi/onto/koko/p53748 -- ryhmähenkivakuutusmaksu => ryhmähenkivakuutusmaksut
-637. http://www.yso.fi/onto/koko/p59501 -- paljousalennus => paljousalennukset
-638. http://www.yso.fi/onto/koko/p64146 -- vähennyskelvoton => vähennyskelvottomuus
-639. http://www.yso.fi/onto/koko/p61252 -- konekulu => konekulut
-640. http://www.yso.fi/onto/koko/p56873 -- maakoodi => maakoodit
-641. http://www.yso.fi/onto/koko/p57772 -- suojukset => suojus (laitteet)
-642. http://www.yso.fi/onto/koko/p54803 -- jaettava yritystulo => jaettavat yritystulot
-643. http://www.yso.fi/onto/koko/p55800 -- verkkohuijari => verkkohuijarit
-644. http://www.yso.fi/onto/koko/p59190 -- maksuunpantava vero => maksuunpantavat verot
-645. http://www.yso.fi/onto/koko/p78513 -- palveluntarjoaja => palveluntarjoajat
-646. http://www.yso.fi/onto/koko/p64104 -- saapuva ulkomaanmaksu => saapuvat ulkomaanmaksut
-647. http://www.yso.fi/onto/koko/p58285 -- toimituslauseke => toimituslausekkeet
-648. http://www.yso.fi/onto/koko/p58437 -- valmismatkaliike => valmismatkaliikkeet
-649. http://www.yso.fi/onto/koko/p33291 -- heijastimet (merimerkit) => merimerkit (turvalaitteet)
-650. http://www.yso.fi/onto/koko/p74757 -- bränditutkimus => bränditutkimukset
-651. http://www.yso.fi/onto/koko/p60166 -- kate => katteet (taloudelliset tuotokset)
-652. http://www.yso.fi/onto/koko/p30670 -- muutos => voimaantuminen
-653. http://www.yso.fi/onto/koko/p52143 -- tullausilmoitus => tulli-ilmoitukset
-654. http://www.yso.fi/onto/koko/p78737 -- laatuvirhe => laatuvirheet
-655. http://www.yso.fi/onto/koko/p17590 -- poltto => palaminen
-656. http://www.yso.fi/onto/koko/p55577 -- viivästysaika => viivästysajat
-657. http://www.yso.fi/onto/koko/p46693 -- investointiavustus => investointiavustukset
-658. http://www.yso.fi/onto/koko/p56126 -- uusi tuote => uudet tuotteet
-659. http://www.yso.fi/onto/koko/p74763 -- sidosryhmälehti => sidosryhmälehdet
-660. http://www.yso.fi/onto/koko/p57990 -- yrityskiinnityksen haltija => yrityskiinnityksen haltijat
-661. http://www.yso.fi/onto/koko/p60994 -- sivuliike => sivuliikkeet
-662. http://www.yso.fi/onto/koko/p63504 -- tietoisku => tietoiskut
-663. http://www.yso.fi/onto/koko/p63365 -- EU-kansalainen => EU-kansalaiset
-664. http://www.yso.fi/onto/koko/p59023 -- yritysilme => yritysilmeet
-665. http://www.yso.fi/onto/koko/p53367 -- verotustodistus => verotustodistukset
-666. http://www.yso.fi/onto/koko/p53718 -- verotettava tulo => verotettavat tulot
-667. http://www.yso.fi/onto/koko/p58663 -- sijoitetun vapaan oman pääoman rahasto => sijoitetun vapaan oman pääoman rahastot
-668. http://www.yso.fi/onto/koko/p59324 -- pankkikorttimaksu => pankkikorttimaksut
-669. http://www.yso.fi/onto/koko/p78786 -- seuraamusmaksu => seuraamusmaksut
-670. http://www.yso.fi/onto/koko/p81375 -- Helsingin vanha kirkko => Helsingin Vanhakirkko
-671. http://www.yso.fi/onto/koko/p78824 -- yhdistetty tarjous => yhdistetyt tarjoukset
-672. http://www.yso.fi/onto/koko/p24908 -- suuhygienia => elintarvikehygienia (hygienia)
-673. http://www.yso.fi/onto/koko/p59067 -- liikekulu => liikekulut
-674. http://www.yso.fi/onto/koko/p74653 -- kasvattisarukset => kasvattisisarukset
-675. http://www.yso.fi/onto/koko/p61163 -- puutteellinen ilmoitus => puutteelliset ilmoitukset
-676. http://www.yso.fi/onto/koko/p73601 -- kielelliset ilmiöt => kielelliset objektit
-677. http://www.yso.fi/onto/koko/p55029 -- vuosiselvitys => vuosiselvitykset
-678. http://www.yso.fi/onto/koko/p58389 -- työttömyysvakuutusmaksu => työttömyysvakuutusmaksut
-679. http://www.yso.fi/onto/koko/p62783 -- toimiala-asiantuntija => toimiala-asiantuntijat
-680. http://www.yso.fi/onto/koko/p63131 -- EPC-valtio => EPC-valtiot
-681. http://www.yso.fi/onto/koko/p60177 -- kastliinat => heittoliinat
-682. http://www.yso.fi/onto/koko/p75876 -- kansainväliset harjoittelut => kansainvälinen harjoittelu (työharjoittelu)
-683. http://www.yso.fi/onto/koko/p54563 -- edustuskulu => edustuskulut
-684. http://www.yso.fi/onto/koko/p56495 -- esinevakuus => esinevakuudet
-685. http://www.yso.fi/onto/koko/p53414 -- perustamisilmoitus => perustamisilmoitukset
-686. http://www.yso.fi/onto/koko/p34034 -- ominaisuudet => ulkoinen ominaisuus
-687. http://www.yso.fi/onto/koko/p60105 -- vientisihteeri => vientisihteerit
-688. http://www.yso.fi/onto/koko/p58406 -- alusten paloturvallisuus => aluksen paloturvallisuus
-689. http://www.yso.fi/onto/koko/p58476 -- märssyt => märssypurjeet
-690. http://www.yso.fi/onto/koko/p52093 -- verkkolasku (Finvoicen mukainen) => verkkolaskut (Finvoicen mukainen)
-691. http://www.yso.fi/onto/koko/p61488 -- maksuaika => maksuajat
-692. http://www.yso.fi/onto/koko/p78755 -- irtain esine => irtaimet esineet
-693. http://www.yso.fi/onto/koko/p31480 -- oleminen => itsenäinen toiminta
-694. http://www.yso.fi/onto/koko/p58407 -- työmarkkinaennuste => työmarkkinaennusteet
-695. http://www.yso.fi/onto/koko/p78679 -- paperilasku => paperilaskut
-696. http://www.yso.fi/onto/koko/p59079 -- tilinpäätösrekisteri => tilinpäätösrekisterit
-697. http://www.yso.fi/onto/koko/p58570 -- kauneudenhoitopalvelu => kauneudenhoitopalvelut
-698. http://www.yso.fi/onto/koko/p64432 -- tuotekehitysavustus => tuotekehitysavustukset
-699. http://www.yso.fi/onto/koko/p32618 -- vanhus => ikääntyneet (ikään liittyvä rooli)
-700. http://www.yso.fi/onto/koko/p36561 -- kantavuus (aluksen mitat) => aluksen kantavuus
-701. http://www.yso.fi/onto/koko/p53706 -- käsittelymaksu => käsittelymaksut
-702. http://www.yso.fi/onto/koko/p58514 -- suulakepotkurit => tunnelipotkurit
-703. http://www.yso.fi/onto/koko/p62630 -- aloitustuet => aloitustuki
-704. http://www.yso.fi/onto/koko/p78688 -- taloelementtien kaupat => taloelementtien kauppa
-705. http://www.yso.fi/onto/koko/p62949 -- jatkorahoituskohde => jatkorahoituskohteet
-706. http://www.yso.fi/onto/koko/p59101 -- seisovat takilat => kiinteät takilat
-707. http://www.yso.fi/onto/koko/p81508 -- Ukrainan kriisi => Ukrainan kriisi 2014-
-708. http://www.yso.fi/onto/koko/p62478 -- sähköinen lasku => sähköiset laskut
-709. http://www.yso.fi/onto/koko/p59033 -- vaaliavustus => vaaliavustukset
-710. http://www.yso.fi/onto/koko/p58471 -- alkava yrittäjä => alkavat yrittäjät
-711. http://www.yso.fi/onto/koko/p25277 -- Medusa => ilmaiset tietokoneohjelmat
-712. http://www.yso.fi/onto/koko/p72018 -- johtajat => päälliköt (ammatit)
-713. http://www.yso.fi/onto/koko/p64765 -- maksuosoitus => maksuosoitukset
-714. http://www.yso.fi/onto/koko/p10177 -- työvoimakoulutus => työllisyyskoulutus
-715. http://www.yso.fi/onto/koko/p30642 -- tieteenalat => tiede
-716. http://www.yso.fi/onto/koko/p61556 -- matkatoimistorekisteri => matkatoimistorekisterit
-717. http://www.yso.fi/onto/koko/p56478 -- toiminimen haltija => toiminimien haltijat
-718. http://www.yso.fi/onto/koko/p32364 -- työvälineet => työkalu
-719. http://www.yso.fi/onto/koko/p78560 -- markkinointivirhe => markkinointivirheet
-720. http://www.yso.fi/onto/koko/p58340 -- etuoikeustodistus => etuoikeustodistukset
-721. http://www.yso.fi/onto/koko/p60294 -- myyntikonttori => myyntikonttorit
-722. http://www.yso.fi/onto/koko/p59569 -- pussit (pakkaukset) => pussit pakkaukset)
-723. http://www.yso.fi/onto/koko/p55382 -- transitokuljetus => transitokuljetukset
-724. http://www.yso.fi/onto/koko/p61771 -- työpaikkakouluttaja => työpaikkakouluttajat
-725. http://www.yso.fi/onto/koko/p52664 -- ro-ro-matkustaja-alukset => matkustaja-autolautat
-726. http://www.yso.fi/onto/koko/p48712 -- hambo (tanssit) => hambot (sävellykset)
-727. http://www.yso.fi/onto/koko/p78741 -- suoramaksu => suoramaksut
-728. http://www.yso.fi/onto/koko/p32984 -- esteettömyys => esteettömyys ja saavutettavuus
-729. http://www.yso.fi/onto/koko/p55061 -- maksusitoumus => maksusitoumukset
-730. http://www.yso.fi/onto/koko/p59657 -- radiosuuntimislaitteet (radionavigointilaitteet) => radiosuuntimalaitteet
-731. http://www.yso.fi/onto/koko/p52648 -- asuntoetu => asuntoedut
-732. http://www.yso.fi/onto/koko/p78704 -- toistaiseksi voimassa oleva sopimus => toistaiseksi voimassa olevat sopimukset
-733. http://www.yso.fi/onto/koko/p57600 -- edunvalvontavaltuutus => edunvalvontavaltuutukset
-734. http://www.yso.fi/onto/koko/p58516 -- kansallinen tavaramerkki => kansalliset tavaramerkit
-735. http://www.yso.fi/onto/koko/p33998 -- polttoleikkaus => kaasuhitsaus
-736. http://www.yso.fi/onto/koko/p33932 -- desinfiointi => desinfiointiaineet
-737. http://www.yso.fi/onto/koko/p52733 -- hakustrategia => hakustrategiat
-738. http://www.yso.fi/onto/koko/p57304 -- laskuerittely => laskuerittelyt
-739. http://www.yso.fi/onto/koko/p78723 -- asiakasvalituksen käsittely => asiakasvalitusten käsittelyt
-740. http://www.yso.fi/onto/koko/p54424 -- internetliittymä => internetliittymät
-741. http://www.yso.fi/onto/koko/p60050 -- konekielinen maksu => konekieliset maksut
-742. http://www.yso.fi/onto/koko/p59992 -- ulkomainen väliyhteisö => ulkomaiset väliyhteisöt
-743. http://www.yso.fi/onto/koko/p11078 -- skeittaus => rullalautailu (liikunta, urheilu)
-744. http://www.yso.fi/onto/koko/p51437 -- laboratoriotyö => laboratoriotyöt
-745. http://www.yso.fi/onto/koko/p16597 -- riskitekijät => vaikutukseen liittyvä rooli
-746. http://www.yso.fi/onto/koko/p62994 -- pääkansi => pääkannet
-747. http://www.yso.fi/onto/koko/p57203 -- VHF-laitteet => meri-VHF-laitteet
-748. http://www.yso.fi/onto/koko/p63777 -- väite => väitteet
-749. http://www.yso.fi/onto/koko/p34532 -- älykkyyspelit => ongelmanratkaisupelit
-750. http://www.yso.fi/onto/koko/p60288 -- kehittämismeno => kehittämismenot
-751. http://www.yso.fi/onto/koko/p33969 -- aasialaiset => burmalaiset
-752. http://www.yso.fi/onto/koko/p51863 -- ruumaluukut => lastiluukut
-753. http://www.yso.fi/onto/koko/p65163 -- terveysväittämä => terveysväittämät
-754. http://www.yso.fi/onto/koko/p55237 -- valuuttakurssiero => valuuttakurssierot
-755. http://www.yso.fi/onto/koko/p64197 -- yritysaihio => yritysaihiot
-756. http://www.yso.fi/onto/koko/p56372 -- vientirengas => vientirenkaat
-757. http://www.yso.fi/onto/koko/p53642 -- tavaran haltija => tavaroiden haltijat
-758. http://www.yso.fi/onto/koko/p64483 -- työllisyyskertomus => työllisyyskertomukset
-759. http://www.yso.fi/onto/koko/p60616 -- tutkimuspalvelu => tutkimuspalvelut
-760. http://www.yso.fi/onto/koko/p70844 -- sähkölaitteiden sertifikaatit => sähkölaitteiden sertifikaatti
-761. http://www.yso.fi/onto/koko/p26269 -- abstraktit objektit => kulttuurinen tuotos
-762. http://www.yso.fi/onto/koko/p33889 -- kiteytys => kristallisaatio
-763. http://www.yso.fi/onto/koko/p78501 -- luovutuksen ajankohta => luovutusten ajankohdat
-764. http://www.yso.fi/onto/koko/p58025 -- digitaaliselektiivikutsu => digitaaliselektiivikutsujärjestelmä
-765. http://www.yso.fi/onto/koko/p60892 -- ulkomainen => ulkomaisuus
-766. http://www.yso.fi/onto/koko/p10703 -- pääomasijoittaminen => pääomasijoitustoiminta
-767. http://www.yso.fi/onto/koko/p57408 -- bulbit => keulabulbit
-768. http://www.yso.fi/onto/koko/p78742 -- myyjä (sopimusosapuoli) => myyjät (sopimusosapuolet)
-769. http://www.yso.fi/onto/koko/p25170 -- hyökyaallot => tsunamit
-770. http://www.yso.fi/onto/koko/p78558 -- markkinointitapa => markkinointikeino
-771. http://www.yso.fi/onto/koko/p32713 -- mobiilipalvelut => matkaviestinpalvelut
-772. http://www.yso.fi/onto/koko/p32195 -- uhat => mentaaliset ominaisuudet
-773. http://www.yso.fi/onto/koko/p25523 -- ylläpito => ylläpitävä muuttaminen
-774. http://www.yso.fi/onto/koko/p37732 -- kuvausluvat => valokuvausluvat
-775. http://www.yso.fi/onto/koko/p54230 -- osinkovero => osinkoverot
-776. http://www.yso.fi/onto/koko/p55207 -- slaagsiida => aluksen kallistuma
-777. http://www.yso.fi/onto/koko/p62028 -- toimijat => agentti (toimintaan liittyvä rooli)
-778. http://www.yso.fi/onto/koko/p11395 -- sydämenhieronta => paineluelvytys
-779. http://www.yso.fi/onto/koko/p64532 -- tuloskortti => tuloskortit (yhteiskunnalliset objektit)
-780. http://www.yso.fi/onto/koko/p55259 -- kauppa-alukset => rahtialukset
-781. http://www.yso.fi/onto/koko/p56851 -- ennakkotutkimus => ennakkotutkimukset
-782. http://www.yso.fi/onto/koko/p78752 -- hyvän tavan vastainen sopimusehto => hyvän tavan vastaiset sopimusehdot
-783. http://www.yso.fi/onto/koko/p14114 -- sofismi => sofistit
-784. http://www.yso.fi/onto/koko/p59148 -- tuloverovelvollinen => tuloverovelvolliset
-785. http://www.yso.fi/onto/koko/p37002 -- värit => väri (ominaisuudet)
-786. http://www.yso.fi/onto/koko/p61687 -- työkorvaus => työkorvaukset
-787. http://www.yso.fi/onto/koko/p61683 -- stowaways => salamatkustajat
-788. http://www.yso.fi/onto/koko/p65172 -- vararahasto => vararahastot
-789. http://www.yso.fi/onto/koko/p54778 -- transsukupuolinen => transsukupuoliset
-790. http://www.yso.fi/onto/koko/p13158 -- saamen kieli => saamelaiskielet
-791. http://www.yso.fi/onto/koko/p31431 -- perehdytys => työnopetus
-792. http://www.yso.fi/onto/koko/p78595 -- alennettu hinta => alennetut hinnat
-793. http://www.yso.fi/onto/koko/p60124 -- patentointistrategia => patentointistrategiat
-794. http://www.yso.fi/onto/koko/p60744 -- valtakirja => valtakirjat
-795. http://www.yso.fi/onto/koko/p56624 -- asiantuntijalausunto => asiantuntijalausunnot
-796. http://www.yso.fi/onto/koko/p65146 -- ohjausvalot => valo-opasteet (merimerkit (turvalaitteet))
-797. http://www.yso.fi/onto/koko/p59144 -- valtion takaama omistusasuntolaina => valtion takaamat omistusasuntolainat
-798. http://www.yso.fi/onto/koko/p51852 -- asiointitapahtuma => asiointitapahtumat
-799. http://www.yso.fi/onto/koko/p56113 -- pohjakosketus => pohjakosketukset
-800. http://www.yso.fi/onto/koko/p72643 -- DOI => DOI-tunnus
-801. http://www.yso.fi/onto/koko/p57838 -- alaluokat => alaluokka
-802. http://www.yso.fi/onto/koko/p64969 -- tulolaji => tulolajit
-803. http://www.yso.fi/onto/koko/p64064 -- kuluttajaviranomainen => kuluttajaviranomaiset
-804. http://www.yso.fi/onto/koko/p59373 -- henkilövakuus => henkilövakuudet
-805. http://www.yso.fi/onto/koko/p62801 -- ulkomaisen elinkeinonharjoittajan sivuliike => ulkomaisten elinkeinonharjoittajien sivuliikkeet
-806. http://www.yso.fi/onto/koko/p59678 -- vesisuihkupropulsio => vesisuihkupropulsiojärjestelmä
-807. http://www.yso.fi/onto/koko/p91929 -- laatikkolumiaurat => lumiaurat (lisälaitteet)
-808. http://www.yso.fi/onto/koko/p52136 -- varastointipalvelut (palvelut, varastotilat) => varastointipalvelu
+1. http://www.yso.fi/onto/koko/p33772 -- sinsillat => chinchilla
+2. http://www.yso.fi/onto/koko/p48281 -- linkoaminen => sentrifugointi
+3. http://www.yso.fi/onto/koko/p17051 -- kampaajat => kosmetologit
+4. http://www.yso.fi/onto/koko/p56070 -- Luotsausliikelaitos => Finnpilot Pilotage
+5. http://www.yso.fi/onto/koko/p50134 -- univaje => valvominen
+6. http://www.yso.fi/onto/koko/p25775 -- elävän mallin maalaus => elävän mallin piirustus
+7. http://www.yso.fi/onto/koko/p81126 -- steel-kitara => pedal steel -kitara
+8. http://www.yso.fi/onto/koko/p12541 -- itämainen kulttuuri => aasialaiset kulttuurit
+9. http://www.yso.fi/onto/koko/p30585 -- yliherkkyys => allergia (biologiset ilmiöt, immuunijärjestelmän sairaudet)
+10. http://www.yso.fi/onto/koko/p32450 -- kaniinit => kani (jäniseläimet)
+11. http://www.yso.fi/onto/koko/p53715 -- Azerbaidzhan => Azerbaidžan
+12. http://www.yso.fi/onto/koko/p57314 -- Tshekki => Tšekki
+13. http://www.yso.fi/onto/koko/p25842 -- kaupungit => Pähkinälinna (linna)
+14. http://www.yso.fi/onto/koko/p62966 -- Kongon tasavalta => Kongo (Brazzaville)
+15. http://www.yso.fi/onto/koko/p35637 -- onnettomuudet => ydinonnettomuudet
+16. http://www.yso.fi/onto/koko/p17572 -- nuortenkirjat => nuortenkirjallisuus
+17. http://www.yso.fi/onto/koko/p64562 -- ECE => UNECE
+18. http://www.yso.fi/onto/koko/p6200 -- kolibakteerit => Escherichia coli
+19. http://www.yso.fi/onto/koko/p34803 -- pengerrykset => penkereet ja vallit
+20. http://www.yso.fi/onto/koko/p35608 -- altisteet => allergeenit
+21. http://www.yso.fi/onto/koko/p11250 -- laukkaneilikka => rusolaukkaneilikka
+22. http://www.yso.fi/onto/koko/p33670 -- äänet => ääni (fysikaaliset ilmiöt)
+23. http://www.yso.fi/onto/koko/p10819 -- atk-rikokset => tieto- ja viestintärikokset
+24. http://www.yso.fi/onto/koko/p3678 -- puolisot => aviopuolisot
+25. http://www.yso.fi/onto/koko/p33321 -- nokkoset => nokkoskuitu
+26. http://www.yso.fi/onto/koko/p34679 -- urakehitys => työura (yhteiskunnalliset ilmiöt)
+27. http://www.yso.fi/onto/koko/p34328 -- liitännäiselinkeinot => maatalouden liitännäiselinkeinot
+28. http://www.yso.fi/onto/koko/p11827 -- työkirjat => harjoituskirjat
+29. http://www.yso.fi/onto/koko/p52032 -- sitalopraami => essitalopraami
+30. http://www.yso.fi/onto/koko/p31832 -- urheilu => mailapelit
+31. http://www.yso.fi/onto/koko/p51204 -- Tullihallitus => Tulli
+32. http://www.yso.fi/onto/koko/p34390 -- vertaistuki => mielenterveystyö (sosiaalipalvelut)
+33. http://www.yso.fi/onto/koko/p18530 -- sovintomenettely => sovinto (yhteiskunnalliset objektit)
+34. http://www.yso.fi/onto/koko/p51553 -- C-reaktiivinen proteiini => c-reaktiivinen proteiini
+35. http://www.yso.fi/onto/koko/p35123 -- loma => vanhempainvapaa
+36. http://www.yso.fi/onto/koko/p10959 -- glaukooma => silmätaudit
+37. http://www.yso.fi/onto/koko/p89468 -- veljenpojat => sisarenpojat
+38. http://www.yso.fi/onto/koko/p71540 -- ompeluneulat => neulat (elottomat objektit, välineet)
+39. http://www.yso.fi/onto/koko/p36344 -- ympäristövauriot => ympäristövaikutukset
+40. http://www.yso.fi/onto/koko/p61030 -- alkuperämerkintä => alkuperämerkinnät
+41. http://www.yso.fi/onto/koko/p56991 -- sairausvakuutusmaksu => sairausvakuutusmaksut
+42. http://www.yso.fi/onto/koko/p31110 -- tölkit => pakkaukset
+43. http://www.yso.fi/onto/koko/p52699 -- väylänpito => vesiväylänpito
+44. http://www.yso.fi/onto/koko/p36000 -- kokoukset => konferenssit
+45. http://www.yso.fi/onto/koko/p62153 -- teollinen tuotanto (tuotanto) => teollisuustuotanto
+46. http://www.yso.fi/onto/koko/p32330 -- virkamiehet => valtion virkamiehet
+47. http://www.yso.fi/onto/koko/p63967 -- kotikunta => kotikunnat
+48. http://www.yso.fi/onto/koko/p25814 -- verkkokauppa => verkkokaupat (verkkosivut)
+49. http://www.yso.fi/onto/koko/p24959 -- legionella => Legionella-bakteerit
+50. http://www.yso.fi/onto/koko/p25277 -- tietokoneohjelmat => ilmaiset tietokoneohjelmat
+51. http://www.yso.fi/onto/koko/p55190 -- luonnonhaittakorvaus => luonnonhaittakorvaukset
+52. http://www.yso.fi/onto/koko/p48856 -- johtaminen => orkesterinjohtaminen
+53. http://www.yso.fi/onto/koko/p59015 -- yritystuki => yritystuet
+54. http://www.yso.fi/onto/koko/p18648 -- ensihoitajat => perushoitajat
+55. http://www.yso.fi/onto/koko/p10141 -- asiakkuus => asiakassuhde
+56. http://www.yso.fi/onto/koko/p31350 -- lunastus => osakkeiden lunastus
+57. http://www.yso.fi/onto/koko/p36235 -- asunnot => vapaa-ajan asunnot
+58. http://www.yso.fi/onto/koko/p10268 -- organisaatiot => yhtymät (yritykset)
+59. http://www.yso.fi/onto/koko/p32049 -- konkretismi => konkreettinen taide
+60. http://www.yso.fi/onto/koko/p37295 -- pienet ja keskisuuret yritykset => pk-yritykset
+61. http://www.yso.fi/onto/koko/p33379 -- virkistyskäyttö => luonnon virkistyskäyttö
+62. http://www.yso.fi/onto/koko/p24921 -- purkaminen (osiin) => purku (rakennusala)
+63. http://www.yso.fi/onto/koko/p56363 -- Kongon demokraattinen tasavalta => Kongo (Kinsasha)
+64. http://www.yso.fi/onto/koko/p61837 -- teknologiayritys => teknologiayritykset
+65. http://www.yso.fi/onto/koko/p36659 -- rauhallisuus => persoonallisuuden piirteet
+66. http://www.yso.fi/onto/koko/p5356 -- tulokaslajit => tulokaskasvit
+67. http://www.yso.fi/onto/koko/p32659 -- projektio (mallinnus) => projisointi
+68. http://www.yso.fi/onto/koko/p12621 -- verkkojulkaisut => sähköiset julkaisut
+69. http://www.yso.fi/onto/koko/p31480 -- eksistenssi => itsenäinen toiminta
+70. http://www.yso.fi/onto/koko/p25533 -- RFTA => radiotaajuusablaatio
+71. http://www.yso.fi/onto/koko/p12529 -- palkat => palkkaus (yhteiskunnalliset ilmiöt)
+72. http://www.yso.fi/onto/koko/p36485 -- monikäyttö => metsien monikäyttö
+73. http://www.yso.fi/onto/koko/p16674 -- keskittyminen => keskittymiskyky
+74. http://www.yso.fi/onto/koko/p24883 -- Vesunnin kartano => Vesunnan kartano
+75. http://www.yso.fi/onto/koko/p55202 -- VTT => Teknologian tutkimuskeskus VTT
+76. http://www.yso.fi/onto/koko/p25805 -- oppiaineet => äidinkieli (oppiaineet)
+77. http://www.yso.fi/onto/koko/p53733 -- kuntotarkastus => kuntotarkastukset
+78. http://www.yso.fi/onto/koko/p77266 -- palinkielinen kirjallisuus => paalinkielinen kirjallisuus
+79. http://www.yso.fi/onto/koko/p15244 -- terveysasemat (terveydenhuoltolaitokset) => terveyskeskukset (terveydenhuoltolaitokset, terveyspalveluja antavat palveluyksiköt)
+80. http://www.yso.fi/onto/koko/p8135 -- sanktiot => seuraamukset
+81. http://www.yso.fi/onto/koko/p69968 -- treffit => deittailu (keskinäinen toiminta, keskinäiseen toimintaan liittyvät tapahtumat)
+82. http://www.yso.fi/onto/koko/p31823 -- kehitys => kehittäminen
+83. http://www.yso.fi/onto/koko/p49086 -- son mexicano => rancheramusiikki
+84. http://www.yso.fi/onto/koko/p25991 -- antiikin kirjallisuus => kirjallisuus (yhteiskunnalliset objektit)
+85. http://www.yso.fi/onto/koko/p48567 -- hemoglobiini => hemoglobiinit
+86. http://www.yso.fi/onto/koko/p55345 -- ammatinharjoittaja => ammatinharjoittajat
+87. http://www.yso.fi/onto/koko/p25699 -- kivet => kiviaines
+88. http://www.yso.fi/onto/koko/p37340 -- tievalaistus => pihavalaistus
+89. http://www.yso.fi/onto/koko/p53159 -- Tshad => Tšad
+90. http://www.yso.fi/onto/koko/p13880 -- tyyli => omistus
+91. http://www.yso.fi/onto/koko/p60537 -- B-vitamiinit => B-vitamiinikompleksi
+92. http://www.yso.fi/onto/koko/p33903 -- sarvet => sarvi (materiaalit)
+93. http://www.yso.fi/onto/koko/p11635 -- tanssilajit => kansanmusiikki
+94. http://www.yso.fi/onto/koko/p73064 -- laukkakasvit => narsissikasvit
+95. http://www.yso.fi/onto/koko/p89346 -- veljentyttäret => sisarentyttäret
+96. http://www.yso.fi/onto/koko/p63979 -- pookit => tunnusmajakat
+97. http://www.yso.fi/onto/koko/p62989 -- Fidzhi => Fidži
+98. http://www.yso.fi/onto/koko/p80934 -- sairauskassat => vakuutuskassat
+99. http://www.yso.fi/onto/koko/p72114 -- rikosetsivät => rikostutkijat
+100. http://www.yso.fi/onto/koko/p53067 -- luottotappio => luottotappiot
+101. http://www.yso.fi/onto/koko/p20820 -- afroaasialaiset kielet => nigeriläis-kongolaiset kielet
+102. http://www.yso.fi/onto/koko/p56368 -- Energiamarkkinavirasto => Energiavirasto
+103. http://www.yso.fi/onto/koko/p71039 -- integraatio => integrointi
+104. http://www.yso.fi/onto/koko/p32415 -- suojelu => rakennetun ympäristön suojelu
+105. http://www.yso.fi/onto/koko/p58963 -- OHIM => EUIPO
+106. http://www.yso.fi/onto/koko/p52910 -- muu rooli => subjektius
+107. http://www.yso.fi/onto/koko/p59916 -- Sao Tome ja Principe => São Tomé ja Príncipe
+108. http://www.yso.fi/onto/koko/p17363 -- seuraelämä => sosiaalinen elämä
+109. http://www.yso.fi/onto/koko/p57333 -- epätyypillinen työsuhde => epätyypilliset työsuhteet
+110. http://www.yso.fi/onto/koko/p35038 -- moduulit => modulaarisuus
+111. http://www.yso.fi/onto/koko/p14743 -- avioliitto => seka-avioliitto
+112. http://www.yso.fi/onto/koko/p33632 -- lastenkirjallisuus => lastenkirjat (kirjat)
+113. http://www.yso.fi/onto/koko/p34816 -- hormit => savuhormit
+114. http://www.yso.fi/onto/koko/p52408 -- valmuskat => tuoksuvalmuska
+115. http://www.yso.fi/onto/koko/p5907 -- henkilökuntakerhot => henkilöstökerhot
+116. http://www.yso.fi/onto/koko/p36801 -- malvakasvit => lehmuskasvit
+117. http://www.yso.fi/onto/koko/p47360 -- lisensiaatintyöt => lisensiaatintutkimukset
+118. http://www.yso.fi/onto/koko/p52110 -- Inspecta => Kiwa Inspecta
+119. http://www.yso.fi/onto/koko/p17240 -- murrosikäiset => teini-ikäiset (ikään liittyvä rooli)
+120. http://www.yso.fi/onto/koko/p55620 -- A(H1N1)-virus => influenssa A -virus, alatyyppi H1N1
+121. http://www.yso.fi/onto/koko/p17601 -- abduktio => päättely
+122. http://www.yso.fi/onto/koko/p55914 -- Bosnia-Hertsegovina => Bosnia ja Hertsegovina
+123. http://www.yso.fi/onto/koko/p34937 -- mentaaliset objektit => mentaaliset ominaisuudet
+124. http://www.yso.fi/onto/koko/p30670 -- muutos => voimaantuminen
+125. http://www.yso.fi/onto/koko/p17590 -- poltto => palaminen
+126. http://www.yso.fi/onto/koko/p73601 -- kielelliset ilmiöt => kielelliset objektit
+127. http://www.yso.fi/onto/koko/p26150 -- varastotilat => varastot (elottomat fyysiset kokonaisuudet)
+128. http://www.yso.fi/onto/koko/p13187 -- vammat => haavat (vammat)
+129. http://www.yso.fi/onto/koko/p89329 -- vaaratekijä => vaaratekijät
+130. http://www.yso.fi/onto/koko/p18948 -- työnkuva => toimenkuvat
+131. http://www.yso.fi/onto/koko/p48712 -- hambo (tanssit) => hambot (sävellykset)
+132. http://www.yso.fi/onto/koko/p59861 -- Pohjois-Korea => Korean demokraattinen kansantasavalta
+133. http://www.yso.fi/onto/koko/p89686 -- vajaakuntoinen => vajaakuntoiset
+134. http://www.yso.fi/onto/koko/p58188 -- opintolaina => opintolainat
+135. http://www.yso.fi/onto/koko/p33932 -- desinfiointi => desinfiointiaineet
+136. http://www.yso.fi/onto/koko/p51437 -- laboratoriotyö => laboratoriotyöt
+137. http://www.yso.fi/onto/koko/p16597 -- riskitekijät => vaikutukseen liittyvä rooli
+138. http://www.yso.fi/onto/koko/p33969 -- aasialaiset => burmalaiset
+139. http://www.yso.fi/onto/koko/p31718 -- maatalous => maanviljely
+140. http://www.yso.fi/onto/koko/p61967 -- Myanmar/Burma => Myanmar
+141. http://www.yso.fi/onto/koko/p33889 -- kiteytys => kristallisaatio
+142. http://www.yso.fi/onto/koko/p52306 -- IAPIP => AIPPI
+143. http://www.yso.fi/onto/koko/p32713 -- mobiilipalvelut => matkaviestinpalvelut
+144. http://www.yso.fi/onto/koko/p37732 -- kuvausluvat => valokuvausluvat
+145. http://www.yso.fi/onto/koko/p56651 -- Kambodzha => Kambodža
+146. http://www.yso.fi/onto/koko/p37002 -- värit => väri (ominaisuudet)
+147. http://www.yso.fi/onto/koko/p57366 -- CEN => ETSI
+148. http://www.yso.fi/onto/koko/p69610 -- palin kieli => paalin kieli
+149. http://www.yso.fi/onto/koko/p58256 -- Etelä-Korea => Korean tasavalta
+150. http://www.yso.fi/onto/koko/p34626 -- verhoilu => verhoukset
+151. http://www.yso.fi/onto/koko/p51944 -- hyödyllisyysmalli => hyödyllisyysmallit
 KOKOn prefLabel muutokset edelliseen versioon verrattuna kielellä sv:
-1. http://www.yso.fi/onto/koko/p53944 -- fistlar => stomier
-2. http://www.yso.fi/onto/koko/p78427 -- banor => rörelsebanor
+1. http://www.yso.fi/onto/koko/p78427 -- banor => rörelsebanor
+2. http://www.yso.fi/onto/koko/p25533 -- RFTA-behandling => radiofrekvensablation
 3. http://www.yso.fi/onto/koko/p34679 -- karriär => karriärutveckling
-4. http://www.yso.fi/onto/koko/p12931 -- vassar => vassläktet
-5. http://www.yso.fi/onto/koko/p89346 -- brorsdöttrar => systerdöttrar
-6. http://www.yso.fi/onto/koko/p14743 -- äktenskap => blandäktenskap
-7. http://www.yso.fi/onto/koko/p33730 -- vattenförorening => havsförorening
-8. http://www.yso.fi/onto/koko/p30717 -- inbillningsförmåga => fantasi (psykologi)
-9. http://www.yso.fi/onto/koko/p31281 -- forntidsdjur => dinosaurier
-10. http://www.yso.fi/onto/koko/p72785 -- programblad => program (planer)
-11. http://www.yso.fi/onto/koko/p32778 -- delning => arbetsfördelning
-12. http://www.yso.fi/onto/koko/p35390 -- stugor => storstugor (rum)
-13. http://www.yso.fi/onto/koko/p14114 -- sofism => sofister
-14. http://www.yso.fi/onto/koko/p31832 -- racketsport => idrott
-15. http://www.yso.fi/onto/koko/p35205 -- olja => fetter
-16. http://www.yso.fi/onto/koko/p72979 -- gallikansk sång => latinsk kyrkosång
-17. http://www.yso.fi/onto/koko/p13760 -- fördelar => förmåner
-18. http://www.yso.fi/onto/koko/p5136 -- basister => basgitarrister
-19. http://www.yso.fi/onto/koko/p15792 -- polarisering (samhälle) => polarisation (vågrörelse)
-20. http://www.yso.fi/onto/koko/p13664 -- statens utgifter => kommunernas utgifter
-21. http://www.yso.fi/onto/koko/p55385 -- fågelvatten => fågelområden
-22. http://www.yso.fi/onto/koko/p4724 -- skyttar => sportskyttar
-23. http://www.yso.fi/onto/koko/p31480 -- existens => självständig aktivitet
-24. http://www.yso.fi/onto/koko/p31718 -- jordbruk => lantbruk
-25. http://www.yso.fi/onto/koko/p30585 -- allergi => överkänslighet
-26. http://www.yso.fi/onto/koko/p56888 -- organisatoriskt engagemang => medarbetarkompetens
-27. http://www.yso.fi/onto/koko/p32876 -- luft => temperatur
-28. http://www.yso.fi/onto/koko/p48753 -- nonetter (ensembler) => oktetter (ensembler)
-29. http://www.yso.fi/onto/koko/p32218 -- värden (uppfattningar) => värderingar (uppfattningar)
-30. http://www.yso.fi/onto/koko/p25305 -- C-språket => C (programmeringsspråk)
-31. http://www.yso.fi/onto/koko/p36761 -- byggnader => Villa Cooper
-32. http://www.yso.fi/onto/koko/p55862 -- krigsindustri => försvarsmaterielindustri
-33. http://www.yso.fi/onto/koko/p52615 -- finansiär => finansiärer
-34. http://www.yso.fi/onto/koko/p89468 -- brorsöner => systersöner
-35. http://www.yso.fi/onto/koko/p15882 -- trädkrona => krontak
-36. http://www.yso.fi/onto/koko/p10819 -- databrott => informations- och kommunikationsbrott
-37. http://www.yso.fi/onto/koko/p36844 -- skärmar => lampskärmar
-38. http://www.yso.fi/onto/koko/p34532 -- intelligensspel => problemlösningsspel
-39. http://www.yso.fi/onto/koko/p73208 -- social- och hälsovårdsområden => välfärdsområden
-40. http://www.yso.fi/onto/koko/p17590 -- bränning => förbränning
-41. http://www.yso.fi/onto/koko/p36061 -- symönster => handarbetsmodeller
-42. http://www.yso.fi/onto/koko/p13880 -- konst => ägande
-43. http://www.yso.fi/onto/koko/p3678 -- makar => partner
-44. http://www.yso.fi/onto/koko/p13158 -- samiska => samiska språk
-45. http://www.yso.fi/onto/koko/p33004 -- fiske => primärproduktion
-46. http://www.yso.fi/onto/koko/p17051 -- damfrisörer => kosmetologer
-47. http://www.yso.fi/onto/koko/p33928 -- goodwill => värde (egenskaper)
-48. http://www.yso.fi/onto/koko/p17601 -- slutledning => abduktion
-49. http://www.yso.fi/onto/koko/p33343 -- luminositet => fysikaliska egenskaper
-50. http://www.yso.fi/onto/koko/p4333 -- brandmurar (datasäkerhet) => brandväggar (datasäkerhet)
-51. http://www.yso.fi/onto/koko/p35608 -- agens => allergener
-52. http://www.yso.fi/onto/koko/p30564 -- tekniska system => digitala bibliotek
-53. http://www.yso.fi/onto/koko/p25755 -- luftvärn => luftvärnstrupper
-54. http://www.yso.fi/onto/koko/p30693 -- fodral => puppor
-55. http://www.yso.fi/onto/koko/p50134 -- vakande => sömnbrist
-56. http://www.yso.fi/onto/koko/p15504 -- självjustering => självreglering (psykologi)
-57. http://www.yso.fi/onto/koko/p2225 -- lättläst text => lätt språk
-58. http://www.yso.fi/onto/koko/p16282 -- invandring => utvandring
-59. http://www.yso.fi/onto/koko/p30921 -- test => experiment
-60. http://www.yso.fi/onto/koko/p25104 -- TILATAME => expertsystem
-61. http://www.yso.fi/onto/koko/p140 -- deltagarjournalistik => medborgarjournalistik
-62. http://www.yso.fi/onto/koko/p33011 -- intimitet => integritet
-63. http://www.yso.fi/onto/koko/p32984 -- hinderslöshet => tillgänglighet
-64. http://www.yso.fi/onto/koko/p15289 -- 3D-bilder => visualiseringsbilder
-65. http://www.yso.fi/onto/koko/p33969 -- asiater => burmeser
-66. http://www.yso.fi/onto/koko/p34197 -- tryckning (konstgrafik) => framkallning och utskrift av fotografier
-67. http://www.yso.fi/onto/koko/p30802 -- tätningar => komprimering (förstärkning)
-68. http://www.yso.fi/onto/koko/p55297 -- tilläggsförmån => påbröd
-69. http://www.yso.fi/onto/koko/p32221 -- trädtopp => krona (växtdelar)
-70. http://www.yso.fi/onto/koko/p81126 -- steel guitar => pedal steel guitar
-71. http://www.yso.fi/onto/koko/p36659 -- personlighetsdrag => fridsamhet
-72. http://www.yso.fi/onto/koko/p1394 -- föräldrar => adoptivföräldrar
-73. http://www.yso.fi/onto/koko/p30642 -- vetenskapsgrenar => vetenskap
-74. http://www.yso.fi/onto/koko/p54936 -- arbetsplatsannons => arbetsplatsannonser
-75. http://www.yso.fi/onto/koko/p35402 -- miljöskatt => pigouviansk skatt
-76. http://www.yso.fi/onto/koko/p32592 -- varor => saker (föremål)
-77. http://www.yso.fi/onto/koko/p10213 -- kassaexpediter => kassapersonal
-78. http://www.yso.fi/onto/koko/p48228 -- barn (åldersgrupper) => adoptivbarn
-79. http://www.yso.fi/onto/koko/p25277 -- Medusa => gratisprogram
-80. http://www.yso.fi/onto/koko/p36349 -- strategier => militärstrategi
-81. http://www.yso.fi/onto/koko/p32713 -- mobiltjänster => mobilkommunikationstjänster
-82. http://www.yso.fi/onto/koko/p32415 -- skyddande => byggnadsvård
-83. http://www.yso.fi/onto/koko/p26146 -- WISC => intelligenstest
-84. http://www.yso.fi/onto/koko/p70187 -- välsituerade => god socioekonomisk ställning
-85. http://www.yso.fi/onto/koko/p77112 -- litteratur på mathili => litteratur på maithili
-86. http://www.yso.fi/onto/koko/p4383 -- tippningsspel {@sv} => tippningsspel
-87. http://www.yso.fi/onto/koko/p5619 -- kvinnliga präster => kvinnligt prästerskap
-88. http://www.yso.fi/onto/koko/p60744 -- fullmakt => fullmakter
-89. http://www.yso.fi/onto/koko/p25170 -- flodvågor => tsunamier
-90. http://www.yso.fi/onto/koko/p34316 -- frigörelse => frihet
-91. http://www.yso.fi/onto/koko/p81508 -- Ukrainakrisen => konflikten i östra Ukraina 2014-
-Uudessa KOKOssa on 416 uutta käsitettä.
-1.http://www.yso.fi/onto/koko/p65059 = välittäjät
-2.http://www.yso.fi/onto/koko/p63965 = limakalvot
-3.http://www.yso.fi/onto/koko/p93418 = fundamentaaliteologia
-4.http://www.yso.fi/onto/koko/p93419 = mamelukit (väestöryhmät)
-5.http://www.yso.fi/onto/koko/p93414 = pikavalokuvat
-6.http://www.yso.fi/onto/koko/p93415 = vesikkelit
-7.http://www.yso.fi/onto/koko/p93416 = addiktiivisuus
-8.http://www.yso.fi/onto/koko/p93417 = monialainen yhteistyö
-9.http://www.yso.fi/onto/koko/p93410 = kiertäjähermon stimulaatio
-10.http://www.yso.fi/onto/koko/p93411 = nanosatelliitit
-11.http://www.yso.fi/onto/koko/p93412 = esidiabetes
-12.http://www.yso.fi/onto/koko/p93413 = K-pop
-13.http://www.yso.fi/onto/koko/p71857 = lepotauot
-14.http://www.yso.fi/onto/koko/p93422 = digitaaliset taidot
-15.http://www.yso.fi/onto/koko/p93423 = sähköheikko faasimuutos
-16.http://www.yso.fi/onto/koko/p93420 = liiketoimintaekosysteemit
-17.http://www.yso.fi/onto/koko/p93421 = sydänsymboli
-18.http://www.yso.fi/onto/koko/p93406 = kaupunkisaamelaiset
-19.http://www.yso.fi/onto/koko/p93407 = karnaattinen musiikki
-20.http://www.yso.fi/onto/koko/p93408 = temperointi (musiikki)
-21.http://www.yso.fi/onto/koko/p93409 = ADD
-22.http://www.yso.fi/onto/koko/p93402 = meriliikenteen sääpalvelut
-23.http://www.yso.fi/onto/koko/p93403 = keskiviivat (alukset)
-24.http://www.yso.fi/onto/koko/p93404 = kalastusalusten päiväkirjat
-25.http://www.yso.fi/onto/koko/p93405 = risti (symbolit)
-26.http://www.yso.fi/onto/koko/p93400 = potkuripropulsiojärjestelmä
-27.http://www.yso.fi/onto/koko/p93401 = luonnonmateriaaleista valmistetut alukset
-28.http://www.yso.fi/onto/koko/p55247 = luvanvaraiset toiminnot
-29.http://www.yso.fi/onto/koko/p48885 = sämplerit
-30.http://www.yso.fi/onto/koko/p93081 = kirsikkatomaatti
-31.http://www.yso.fi/onto/koko/p93082 = proantosyanidiinit
-32.http://www.yso.fi/onto/koko/p93083 = raviratsastus
-33.http://www.yso.fi/onto/koko/p93084 = myostatiini
-34.http://www.yso.fi/onto/koko/p62604 = työehdot (yhteiskunnalliset objektit)
-35.http://www.yso.fi/onto/koko/p93080 = Merimaskun kirkko
-36.http://www.yso.fi/onto/koko/p93078 = amfibioalukset
-37.http://www.yso.fi/onto/koko/p93079 = satamajäänmurtajat
-38.http://www.yso.fi/onto/koko/p93073 = sähkömagneettiset mittausmenetelmät
-39.http://www.yso.fi/onto/koko/p93074 = visiirit (portit (aluksen osat))
-40.http://www.yso.fi/onto/koko/p93076 = merenkulkualan tutkinnot
-41.http://www.yso.fi/onto/koko/p93075 = polttomoottorilla kulkevat alukset
-42.http://www.yso.fi/onto/koko/p93077 = laivanrakennus (oppiaineet)
-43.http://www.yso.fi/onto/koko/p93093 = rakenteilla olevien alusten rekisteri
-44.http://www.yso.fi/onto/koko/p93094 = irtokeulat
-45.http://www.yso.fi/onto/koko/p93095 = hyttikannet
-46.http://www.yso.fi/onto/koko/p93096 = työntöalukset
-47.http://www.yso.fi/onto/koko/p93090 = uusintaleikkaukset
-48.http://www.yso.fi/onto/koko/p93091 = kiertäjähermo
-49.http://www.yso.fi/onto/koko/p93092 = merenkulun tekniikka
-50.http://www.yso.fi/onto/koko/p93085 = etelänsatakieli
-51.http://www.yso.fi/onto/koko/p93087 = Sanginjoen luonnonsuojelualue
-52.http://www.yso.fi/onto/koko/p93086 = vuorimarin kieli
-53.http://www.yso.fi/onto/koko/p93088 = eveenit
-54.http://www.yso.fi/onto/koko/p93089 = uusiseelantilaiset
-55.http://www.yso.fi/onto/koko/p93060 = sijoitus (paikka)
-56.http://www.yso.fi/onto/koko/p93058 = dandiedinmontinterrieri
-57.http://www.yso.fi/onto/koko/p93059 = neuroendokriiniset kasvaimet
-58.http://www.yso.fi/onto/koko/p93054 = härkätaistelijat
-59.http://www.yso.fi/onto/koko/p93053 = katkelmat (kirjallisuus)
-60.http://www.yso.fi/onto/koko/p93055 = kaupunkiromaanit (kaunokirjallisuus, romanit)
-61.http://www.yso.fi/onto/koko/p93056 = huumekartellit
-62.http://www.yso.fi/onto/koko/p93057 = vartalo
-63.http://www.yso.fi/onto/koko/p93050 = talousongelmat
-64.http://www.yso.fi/onto/koko/p93051 = avioliittoon vihkiminen (yhteiskunnalliset tapahtumat)
-65.http://www.yso.fi/onto/koko/p93052 = pontikka (alkoholi (päihteet))
-66.http://www.yso.fi/onto/koko/p93070 = aktiviinit
-67.http://www.yso.fi/onto/koko/p93071 = sluupit (sota-alukset)
-68.http://www.yso.fi/onto/koko/p93072 = vihellyskielet
-69.http://www.yso.fi/onto/koko/p93066 = Lamminniemen hovi
-70.http://www.yso.fi/onto/koko/p93067 = masennuslääkkeet (psyykenlääkkeet)
-71.http://www.yso.fi/onto/koko/p93068 = linjalaivat
-72.http://www.yso.fi/onto/koko/p93069 = poikittaiskaaret
-73.http://www.yso.fi/onto/koko/p93061 = konstruktivismi (filosofia)
-74.http://www.yso.fi/onto/koko/p93062 = digitaalinen jalanjälki (tietosuoja)
-75.http://www.yso.fi/onto/koko/p93063 = integroitu opetus (oppiaineet)
-76.http://www.yso.fi/onto/koko/p93065 = laki sosiaali- ja terveydenhuollon asiakasmaksuista
-77.http://www.yso.fi/onto/koko/p93064 = tyrosiinikinaasit
-78.http://www.yso.fi/onto/koko/p58230 = alaselkä
-79.http://www.yso.fi/onto/koko/p93038 = hajoaminen (psyyke)
-80.http://www.yso.fi/onto/koko/p93039 = pirtu
-81.http://www.yso.fi/onto/koko/p93034 = formalismi (tyylit)
-82.http://www.yso.fi/onto/koko/p93035 = suorituskeskeisyys
-83.http://www.yso.fi/onto/koko/p93036 = entiset alkoholistit
-84.http://www.yso.fi/onto/koko/p93037 = avoimet suhteet
-85.http://www.yso.fi/onto/koko/p37607 = kaivannot (maanalaiset rakenteet)
-86.http://www.yso.fi/onto/koko/p93033 = kokeet (yhteiskunnalliset tapahtumat)
-87.http://www.yso.fi/onto/koko/p93046 = kolikot
-88.http://www.yso.fi/onto/koko/p93047 = moderaattorit
-89.http://www.yso.fi/onto/koko/p93048 = pokémonit
-90.http://www.yso.fi/onto/koko/p93049 = kunniavelka
-91.http://www.yso.fi/onto/koko/p93041 = ekotrillerit
-92.http://www.yso.fi/onto/koko/p93043 = hoito (yhteiskunnalliset ilmiöt)
-93.http://www.yso.fi/onto/koko/p93042 = hoivakodit (hoiva-ala)
-94.http://www.yso.fi/onto/koko/p93044 = toisen polven maahanmuuttajat
-95.http://www.yso.fi/onto/koko/p93045 = kehopositiivisuus (positiivisuus)
-96.http://www.yso.fi/onto/koko/p93040 = kylpykirjat (kuvakirjat, lastenkirjallisuus)
-97.http://www.yso.fi/onto/koko/p59039 = työsuojeluvaltuutetut (toimintaan liittyvä rooli)
-98.http://www.yso.fi/onto/koko/p54133 = autorahtikirjat
-99.http://www.yso.fi/onto/koko/p51600 = näkökyky
-100.http://www.yso.fi/onto/koko/p89357 = tekniikka (laitteet) (tieto)
-101.http://www.yso.fi/onto/koko/p93309 = sarkopenia
-102.http://www.yso.fi/onto/koko/p93305 = inkerinsuomi
-103.http://www.yso.fi/onto/koko/p93306 = jousikvartetit
-104.http://www.yso.fi/onto/koko/p93307 = märkähiilto
-105.http://www.yso.fi/onto/koko/p93308 = insulinooma
-106.http://www.yso.fi/onto/koko/p93301 = URN-tunnus
-107.http://www.yso.fi/onto/koko/p93302 = uskonnolliset lait
-108.http://www.yso.fi/onto/koko/p93303 = Handle-tunnus
-109.http://www.yso.fi/onto/koko/p93304 = vihreä siirtymä
-110.http://www.yso.fi/onto/koko/p93300 = pelastusalukset (erikoisalukset (ammattikäyttöön tarkoitetut alukset))
-111.http://www.yso.fi/onto/koko/p93317 = moottoritykkiveneet (tykkiveneet)
-112.http://www.yso.fi/onto/koko/p93318 = mekaaninen propulsiojärjestelmä
-113.http://www.yso.fi/onto/koko/p93319 = moyamoya-tauti
-114.http://www.yso.fi/onto/koko/p93313 = moottoritorpedoveneet (torpedoveneet)
-115.http://www.yso.fi/onto/koko/p93314 = konepäällystön tutkinto
-116.http://www.yso.fi/onto/koko/p93315 = päällystötutkinnot
-117.http://www.yso.fi/onto/koko/p93316 = tykkilautat
-118.http://www.yso.fi/onto/koko/p93310 = pitkittäislaipiot
-119.http://www.yso.fi/onto/koko/p93311 = synagogamusiikki
-120.http://www.yso.fi/onto/koko/p93312 = rullakot
-121.http://www.yso.fi/onto/koko/p93389 = Jumalan ilmoitus
-122.http://www.yso.fi/onto/koko/p93385 = metsäauraus
-123.http://www.yso.fi/onto/koko/p93386 = uusi julkinen hallinta
-124.http://www.yso.fi/onto/koko/p93387 = informaatiotulva
-125.http://www.yso.fi/onto/koko/p93388 = sublimaatiotulostus
-126.http://www.yso.fi/onto/koko/p93380 = Black lives matter -liike
-127.http://www.yso.fi/onto/koko/p93381 = kilpailu (biologia)
-128.http://www.yso.fi/onto/koko/p93382 = säätsunamit
-129.http://www.yso.fi/onto/koko/p93384 = esineellistäminen (keskinäinen toiminta)
-130.http://www.yso.fi/onto/koko/p93383 = käräjäympyrät (ihmisen määrittämät paikat)
-131.http://www.yso.fi/onto/koko/p93397 = aurinkokannet
-132.http://www.yso.fi/onto/koko/p93398 = sähköinen propulsiojärjestelmä
-133.http://www.yso.fi/onto/koko/p93399 = merisää
-134.http://www.yso.fi/onto/koko/p93392 = varppikannet
-135.http://www.yso.fi/onto/koko/p93393 = viistopurjeet
-136.http://www.yso.fi/onto/koko/p93395 = paalit (kuljetusyksiköt)
-137.http://www.yso.fi/onto/koko/p93394 = miinalautat
-138.http://www.yso.fi/onto/koko/p93396 = merimieshuoneet
-139.http://www.yso.fi/onto/koko/p93390 = liitto (teologia)
-140.http://www.yso.fi/onto/koko/p93391 = jätevesitankit
-141.http://www.yso.fi/onto/koko/p93369 = direktiivi (kielitiede)
-142.http://www.yso.fi/onto/koko/p93365 = tietoliikennetiedustelu
-143.http://www.yso.fi/onto/koko/p93366 = vieraannuttaminen (kääntäminen)
-144.http://www.yso.fi/onto/koko/p93367 = tuohihuilu
-145.http://www.yso.fi/onto/koko/p93368 = ARK-tunnus
-146.http://www.yso.fi/onto/koko/p93360 = auringonotto
-147.http://www.yso.fi/onto/koko/p93362 = vihersillat (sillat)
-148.http://www.yso.fi/onto/koko/p93361 = paavin bullat
-149.http://www.yso.fi/onto/koko/p93363 = kaupunkiromaanit (romaanit)
-150.http://www.yso.fi/onto/koko/p93364 = ROR-tunnus
-151.http://www.yso.fi/onto/koko/p93377 = rakenteellinen syrjintä
-152.http://www.yso.fi/onto/koko/p93378 = kulttuuriperinnön palauttaminen
-153.http://www.yso.fi/onto/koko/p93379 = jihadismi
-154.http://www.yso.fi/onto/koko/p93373 = lääkkeiden annosjakelu
-155.http://www.yso.fi/onto/koko/p93372 = hajutyöskentely
-156.http://www.yso.fi/onto/koko/p93374 = rehabilitointi (maineenpalautus)
-157.http://www.yso.fi/onto/koko/p93375 = villiinnyttäminen
-158.http://www.yso.fi/onto/koko/p93376 = päästökompensaatio
-159.http://www.yso.fi/onto/koko/p93370 = kellopeli
-160.http://www.yso.fi/onto/koko/p93371 = anonyymi rekrytointi
-161.http://www.yso.fi/onto/koko/p93349 = mikrosaasteet
-162.http://www.yso.fi/onto/koko/p93345 = vieraannuttaminen (taide)
-163.http://www.yso.fi/onto/koko/p93346 = datatalous
-164.http://www.yso.fi/onto/koko/p93347 = toffee
-165.http://www.yso.fi/onto/koko/p93348 = oboistit
-166.http://www.yso.fi/onto/koko/p93341 = pelastusveneradiot
-167.http://www.yso.fi/onto/koko/p93342 = Englannin sisällissota (1642–1651)
-168.http://www.yso.fi/onto/koko/p93343 = kävelykannet
-169.http://www.yso.fi/onto/koko/p93344 = taajuuskorjaimet
-170.http://www.yso.fi/onto/koko/p93340 = tortillat
-171.http://www.yso.fi/onto/koko/p93357 = abolitionismi (orjuus)
-172.http://www.yso.fi/onto/koko/p93358 = perhevapaakorvaus (työnantajalle)
-173.http://www.yso.fi/onto/koko/p56131 = jääpassit
-174.http://www.yso.fi/onto/koko/p93359 = kinuskikastike
-175.http://www.yso.fi/onto/koko/p93353 = 12 askeleen ohjelma
-176.http://www.yso.fi/onto/koko/p93354 = Faron sopimus
-177.http://www.yso.fi/onto/koko/p93355 = musiikin dynamiikka
-178.http://www.yso.fi/onto/koko/p93356 = rusketus
-179.http://www.yso.fi/onto/koko/p93351 = Venäjän hyökkäys Ukrainaan 2022
-180.http://www.yso.fi/onto/koko/p93350 = prosessilouhinta
-181.http://www.yso.fi/onto/koko/p93352 = elokuvajulisteet
-182.http://www.yso.fi/onto/koko/p93329 = Lien ryhmät
-183.http://www.yso.fi/onto/koko/p93325 = sikuri (asterikasvit)
-184.http://www.yso.fi/onto/koko/p93326 = hummus
-185.http://www.yso.fi/onto/koko/p93327 = libanonilaiset
-186.http://www.yso.fi/onto/koko/p93328 = nigerialaiset
-187.http://www.yso.fi/onto/koko/p93321 = koiruoho
-188.http://www.yso.fi/onto/koko/p93322 = parvorokko
-189.http://www.yso.fi/onto/koko/p93323 = Lahden kartano (Somero)
-190.http://www.yso.fi/onto/koko/p93324 = varhaisuusenglanti
-191.http://www.yso.fi/onto/koko/p93320 = kalastajasaamelaiset
-192.http://www.yso.fi/onto/koko/p93337 = navigointimenetelmät
-193.http://www.yso.fi/onto/koko/p93338 = propionibakteerit
-194.http://www.yso.fi/onto/koko/p93339 = korokekannet
-195.http://www.yso.fi/onto/koko/p93333 = pilkkumäntypistiäinen (mäntypistiäiset)
-196.http://www.yso.fi/onto/koko/p93334 = lehikäiset
-197.http://www.yso.fi/onto/koko/p93335 = hepatoblastooma
-198.http://www.yso.fi/onto/koko/p93336 = glukaanit
-199.http://www.yso.fi/onto/koko/p93330 = yhteistoimintalaki (2021)
-200.http://www.yso.fi/onto/koko/p93331 = konjugoidut linolihapot
-201.http://www.yso.fi/onto/koko/p93332 = kansipäiväkirjat
-202.http://www.yso.fi/onto/koko/p53938 = sähköttäjät
-203.http://www.yso.fi/onto/koko/p55435 = työn epävarmuus
-204.http://www.yso.fi/onto/koko/p55018 = poliisitoimi
-205.http://www.yso.fi/onto/koko/p93256 = siltakannet
-206.http://www.yso.fi/onto/koko/p93257 = jätepäiväkirjat
-207.http://www.yso.fi/onto/koko/p93258 = soudettavat alukset
-208.http://www.yso.fi/onto/koko/p93259 = viranomaissatamat
-209.http://www.yso.fi/onto/koko/p93252 = radiopäiväkirjat
-210.http://www.yso.fi/onto/koko/p93251 = lyhyet puolikannet
-211.http://www.yso.fi/onto/koko/p93253 = merenkulkuala
-212.http://www.yso.fi/onto/koko/p93254 = tyhjennyspumput
-213.http://www.yso.fi/onto/koko/p93255 = keulakannet
-214.http://www.yso.fi/onto/koko/p93250 = venemallit
-215.http://www.yso.fi/onto/koko/p93268 = konevoimaiset alukset
-216.http://www.yso.fi/onto/koko/p93269 = sähkövalot
-217.http://www.yso.fi/onto/koko/p93264 = tykkijollat
-218.http://www.yso.fi/onto/koko/p93265 = lentosatamat
-219.http://www.yso.fi/onto/koko/p93266 = navigointioppi
-220.http://www.yso.fi/onto/koko/p93267 = varjokannet
-221.http://www.yso.fi/onto/koko/p93260 = keskikannet
-222.http://www.yso.fi/onto/koko/p93261 = manusluukut
-223.http://www.yso.fi/onto/koko/p93263 = vesitiiviit laipiot
-224.http://www.yso.fi/onto/koko/p93262 = uittomallit
-225.http://www.yso.fi/onto/koko/p93236 = nostokölit
-226.http://www.yso.fi/onto/koko/p93237 = makeavesitankit
-227.http://www.yso.fi/onto/koko/p93238 = poliisiveneet (viranomaiskäyttöön tarkoitetut alukset)
-228.http://www.yso.fi/onto/koko/p93239 = betonirunkoiset alukset
-229.http://www.yso.fi/onto/koko/p93232 = panssarikannet
-230.http://www.yso.fi/onto/koko/p93233 = miehistöön liittyvät todistukset
-231.http://www.yso.fi/onto/koko/p93234 = sähköllä kulkevat alukset
-232.http://www.yso.fi/onto/koko/p93235 = etukannet
-233.http://www.yso.fi/onto/koko/p93230 = loistomajakat
-234.http://www.yso.fi/onto/koko/p93231 = tykkisluupit
-235.http://www.yso.fi/onto/koko/p93248 = aluksen uppoaminen
-236.http://www.yso.fi/onto/koko/p93249 = yhteysliikennelaiturit
-237.http://www.yso.fi/onto/koko/p93244 = peräkannet
-238.http://www.yso.fi/onto/koko/p93245 = alakannet
-239.http://www.yso.fi/onto/koko/p93246 = kaleerit
-240.http://www.yso.fi/onto/koko/p93247 = saaristofregatit
-241.http://www.yso.fi/onto/koko/p93241 = suuntaloistot
-242.http://www.yso.fi/onto/koko/p93240 = merimiesmallit
-243.http://www.yso.fi/onto/koko/p93242 = luotsinjättöpaikat
-244.http://www.yso.fi/onto/koko/p93243 = pallekölit
-245.http://www.yso.fi/onto/koko/p93216 = yhteysalukset (ammattikäyttöön tarkoitetut alukset)
-246.http://www.yso.fi/onto/koko/p93217 = heikko vuorovaikutus
-247.http://www.yso.fi/onto/koko/p93218 = puurunkoiset alukset (luonnonmateriaaleista valmistetut alukset)
-248.http://www.yso.fi/onto/koko/p93219 = jääkartat
-249.http://www.yso.fi/onto/koko/p93212 = pitkittäiskaaret
-250.http://www.yso.fi/onto/koko/p93213 = grundtvigilaisuus
-251.http://www.yso.fi/onto/koko/p93214 = ruuvipotkurit
-252.http://www.yso.fi/onto/koko/p93215 = kaupunkisaarekeilmiö
-253.http://www.yso.fi/onto/koko/p93210 = kanavarakenteet
-254.http://www.yso.fi/onto/koko/p93211 = dynamiitti
-255.http://www.yso.fi/onto/koko/p93228 = autokannet
-256.http://www.yso.fi/onto/koko/p93229 = meriradiolaitteet
-257.http://www.yso.fi/onto/koko/p93224 = meromorfiset funktiot
-258.http://www.yso.fi/onto/koko/p93225 = blackout-tilanteet
-259.http://www.yso.fi/onto/koko/p93226 = tykkikannet
-260.http://www.yso.fi/onto/koko/p93227 = matkustajakannet
-261.http://www.yso.fi/onto/koko/p93220 = taittolapapotkurit
-262.http://www.yso.fi/onto/koko/p93221 = matemaattinen fysiikka
-263.http://www.yso.fi/onto/koko/p93222 = telakkamallit
-264.http://www.yso.fi/onto/koko/p93223 = veistokaaret
-265.http://www.yso.fi/onto/koko/p93208 = kokonaiset funktiot
-266.http://www.yso.fi/onto/koko/p93209 = ristin teologia
-267.http://www.yso.fi/onto/koko/p93204 = Perinnealusrekisteri
-268.http://www.yso.fi/onto/koko/p93205 = niittymarin kieli
-269.http://www.yso.fi/onto/koko/p93206 = mithralaisuus
-270.http://www.yso.fi/onto/koko/p93207 = jaksolliset funktiot
-271.http://www.yso.fi/onto/koko/p93200 = hyperaldosteronismi
-272.http://www.yso.fi/onto/koko/p93201 = havaintopäiväkirjat
-273.http://www.yso.fi/onto/koko/p93202 = gelsoliini
-274.http://www.yso.fi/onto/koko/p93203 = sotasatamat
-275.http://www.yso.fi/onto/koko/p58006 = aluksen kansainväliset turvatodistukset
-276.http://www.yso.fi/onto/koko/p93296 = konepäiväkirjat
-277.http://www.yso.fi/onto/koko/p93295 = vapaaehtoinen meripelastustyö
-278.http://www.yso.fi/onto/koko/p93297 = alusten päiväkirjat
-279.http://www.yso.fi/onto/koko/p93298 = kalastusalusrekisteri
-280.http://www.yso.fi/onto/koko/p93299 = portit (aluksen osat)
-281.http://www.yso.fi/onto/koko/p93291 = proteaasit
-282.http://www.yso.fi/onto/koko/p93292 = ilmastolaki
-283.http://www.yso.fi/onto/koko/p93293 = merellinen kulttuuriympäristö
-284.http://www.yso.fi/onto/koko/p93294 = lujitemuovirunkoiset alukset
-285.http://www.yso.fi/onto/koko/p61871 = ilman liike
-286.http://www.yso.fi/onto/koko/p93276 = viistokaikuluotaus (kaikuluotaus (mittausmenetelmät) (akustiset mittausmenetelmät))
-287.http://www.yso.fi/onto/koko/p93277 = historiarekisteri
-288.http://www.yso.fi/onto/koko/p93278 = alusliikenneohjaajat
-289.http://www.yso.fi/onto/koko/p93279 = rungon osat
-290.http://www.yso.fi/onto/koko/p93271 = matkustaja-rahtialukset
-291.http://www.yso.fi/onto/koko/p93272 = radioasemat (laitteistot)
-292.http://www.yso.fi/onto/koko/p93274 = venekannet
-293.http://www.yso.fi/onto/koko/p93273 = vartioalukset
-294.http://www.yso.fi/onto/koko/p93275 = ulkokannet
-295.http://www.yso.fi/onto/koko/p93270 = höyryllä kulkevat alukset
-296.http://www.yso.fi/onto/koko/p93290 = ammattikäyttöön tarkoitetut alukset
-297.http://www.yso.fi/onto/koko/p93288 = Normandian maihinnousu
-298.http://www.yso.fi/onto/koko/p93289 = perägalleriat
-299.http://www.yso.fi/onto/koko/p93283 = kiehutusvesireaktorit
-300.http://www.yso.fi/onto/koko/p93285 = pussiitti
-301.http://www.yso.fi/onto/koko/p93284 = nenän sivuontelot
-302.http://www.yso.fi/onto/koko/p93286 = sfingolipidit
-303.http://www.yso.fi/onto/koko/p93287 = nenäontelo
-304.http://www.yso.fi/onto/koko/p93280 = laki asianajajista
-305.http://www.yso.fi/onto/koko/p93281 = glukoosirasituskoe
-306.http://www.yso.fi/onto/koko/p93282 = vesiskootterit
-307.http://www.yso.fi/onto/koko/p62643 = jääluokkatodistukset
-308.http://www.yso.fi/onto/koko/p93098 = kiinteä painolasti
-309.http://www.yso.fi/onto/koko/p93097 = sumutykit
-310.http://www.yso.fi/onto/koko/p93099 = soutuveneet (soudettavat alukset, veneet)
-311.http://www.yso.fi/onto/koko/p51420 = ajokäyttäytyminen
-312.http://www.yso.fi/onto/koko/p93127 = rumpumusiikki
-313.http://www.yso.fi/onto/koko/p93128 = tulorekisterit
-314.http://www.yso.fi/onto/koko/p93129 = sisustusliikkeet
-315.http://www.yso.fi/onto/koko/p93123 = talvisatamat
-316.http://www.yso.fi/onto/koko/p93124 = evävakaimet
-317.http://www.yso.fi/onto/koko/p93125 = käännösstrategiat
-318.http://www.yso.fi/onto/koko/p93126 = kadonnut arkkitehtuuri
-319.http://www.yso.fi/onto/koko/p93120 = sairaalalaivat
-320.http://www.yso.fi/onto/koko/p93121 = huvialusrekisteri
-321.http://www.yso.fi/onto/koko/p93122 = puolikannet
-322.http://www.yso.fi/onto/koko/p89653 = johto
-323.http://www.yso.fi/onto/koko/p93139 = suojasatamat
-324.http://www.yso.fi/onto/koko/p93135 = veneväyläpoijut
-325.http://www.yso.fi/onto/koko/p93136 = kelirikkoalukset (alukset (vesikulkuneuvot))
-326.http://www.yso.fi/onto/koko/p93137 = öljypäiväkirjat
-327.http://www.yso.fi/onto/koko/p93138 = fideismi
-328.http://www.yso.fi/onto/koko/p93131 = pikkukeskoset
-329.http://www.yso.fi/onto/koko/p93130 = äärivasemmistolaisuus
-330.http://www.yso.fi/onto/koko/p93132 = pitkät puolikannet
-331.http://www.yso.fi/onto/koko/p93133 = toiminta-alueittain järjestettävä opetus
-332.http://www.yso.fi/onto/koko/p93134 = neuropsykiatriset häiriöt
-333.http://www.yso.fi/onto/koko/p93107 = juorukompassit
-334.http://www.yso.fi/onto/koko/p93108 = aluksen kaatuminen
-335.http://www.yso.fi/onto/koko/p93109 = öljyvalot
-336.http://www.yso.fi/onto/koko/p93103 = kansipäällystön tutkinto
-337.http://www.yso.fi/onto/koko/p93104 = kaivokannet
-338.http://www.yso.fi/onto/koko/p93105 = monitorit (sota-alukset)
-339.http://www.yso.fi/onto/koko/p93106 = sluupit (purjelaivat)
-340.http://www.yso.fi/onto/koko/p93100 = viistokaikuluotaimet
-341.http://www.yso.fi/onto/koko/p93101 = muonapäiväkirjat
-342.http://www.yso.fi/onto/koko/p93102 = lastipäiväkirjat
-343.http://www.yso.fi/onto/koko/p93119 = keulapotkurit
-344.http://www.yso.fi/onto/koko/p93115 = polttoainetankit
-345.http://www.yso.fi/onto/koko/p93116 = toimintavalmius (organisaatiot)
-346.http://www.yso.fi/onto/koko/p93117 = ankkurikannet
-347.http://www.yso.fi/onto/koko/p93118 = lastikannet
-348.http://www.yso.fi/onto/koko/p93111 = kuljetuslautat
-349.http://www.yso.fi/onto/koko/p93112 = tieliikenteenohjaus
-350.http://www.yso.fi/onto/koko/p93113 = metallirunkoiset alukset (alukset (vesikulkuneuvot))
-351.http://www.yso.fi/onto/koko/p93114 = luminositeetti
-352.http://www.yso.fi/onto/koko/p93110 = ohjauskeskukset
-353.http://www.yso.fi/onto/koko/p58302 = savusukeltajat
-354.http://www.yso.fi/onto/koko/p93190 = kuvaohjelmalaki
-355.http://www.yso.fi/onto/koko/p93191 = mittakirjat
-356.http://www.yso.fi/onto/koko/p93192 = varalaita
-357.http://www.yso.fi/onto/koko/p93193 = maalipallo
-358.http://www.yso.fi/onto/koko/p93187 = purjehdittavat alukset
-359.http://www.yso.fi/onto/koko/p93188 = jaksollinen kasvatus
-360.http://www.yso.fi/onto/koko/p93189 = mekaaniset mittausmenetelmät
-361.http://www.yso.fi/onto/koko/p93182 = terminen ruiskutus
-362.http://www.yso.fi/onto/koko/p93183 = kiinnitysköydet
-363.http://www.yso.fi/onto/koko/p93184 = maantielaiturit
-364.http://www.yso.fi/onto/koko/p93186 = urheilukannet
-365.http://www.yso.fi/onto/koko/p93185 = halakha
-366.http://www.yso.fi/onto/koko/p93199 = kauppaveneet (alukset (vesikulkuneuvot))
-367.http://www.yso.fi/onto/koko/p93194 = meriliikenteenohjaus
-368.http://www.yso.fi/onto/koko/p93195 = poikittaislaipiot
-369.http://www.yso.fi/onto/koko/p93197 = Crouzonin oireyhtymä
-370.http://www.yso.fi/onto/koko/p93196 = rannikkoalukset
-371.http://www.yso.fi/onto/koko/p93198 = spriipurjeet
-372.http://www.yso.fi/onto/koko/p34399 = uskonto (kulttuuriset ilmiöt)
-373.http://www.yso.fi/onto/koko/p93167 = lossilaiturit (rakenteet (rakentaminen))
-374.http://www.yso.fi/onto/koko/p93168 = kapteenimatrikkelit
-375.http://www.yso.fi/onto/koko/p93169 = lastausoppi
-376.http://www.yso.fi/onto/koko/p69142 = ihopistokoe (testit)
-377.http://www.yso.fi/onto/koko/p93162 = meripassit
-378.http://www.yso.fi/onto/koko/p93164 = ruumakannet
-379.http://www.yso.fi/onto/koko/p93163 = kiintokölit
-380.http://www.yso.fi/onto/koko/p93165 = merimiestutkinnot
-381.http://www.yso.fi/onto/koko/p93166 = meriympäristö
-382.http://www.yso.fi/onto/koko/p93160 = henkilökohtainen budjetointi (sosiaalipalvelut)
-383.http://www.yso.fi/onto/koko/p93161 = linkitetty data
-384.http://www.yso.fi/onto/koko/p93180 = satamaturvallisuus
-385.http://www.yso.fi/onto/koko/p93181 = kromatiini
-386.http://www.yso.fi/onto/koko/p93179 = kaksiluonto-oppi
-387.http://www.yso.fi/onto/koko/p93175 = optiset mittausmenetelmät
-388.http://www.yso.fi/onto/koko/p93174 = merikapteenin tutkinto
-389.http://www.yso.fi/onto/koko/p93176 = täyskannet
-390.http://www.yso.fi/onto/koko/p93177 = perämiestutkinto
-391.http://www.yso.fi/onto/koko/p93178 = kollit
-392.http://www.yso.fi/onto/koko/p53467 = kemoterapia
-393.http://www.yso.fi/onto/koko/p93170 = lastitankit
-394.http://www.yso.fi/onto/koko/p93171 = törmäyslaipiot
-395.http://www.yso.fi/onto/koko/p93172 = tankit
-396.http://www.yso.fi/onto/koko/p93173 = konttisatamat
-397.http://www.yso.fi/onto/koko/p93147 = avomeripoijut
-398.http://www.yso.fi/onto/koko/p93148 = kansalliset rannikkoradioasemat
-399.http://www.yso.fi/onto/koko/p93149 = kaasuvalot
-400.http://www.yso.fi/onto/koko/p93143 = lossilaiturit (laiturit, taitorakenteet)
-401.http://www.yso.fi/onto/koko/p93144 = Merisää-palvelu
-402.http://www.yso.fi/onto/koko/p93145 = irtolastisatamat
-403.http://www.yso.fi/onto/koko/p93146 = kauppa-alusluettelo
-404.http://www.yso.fi/onto/koko/p93140 = siltahankkeet
-405.http://www.yso.fi/onto/koko/p93142 = merimiesmatrikkelit
-406.http://www.yso.fi/onto/koko/p93141 = kanaanilaiset
-407.http://www.yso.fi/onto/koko/p93159 = terveysturvallisuus
-408.http://www.yso.fi/onto/koko/p93155 = positiiviset luottotietorekisterit
-409.http://www.yso.fi/onto/koko/p93156 = AU-maat
-410.http://www.yso.fi/onto/koko/p93157 = ihmisuhrit (uskonto)
-411.http://www.yso.fi/onto/koko/p93158 = monitoimityökalut
-412.http://www.yso.fi/onto/koko/p93150 = fregatit (sota-alukset)
-413.http://www.yso.fi/onto/koko/p93151 = aluksiin liittyvät todistukset
-414.http://www.yso.fi/onto/koko/p93153 = CPAP-hoito
-415.http://www.yso.fi/onto/koko/p93152 = taisteluristeilijät
-416.http://www.yso.fi/onto/koko/p93154 = ajoavustinjärjestelmät
-Kirjoitetaan välikoko...
+4. http://www.yso.fi/onto/koko/p18858 -- fulbe => fulani (folk)
+5. http://www.yso.fi/onto/koko/p33625 -- högskolor => universitet
+6. http://www.yso.fi/onto/koko/p89346 -- brorsdöttrar => systerdöttrar
+7. http://www.yso.fi/onto/koko/p14743 -- äktenskap => blandäktenskap
+8. http://www.yso.fi/onto/koko/p72785 -- programblad => program (planer)
+9. http://www.yso.fi/onto/koko/p32778 -- delning => arbetsfördelning
+10. http://www.yso.fi/onto/koko/p35390 -- stugor => storstugor (rum)
+11. http://www.yso.fi/onto/koko/p11980 -- saft => safter
+12. http://www.yso.fi/onto/koko/p35205 -- olja => fetter
+13. http://www.yso.fi/onto/koko/p72979 -- gallikansk sång => latinsk kyrkosång
+14. http://www.yso.fi/onto/koko/p13760 -- fördelar => förmåner
+15. http://www.yso.fi/onto/koko/p15792 -- polarisering (samhälle) => polarisation (vågrörelse)
+16. http://www.yso.fi/onto/koko/p55385 -- fågelvatten => fågelområden
+17. http://www.yso.fi/onto/koko/p9243 -- objektorientering => objektorienterad programmering
+18. http://www.yso.fi/onto/koko/p31480 -- existens => självständig aktivitet
+19. http://www.yso.fi/onto/koko/p31718 -- jordbruk => lantbruk
+20. http://www.yso.fi/onto/koko/p30585 -- allergi => överkänslighet
+21. http://www.yso.fi/onto/koko/p32876 -- luft => temperatur
+22. http://www.yso.fi/onto/koko/p48753 -- nonetter (ensembler) => oktetter (ensembler)
+23. http://www.yso.fi/onto/koko/p18948 -- arbetsbild => befattningsbeskrivningar
+24. http://www.yso.fi/onto/koko/p25277 -- datorprogram => gratisprogram
+25. http://www.yso.fi/onto/koko/p55862 -- krigsindustri => försvarsmaterielindustri
+26. http://www.yso.fi/onto/koko/p89468 -- brorsöner => systersöner
+27. http://www.yso.fi/onto/koko/p10819 -- databrott => informations- och kommunikationsbrott
+28. http://www.yso.fi/onto/koko/p17590 -- bränning => förbränning
+29. http://www.yso.fi/onto/koko/p36061 -- symönster => handarbetsmodeller
+30. http://www.yso.fi/onto/koko/p24908 -- munhygien => miljöhygien
+31. http://www.yso.fi/onto/koko/p3678 -- makar => partner
+32. http://www.yso.fi/onto/koko/p17051 -- damfrisörer => kosmetologer
+33. http://www.yso.fi/onto/koko/p33928 -- goodwill => värde (egenskaper)
+34. http://www.yso.fi/onto/koko/p30564 -- tekniska system => digitala bibliotek
+35. http://www.yso.fi/onto/koko/p25755 -- luftvärn => luftvärnstrupper
+36. http://www.yso.fi/onto/koko/p30693 -- fodral => puppor
+37. http://www.yso.fi/onto/koko/p33998 -- gassvetsning => skärbränning
+38. http://www.yso.fi/onto/koko/p16282 -- invandring => utvandring
+39. http://www.yso.fi/onto/koko/p30921 -- test => experiment
+40. http://www.yso.fi/onto/koko/p35608 -- agenser => allergener
+41. http://www.yso.fi/onto/koko/p33969 -- asiater => burmeser
+42. http://www.yso.fi/onto/koko/p34197 -- tryckning (konstgrafik) => framkallning och utskrift av fotografier
+43. http://www.yso.fi/onto/koko/p61030 -- originalnotering => ursprungsmärkningar
+44. http://www.yso.fi/onto/koko/p30802 -- tätningar => komprimering (förstärkning)
+45. http://www.yso.fi/onto/koko/p51944 -- nyttighetsmodell => nyttighetsmodeller
+46. http://www.yso.fi/onto/koko/p4146 -- baseball => baseboll
+47. http://www.yso.fi/onto/koko/p81126 -- steel guitar => pedal steel guitar
+48. http://www.yso.fi/onto/koko/p1394 -- föräldrar => adoptivföräldrar
+49. http://www.yso.fi/onto/koko/p11250 -- backtrift => trift
+50. http://www.yso.fi/onto/koko/p5332 -- remittering => återförvisning (till lägre rätt)
+51. http://www.yso.fi/onto/koko/p53067 -- kreditförlust => kreditförluster
+52. http://www.yso.fi/onto/koko/p36349 -- strategier => militärstrategi
+53. http://www.yso.fi/onto/koko/p13297 -- juice => juicer
+54. http://www.yso.fi/onto/koko/p32713 -- mobiltjänster => mobilkommunikationstjänster
+55. http://www.yso.fi/onto/koko/p48882 -- brudvalser => bröllopsmarscher
+56. http://www.yso.fi/onto/koko/p32415 -- skyddande => byggnadsvård
+57. http://www.yso.fi/onto/koko/p26146 -- WISC => intelligenstest
+58. http://www.yso.fi/onto/koko/p93645 -- stop motion-animering => stop motion-animationer
+59. http://www.yso.fi/onto/koko/p3442 -- segelbräden => segelbrädor
+60. http://www.yso.fi/onto/koko/p35637 -- olyckor => kärnkraftsolyckor
+61. http://www.yso.fi/onto/koko/p69968 -- dejter => dejtning
+62. http://www.yso.fi/onto/koko/p93714 -- applikationsprogrammeringsgränssnitt => programmeringsgränssnitt
+Uudessa KOKOssa on 112 uutta käsitettä.
+1.http://www.yso.fi/onto/koko/p48333 = lapset (perheenjäsenet)
+2.http://www.yso.fi/onto/koko/p68051 = saatavien perintä
+3.http://www.yso.fi/onto/koko/p94019 = optiset ääniraidat
+4.http://www.yso.fi/onto/koko/p93919 = sosiaalisen läpäisyn teoria
+5.http://www.yso.fi/onto/koko/p94018 = rasterigrafiikka
+6.http://www.yso.fi/onto/koko/p94015 = stereoskoopit
+7.http://www.yso.fi/onto/koko/p93916 = JAK-STAT-signalointi
+8.http://www.yso.fi/onto/koko/p94014 = modaus
+9.http://www.yso.fi/onto/koko/p93917 = skoolaus
+10.http://www.yso.fi/onto/koko/p94017 = kelanauhat
+11.http://www.yso.fi/onto/koko/p93918 = osaamisperusteinen opetus
+12.http://www.yso.fi/onto/koko/p94016 = AAC (tiedostomuoto)
+13.http://www.yso.fi/onto/koko/p94010 = laitehakkerointi
+14.http://www.yso.fi/onto/koko/p94011 = Hi8-videokasetit
+15.http://www.yso.fi/onto/koko/p94013 = videotietokannat
+16.http://www.yso.fi/onto/koko/p94012 = DCP
+17.http://www.yso.fi/onto/koko/p93930 = digitaalinen kaksonen
+18.http://www.yso.fi/onto/koko/p93927 = energiahoidot
+19.http://www.yso.fi/onto/koko/p93928 = kvasikonformikuvaukset
+20.http://www.yso.fi/onto/koko/p93929 = itsensä hyväksyminen (hyväksyminen (psykologia))
+21.http://www.yso.fi/onto/koko/p93923 = kansanjuhlat
+22.http://www.yso.fi/onto/koko/p94021 = Max (ohjelmointikieli)
+23.http://www.yso.fi/onto/koko/p93924 = suorituspaineet
+24.http://www.yso.fi/onto/koko/p94022 = ympäristöäänet
+25.http://www.yso.fi/onto/koko/p93925 = hallintosäännöt
+26.http://www.yso.fi/onto/koko/p93926 = nukleaatio
+27.http://www.yso.fi/onto/koko/p93920 = valkoisen ylivallan liikkeet
+28.http://www.yso.fi/onto/koko/p94020 = väriavainnus
+29.http://www.yso.fi/onto/koko/p93921 = psykologinen sopimus
+30.http://www.yso.fi/onto/koko/p93922 = hätärahat (raha)
+31.http://www.yso.fi/onto/koko/p94007 = synteettiset äänet
+32.http://www.yso.fi/onto/koko/p94006 = drone (musiikkityyli)
+33.http://www.yso.fi/onto/koko/p94009 = tekstigeneraattorit
+34.http://www.yso.fi/onto/koko/p94008 = avoimet laitteistot
+35.http://www.yso.fi/onto/koko/p94003 = datataide
+36.http://www.yso.fi/onto/koko/p94002 = Apple ProRes
+37.http://www.yso.fi/onto/koko/p94005 = 360 asteen kuvat
+38.http://www.yso.fi/onto/koko/p94004 = vertikaalisuus
+39.http://www.yso.fi/onto/koko/p94001 = kokeellinen runous
+40.http://www.yso.fi/onto/koko/p94000 = horisontaalisuus
+41.http://www.yso.fi/onto/koko/p63043 = valtioneuvosto (hallintoviranomaiset, virastot)
+42.http://www.yso.fi/onto/koko/p63771 = työttömyysvakuutus
+43.http://www.yso.fi/onto/koko/p34032 = yhteiskunnalliset objektit
+44.http://www.yso.fi/onto/koko/p93987 = vihreä siirtymä (siirtymävaihe)
+45.http://www.yso.fi/onto/koko/p93988 = mittaristo
+46.http://www.yso.fi/onto/koko/p93989 = lainsäädäntösuunnitelmat
+47.http://www.yso.fi/onto/koko/p93983 = Laki julkisen hallinnon tiedonhallinnasta
+48.http://www.yso.fi/onto/koko/p93984 = kansallinen elpymis- ja palautumissuunnitelma
+49.http://www.yso.fi/onto/koko/p93985 = Syyttäjälaitos
+50.http://www.yso.fi/onto/koko/p93986 = yhteistoiminta-asiamies
+51.http://www.yso.fi/onto/koko/p93980 = Ilmastorahasto
+52.http://www.yso.fi/onto/koko/p93981 = Digi- ja väestötietovirasto
+53.http://www.yso.fi/onto/koko/p93982 = Liikenne- ja viestintävirasto
+54.http://www.yso.fi/onto/koko/p93979 = lukuvuosimaksut
+55.http://www.yso.fi/onto/koko/p93999 = luminanssiavainnus
+56.http://www.yso.fi/onto/koko/p93995 = näyttökuvat
+57.http://www.yso.fi/onto/koko/p93996 = panoraamakuvaus (valokuvaus)
+58.http://www.yso.fi/onto/koko/p93997 = värikylläisyys
+59.http://www.yso.fi/onto/koko/p93998 = maker-kulttuuri
+60.http://www.yso.fi/onto/koko/p93991 = käyttöön vihkiminen
+61.http://www.yso.fi/onto/koko/p93992 = ansioritarikunnat
+62.http://www.yso.fi/onto/koko/p93993 = projektio (psykologia)
+63.http://www.yso.fi/onto/koko/p93994 = Processing (ohjelmointikieli)
+64.http://www.yso.fi/onto/koko/p93990 = vaikutusten arviointi
+65.http://www.yso.fi/onto/koko/p93963 = UNHRC
+66.http://www.yso.fi/onto/koko/p93964 = Ruokavirasto
+67.http://www.yso.fi/onto/koko/p93965 = Ylioppilaiden terveydenhoitosäätiö
+68.http://www.yso.fi/onto/koko/p93966 = tiedonhallintalautakunta
+69.http://www.yso.fi/onto/koko/p93960 = itsejärjestäytyminen (kemia)
+70.http://www.yso.fi/onto/koko/p93961 = vertaileva politiikantutkimus
+71.http://www.yso.fi/onto/koko/p93962 = Maahanmuuttovirasto
+72.http://www.yso.fi/onto/koko/p93959 = sublimoituminen (fysiikka)
+73.http://www.yso.fi/onto/koko/p93955 = walesilaiset
+74.http://www.yso.fi/onto/koko/p93956 = saudiarabialaiset
+75.http://www.yso.fi/onto/koko/p93957 = vanhukset (ikään liittyvä rooli)
+76.http://www.yso.fi/onto/koko/p93958 = pääkomponenttianalyysi
+77.http://www.yso.fi/onto/koko/p93975 = maakuvatyö
+78.http://www.yso.fi/onto/koko/p93976 = innovatiiviset julkiset hankinnat
+79.http://www.yso.fi/onto/koko/p93977 = Työkanava Oy
+80.http://www.yso.fi/onto/koko/p93978 = Business Finland
+81.http://www.yso.fi/onto/koko/p93971 = tiedediplomatia
+82.http://www.yso.fi/onto/koko/p93972 = kirjanpitoyksiköt
+83.http://www.yso.fi/onto/koko/p93973 = turvallisuusluokitellut asiakirjat
+84.http://www.yso.fi/onto/koko/p93974 = Luonnonvarakeskus
+85.http://www.yso.fi/onto/koko/p93970 = valtioneuvoston matkustusohje
+86.http://www.yso.fi/onto/koko/p93967 = Väylävirasto
+87.http://www.yso.fi/onto/koko/p93968 = tilapäinen suojelu
+88.http://www.yso.fi/onto/koko/p93969 = työvoiman hyväksikäyttö
+89.http://www.yso.fi/onto/koko/p93940 = sierraleonelaiset
+90.http://www.yso.fi/onto/koko/p93941 = pilvimetsät
+91.http://www.yso.fi/onto/koko/p93942 = pölynsidonta
+92.http://www.yso.fi/onto/koko/p93939 = tehostettu tuki (opetus)
+93.http://www.yso.fi/onto/koko/p93935 = vaha-animaatio
+94.http://www.yso.fi/onto/koko/p93936 = päästölähteet
+95.http://www.yso.fi/onto/koko/p93937 = auteur-teoria
+96.http://www.yso.fi/onto/koko/p93938 = sähköinen läpilyönti
+97.http://www.yso.fi/onto/koko/p93931 = rahapajat (tuotantolaitokset)
+98.http://www.yso.fi/onto/koko/p93932 = prioritarismi
+99.http://www.yso.fi/onto/koko/p93933 = valokaari
+100.http://www.yso.fi/onto/koko/p93934 = stripparit
+101.http://www.yso.fi/onto/koko/p93951 = srilankalaiset
+102.http://www.yso.fi/onto/koko/p93952 = savanninorsu
+103.http://www.yso.fi/onto/koko/p93953 = afrikannorsut
+104.http://www.yso.fi/onto/koko/p93954 = eteläafrikkalaiset
+105.http://www.yso.fi/onto/koko/p93950 = riisitauti (puutostilat)
+106.http://www.yso.fi/onto/koko/p93947 = lapsenlapsettomuus
+107.http://www.yso.fi/onto/koko/p93948 = bangladeshilaiset
+108.http://www.yso.fi/onto/koko/p93949 = metsänorsu
+109.http://www.yso.fi/onto/koko/p93943 = kyproslaiset
+110.http://www.yso.fi/onto/koko/p93944 = myonit
+111.http://www.yso.fi/onto/koko/p93945 = lasiainen
+112.http://www.yso.fi/onto/koko/p93946 = pora-ahmaset
 Uudet KOKO-URI-vastaavuudet kirjoitettu tiedostoon kokoUriVastaavuudet-test.txt
 luetaan malli sisään.
 malli luettu sisään.
-Labelin perusteella romautettiin 3771.
-Kirjoitetaan välikoko...
-Malli kirjoitettu tiedostoon ../../vocabularies/koko/koko-test.ttl
+Labelin perusteella romautettiin 2816.
