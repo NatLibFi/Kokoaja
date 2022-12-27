@@ -66,7 +66,6 @@ public class Kokoaja2 {
 		this.timestampNow = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss").format(new Date());
 		this.lueUriVastaavuudetTiedostosta(uriVastaavuuksiePolku);
 
-
 		this.ontoKokoResurssivastaavuudetJotkaNykyKokossaMap = new HashMap<Resource, Resource>();
 		this.kokoFiLabelitResurssitMap = new HashMap<String, Resource>();
 		this.deprekoidut = new HashSet<String>();

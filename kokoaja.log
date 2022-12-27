@@ -28,7 +28,7 @@ Lisätään KOKOon 5104 http://www.yso.fi/onto/tsr-meta/Concept -tyyppistä resu
 Luetaan ../Finto-data/vocabularies/kauno/kauno-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
-Lisätään KOKOon 6064 http://www.yso.fi/onto/kauno-meta/Concept -tyyppistä resurssia.
+Lisätään KOKOon 6042 http://www.yso.fi/onto/kauno-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/maotao/maotao-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
@@ -50,7 +50,7 @@ luetaan malli sisään.
 malli luettu sisään.
 Lisätään KOKOon 953 http://www.yso.fi/onto/kto-meta/Concept -tyyppistä resurssia.
 Tyhjä node : http://www.yso.fi/onto/kto/p672 skos:exactMatch
-Tripleä [http://www.yso.fi/onto/kto/p672, http://www.w3.org/2004/02/skos/core#exactMatch, 82ba89523a24839a2dd6e9fcd00e1c2c] ei otettu mukaan KOKOon
+Tripleä [http://www.yso.fi/onto/kto/p672, http://www.w3.org/2004/02/skos/core#exactMatch, 5a3726e021f2c449a5ad75b16746d2b0] ei otettu mukaan KOKOon
 Luetaan ../Finto-data/vocabularies/muso/muso-tynkäraato.ttl
 luetaan malli sisään.
 malli luettu sisään.
@@ -74,7 +74,7 @@ Lisätään KOKOon 0 http://www.yso.fi/onto/kulo-meta/Concept -tyyppistä resurs
 Luetaan ../Finto-data/vocabularies/maotao/maotao-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
-Lisätään KOKOon 11396 http://www.yso.fi/onto/mao-meta/Concept -tyyppistä resurssia.
+Lisätään KOKOon 11403 http://www.yso.fi/onto/mao-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/valo/valo-skos.ttl
 luetaan malli sisään.
 malli luettu sisään.
@@ -87,9 +87,9 @@ Käsitteellä http://www.yso.fi/onto/afo/p7809 ei ollut jarkeviä labeleita eik�
 Käsitteellä http://www.yso.fi/onto/afo/p3003 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
 Ongelma romautuksien labeleissa:  -- http://www.yso.fi/onto/juho/p363 -- http://www.yso.fi/onto/juho/p2151 kehittämishankkeet
 Ongelma romautuksien labeleissa:  -- http://www.yso.fi/onto/kauno/p2178 -- http://www.yso.fi/onto/yso/p10936 pyykinpesu
-Kokossa käsitteitä: 75014
-Linkitettyjä käsitteitä oli 83732
-Siivouksen jälkeen linkitettyjä on 10286
+Kokossa käsitteitä: 75020
+Linkitettyjä käsitteitä oli 83717
+Siivouksen jälkeen linkitettyjä on 10287
 Korjataan KOKOn objektit.
 Käsitteelle http://www.yso.fi/onto/valo/p332 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
 Käsitteelle http://www.yso.fi/onto/juho/p363 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
@@ -117,201 +117,207 @@ Käsitteelle http://www.yso.fi/onto/tero/t31678 ei löytynyt vastaavaa koko-uria
 Käsitteelle http://www.yso.fi/onto/tero/t31678 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
 Käsitteelle http://www.yso.fi/onto/oma/p1486 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
 Käsitteelle http://www.yso.fi/onto/tsr/p9337 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
-Kokossa käsitteitä urittamisen jälkeen: 74515
+Kokossa käsitteitä urittamisen jälkeen: 74545
 Lisätään linkit aiemmassa KOKOssa olleisiin käsitteisiin.
 luetaan malli sisään.
 malli luettu sisään.
 1. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: neuvottelukunta -- http://www.yso.fi/onto/koko/p60706
-2. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työmatka -- http://www.yso.fi/onto/koko/p89626
-3. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kemiallinen tekijä -- http://www.yso.fi/onto/koko/p61742
-4. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: medialukutaito (sisäinen ominaisuus, taidot) -- http://www.yso.fi/onto/koko/p78781
-5. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: veronkorotus -- http://www.yso.fi/onto/koko/p62844
-6. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: varasto -- http://www.yso.fi/onto/koko/p89596
-7. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: liiketoimintamalli -- http://www.yso.fi/onto/koko/p64938
-8. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: verkkotunnus -- http://www.yso.fi/onto/koko/p59554
-9. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Verohallitus -- http://www.yso.fi/onto/koko/p60609
-10. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kalusto (fyysiset kokonaisuudet) -- http://www.yso.fi/onto/koko/p63019
-11. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: vaatimusmäärittely -- http://www.yso.fi/onto/koko/p74735
-12. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toiminimi -- http://www.yso.fi/onto/koko/p60642
-13. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: visuaalinen -- http://www.yso.fi/onto/koko/p52579
-14. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yritysmuoto -- http://www.yso.fi/onto/koko/p56678
-15. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: keräilykortti -- http://www.yso.fi/onto/koko/p58200
-16. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: valtion menot (menot) -- http://www.yso.fi/onto/koko/p78441
-17. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kasvuyritys -- http://www.yso.fi/onto/koko/p56786
-18. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ulkomaalainen opiskelija -- http://www.yso.fi/onto/koko/p62100
-19. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: uskonto (uskominen) (yhteiskunnalliset järjestelmät) -- http://www.yso.fi/onto/koko/p89082
-20. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: käynnistäminen -- http://www.yso.fi/onto/koko/p57742
-21. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Arvopaperikeskus -- http://www.yso.fi/onto/koko/p58051
-22. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Evira -- http://www.yso.fi/onto/koko/p55200
-23. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mittari -- http://www.yso.fi/onto/koko/p49887
-24. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: lähetetty työntekijä -- http://www.yso.fi/onto/koko/p58770
-25. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työsuhdekeksintö -- http://www.yso.fi/onto/koko/p58358
-26. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työnilo (ilo, tunteet) -- http://www.yso.fi/onto/koko/p54190
-27. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: seksuaalivähemmistö -- http://www.yso.fi/onto/koko/p64047
-28. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mentaalinen ilmiö -- http://www.yso.fi/onto/koko/p89061
-29. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Zaire -- http://www.yso.fi/onto/koko/p64035
-30. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tilinpäätös (yhteiskunnalliset objektit) -- http://www.yso.fi/onto/koko/p77851
-31. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yleishyödyllinen yhteisö -- http://www.yso.fi/onto/koko/p54269
-32. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kulttuuriseteli -- http://www.yso.fi/onto/koko/p58577
-33. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: suuryritys -- http://www.yso.fi/onto/koko/p52327
-34. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: matkustaminen (liikkuminen (liikkuminen ja liikuttaminen)) -- http://www.yso.fi/onto/koko/p70944
-35. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työrajoitteiset -- http://www.yso.fi/onto/koko/p89246
-36. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: biologinen tekijä -- http://www.yso.fi/onto/koko/p60216
-37. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hamppu (luonnonkuidut) -- http://www.yso.fi/onto/koko/p89597
-38. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: pääkonttori -- http://www.yso.fi/onto/koko/p57978
-39. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: harjoittelu (toisenlaiseksi muuttaminen) -- http://www.yso.fi/onto/koko/p89060
-40. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tuluspussit -- http://www.yso.fi/onto/koko/p37680
-41. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tarjouspyyntö -- http://www.yso.fi/onto/koko/p51715
-42. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: käsityö (konkreettinen eloton objekti) -- http://www.yso.fi/onto/koko/p63060
-43. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Ulkomaalaisvirasto -- http://www.yso.fi/onto/koko/p61451
-44. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: veropohja (yhteiskunnalliset ilmiöt) -- http://www.yso.fi/onto/koko/p61487
-45. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yhtiöjärjestys (säännöt) -- http://www.yso.fi/onto/koko/p71949
-46. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: materiaalista luonti -- http://www.yso.fi/onto/koko/p89226
-47. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sijoittaminen -- http://www.yso.fi/onto/koko/p56185
-48. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: enologia (elintarviketieteet) -- http://www.yso.fi/onto/koko/p62063
-49. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: pitkäaikaissairas -- http://www.yso.fi/onto/koko/p63913
-50. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tasa-arvosuunnitelma -- http://www.yso.fi/onto/koko/p62051
-51. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kenkä -- http://www.yso.fi/onto/koko/p60253
-52. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: nimitykset (yhteiskunnalliset tapahtumat) -- http://www.yso.fi/onto/koko/p77823
-53. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: verosopimus -- http://www.yso.fi/onto/koko/p59994
-54. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: verotoimisto -- http://www.yso.fi/onto/koko/p63370
-55. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kannustaminen -- http://www.yso.fi/onto/koko/p59057
-56. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: transihminen -- http://www.yso.fi/onto/koko/p56051
-57. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tilaaja -- http://www.yso.fi/onto/koko/p78772
-58. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Maa- ja metsätalousministeriön tietopalvelukeskus -- http://www.yso.fi/onto/koko/p58706
-59. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: aukioloaika -- http://www.yso.fi/onto/koko/p64705
-60. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: terveysala (toimialat) -- http://www.yso.fi/onto/koko/p89107
-61. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Päämaja -- http://www.yso.fi/onto/koko/p24957
-62. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sisäinen viestintä (viestintä) -- http://www.yso.fi/onto/koko/p56823
-63. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: vihkiminen -- http://www.yso.fi/onto/koko/p89687
-64. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: eroaminen (henkilön aseman muuttaminen, toiminta) -- http://www.yso.fi/onto/koko/p89663
-65. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sairauspoissaolo -- http://www.yso.fi/onto/koko/p63283
-66. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Saimaan kanava -- http://www.yso.fi/onto/koko/p25300
-67. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: muovikassit -- http://www.yso.fi/onto/koko/p54875
-68. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toiminnanohjausjärjestelmä -- http://www.yso.fi/onto/koko/p54415
-69. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: nimikirjat -- http://www.yso.fi/onto/koko/p89118
-70. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hierarkian ulkopuoliset -- http://www.yso.fi/onto/koko/p88222
-71. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: rikostausta (ulkoinen ominaisuus) -- http://www.yso.fi/onto/koko/p75861
-72. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: palvelutarve -- http://www.yso.fi/onto/koko/p58938
-73. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Jemenin arabitasavalta -- http://www.yso.fi/onto/koko/p62506
-74. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mentaalinen toiminta -- http://www.yso.fi/onto/koko/p89553
-75. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: rakennustyömaa -- http://www.yso.fi/onto/koko/p55830
-76. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toimisto -- http://www.yso.fi/onto/koko/p64339
-77. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Merenkulkulaitos (valtion laitokset) -- http://www.yso.fi/onto/koko/p57239
-78. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: liikuntaseteli -- http://www.yso.fi/onto/koko/p60191
-79. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: etuoikeus -- http://www.yso.fi/onto/koko/p52758
-80. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: muutosturva (tukimuodot) -- http://www.yso.fi/onto/koko/p65185
-81. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: rahoitussuunnittelu (suunnittelu) -- http://www.yso.fi/onto/koko/p60257
-82. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: henkilönsuojain -- http://www.yso.fi/onto/koko/p62545
-83. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työterveyspalvelu -- http://www.yso.fi/onto/koko/p62412
-84. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sharia (oikeusjärjestelmät) -- http://www.yso.fi/onto/koko/p57606
-85. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: pääomatulo -- http://www.yso.fi/onto/koko/p61698
-86. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: telekuuntelu (valvonta) -- http://www.yso.fi/onto/koko/p74424
-87. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kohdentuminen -- http://www.yso.fi/onto/koko/p6947
-88. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: eettisyys (ulkoinen ominaisuus) -- http://www.yso.fi/onto/koko/p78765
-89. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: johtaja -- http://www.yso.fi/onto/koko/p89108
-90. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yksikköhinta -- http://www.yso.fi/onto/koko/p58022
-91. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kasvu (yhteiskunnalliset ilmiöt) -- http://www.yso.fi/onto/koko/p89078
-92. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: poikkeuslupa -- http://www.yso.fi/onto/koko/p56572
-93. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: MIKES -- http://www.yso.fi/onto/koko/p64236
-94. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toiminta- ja taloussuunnitelma -- http://www.yso.fi/onto/koko/p59745
-95. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Geodeettinen laitos -- http://www.yso.fi/onto/koko/p64979
-96. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: perhevapaa -- http://www.yso.fi/onto/koko/p59135
-97. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: MEK -- http://www.yso.fi/onto/koko/p61293
-98. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ennakkoäänestys (äänestykset) -- http://www.yso.fi/onto/koko/p61211
-99. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Kilpailuvirasto -- http://www.yso.fi/onto/koko/p59747
-100. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ohjelmisto -- http://www.yso.fi/onto/koko/p89656
-101. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tuoteväärennös -- http://www.yso.fi/onto/koko/p54802
-102. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: aikasarja-analyysi (analyysimenetelmät, yhteiskunnalliset objektit) -- http://www.yso.fi/onto/koko/p45542
-103. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Maaseutuvirasto -- http://www.yso.fi/onto/koko/p62349
-104. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sijoituspalvelu -- http://www.yso.fi/onto/koko/p78521
-105. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: TEKES -- http://www.yso.fi/onto/koko/p62911
-106. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: julkinen osakeyhtiö -- http://www.yso.fi/onto/koko/p57442
-107. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: palvelukeskus -- http://www.yso.fi/onto/koko/p53442
-108. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ympärileikkaus -- http://www.yso.fi/onto/koko/p89655
-109. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: luova ala -- http://www.yso.fi/onto/koko/p61725
-110. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: remburssi (yhteiskunnalliset objektit) -- http://www.yso.fi/onto/koko/p60462
-111. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kirjaamo -- http://www.yso.fi/onto/koko/p58877
-112. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: barometri -- http://www.yso.fi/onto/koko/p60159
-113. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hiljainen tieto (osaaminen) -- http://www.yso.fi/onto/koko/p63044
-114. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: liittymät -- http://www.yso.fi/onto/koko/p25713
-115. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: avaruusteknologia -- http://www.yso.fi/onto/koko/p63149
-116. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Tshekkoslovakia -- http://www.yso.fi/onto/koko/p60605
-117. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Jemenin demokraattinen tasavalta -- http://www.yso.fi/onto/koko/p58594
-118. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: metsänhoitomaksu -- http://www.yso.fi/onto/koko/p52168
-119. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: takaaja -- http://www.yso.fi/onto/koko/p61815
-120. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: terveydenhuoltoala -- http://www.yso.fi/onto/koko/p88980
-121. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: elinkeino-, liikenne- ja ympäristökeskus -- http://www.yso.fi/onto/koko/p58648
-122. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Vankeinhoitolaitos -- http://www.yso.fi/onto/koko/p62036
-123. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: organisaatiomuutos (muutos) -- http://www.yso.fi/onto/koko/p72215
-124. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työsuojelupäällikkö -- http://www.yso.fi/onto/koko/p63463
-125. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yritysviestintä (viestintä) -- http://www.yso.fi/onto/koko/p89398
-126. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kalastus (alkutuotanto) -- http://www.yso.fi/onto/koko/p89362
-127. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tullivirkamiehet (tullivirkamiehet) -- http://www.yso.fi/onto/koko/p62917
-128. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työ- ja elinkeinotoimisto -- http://www.yso.fi/onto/koko/p58070
-129. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kuljetuspalvelut (sosiaalihuolto) (sosiaalipalvelut) -- http://www.yso.fi/onto/koko/p89669
-130. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: markkinavalvonta (valvonta) -- http://www.yso.fi/onto/koko/p78515
-131. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: idea -- http://www.yso.fi/onto/koko/p56997
-132. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: perhe (ryhmät) -- http://www.yso.fi/onto/koko/p89240
-133. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kulttuuri (sivilisaatio) -- http://www.yso.fi/onto/koko/p89058
-134. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Metsäntutkimuslaitos -- http://www.yso.fi/onto/koko/p55937
-135. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: lehdistötiedote -- http://www.yso.fi/onto/koko/p60129
-136. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työllistetty -- http://www.yso.fi/onto/koko/p55775
-137. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Riista- ja kalatalouden tutkimuslaitos -- http://www.yso.fi/onto/koko/p55569
-138. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hygienia (puhtaus, ulkoinen ominaisuus) -- http://www.yso.fi/onto/koko/p89648
-139. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: itämaiset kielet -- http://www.yso.fi/onto/koko/p11943
-140. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Finpro -- http://www.yso.fi/onto/koko/p56904
-141. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kuljetusliikkeet (yritykset) -- http://www.yso.fi/onto/koko/p58572
-142. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yhdistysrekisteri -- http://www.yso.fi/onto/koko/p56397
-143. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: päälliköt (toimintaan liittyvä rooli) -- http://www.yso.fi/onto/koko/p71097
-144. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: UNCHR -- http://www.yso.fi/onto/koko/p60332
-145. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kaukolämpö (tekniset järjestelmät) -- http://www.yso.fi/onto/koko/p60259
-146. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: aluehallintovirasto -- http://www.yso.fi/onto/koko/p59128
-147. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: positiivinen erityiskohtelu (keskinäinen toiminta) -- http://www.yso.fi/onto/koko/p60931
-148. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sovittelija -- http://www.yso.fi/onto/koko/p63974
-149. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Merentutkimuslaitos -- http://www.yso.fi/onto/koko/p58181
-150. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: nuori työntekijä -- http://www.yso.fi/onto/koko/p56299
-151. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: palmikointi -- http://www.yso.fi/onto/koko/p73154
-152. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yhtiövastike -- http://www.yso.fi/onto/koko/p64989
-153. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yrittäjäeläke -- http://www.yso.fi/onto/koko/p62558
-154. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ajanviete -- http://www.yso.fi/onto/koko/p78500
-155. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mikroyritys -- http://www.yso.fi/onto/koko/p53124
-156. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: business intelligence (osaaminen) -- http://www.yso.fi/onto/koko/p64638
-1. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p74827, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p10702]
-2. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p77752, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p5883]
-3. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p36051, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
-4. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p35316, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4153]
-5. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p50118, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p70944]
-6. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p78054, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p5883]
-7. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p59608, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p6947]
-8. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p46878, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/afo/p5851]
-9. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p75334, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
-10. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p48191, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p10702]
-11. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p48345, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p10702]
-12. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p74790, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/valo/p103]
-13. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p77627, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
-14. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p77936, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
-15. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p31916, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4503]
-16. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p90370, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p89596]
-17. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p25969, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p5883]
-18. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p26001, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p89656]
-19. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p69717, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p89656]
-20. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p79184, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
-21. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p75889, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p60259]
-22. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p89617, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/tero/t32177]
-23. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p59848, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p13154]
-24. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p82050, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p2561]
-25. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p79966, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p78917]
-26. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p80099, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4503]
-27. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p47287, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/afo/p5851]
-28. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/juho/p6300, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p2342]
-29. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p76848, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
-30. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p89637, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3585]
-31. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p81932, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p16758]
-32. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p82181, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p12635]
-33. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p88983, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p61555]
-34. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p25898, http://purl.org/dc/terms/isReplacedBy, http://urn.fi/URN:NBN:fi:au:finaf:000214099]
-Lisättiin 7834 replacedByta aiemmasta KOKOsta.
+2. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Merenkulkulaitos (valtion laitokset) -- http://www.yso.fi/onto/koko/p57239
+3. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tietokoneanimaatioelokuvat -- http://www.yso.fi/onto/koko/p50975
+4. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kemiallinen tekijä -- http://www.yso.fi/onto/koko/p61742
+5. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: etuoikeus -- http://www.yso.fi/onto/koko/p52758
+6. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: medialukutaito (sisäinen ominaisuus, taidot) -- http://www.yso.fi/onto/koko/p78781
+7. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: rahoitussuunnittelu (suunnittelu) -- http://www.yso.fi/onto/koko/p60257
+8. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: henkilönsuojain -- http://www.yso.fi/onto/koko/p62545
+9. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työterveyspalvelu -- http://www.yso.fi/onto/koko/p62412
+10. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: varasto -- http://www.yso.fi/onto/koko/p89596
+11. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: brechtiläisyys -- http://www.yso.fi/onto/koko/p51104
+12. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: vaellustarinat (KAUNO) -- http://www.yso.fi/onto/koko/p50691
+13. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: verkkotunnus -- http://www.yso.fi/onto/koko/p59554
+14. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: esineanimaatioelokuvat -- http://www.yso.fi/onto/koko/p49907
+15. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Verohallitus -- http://www.yso.fi/onto/koko/p60609
+16. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kalusto (fyysiset kokonaisuudet) -- http://www.yso.fi/onto/koko/p63019
+17. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: paraabelit (kertomukset) -- http://www.yso.fi/onto/koko/p50136
+18. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sharia (oikeusjärjestelmät) -- http://www.yso.fi/onto/koko/p57606
+19. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: vaatimusmäärittely -- http://www.yso.fi/onto/koko/p74735
+20. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: telekuuntelu (valvonta) -- http://www.yso.fi/onto/koko/p74424
+21. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kohdentuminen -- http://www.yso.fi/onto/koko/p6947
+22. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hakusanaromaanit -- http://www.yso.fi/onto/koko/p50067
+23. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: eettisyys (ulkoinen ominaisuus) -- http://www.yso.fi/onto/koko/p78765
+24. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toiminimi -- http://www.yso.fi/onto/koko/p60642
+25. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: siluettianimaatioelokuvat -- http://www.yso.fi/onto/koko/p50976
+26. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: johtaja -- http://www.yso.fi/onto/koko/p89108
+27. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: snuff-elokuvat -- http://www.yso.fi/onto/koko/p74707
+28. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: visuaalinen -- http://www.yso.fi/onto/koko/p52579
+29. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: keräilykortti -- http://www.yso.fi/onto/koko/p58200
+30. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: valtion menot (menot) -- http://www.yso.fi/onto/koko/p78441
+31. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kasvuyritys -- http://www.yso.fi/onto/koko/p56786
+32. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kasvu (yhteiskunnalliset ilmiöt) -- http://www.yso.fi/onto/koko/p89078
+33. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ulkomaalainen opiskelija -- http://www.yso.fi/onto/koko/p62100
+34. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: poikkeuslupa -- http://www.yso.fi/onto/koko/p56572
+35. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: MIKES -- http://www.yso.fi/onto/koko/p64236
+36. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toiminta- ja taloussuunnitelma -- http://www.yso.fi/onto/koko/p59745
+37. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Geodeettinen laitos -- http://www.yso.fi/onto/koko/p64979
+38. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: perhevapaa -- http://www.yso.fi/onto/koko/p59135
+39. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: uskonto (uskominen) (yhteiskunnalliset järjestelmät) -- http://www.yso.fi/onto/koko/p89082
+40. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: käynnistäminen -- http://www.yso.fi/onto/koko/p57742
+41. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: MEK -- http://www.yso.fi/onto/koko/p61293
+42. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ennakkoäänestys (äänestykset) -- http://www.yso.fi/onto/koko/p61211
+43. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: luonnonkivet (MAO) -- http://www.yso.fi/onto/koko/p92929
+44. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Arvopaperikeskus -- http://www.yso.fi/onto/koko/p58051
+45. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Evira -- http://www.yso.fi/onto/koko/p55200
+46. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mittari -- http://www.yso.fi/onto/koko/p49887
+47. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yhteenkuulumattomuus -- http://www.yso.fi/onto/koko/p50573
+48. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Kilpailuvirasto -- http://www.yso.fi/onto/koko/p59747
+49. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ohjelmisto -- http://www.yso.fi/onto/koko/p89656
+50. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: lähetetty työntekijä -- http://www.yso.fi/onto/koko/p58770
+51. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tuoteväärennös -- http://www.yso.fi/onto/koko/p54802
+52. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: poikasarjakuvat -- http://www.yso.fi/onto/koko/p50804
+53. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: aikasarja-analyysi (analyysimenetelmät, yhteiskunnalliset objektit) -- http://www.yso.fi/onto/koko/p45542
+54. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tekniikka (menetelmät) -- http://www.yso.fi/onto/koko/p89287
+55. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Maaseutuvirasto -- http://www.yso.fi/onto/koko/p62349
+56. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työnilo (ilo, tunteet) -- http://www.yso.fi/onto/koko/p54190
+57. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: TEKES -- http://www.yso.fi/onto/koko/p62911
+58. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: seksuaalivähemmistö -- http://www.yso.fi/onto/koko/p64047
+59. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tekniikka (tieteet) -- http://www.yso.fi/onto/koko/p89586
+60. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mentaalinen ilmiö -- http://www.yso.fi/onto/koko/p89061
+61. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: pala-animaatioelokuvat -- http://www.yso.fi/onto/koko/p49917
+62. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: voimakastahtoisuus -- http://www.yso.fi/onto/koko/p74632
+63. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: palvelukeskus -- http://www.yso.fi/onto/koko/p53442
+64. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Zaire -- http://www.yso.fi/onto/koko/p64035
+65. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ympärileikkaus -- http://www.yso.fi/onto/koko/p89655
+66. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: suuryritys -- http://www.yso.fi/onto/koko/p52327
+67. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: niitit (MAO) -- http://www.yso.fi/onto/koko/p92530
+68. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: remburssi (yhteiskunnalliset objektit) -- http://www.yso.fi/onto/koko/p60462
+69. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kirjaamo -- http://www.yso.fi/onto/koko/p58877
+70. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: matkustaminen (liikkuminen (liikkuminen ja liikuttaminen)) -- http://www.yso.fi/onto/koko/p70944
+71. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työrajoitteiset -- http://www.yso.fi/onto/koko/p89246
+72. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: barometri -- http://www.yso.fi/onto/koko/p60159
+73. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: biologinen tekijä -- http://www.yso.fi/onto/koko/p60216
+74. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hiljainen tieto (osaaminen) -- http://www.yso.fi/onto/koko/p63044
+75. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hamppu (luonnonkuidut) -- http://www.yso.fi/onto/koko/p89597
+76. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: liittymät -- http://www.yso.fi/onto/koko/p25713
+77. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sivullisuus -- http://www.yso.fi/onto/koko/p50670
+78. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: pääkonttori -- http://www.yso.fi/onto/koko/p57978
+79. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: harjoittelu (toisenlaiseksi muuttaminen) -- http://www.yso.fi/onto/koko/p89060
+80. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tuluspussit -- http://www.yso.fi/onto/koko/p37680
+81. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tarjouspyyntö -- http://www.yso.fi/onto/koko/p51715
+82. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: käsityö (konkreettinen eloton objekti) -- http://www.yso.fi/onto/koko/p63060
+83. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Ulkomaalaisvirasto -- http://www.yso.fi/onto/koko/p61451
+84. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: avaruusteknologia -- http://www.yso.fi/onto/koko/p63149
+85. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Tshekkoslovakia -- http://www.yso.fi/onto/koko/p60605
+86. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yhtiöjärjestys (säännöt) -- http://www.yso.fi/onto/koko/p71949
+87. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: materiaalista luonti -- http://www.yso.fi/onto/koko/p89226
+88. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: enologia (elintarviketieteet) -- http://www.yso.fi/onto/koko/p62063
+89. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: pitkäaikaissairas -- http://www.yso.fi/onto/koko/p63913
+90. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Jemenin demokraattinen tasavalta -- http://www.yso.fi/onto/koko/p58594
+91. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: takaaja -- http://www.yso.fi/onto/koko/p61815
+92. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tasa-arvosuunnitelma -- http://www.yso.fi/onto/koko/p62051
+93. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: terveydenhuoltoala -- http://www.yso.fi/onto/koko/p88980
+94. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: elinkeino-, liikenne- ja ympäristökeskus -- http://www.yso.fi/onto/koko/p58648
+95. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kenkä -- http://www.yso.fi/onto/koko/p60253
+96. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: nimitykset (yhteiskunnalliset tapahtumat) -- http://www.yso.fi/onto/koko/p77823
+97. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Vankeinhoitolaitos -- http://www.yso.fi/onto/koko/p62036
+98. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: organisaatiomuutos (muutos) -- http://www.yso.fi/onto/koko/p72215
+99. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työsuojelupäällikkö -- http://www.yso.fi/onto/koko/p63463
+100. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yritysviestintä (viestintä) -- http://www.yso.fi/onto/koko/p89398
+101. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kannustaminen -- http://www.yso.fi/onto/koko/p59057
+102. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kalastus (alkutuotanto) -- http://www.yso.fi/onto/koko/p89362
+103. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tullivirkamiehet (tullivirkamiehet) -- http://www.yso.fi/onto/koko/p62917
+104. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: transihminen -- http://www.yso.fi/onto/koko/p56051
+105. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kuljetuspalvelut (sosiaalihuolto) (sosiaalipalvelut) -- http://www.yso.fi/onto/koko/p89669
+106. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: riimisarjakuvat -- http://www.yso.fi/onto/koko/p50099
+107. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: taittotehostekirjat -- http://www.yso.fi/onto/koko/p50144
+108. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: markkinavalvonta (valvonta) -- http://www.yso.fi/onto/koko/p78515
+109. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: idea -- http://www.yso.fi/onto/koko/p56997
+110. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: perhe (ryhmät) -- http://www.yso.fi/onto/koko/p89240
+111. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kulttuuri (sivilisaatio) -- http://www.yso.fi/onto/koko/p89058
+112. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Metsäntutkimuslaitos -- http://www.yso.fi/onto/koko/p55937
+113. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tilaaja -- http://www.yso.fi/onto/koko/p78772
+114. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Maa- ja metsätalousministeriön tietopalvelukeskus -- http://www.yso.fi/onto/koko/p58706
+115. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: lehdistötiedote -- http://www.yso.fi/onto/koko/p60129
+116. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tekniikka (laitteet) (tieto) -- http://www.yso.fi/onto/koko/p89357
+117. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: työllistetty -- http://www.yso.fi/onto/koko/p55775
+118. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Riista- ja kalatalouden tutkimuslaitos -- http://www.yso.fi/onto/koko/p55569
+119. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ligne claire -- http://www.yso.fi/onto/koko/p57245
+120. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: aukioloaika -- http://www.yso.fi/onto/koko/p64705
+121. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: burleski komedia -- http://www.yso.fi/onto/koko/p50169
+122. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hygienia (puhtaus, ulkoinen ominaisuus) -- http://www.yso.fi/onto/koko/p89648
+123. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: itämaiset kielet -- http://www.yso.fi/onto/koko/p11943
+124. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: easternit -- http://www.yso.fi/onto/koko/p50242
+125. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Finpro -- http://www.yso.fi/onto/koko/p56904
+126. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: terveysala (toimialat) -- http://www.yso.fi/onto/koko/p89107
+127. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kuljetusliikkeet (yritykset) -- http://www.yso.fi/onto/koko/p58572
+128. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yhdistysrekisteri -- http://www.yso.fi/onto/koko/p56397
+129. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Päämaja -- http://www.yso.fi/onto/koko/p24957
+130. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sisäinen viestintä (viestintä) -- http://www.yso.fi/onto/koko/p56823
+131. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: päälliköt (toimintaan liittyvä rooli) -- http://www.yso.fi/onto/koko/p71097
+132. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: UNCHR -- http://www.yso.fi/onto/koko/p60332
+133. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: kaukolämpö (tekniset järjestelmät) -- http://www.yso.fi/onto/koko/p60259
+134. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: vihkiminen -- http://www.yso.fi/onto/koko/p89687
+135. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: eroaminen (henkilön aseman muuttaminen, toiminta) -- http://www.yso.fi/onto/koko/p89663
+136. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sairauspoissaolo -- http://www.yso.fi/onto/koko/p63283
+137. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mieselokuvat -- http://www.yso.fi/onto/koko/p50760
+138. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Saimaan kanava -- http://www.yso.fi/onto/koko/p25300
+139. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: sovittelija -- http://www.yso.fi/onto/koko/p63974
+140. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Merentutkimuslaitos -- http://www.yso.fi/onto/koko/p58181
+141. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: tyttösarjakuvat -- http://www.yso.fi/onto/koko/p51055
+142. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: muovikassit -- http://www.yso.fi/onto/koko/p54875
+143. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toiminnanohjausjärjestelmä -- http://www.yso.fi/onto/koko/p54415
+144. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ylisuojelevuus -- http://www.yso.fi/onto/koko/p74648
+145. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: nimikirjat -- http://www.yso.fi/onto/koko/p89118
+146. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hierarkian ulkopuoliset -- http://www.yso.fi/onto/koko/p88222
+147. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: nuori työntekijä -- http://www.yso.fi/onto/koko/p56299
+148. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: palmikointi -- http://www.yso.fi/onto/koko/p73154
+149. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: emigrantit -- http://www.yso.fi/onto/koko/p2248
+150. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: yhtiövastike -- http://www.yso.fi/onto/koko/p64989
+151. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: rikostausta (ulkoinen ominaisuus) -- http://www.yso.fi/onto/koko/p75861
+152. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: ajanviete -- http://www.yso.fi/onto/koko/p78500
+153. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: palvelutarve -- http://www.yso.fi/onto/koko/p58938
+154. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: Jemenin arabitasavalta -- http://www.yso.fi/onto/koko/p62506
+155. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mentaalinen toiminta -- http://www.yso.fi/onto/koko/p89553
+156. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: mikroyritys -- http://www.yso.fi/onto/koko/p53124
+157. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: rakennustyömaa -- http://www.yso.fi/onto/koko/p55830
+158. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: toimisto -- http://www.yso.fi/onto/koko/p64339
+159. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: business intelligence (osaaminen) -- http://www.yso.fi/onto/koko/p64638
+1. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p48191, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p10702]
+2. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p68571, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/mao/p9308]
+3. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p74827, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p10702]
+4. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p36051, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+5. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p88983, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p61555]
+6. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p47287, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/afo/p5851]
+7. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p46878, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/afo/p5851]
+8. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p89637, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3585]
+9. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p90370, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p89596]
+10. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p25969, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p5883]
+11. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p58529, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/juho/p12988]
+12. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p76848, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+13. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p26001, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p89656]
+14. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p89617, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/tero/t32177]
+15. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p69717, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p89656]
+16. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p79966, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p78917]
+17. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p67445, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/mao/p9308]
+18. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p82050, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p2561]
+19. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p50118, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p70944]
+20. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p25898, http://purl.org/dc/terms/isReplacedBy, http://urn.fi/URN:NBN:fi:au:finaf:000214099]
+21. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p48345, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p10702]
+22. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p59608, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p6947]
+23. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p75889, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/koko/p60259]
+24. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p31916, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4503]
+25. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p74421, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/juho/p7948]
+26. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p81932, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p16758]
+27. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p77936, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+28. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p77627, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+29. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p75334, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+30. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p79184, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3422]
+31. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p78054, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p5883]
+32. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p77752, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p5883]
+33. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p80099, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4503]
+34. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p93728, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/oma/p921]
+35. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p59848, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p13154]
+36. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p35316, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4153]
+37. vanhassa KOKOssa oli replaced-by-triple, jota ei voitu toisintaa uuteen KOKOon: [http://www.yso.fi/onto/koko/p82181, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p12635]
+Lisättiin 7819 replacedByta aiemmasta KOKOsta.
 Tarkistetaan ettei korvattuihin mene suhteita ja puretaan mahdolliset korvaavuusketjut.
 poistettiin:
 lisättiin:
@@ -323,334 +329,338 @@ Tulostetaan prefLabel-muutokset edelliseen KOKOon verrattuna.
 luetaan malli sisään.
 malli luettu sisään.
 KOKOn prefLabel muutokset edelliseen versioon verrattuna kielellä fi:
-1. http://www.yso.fi/onto/koko/p33772 -- sinsillat => chinchilla
-2. http://www.yso.fi/onto/koko/p48281 -- linkoaminen => sentrifugointi
-3. http://www.yso.fi/onto/koko/p17051 -- kampaajat => kosmetologit
-4. http://www.yso.fi/onto/koko/p56070 -- Luotsausliikelaitos => Finnpilot Pilotage
-5. http://www.yso.fi/onto/koko/p50134 -- univaje => valvominen
-6. http://www.yso.fi/onto/koko/p25775 -- elävän mallin maalaus => elävän mallin piirustus
-7. http://www.yso.fi/onto/koko/p81126 -- steel-kitara => pedal steel -kitara
-8. http://www.yso.fi/onto/koko/p12541 -- itämainen kulttuuri => aasialaiset kulttuurit
-9. http://www.yso.fi/onto/koko/p30585 -- yliherkkyys => allergia (biologiset ilmiöt, immuunijärjestelmän sairaudet)
-10. http://www.yso.fi/onto/koko/p32450 -- kaniinit => kani (jäniseläimet)
-11. http://www.yso.fi/onto/koko/p53715 -- Azerbaidzhan => Azerbaidžan
-12. http://www.yso.fi/onto/koko/p57314 -- Tshekki => Tšekki
-13. http://www.yso.fi/onto/koko/p25842 -- kaupungit => Pähkinälinna (linna)
-14. http://www.yso.fi/onto/koko/p62966 -- Kongon tasavalta => Kongo (Brazzaville)
-15. http://www.yso.fi/onto/koko/p35637 -- onnettomuudet => ydinonnettomuudet
-16. http://www.yso.fi/onto/koko/p17572 -- nuortenkirjat => nuortenkirjallisuus
-17. http://www.yso.fi/onto/koko/p64562 -- ECE => UNECE
-18. http://www.yso.fi/onto/koko/p6200 -- kolibakteerit => Escherichia coli
-19. http://www.yso.fi/onto/koko/p34803 -- pengerrykset => penkereet ja vallit
-20. http://www.yso.fi/onto/koko/p35608 -- altisteet => allergeenit
-21. http://www.yso.fi/onto/koko/p11250 -- laukkaneilikka => rusolaukkaneilikka
-22. http://www.yso.fi/onto/koko/p33670 -- äänet => ääni (fysikaaliset ilmiöt)
-23. http://www.yso.fi/onto/koko/p10819 -- atk-rikokset => tieto- ja viestintärikokset
-24. http://www.yso.fi/onto/koko/p3678 -- puolisot => aviopuolisot
-25. http://www.yso.fi/onto/koko/p33321 -- nokkoset => nokkoskuitu
-26. http://www.yso.fi/onto/koko/p34679 -- urakehitys => työura (yhteiskunnalliset ilmiöt)
-27. http://www.yso.fi/onto/koko/p34328 -- liitännäiselinkeinot => maatalouden liitännäiselinkeinot
-28. http://www.yso.fi/onto/koko/p11827 -- työkirjat => harjoituskirjat
-29. http://www.yso.fi/onto/koko/p52032 -- sitalopraami => essitalopraami
-30. http://www.yso.fi/onto/koko/p31832 -- urheilu => mailapelit
-31. http://www.yso.fi/onto/koko/p51204 -- Tullihallitus => Tulli
-32. http://www.yso.fi/onto/koko/p34390 -- vertaistuki => mielenterveystyö (sosiaalipalvelut)
-33. http://www.yso.fi/onto/koko/p18530 -- sovintomenettely => sovinto (yhteiskunnalliset objektit)
-34. http://www.yso.fi/onto/koko/p51553 -- C-reaktiivinen proteiini => c-reaktiivinen proteiini
-35. http://www.yso.fi/onto/koko/p35123 -- loma => vanhempainvapaa
-36. http://www.yso.fi/onto/koko/p10959 -- glaukooma => silmätaudit
-37. http://www.yso.fi/onto/koko/p89468 -- veljenpojat => sisarenpojat
-38. http://www.yso.fi/onto/koko/p71540 -- ompeluneulat => neulat (elottomat objektit, välineet)
-39. http://www.yso.fi/onto/koko/p36344 -- ympäristövauriot => ympäristövaikutukset
-40. http://www.yso.fi/onto/koko/p61030 -- alkuperämerkintä => alkuperämerkinnät
-41. http://www.yso.fi/onto/koko/p56991 -- sairausvakuutusmaksu => sairausvakuutusmaksut
-42. http://www.yso.fi/onto/koko/p31110 -- tölkit => pakkaukset
-43. http://www.yso.fi/onto/koko/p52699 -- väylänpito => vesiväylänpito
-44. http://www.yso.fi/onto/koko/p36000 -- kokoukset => konferenssit
-45. http://www.yso.fi/onto/koko/p62153 -- teollinen tuotanto (tuotanto) => teollisuustuotanto
-46. http://www.yso.fi/onto/koko/p32330 -- virkamiehet => valtion virkamiehet
-47. http://www.yso.fi/onto/koko/p63967 -- kotikunta => kotikunnat
-48. http://www.yso.fi/onto/koko/p25814 -- verkkokauppa => verkkokaupat (verkkosivut)
-49. http://www.yso.fi/onto/koko/p24959 -- legionella => Legionella-bakteerit
-50. http://www.yso.fi/onto/koko/p25277 -- tietokoneohjelmat => ilmaiset tietokoneohjelmat
-51. http://www.yso.fi/onto/koko/p55190 -- luonnonhaittakorvaus => luonnonhaittakorvaukset
-52. http://www.yso.fi/onto/koko/p48856 -- johtaminen => orkesterinjohtaminen
-53. http://www.yso.fi/onto/koko/p59015 -- yritystuki => yritystuet
-54. http://www.yso.fi/onto/koko/p18648 -- ensihoitajat => perushoitajat
-55. http://www.yso.fi/onto/koko/p10141 -- asiakkuus => asiakassuhde
-56. http://www.yso.fi/onto/koko/p31350 -- lunastus => osakkeiden lunastus
-57. http://www.yso.fi/onto/koko/p36235 -- asunnot => vapaa-ajan asunnot
-58. http://www.yso.fi/onto/koko/p10268 -- organisaatiot => yhtymät (yritykset)
-59. http://www.yso.fi/onto/koko/p32049 -- konkretismi => konkreettinen taide
-60. http://www.yso.fi/onto/koko/p37295 -- pienet ja keskisuuret yritykset => pk-yritykset
-61. http://www.yso.fi/onto/koko/p33379 -- virkistyskäyttö => luonnon virkistyskäyttö
-62. http://www.yso.fi/onto/koko/p24921 -- purkaminen (osiin) => purku (rakennusala)
-63. http://www.yso.fi/onto/koko/p56363 -- Kongon demokraattinen tasavalta => Kongo (Kinsasha)
-64. http://www.yso.fi/onto/koko/p61837 -- teknologiayritys => teknologiayritykset
-65. http://www.yso.fi/onto/koko/p36659 -- rauhallisuus => persoonallisuuden piirteet
-66. http://www.yso.fi/onto/koko/p5356 -- tulokaslajit => tulokaskasvit
-67. http://www.yso.fi/onto/koko/p32659 -- projektio (mallinnus) => projisointi
-68. http://www.yso.fi/onto/koko/p12621 -- verkkojulkaisut => sähköiset julkaisut
-69. http://www.yso.fi/onto/koko/p31480 -- eksistenssi => itsenäinen toiminta
-70. http://www.yso.fi/onto/koko/p25533 -- RFTA => radiotaajuusablaatio
-71. http://www.yso.fi/onto/koko/p12529 -- palkat => palkkaus (yhteiskunnalliset ilmiöt)
-72. http://www.yso.fi/onto/koko/p36485 -- monikäyttö => metsien monikäyttö
-73. http://www.yso.fi/onto/koko/p16674 -- keskittyminen => keskittymiskyky
-74. http://www.yso.fi/onto/koko/p24883 -- Vesunnin kartano => Vesunnan kartano
-75. http://www.yso.fi/onto/koko/p55202 -- VTT => Teknologian tutkimuskeskus VTT
-76. http://www.yso.fi/onto/koko/p25805 -- oppiaineet => äidinkieli (oppiaineet)
-77. http://www.yso.fi/onto/koko/p53733 -- kuntotarkastus => kuntotarkastukset
-78. http://www.yso.fi/onto/koko/p77266 -- palinkielinen kirjallisuus => paalinkielinen kirjallisuus
-79. http://www.yso.fi/onto/koko/p15244 -- terveysasemat (terveydenhuoltolaitokset) => terveyskeskukset (terveydenhuoltolaitokset, terveyspalveluja antavat palveluyksiköt)
-80. http://www.yso.fi/onto/koko/p8135 -- sanktiot => seuraamukset
-81. http://www.yso.fi/onto/koko/p69968 -- treffit => deittailu (keskinäinen toiminta, keskinäiseen toimintaan liittyvät tapahtumat)
-82. http://www.yso.fi/onto/koko/p31823 -- kehitys => kehittäminen
-83. http://www.yso.fi/onto/koko/p49086 -- son mexicano => rancheramusiikki
-84. http://www.yso.fi/onto/koko/p25991 -- antiikin kirjallisuus => kirjallisuus (yhteiskunnalliset objektit)
-85. http://www.yso.fi/onto/koko/p48567 -- hemoglobiini => hemoglobiinit
-86. http://www.yso.fi/onto/koko/p55345 -- ammatinharjoittaja => ammatinharjoittajat
-87. http://www.yso.fi/onto/koko/p25699 -- kivet => kiviaines
-88. http://www.yso.fi/onto/koko/p37340 -- tievalaistus => pihavalaistus
-89. http://www.yso.fi/onto/koko/p53159 -- Tshad => Tšad
-90. http://www.yso.fi/onto/koko/p13880 -- tyyli => omistus
-91. http://www.yso.fi/onto/koko/p60537 -- B-vitamiinit => B-vitamiinikompleksi
-92. http://www.yso.fi/onto/koko/p33903 -- sarvet => sarvi (materiaalit)
-93. http://www.yso.fi/onto/koko/p11635 -- tanssilajit => kansanmusiikki
-94. http://www.yso.fi/onto/koko/p73064 -- laukkakasvit => narsissikasvit
-95. http://www.yso.fi/onto/koko/p89346 -- veljentyttäret => sisarentyttäret
-96. http://www.yso.fi/onto/koko/p63979 -- pookit => tunnusmajakat
-97. http://www.yso.fi/onto/koko/p62989 -- Fidzhi => Fidži
-98. http://www.yso.fi/onto/koko/p80934 -- sairauskassat => vakuutuskassat
-99. http://www.yso.fi/onto/koko/p72114 -- rikosetsivät => rikostutkijat
-100. http://www.yso.fi/onto/koko/p53067 -- luottotappio => luottotappiot
-101. http://www.yso.fi/onto/koko/p20820 -- afroaasialaiset kielet => nigeriläis-kongolaiset kielet
-102. http://www.yso.fi/onto/koko/p56368 -- Energiamarkkinavirasto => Energiavirasto
-103. http://www.yso.fi/onto/koko/p71039 -- integraatio => integrointi
-104. http://www.yso.fi/onto/koko/p32415 -- suojelu => rakennetun ympäristön suojelu
-105. http://www.yso.fi/onto/koko/p58963 -- OHIM => EUIPO
-106. http://www.yso.fi/onto/koko/p52910 -- muu rooli => subjektius
-107. http://www.yso.fi/onto/koko/p59916 -- Sao Tome ja Principe => São Tomé ja Príncipe
-108. http://www.yso.fi/onto/koko/p17363 -- seuraelämä => sosiaalinen elämä
-109. http://www.yso.fi/onto/koko/p57333 -- epätyypillinen työsuhde => epätyypilliset työsuhteet
-110. http://www.yso.fi/onto/koko/p35038 -- moduulit => modulaarisuus
-111. http://www.yso.fi/onto/koko/p14743 -- avioliitto => seka-avioliitto
-112. http://www.yso.fi/onto/koko/p33632 -- lastenkirjallisuus => lastenkirjat (kirjat)
-113. http://www.yso.fi/onto/koko/p34816 -- hormit => savuhormit
-114. http://www.yso.fi/onto/koko/p52408 -- valmuskat => tuoksuvalmuska
-115. http://www.yso.fi/onto/koko/p5907 -- henkilökuntakerhot => henkilöstökerhot
-116. http://www.yso.fi/onto/koko/p36801 -- malvakasvit => lehmuskasvit
-117. http://www.yso.fi/onto/koko/p47360 -- lisensiaatintyöt => lisensiaatintutkimukset
-118. http://www.yso.fi/onto/koko/p52110 -- Inspecta => Kiwa Inspecta
-119. http://www.yso.fi/onto/koko/p17240 -- murrosikäiset => teini-ikäiset (ikään liittyvä rooli)
-120. http://www.yso.fi/onto/koko/p55620 -- A(H1N1)-virus => influenssa A -virus, alatyyppi H1N1
-121. http://www.yso.fi/onto/koko/p17601 -- abduktio => päättely
-122. http://www.yso.fi/onto/koko/p55914 -- Bosnia-Hertsegovina => Bosnia ja Hertsegovina
-123. http://www.yso.fi/onto/koko/p34937 -- mentaaliset objektit => mentaaliset ominaisuudet
-124. http://www.yso.fi/onto/koko/p30670 -- muutos => voimaantuminen
-125. http://www.yso.fi/onto/koko/p17590 -- poltto => palaminen
-126. http://www.yso.fi/onto/koko/p73601 -- kielelliset ilmiöt => kielelliset objektit
-127. http://www.yso.fi/onto/koko/p26150 -- varastotilat => varastot (elottomat fyysiset kokonaisuudet)
-128. http://www.yso.fi/onto/koko/p13187 -- vammat => haavat (vammat)
-129. http://www.yso.fi/onto/koko/p89329 -- vaaratekijä => vaaratekijät
-130. http://www.yso.fi/onto/koko/p18948 -- työnkuva => toimenkuvat
-131. http://www.yso.fi/onto/koko/p48712 -- hambo (tanssit) => hambot (sävellykset)
-132. http://www.yso.fi/onto/koko/p59861 -- Pohjois-Korea => Korean demokraattinen kansantasavalta
-133. http://www.yso.fi/onto/koko/p89686 -- vajaakuntoinen => vajaakuntoiset
-134. http://www.yso.fi/onto/koko/p58188 -- opintolaina => opintolainat
-135. http://www.yso.fi/onto/koko/p33932 -- desinfiointi => desinfiointiaineet
-136. http://www.yso.fi/onto/koko/p51437 -- laboratoriotyö => laboratoriotyöt
-137. http://www.yso.fi/onto/koko/p16597 -- riskitekijät => vaikutukseen liittyvä rooli
-138. http://www.yso.fi/onto/koko/p33969 -- aasialaiset => burmalaiset
-139. http://www.yso.fi/onto/koko/p31718 -- maatalous => maanviljely
-140. http://www.yso.fi/onto/koko/p61967 -- Myanmar/Burma => Myanmar
-141. http://www.yso.fi/onto/koko/p33889 -- kiteytys => kristallisaatio
-142. http://www.yso.fi/onto/koko/p52306 -- IAPIP => AIPPI
-143. http://www.yso.fi/onto/koko/p32713 -- mobiilipalvelut => matkaviestinpalvelut
-144. http://www.yso.fi/onto/koko/p37732 -- kuvausluvat => valokuvausluvat
-145. http://www.yso.fi/onto/koko/p56651 -- Kambodzha => Kambodža
-146. http://www.yso.fi/onto/koko/p37002 -- värit => väri (ominaisuudet)
-147. http://www.yso.fi/onto/koko/p57366 -- CEN => ETSI
-148. http://www.yso.fi/onto/koko/p69610 -- palin kieli => paalin kieli
-149. http://www.yso.fi/onto/koko/p58256 -- Etelä-Korea => Korean tasavalta
-150. http://www.yso.fi/onto/koko/p34626 -- verhoilu => verhoukset
-151. http://www.yso.fi/onto/koko/p51944 -- hyödyllisyysmalli => hyödyllisyysmallit
+1. http://www.yso.fi/onto/koko/p48281 -- linkoaminen => sentrifugointi
+2. http://www.yso.fi/onto/koko/p17051 -- kampaajat => kosmetologit
+3. http://www.yso.fi/onto/koko/p50134 -- univaje => valvominen
+4. http://www.yso.fi/onto/koko/p25775 -- elävän mallin maalaus => elävän mallin piirustus
+5. http://www.yso.fi/onto/koko/p81126 -- steel-kitara => pedal steel -kitara
+6. http://www.yso.fi/onto/koko/p30585 -- yliherkkyys => allergia (biologiset ilmiöt, immuunijärjestelmän sairaudet)
+7. http://www.yso.fi/onto/koko/p32450 -- kaniinit => kani (jäniseläimet)
+8. http://www.yso.fi/onto/koko/p35086 -- ahtaus => ahtaustyö (kohdistuva toiminta, kuormaus, liikuttaminen)
+9. http://www.yso.fi/onto/koko/p25842 -- kaupungit => Pähkinälinna (linna)
+10. http://www.yso.fi/onto/koko/p35637 -- onnettomuudet => ydinonnettomuudet
+11. http://www.yso.fi/onto/koko/p17572 -- nuortenkirjat => nuortenkirjallisuus
+12. http://www.yso.fi/onto/koko/p6200 -- kolibakteerit => Escherichia coli
+13. http://www.yso.fi/onto/koko/p34803 -- pengerrykset => penkereet ja vallit
+14. http://www.yso.fi/onto/koko/p35608 -- altisteet => allergeenit
+15. http://www.yso.fi/onto/koko/p33670 -- äänet => ääni (fysikaaliset ilmiöt)
+16. http://www.yso.fi/onto/koko/p3678 -- puolisot => aviopuolisot
+17. http://www.yso.fi/onto/koko/p33321 -- nokkoset => nokkoskuitu
+18. http://www.yso.fi/onto/koko/p34679 -- urakehitys => työura (yhteiskunnalliset ilmiöt)
+19. http://www.yso.fi/onto/koko/p34328 -- liitännäiselinkeinot => maatalouden liitännäiselinkeinot
+20. http://www.yso.fi/onto/koko/p26281 -- Metsäpeuran maa => Metsäpeuranmaa
+21. http://www.yso.fi/onto/koko/p11827 -- työkirjat => harjoituskirjat
+22. http://www.yso.fi/onto/koko/p52032 -- sitalopraami => essitalopraami
+23. http://www.yso.fi/onto/koko/p31832 -- urheilu => mailapelit
+24. http://www.yso.fi/onto/koko/p56641 -- myssyt ja pipot => myssyt
+25. http://www.yso.fi/onto/koko/p34390 -- vertaistuki => mielenterveystyö (sosiaalipalvelut)
+26. http://www.yso.fi/onto/koko/p18530 -- sovintomenettely => sovinto (yhteiskunnalliset objektit)
+27. http://www.yso.fi/onto/koko/p51553 -- C-reaktiivinen proteiini => c-reaktiivinen proteiini
+28. http://www.yso.fi/onto/koko/p35123 -- loma => vanhempainvapaa
+29. http://www.yso.fi/onto/koko/p50412 -- lapsikuvaus (kertomukset (kielelliset objektit)) => lapsikuvaukset
+30. http://www.yso.fi/onto/koko/p10959 -- glaukooma => silmätaudit
+31. http://www.yso.fi/onto/koko/p89468 -- veljenpojat => sisarenpojat
+32. http://www.yso.fi/onto/koko/p71540 -- ompeluneulat => neulat (elottomat objektit, välineet)
+33. http://www.yso.fi/onto/koko/p36344 -- ympäristövauriot => ympäristövaikutukset
+34. http://www.yso.fi/onto/koko/p56991 -- sairausvakuutusmaksu => sairausvakuutusmaksut
+35. http://www.yso.fi/onto/koko/p31110 -- tölkit => pakkaukset
+36. http://www.yso.fi/onto/koko/p52699 -- väylänpito => vesiväylänpito
+37. http://www.yso.fi/onto/koko/p1892 -- nielurisa => nielurisat
+38. http://www.yso.fi/onto/koko/p36000 -- kokoukset => konferenssit
+39. http://www.yso.fi/onto/koko/p32330 -- virkamiehet => valtion virkamiehet
+40. http://www.yso.fi/onto/koko/p63967 -- kotikunta => kotikunnat
+41. http://www.yso.fi/onto/koko/p25814 -- verkkokauppa => verkkokaupat (verkkosivut)
+42. http://www.yso.fi/onto/koko/p24959 -- legionella => Legionella-bakteerit
+43. http://www.yso.fi/onto/koko/p25277 -- tietokoneohjelmat => ilmaiset tietokoneohjelmat
+44. http://www.yso.fi/onto/koko/p55190 -- luonnonhaittakorvaus => luonnonhaittakorvaukset
+45. http://www.yso.fi/onto/koko/p18648 -- ensihoitajat => perushoitajat
+46. http://www.yso.fi/onto/koko/p10141 -- asiakkuus => asiakassuhde
+47. http://www.yso.fi/onto/koko/p31350 -- lunastus => osakkeiden lunastus
+48. http://www.yso.fi/onto/koko/p36235 -- asunnot => vapaa-ajan asunnot
+49. http://www.yso.fi/onto/koko/p10268 -- organisaatiot => yhtymät (yritykset)
+50. http://www.yso.fi/onto/koko/p32049 -- konkretismi => konkreettinen taide
+51. http://www.yso.fi/onto/koko/p33379 -- virkistyskäyttö => luonnon virkistyskäyttö
+52. http://www.yso.fi/onto/koko/p24921 -- purkaminen (osiin) => purku (rakennusala)
+53. http://www.yso.fi/onto/koko/p36659 -- rauhallisuus => persoonallisuuden piirteet
+54. http://www.yso.fi/onto/koko/p5356 -- tulokaslajit => tulokaskasvit
+55. http://www.yso.fi/onto/koko/p12621 -- verkkojulkaisut => sähköiset julkaisut
+56. http://www.yso.fi/onto/koko/p31480 -- eksistenssi => itsenäinen toiminta
+57. http://www.yso.fi/onto/koko/p12529 -- palkat => palkkaus (yhteiskunnalliset ilmiöt)
+58. http://www.yso.fi/onto/koko/p36485 -- monikäyttö => metsien monikäyttö
+59. http://www.yso.fi/onto/koko/p10819 -- tietotekniikkarikokset => tieto- ja viestintärikokset
+60. http://www.yso.fi/onto/koko/p25805 -- oppiaineet => äidinkieli (oppiaineet)
+61. http://www.yso.fi/onto/koko/p53733 -- kuntotarkastus => kuntotarkastukset
+62. http://www.yso.fi/onto/koko/p15244 -- terveysasemat (terveydenhuoltolaitokset) => terveyskeskukset (terveydenhuoltolaitokset, terveyspalveluja antavat palveluyksiköt)
+63. http://www.yso.fi/onto/koko/p8135 -- sanktiot => seuraamukset
+64. http://www.yso.fi/onto/koko/p31823 -- kehitys => kehittäminen
+65. http://www.yso.fi/onto/koko/p49086 -- son mexicano => rancheramusiikki
+66. http://www.yso.fi/onto/koko/p25991 -- antiikin kirjallisuus => kirjallisuus (yhteiskunnalliset objektit)
+67. http://www.yso.fi/onto/koko/p48567 -- hemoglobiini => hemoglobiinit
+68. http://www.yso.fi/onto/koko/p26264 -- lapsiasiavaltuutettu => lapsiasiavaltuutetut
+69. http://www.yso.fi/onto/koko/p50844 -- vaha-animaatioelokuvat => vaha-animaatiot
+70. http://www.yso.fi/onto/koko/p25699 -- kivet => kiviaines
+71. http://www.yso.fi/onto/koko/p37340 -- tievalaistus => pihavalaistus
+72. http://www.yso.fi/onto/koko/p13880 -- tyyli => omistus
+73. http://www.yso.fi/onto/koko/p60537 -- B-vitamiinit => B-vitamiinikompleksi
+74. http://www.yso.fi/onto/koko/p33903 -- sarvet => sarvi (materiaalit)
+75. http://www.yso.fi/onto/koko/p11635 -- tanssilajit => kansanmusiikki
+76. http://www.yso.fi/onto/koko/p73064 -- laukkakasvit => narsissikasvit
+77. http://www.yso.fi/onto/koko/p89346 -- veljentyttäret => sisarentyttäret
+78. http://www.yso.fi/onto/koko/p63979 -- pookit => tunnusmajakat
+79. http://www.yso.fi/onto/koko/p55385 -- lintuvedet => lintualueet
+80. http://www.yso.fi/onto/koko/p72114 -- rikosetsivät => rikostutkijat
+81. http://www.yso.fi/onto/koko/p20820 -- afroaasialaiset kielet => nigeriläis-kongolaiset kielet
+82. http://www.yso.fi/onto/koko/p71039 -- integraatio => integrointi
+83. http://www.yso.fi/onto/koko/p32415 -- suojelu => rakennetun ympäristön suojelu
+84. http://www.yso.fi/onto/koko/p52910 -- muu rooli => subjektius
+85. http://www.yso.fi/onto/koko/p17363 -- seuraelämä => sosiaalinen elämä
+86. http://www.yso.fi/onto/koko/p57333 -- epätyypillinen työsuhde => epätyypilliset työsuhteet
+87. http://www.yso.fi/onto/koko/p35038 -- moduulit => modulaarisuus
+88. http://www.yso.fi/onto/koko/p14743 -- avioliitto => seka-avioliitto
+89. http://www.yso.fi/onto/koko/p33632 -- lastenkirjallisuus => lastenkirjat (kirjat)
+90. http://www.yso.fi/onto/koko/p34816 -- hormit => savuhormit
+91. http://www.yso.fi/onto/koko/p52408 -- valmuskat => tuoksuvalmuska
+92. http://www.yso.fi/onto/koko/p36801 -- malvakasvit => lehmuskasvit
+93. http://www.yso.fi/onto/koko/p47360 -- lisensiaatintyöt => lisensiaatintutkimukset
+94. http://www.yso.fi/onto/koko/p17240 -- murrosikäiset => teini-ikäiset (ikään liittyvä rooli)
+95. http://www.yso.fi/onto/koko/p55620 -- A(H1N1)-virus => influenssa A -virus, alatyyppi H1N1
+96. http://www.yso.fi/onto/koko/p17601 -- abduktio => päättely
+97. http://www.yso.fi/onto/koko/p34937 -- mentaaliset objektit => mentaaliset ominaisuudet
+98. http://www.yso.fi/onto/koko/p17590 -- poltto => palaminen
+99. http://www.yso.fi/onto/koko/p33730 -- merien saastuminen => vesien saastuminen
+100. http://www.yso.fi/onto/koko/p73601 -- kielelliset ilmiöt => kielelliset objektit
+101. http://www.yso.fi/onto/koko/p26150 -- varastotilat => varastot (elottomat fyysiset kokonaisuudet)
+102. http://www.yso.fi/onto/koko/p13187 -- vammat => haavat (vammat)
+103. http://www.yso.fi/onto/koko/p50651 -- leppymys (KAUNO) => leppyminen
+104. http://www.yso.fi/onto/koko/p18948 -- työnkuva => toimenkuvat
+105. http://www.yso.fi/onto/koko/p48712 -- hambo (tanssit) => hambot (sävellykset)
+106. http://www.yso.fi/onto/koko/p33932 -- desinfiointi => desinfiointiaineet
+107. http://www.yso.fi/onto/koko/p34738 -- hiihto => sukset
+108. http://www.yso.fi/onto/koko/p51437 -- laboratoriotyö => laboratoriotyöt
+109. http://www.yso.fi/onto/koko/p13760 -- edut => etuudet
+110. http://www.yso.fi/onto/koko/p31718 -- maatalous => maanviljely
+111. http://www.yso.fi/onto/koko/p33889 -- kiteytys => kristallisaatio
+112. http://www.yso.fi/onto/koko/p32713 -- mobiilipalvelut => matkaviestinpalvelut
+113. http://www.yso.fi/onto/koko/p37732 -- kuvausluvat => valokuvausluvat
+114. http://www.yso.fi/onto/koko/p37002 -- värit => väri (ominaisuudet)
+115. http://www.yso.fi/onto/koko/p34626 -- verhoilu => verhoukset
+116. http://www.yso.fi/onto/koko/p31281 -- dinosaurukset => muinaiseläimet
 KOKOn prefLabel muutokset edelliseen versioon verrattuna kielellä sv:
-1. http://www.yso.fi/onto/koko/p78427 -- banor => rörelsebanor
-2. http://www.yso.fi/onto/koko/p25533 -- RFTA-behandling => radiofrekvensablation
-3. http://www.yso.fi/onto/koko/p34679 -- karriär => karriärutveckling
-4. http://www.yso.fi/onto/koko/p18858 -- fulbe => fulani (folk)
+1. http://www.yso.fi/onto/koko/p6648 -- sorbet => sorbeter
+2. http://www.yso.fi/onto/koko/p32094 -- nejonöga (art) => flodnejonöga
+3. http://www.yso.fi/onto/koko/p78427 -- banor => rörelsebanor
+4. http://www.yso.fi/onto/koko/p34679 -- karriär => karriärutveckling
 5. http://www.yso.fi/onto/koko/p33625 -- högskolor => universitet
 6. http://www.yso.fi/onto/koko/p89346 -- brorsdöttrar => systerdöttrar
 7. http://www.yso.fi/onto/koko/p14743 -- äktenskap => blandäktenskap
 8. http://www.yso.fi/onto/koko/p72785 -- programblad => program (planer)
 9. http://www.yso.fi/onto/koko/p32778 -- delning => arbetsfördelning
 10. http://www.yso.fi/onto/koko/p35390 -- stugor => storstugor (rum)
-11. http://www.yso.fi/onto/koko/p11980 -- saft => safter
-12. http://www.yso.fi/onto/koko/p35205 -- olja => fetter
-13. http://www.yso.fi/onto/koko/p72979 -- gallikansk sång => latinsk kyrkosång
-14. http://www.yso.fi/onto/koko/p13760 -- fördelar => förmåner
-15. http://www.yso.fi/onto/koko/p15792 -- polarisering (samhälle) => polarisation (vågrörelse)
+11. http://www.yso.fi/onto/koko/p35205 -- olja => fetter
+12. http://www.yso.fi/onto/koko/p72979 -- gallikansk sång => latinsk kyrkosång
+13. http://www.yso.fi/onto/koko/p13760 -- fördelar => förmåner
+14. http://www.yso.fi/onto/koko/p15792 -- polarisering (samhälle) => polarisation (vågrörelse)
+15. http://www.yso.fi/onto/koko/p26281 -- Metsäpeuran maa => Metsäpeuranmaa
 16. http://www.yso.fi/onto/koko/p55385 -- fågelvatten => fågelområden
-17. http://www.yso.fi/onto/koko/p9243 -- objektorientering => objektorienterad programmering
-18. http://www.yso.fi/onto/koko/p31480 -- existens => självständig aktivitet
-19. http://www.yso.fi/onto/koko/p31718 -- jordbruk => lantbruk
-20. http://www.yso.fi/onto/koko/p30585 -- allergi => överkänslighet
-21. http://www.yso.fi/onto/koko/p32876 -- luft => temperatur
-22. http://www.yso.fi/onto/koko/p48753 -- nonetter (ensembler) => oktetter (ensembler)
-23. http://www.yso.fi/onto/koko/p18948 -- arbetsbild => befattningsbeskrivningar
+17. http://www.yso.fi/onto/koko/p31480 -- existens => självständig aktivitet
+18. http://www.yso.fi/onto/koko/p31718 -- jordbruk => lantbruk
+19. http://www.yso.fi/onto/koko/p30585 -- allergi => överkänslighet
+20. http://www.yso.fi/onto/koko/p32876 -- luft => temperatur
+21. http://www.yso.fi/onto/koko/p48753 -- nonetter (ensembler) => oktetter (ensembler)
+22. http://www.yso.fi/onto/koko/p18948 -- arbetsbild => befattningsbeskrivningar
+23. http://www.yso.fi/onto/koko/p93645 -- stop motion-animationer => stop motion-animation
 24. http://www.yso.fi/onto/koko/p25277 -- datorprogram => gratisprogram
-25. http://www.yso.fi/onto/koko/p55862 -- krigsindustri => försvarsmaterielindustri
-26. http://www.yso.fi/onto/koko/p89468 -- brorsöner => systersöner
-27. http://www.yso.fi/onto/koko/p10819 -- databrott => informations- och kommunikationsbrott
-28. http://www.yso.fi/onto/koko/p17590 -- bränning => förbränning
-29. http://www.yso.fi/onto/koko/p36061 -- symönster => handarbetsmodeller
-30. http://www.yso.fi/onto/koko/p24908 -- munhygien => miljöhygien
-31. http://www.yso.fi/onto/koko/p3678 -- makar => partner
-32. http://www.yso.fi/onto/koko/p17051 -- damfrisörer => kosmetologer
-33. http://www.yso.fi/onto/koko/p33928 -- goodwill => värde (egenskaper)
-34. http://www.yso.fi/onto/koko/p30564 -- tekniska system => digitala bibliotek
-35. http://www.yso.fi/onto/koko/p25755 -- luftvärn => luftvärnstrupper
-36. http://www.yso.fi/onto/koko/p30693 -- fodral => puppor
-37. http://www.yso.fi/onto/koko/p33998 -- gassvetsning => skärbränning
-38. http://www.yso.fi/onto/koko/p16282 -- invandring => utvandring
-39. http://www.yso.fi/onto/koko/p30921 -- test => experiment
-40. http://www.yso.fi/onto/koko/p35608 -- agenser => allergener
-41. http://www.yso.fi/onto/koko/p33969 -- asiater => burmeser
-42. http://www.yso.fi/onto/koko/p34197 -- tryckning (konstgrafik) => framkallning och utskrift av fotografier
-43. http://www.yso.fi/onto/koko/p61030 -- originalnotering => ursprungsmärkningar
-44. http://www.yso.fi/onto/koko/p30802 -- tätningar => komprimering (förstärkning)
-45. http://www.yso.fi/onto/koko/p51944 -- nyttighetsmodell => nyttighetsmodeller
-46. http://www.yso.fi/onto/koko/p4146 -- baseball => baseboll
+25. http://www.yso.fi/onto/koko/p12541 -- orientalisk kultur => asiatiska kulturer
+26. http://www.yso.fi/onto/koko/p55862 -- krigsindustri => försvarsmaterielindustri
+27. http://www.yso.fi/onto/koko/p89468 -- brorsöner => systersöner
+28. http://www.yso.fi/onto/koko/p10819 -- databrott => informations- och kommunikationsbrott
+29. http://www.yso.fi/onto/koko/p17590 -- bränning => förbränning
+30. http://www.yso.fi/onto/koko/p36061 -- symönster => handarbetsmodeller
+31. http://www.yso.fi/onto/koko/p24908 -- munhygien => miljöhygien
+32. http://www.yso.fi/onto/koko/p3678 -- makar => partner
+33. http://www.yso.fi/onto/koko/p17051 -- damfrisörer => kosmetologer
+34. http://www.yso.fi/onto/koko/p33928 -- goodwill => värde (egenskaper)
+35. http://www.yso.fi/onto/koko/p48856 -- orkesterdirigering => ledarskap (verksamhetsledning)
+36. http://www.yso.fi/onto/koko/p25755 -- luftvärn => luftvärnstrupper
+37. http://www.yso.fi/onto/koko/p30693 -- fodral => puppor
+38. http://www.yso.fi/onto/koko/p33998 -- gassvetsning => skärbränning
+39. http://www.yso.fi/onto/koko/p73097 -- tvinning => flätning
+40. http://www.yso.fi/onto/koko/p16282 -- invandring => utvandring
+41. http://www.yso.fi/onto/koko/p30921 -- test => experiment
+42. http://www.yso.fi/onto/koko/p35608 -- agenser => allergener
+43. http://www.yso.fi/onto/koko/p33730 -- havsförorening => vattenförorening
+44. http://www.yso.fi/onto/koko/p34197 -- tryckning (konstgrafik) => framkallning och utskrift av fotografier
+45. http://www.yso.fi/onto/koko/p6902 -- silversidfiskar => silversidartade fiskar
+46. http://www.yso.fi/onto/koko/p30802 -- tätningar => komprimering (förstärkning)
 47. http://www.yso.fi/onto/koko/p81126 -- steel guitar => pedal steel guitar
 48. http://www.yso.fi/onto/koko/p1394 -- föräldrar => adoptivföräldrar
-49. http://www.yso.fi/onto/koko/p11250 -- backtrift => trift
-50. http://www.yso.fi/onto/koko/p5332 -- remittering => återförvisning (till lägre rätt)
-51. http://www.yso.fi/onto/koko/p53067 -- kreditförlust => kreditförluster
-52. http://www.yso.fi/onto/koko/p36349 -- strategier => militärstrategi
-53. http://www.yso.fi/onto/koko/p13297 -- juice => juicer
+49. http://www.yso.fi/onto/koko/p93935 -- leranimationer => leranimation
+50. http://www.yso.fi/onto/koko/p2803 -- revision => auditering
+51. http://www.yso.fi/onto/koko/p52910 -- annan roll => subjekt (filosofi)
+52. http://www.yso.fi/onto/koko/p14038 -- ekotona effekter => kanteffekter
+53. http://www.yso.fi/onto/koko/p36349 -- strategier => militärstrategi
 54. http://www.yso.fi/onto/koko/p32713 -- mobiltjänster => mobilkommunikationstjänster
 55. http://www.yso.fi/onto/koko/p48882 -- brudvalser => bröllopsmarscher
 56. http://www.yso.fi/onto/koko/p32415 -- skyddande => byggnadsvård
-57. http://www.yso.fi/onto/koko/p26146 -- WISC => intelligenstest
-58. http://www.yso.fi/onto/koko/p93645 -- stop motion-animering => stop motion-animationer
-59. http://www.yso.fi/onto/koko/p3442 -- segelbräden => segelbrädor
-60. http://www.yso.fi/onto/koko/p35637 -- olyckor => kärnkraftsolyckor
-61. http://www.yso.fi/onto/koko/p69968 -- dejter => dejtning
-62. http://www.yso.fi/onto/koko/p93714 -- applikationsprogrammeringsgränssnitt => programmeringsgränssnitt
-Uudessa KOKOssa on 112 uutta käsitettä.
-1.http://www.yso.fi/onto/koko/p48333 = lapset (perheenjäsenet)
-2.http://www.yso.fi/onto/koko/p68051 = saatavien perintä
-3.http://www.yso.fi/onto/koko/p94019 = optiset ääniraidat
-4.http://www.yso.fi/onto/koko/p93919 = sosiaalisen läpäisyn teoria
-5.http://www.yso.fi/onto/koko/p94018 = rasterigrafiikka
-6.http://www.yso.fi/onto/koko/p94015 = stereoskoopit
-7.http://www.yso.fi/onto/koko/p93916 = JAK-STAT-signalointi
-8.http://www.yso.fi/onto/koko/p94014 = modaus
-9.http://www.yso.fi/onto/koko/p93917 = skoolaus
-10.http://www.yso.fi/onto/koko/p94017 = kelanauhat
-11.http://www.yso.fi/onto/koko/p93918 = osaamisperusteinen opetus
-12.http://www.yso.fi/onto/koko/p94016 = AAC (tiedostomuoto)
-13.http://www.yso.fi/onto/koko/p94010 = laitehakkerointi
-14.http://www.yso.fi/onto/koko/p94011 = Hi8-videokasetit
-15.http://www.yso.fi/onto/koko/p94013 = videotietokannat
-16.http://www.yso.fi/onto/koko/p94012 = DCP
-17.http://www.yso.fi/onto/koko/p93930 = digitaalinen kaksonen
-18.http://www.yso.fi/onto/koko/p93927 = energiahoidot
-19.http://www.yso.fi/onto/koko/p93928 = kvasikonformikuvaukset
-20.http://www.yso.fi/onto/koko/p93929 = itsensä hyväksyminen (hyväksyminen (psykologia))
-21.http://www.yso.fi/onto/koko/p93923 = kansanjuhlat
-22.http://www.yso.fi/onto/koko/p94021 = Max (ohjelmointikieli)
-23.http://www.yso.fi/onto/koko/p93924 = suorituspaineet
-24.http://www.yso.fi/onto/koko/p94022 = ympäristöäänet
-25.http://www.yso.fi/onto/koko/p93925 = hallintosäännöt
-26.http://www.yso.fi/onto/koko/p93926 = nukleaatio
-27.http://www.yso.fi/onto/koko/p93920 = valkoisen ylivallan liikkeet
-28.http://www.yso.fi/onto/koko/p94020 = väriavainnus
-29.http://www.yso.fi/onto/koko/p93921 = psykologinen sopimus
-30.http://www.yso.fi/onto/koko/p93922 = hätärahat (raha)
-31.http://www.yso.fi/onto/koko/p94007 = synteettiset äänet
-32.http://www.yso.fi/onto/koko/p94006 = drone (musiikkityyli)
-33.http://www.yso.fi/onto/koko/p94009 = tekstigeneraattorit
-34.http://www.yso.fi/onto/koko/p94008 = avoimet laitteistot
-35.http://www.yso.fi/onto/koko/p94003 = datataide
-36.http://www.yso.fi/onto/koko/p94002 = Apple ProRes
-37.http://www.yso.fi/onto/koko/p94005 = 360 asteen kuvat
-38.http://www.yso.fi/onto/koko/p94004 = vertikaalisuus
-39.http://www.yso.fi/onto/koko/p94001 = kokeellinen runous
-40.http://www.yso.fi/onto/koko/p94000 = horisontaalisuus
-41.http://www.yso.fi/onto/koko/p63043 = valtioneuvosto (hallintoviranomaiset, virastot)
-42.http://www.yso.fi/onto/koko/p63771 = työttömyysvakuutus
-43.http://www.yso.fi/onto/koko/p34032 = yhteiskunnalliset objektit
-44.http://www.yso.fi/onto/koko/p93987 = vihreä siirtymä (siirtymävaihe)
-45.http://www.yso.fi/onto/koko/p93988 = mittaristo
-46.http://www.yso.fi/onto/koko/p93989 = lainsäädäntösuunnitelmat
-47.http://www.yso.fi/onto/koko/p93983 = Laki julkisen hallinnon tiedonhallinnasta
-48.http://www.yso.fi/onto/koko/p93984 = kansallinen elpymis- ja palautumissuunnitelma
-49.http://www.yso.fi/onto/koko/p93985 = Syyttäjälaitos
-50.http://www.yso.fi/onto/koko/p93986 = yhteistoiminta-asiamies
-51.http://www.yso.fi/onto/koko/p93980 = Ilmastorahasto
-52.http://www.yso.fi/onto/koko/p93981 = Digi- ja väestötietovirasto
-53.http://www.yso.fi/onto/koko/p93982 = Liikenne- ja viestintävirasto
-54.http://www.yso.fi/onto/koko/p93979 = lukuvuosimaksut
-55.http://www.yso.fi/onto/koko/p93999 = luminanssiavainnus
-56.http://www.yso.fi/onto/koko/p93995 = näyttökuvat
-57.http://www.yso.fi/onto/koko/p93996 = panoraamakuvaus (valokuvaus)
-58.http://www.yso.fi/onto/koko/p93997 = värikylläisyys
-59.http://www.yso.fi/onto/koko/p93998 = maker-kulttuuri
-60.http://www.yso.fi/onto/koko/p93991 = käyttöön vihkiminen
-61.http://www.yso.fi/onto/koko/p93992 = ansioritarikunnat
-62.http://www.yso.fi/onto/koko/p93993 = projektio (psykologia)
-63.http://www.yso.fi/onto/koko/p93994 = Processing (ohjelmointikieli)
-64.http://www.yso.fi/onto/koko/p93990 = vaikutusten arviointi
-65.http://www.yso.fi/onto/koko/p93963 = UNHRC
-66.http://www.yso.fi/onto/koko/p93964 = Ruokavirasto
-67.http://www.yso.fi/onto/koko/p93965 = Ylioppilaiden terveydenhoitosäätiö
-68.http://www.yso.fi/onto/koko/p93966 = tiedonhallintalautakunta
-69.http://www.yso.fi/onto/koko/p93960 = itsejärjestäytyminen (kemia)
-70.http://www.yso.fi/onto/koko/p93961 = vertaileva politiikantutkimus
-71.http://www.yso.fi/onto/koko/p93962 = Maahanmuuttovirasto
-72.http://www.yso.fi/onto/koko/p93959 = sublimoituminen (fysiikka)
-73.http://www.yso.fi/onto/koko/p93955 = walesilaiset
-74.http://www.yso.fi/onto/koko/p93956 = saudiarabialaiset
-75.http://www.yso.fi/onto/koko/p93957 = vanhukset (ikään liittyvä rooli)
-76.http://www.yso.fi/onto/koko/p93958 = pääkomponenttianalyysi
-77.http://www.yso.fi/onto/koko/p93975 = maakuvatyö
-78.http://www.yso.fi/onto/koko/p93976 = innovatiiviset julkiset hankinnat
-79.http://www.yso.fi/onto/koko/p93977 = Työkanava Oy
-80.http://www.yso.fi/onto/koko/p93978 = Business Finland
-81.http://www.yso.fi/onto/koko/p93971 = tiedediplomatia
-82.http://www.yso.fi/onto/koko/p93972 = kirjanpitoyksiköt
-83.http://www.yso.fi/onto/koko/p93973 = turvallisuusluokitellut asiakirjat
-84.http://www.yso.fi/onto/koko/p93974 = Luonnonvarakeskus
-85.http://www.yso.fi/onto/koko/p93970 = valtioneuvoston matkustusohje
-86.http://www.yso.fi/onto/koko/p93967 = Väylävirasto
-87.http://www.yso.fi/onto/koko/p93968 = tilapäinen suojelu
-88.http://www.yso.fi/onto/koko/p93969 = työvoiman hyväksikäyttö
-89.http://www.yso.fi/onto/koko/p93940 = sierraleonelaiset
-90.http://www.yso.fi/onto/koko/p93941 = pilvimetsät
-91.http://www.yso.fi/onto/koko/p93942 = pölynsidonta
-92.http://www.yso.fi/onto/koko/p93939 = tehostettu tuki (opetus)
-93.http://www.yso.fi/onto/koko/p93935 = vaha-animaatio
-94.http://www.yso.fi/onto/koko/p93936 = päästölähteet
-95.http://www.yso.fi/onto/koko/p93937 = auteur-teoria
-96.http://www.yso.fi/onto/koko/p93938 = sähköinen läpilyönti
-97.http://www.yso.fi/onto/koko/p93931 = rahapajat (tuotantolaitokset)
-98.http://www.yso.fi/onto/koko/p93932 = prioritarismi
-99.http://www.yso.fi/onto/koko/p93933 = valokaari
-100.http://www.yso.fi/onto/koko/p93934 = stripparit
-101.http://www.yso.fi/onto/koko/p93951 = srilankalaiset
-102.http://www.yso.fi/onto/koko/p93952 = savanninorsu
-103.http://www.yso.fi/onto/koko/p93953 = afrikannorsut
-104.http://www.yso.fi/onto/koko/p93954 = eteläafrikkalaiset
-105.http://www.yso.fi/onto/koko/p93950 = riisitauti (puutostilat)
-106.http://www.yso.fi/onto/koko/p93947 = lapsenlapsettomuus
-107.http://www.yso.fi/onto/koko/p93948 = bangladeshilaiset
-108.http://www.yso.fi/onto/koko/p93949 = metsänorsu
-109.http://www.yso.fi/onto/koko/p93943 = kyproslaiset
-110.http://www.yso.fi/onto/koko/p93944 = myonit
-111.http://www.yso.fi/onto/koko/p93945 = lasiainen
-112.http://www.yso.fi/onto/koko/p93946 = pora-ahmaset
+57. http://www.yso.fi/onto/koko/p17601 -- abduktion => slutledning
+58. http://www.yso.fi/onto/koko/p36659 -- fridsamhet => personlighetsdrag
+59. http://www.yso.fi/onto/koko/p26146 -- WISC => intelligenstest
+60. http://www.yso.fi/onto/koko/p31281 -- dinosaurier => forntidsdjur
+61. http://www.yso.fi/onto/koko/p35637 -- olyckor => kärnkraftsolyckor
+62. http://www.yso.fi/onto/koko/p52408 -- musseroner => goliatmusseron
+63. http://www.yso.fi/onto/koko/p18648 -- förstavårdare => primärskötare
+64. http://www.yso.fi/onto/koko/p35090 -- teleskop => tubkikare och teleskop
+Uudessa KOKOssa on 149 uutta käsitettä.
+1. http://www.yso.fi/onto/koko/p53919 = abduktio
+2. http://www.yso.fi/onto/koko/p33323 = lintuvedet
+3. http://www.yso.fi/onto/koko/p93950 = riisitauti (puutostilat)
+4. http://www.yso.fi/onto/koko/p49910 = dinosaurukset
+5. http://www.yso.fi/onto/koko/p54711 = merien saastuminen
+6. http://www.yso.fi/onto/koko/p93952 = savanninorsu
+7. http://www.yso.fi/onto/koko/p93951 = srilankalaiset
+8. http://www.yso.fi/onto/koko/p93916 = JAK-STAT-signalointi
+9. http://www.yso.fi/onto/koko/p93954 = eteläafrikkalaiset
+10. http://www.yso.fi/onto/koko/p93953 = afrikannorsut
+11. http://www.yso.fi/onto/koko/p93944 = myonit
+12. http://www.yso.fi/onto/koko/p93918 = osaamisperusteinen opetus
+13. http://www.yso.fi/onto/koko/p93943 = kyproslaiset
+14. http://www.yso.fi/onto/koko/p93917 = skoolaus
+15. http://www.yso.fi/onto/koko/p93946 = pora-ahmaset
+16. http://www.yso.fi/onto/koko/p93945 = lasiainen
+17. http://www.yso.fi/onto/koko/p93919 = sosiaalisen läpäisyn teoria
+18. http://www.yso.fi/onto/koko/p93948 = bangladeshilaiset
+19. http://www.yso.fi/onto/koko/p93947 = lapsenlapsettomuus
+20. http://www.yso.fi/onto/koko/p50622 = rauhallisuus
+21. http://www.yso.fi/onto/koko/p94040 = junapelit
+22. http://www.yso.fi/onto/koko/p93949 = metsänorsu
+23. http://www.yso.fi/onto/koko/p94030 = rajaseutukirkot
+24. http://www.yso.fi/onto/koko/p94033 = Leutlrit-säilät
+25. http://www.yso.fi/onto/koko/p94032 = Benno-säilät
+26. http://www.yso.fi/onto/koko/p93960 = itsejärjestäytyminen (kemia)
+27. http://www.yso.fi/onto/koko/p37024 = hiihto
+28. http://www.yso.fi/onto/koko/p94031 = kastekappelit (rakennukset)
+29. http://www.yso.fi/onto/koko/p4239 = tilintarkastus
+30. http://www.yso.fi/onto/koko/p94035 = kalminkki
+31. http://www.yso.fi/onto/koko/p93962 = Maahanmuuttovirasto
+32. http://www.yso.fi/onto/koko/p94034 = Ingerlii-säilät
+33. http://www.yso.fi/onto/koko/p53139 = voimaantuminen
+34. http://www.yso.fi/onto/koko/p7215 = muu rooli
+35. http://www.yso.fi/onto/koko/p93961 = vertaileva politiikantutkimus
+36. http://www.yso.fi/onto/koko/p9508 = orkesterinjohtaminen
+37. http://www.yso.fi/onto/koko/p94020 = väriavainnus
+38. http://www.yso.fi/onto/koko/p94037 = Ulfberht-säilät
+39. http://www.yso.fi/onto/koko/p32526 = vaikutukseen liittyvä rooli
+40. http://www.yso.fi/onto/koko/p93964 = Ruokavirasto
+41. http://www.yso.fi/onto/koko/p94036 = muinaiset sivilisaatiot
+42. http://www.yso.fi/onto/koko/p93990 = vaikutusten arviointi
+43. http://www.yso.fi/onto/koko/p94023 = psykologiset kauhupelit
+44. http://www.yso.fi/onto/koko/p93963 = UNHRC
+45. http://www.yso.fi/onto/koko/p94039 = tehdaskirkot
+46. http://www.yso.fi/onto/koko/p93966 = tiedonhallintalautakunta
+47. http://www.yso.fi/onto/koko/p94022 = ympäristöäänet
+48. http://www.yso.fi/onto/koko/p94021 = Max (ohjelmointikieli)
+49. http://www.yso.fi/onto/koko/p94038 = filleripelit
+50. http://www.yso.fi/onto/koko/p93992 = ansioritarikunnat
+51. http://www.yso.fi/onto/koko/p93965 = Ylioppilaiden terveydenhoitosäätiö
+52. http://www.yso.fi/onto/koko/p94025 = kampanjapelit (lautapelit)
+53. http://www.yso.fi/onto/koko/p93991 = käyttöön vihkiminen
+54. http://www.yso.fi/onto/koko/p93956 = saudiarabialaiset
+55. http://www.yso.fi/onto/koko/p94024 = näppäryyspelit
+56. http://www.yso.fi/onto/koko/p93994 = Processing (ohjelmointikieli)
+57. http://www.yso.fi/onto/koko/p94027 = flanöörit
+58. http://www.yso.fi/onto/koko/p93955 = walesilaiset
+59. http://www.yso.fi/onto/koko/p93993 = projektio (psykologia)
+60. http://www.yso.fi/onto/koko/p93958 = pääkomponenttianalyysi
+61. http://www.yso.fi/onto/koko/p94026 = tikkipelit (lautapelit)
+62. http://www.yso.fi/onto/koko/p8242 = ensihoitajat
+63. http://www.yso.fi/onto/koko/p93996 = panoraamakuvaus (valokuvaus)
+64. http://www.yso.fi/onto/koko/p93957 = vanhukset (ikään liittyvä rooli)
+65. http://www.yso.fi/onto/koko/p94029 = sivilisaatiopelit
+66. http://www.yso.fi/onto/koko/p93995 = näyttökuvat
+67. http://www.yso.fi/onto/koko/p94028 = selvänäkijät
+68. http://www.yso.fi/onto/koko/p93998 = maker-kulttuuri
+69. http://www.yso.fi/onto/koko/p93959 = sublimoituminen (fysiikka)
+70. http://www.yso.fi/onto/koko/p93997 = värikylläisyys
+71. http://www.yso.fi/onto/koko/p93999 = luminanssiavainnus
+72. http://www.yso.fi/onto/koko/p93940 = sierraleonelaiset
+73. http://www.yso.fi/onto/koko/p93942 = pölynsidonta
+74. http://www.yso.fi/onto/koko/p94001 = kokeellinen runous
+75. http://www.yso.fi/onto/koko/p93941 = pilvimetsät
+76. http://www.yso.fi/onto/koko/p68051 = saatavien perintä
+77. http://www.yso.fi/onto/koko/p93932 = prioritarismi
+78. http://www.yso.fi/onto/koko/p94000 = horisontaalisuus
+79. http://www.yso.fi/onto/koko/p93931 = rahapajat (tuotantolaitokset)
+80. http://www.yso.fi/onto/koko/p94003 = datataide
+81. http://www.yso.fi/onto/koko/p93930 = digitaalinen kaksonen
+82. http://www.yso.fi/onto/koko/p93934 = stripparit
+83. http://www.yso.fi/onto/koko/p94002 = Apple ProRes
+84. http://www.yso.fi/onto/koko/p94005 = 360 asteen kuvat
+85. http://www.yso.fi/onto/koko/p93933 = valokaari
+86. http://www.yso.fi/onto/koko/p93920 = valkoisen ylivallan liikkeet
+87. http://www.yso.fi/onto/koko/p93936 = päästölähteet
+88. http://www.yso.fi/onto/koko/p94004 = vertikaalisuus
+89. http://www.yso.fi/onto/koko/p93935 = vaha-animaatio
+90. http://www.yso.fi/onto/koko/p94007 = synteettiset äänet
+91. http://www.yso.fi/onto/koko/p57555 = burmalaiset
+92. http://www.yso.fi/onto/koko/p93922 = hätärahat (raha)
+93. http://www.yso.fi/onto/koko/p93938 = sähköinen läpilyönti
+94. http://www.yso.fi/onto/koko/p94006 = drone (musiikkityyli)
+95. http://www.yso.fi/onto/koko/p59348 = polarisaatio (yhteiskuntatieteet)
+96. http://www.yso.fi/onto/koko/p93921 = psykologinen sopimus
+97. http://www.yso.fi/onto/koko/p94009 = tekstigeneraattorit
+98. http://www.yso.fi/onto/koko/p93937 = auteur-teoria
+99. http://www.yso.fi/onto/koko/p93924 = suorituspaineet
+100. http://www.yso.fi/onto/koko/p94008 = avoimet laitteistot
+101. http://www.yso.fi/onto/koko/p48333 = lapset (perheenjäsenet)
+102. http://www.yso.fi/onto/koko/p93923 = kansanjuhlat
+103. http://www.yso.fi/onto/koko/p93926 = nukleaatio
+104. http://www.yso.fi/onto/koko/p93939 = tehostettu tuki (opetus)
+105. http://www.yso.fi/onto/koko/p93925 = hallintosäännöt
+106. http://www.yso.fi/onto/koko/p59649 = edut
+107. http://www.yso.fi/onto/koko/p93928 = kvasikonformikuvaukset
+108. http://www.yso.fi/onto/koko/p93927 = energiahoidot
+109. http://www.yso.fi/onto/koko/p94011 = Hi8-videokasetit
+110. http://www.yso.fi/onto/koko/p94010 = laitehakkerointi
+111. http://www.yso.fi/onto/koko/p93929 = itsensä hyväksyminen (hyväksyminen (psykologia))
+112. http://www.yso.fi/onto/koko/p54559 = digitaaliset kirjastot
+113. http://www.yso.fi/onto/koko/p93980 = Ilmastorahasto
+114. http://www.yso.fi/onto/koko/p94013 = videotietokannat
+115. http://www.yso.fi/onto/koko/p94012 = DCP
+116. http://www.yso.fi/onto/koko/p53825 = valmuskat
+117. http://www.yso.fi/onto/koko/p93982 = Liikenne- ja viestintävirasto
+118. http://www.yso.fi/onto/koko/p94015 = stereoskoopit
+119. http://www.yso.fi/onto/koko/p93981 = Digi- ja väestötietovirasto
+120. http://www.yso.fi/onto/koko/p94014 = modaus
+121. http://www.yso.fi/onto/koko/p93984 = kansallinen elpymis- ja palautumissuunnitelma
+122. http://www.yso.fi/onto/koko/p94017 = kelanauhat
+123. http://www.yso.fi/onto/koko/p93983 = Laki julkisen hallinnon tiedonhallinnasta
+124. http://www.yso.fi/onto/koko/p94042 = kotiutuminen (tapahtumat)
+125. http://www.yso.fi/onto/koko/p94016 = AAC (tiedostomuoto)
+126. http://www.yso.fi/onto/koko/p93970 = valtioneuvoston matkustusohje
+127. http://www.yso.fi/onto/koko/p93986 = yhteistoiminta-asiamies
+128. http://www.yso.fi/onto/koko/p94041 = hautakappelit (tilat)
+129. http://www.yso.fi/onto/koko/p94019 = optiset ääniraidat
+130. http://www.yso.fi/onto/koko/p93985 = Syyttäjälaitos
+131. http://www.yso.fi/onto/koko/p94018 = rasterigrafiikka
+132. http://www.yso.fi/onto/koko/p93972 = kirjanpitoyksiköt
+133. http://www.yso.fi/onto/koko/p93988 = mittaristo
+134. http://www.yso.fi/onto/koko/p93971 = tiedediplomatia
+135. http://www.yso.fi/onto/koko/p93987 = vihreä siirtymä (siirtymävaihe)
+136. http://www.yso.fi/onto/koko/p93974 = Luonnonvarakeskus
+137. http://www.yso.fi/onto/koko/p93973 = turvallisuusluokitellut asiakirjat
+138. http://www.yso.fi/onto/koko/p93989 = lainsäädäntösuunnitelmat
+139. http://www.yso.fi/onto/koko/p34032 = yhteiskunnalliset objektit
+140. http://www.yso.fi/onto/koko/p93976 = innovatiiviset julkiset hankinnat
+141. http://www.yso.fi/onto/koko/p93975 = maakuvatyö
+142. http://www.yso.fi/onto/koko/p93979 = lukuvuosimaksut
+143. http://www.yso.fi/onto/koko/p93978 = Business Finland
+144. http://www.yso.fi/onto/koko/p63043 = valtioneuvosto (hallintoviranomaiset, virastot)
+145. http://www.yso.fi/onto/koko/p93977 = Työkanava Oy
+146. http://www.yso.fi/onto/koko/p93968 = tilapäinen suojelu
+147. http://www.yso.fi/onto/koko/p93967 = Väylävirasto
+148. http://www.yso.fi/onto/koko/p93969 = työvoiman hyväksikäyttö
+149. http://www.yso.fi/onto/koko/p63771 = työttömyysvakuutus
 Uudet KOKO-URI-vastaavuudet kirjoitettu tiedostoon kokoUriVastaavuudet-test.txt
 luetaan malli sisään.
 malli luettu sisään.
-Labelin perusteella romautettiin 2816.
+Labelin perusteella romautettiin 2802.

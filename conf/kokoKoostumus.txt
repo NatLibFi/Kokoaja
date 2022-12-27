@@ -4,7 +4,7 @@ http://www.yso.fi/onto/kauno-meta/Concept ../Finto-data/vocabularies/kauno/kauno
 http://www.yso.fi/onto/kto-meta/Concept ../Finto-data/vocabularies/kto/kto-skos.ttl
 http://www.yso.fi/onto/kito-meta/Concept ../Finto-data/vocabularies/kito/kito-skos.ttl
 http://www.yso.fi/onto/kulo-meta/Concept ../Finto-data/vocabularies/kulo/kulo-tynkäraato.ttl
-http://www.yso.fi/onto/liito-meta/Concept ../Finto-data/vocabularies/liito/liito-skos.ttl
+http://www.yso.fi/onto/liito-meta/Concept ../Finto-data/vocabularies/jupo/jupo-skos.ttl
 http://www.yso.fi/onto/mero-meta/Concept ../Finto-data/vocabularies/liiko/mero-skos.ttl
 http://www.yso.fi/onto/mao-meta/Concept ../Finto-data/vocabularies/maotao/maotao-skos.ttl
 http://www.yso.fi/onto/tao-meta/Concept ../Finto-data/vocabularies/maotao/maotao-skos.ttl
@@ -14,3 +14,4 @@ http://www.yso.fi/onto/valo-meta/Concept ../Finto-data/vocabularies/valo/valo-sk
 http://www.yso.fi/onto/tsr-meta/Concept ../Finto-data/vocabularies/tsr/tsr-skos.ttl
 http://www.yso.fi/onto/jupo-meta/Concept ../Finto-data/vocabularies/jupo/jupo-skos.ttl
 http://www.yso.fi/onto/soto-meta/Concept ../Finto-data/vocabularies/soto/soto-skos.ttl
+http://www.yso.fi/onto/oma-meta/Concept ..//Finto-data/vocabularies/oma/oma-skos.ttl
