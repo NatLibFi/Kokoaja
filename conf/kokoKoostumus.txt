@@ -14,4 +14,4 @@ http://www.yso.fi/onto/valo-meta/Concept ../Finto-data/vocabularies/valo/valo-sk
 http://www.yso.fi/onto/tsr-meta/Concept ../Finto-data/vocabularies/tsr/tsr-skos.ttl
 http://www.yso.fi/onto/jupo-meta/Concept ../Finto-data/vocabularies/jupo/jupo-skos.ttl
 http://www.yso.fi/onto/soto-meta/Concept ../Finto-data/vocabularies/soto/soto-skos.ttl
-http://www.yso.fi/onto/oma-meta/Concept ..//Finto-data/vocabularies/oma/oma-skos.ttl
+http://www.yso.fi/onto/oma-meta/Concept ../Finto-data/vocabularies/oma/oma-skos.ttl

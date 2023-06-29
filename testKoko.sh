@@ -1,3 +1,4 @@
+service fuseki start
 cd ~/git/Kokoaja
 cp ~/eclipse-workspace/Kokoaja/src/*.java .
 ./compile.sh
