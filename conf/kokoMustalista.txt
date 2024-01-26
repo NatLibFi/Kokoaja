@@ -72,3 +72,6 @@ http://www.yso.fi/onto/liito/p11173
 http://www.yso.fi/onto/liito/p11127
 http://www.yso.fi/onto/yso/p8595
 http://www.yso.fi/onto/yso/p8864
+http://www.yso.fi/onto/tsr/p9244
+http://www.yso.fi/onto/juho/p7432
+http://www.yso.fi/onto/kauno/p5100
