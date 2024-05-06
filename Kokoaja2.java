@@ -220,6 +220,12 @@ public class Kokoaja2 {
 		propertytJoitaEiHalutaKokoon.add(DCTerms.modified);
 		propertytJoitaEiHalutaKokoon.add(DCTerms.created);
 
+
+		//Käsitteellä pitää olla vähintään prefLabel tai isReplacedBy, jotta sitä voidaan ottaa KOKOon
+		if (!this.onto.contains(ontoSubj, SKOS.prefLabel) && !this.onto.contains(ontoSubj, DCTerms.isReplacedBy)) {
+			return;
+		}
+
 		//otetaan aikaleimat talteen
 		this.aikaLeimat.add(ontoSubj.listProperties(DCTerms.modified));
 		this.aikaLeimat.add(ontoSubj.listProperties(DCTerms.created));
@@ -1599,8 +1605,8 @@ public class Kokoaja2 {
 				poisto = true;
 
 			//Hylätään deprekoitu resurssi
-			if (!poisto && koko.containsLiteral(s.getResource(), koko.getProperty("http://www.w3.org/2002/07/owl#deprecated"), true))
-				poisto = true;
+//			if (!poisto && koko.containsLiteral(s.getResource(), koko.getProperty("http://www.w3.org/2002/07/owl#deprecated"), true))
+//				poisto = true;
 
 			if (poisto)
 				result.add(s);
