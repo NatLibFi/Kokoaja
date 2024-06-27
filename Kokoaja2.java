@@ -133,6 +133,7 @@ public class Kokoaja2 {
 
 		Property skosInScheme = this.koko.createProperty(this.skosNs + "inScheme");
 		Resource ysoConceptScheme = this.koko.createResource("http://www.yso.fi/onto/yso/");
+		Resource ysoDeprecatedScheme = this.koko.createResource("http://www.yso.fi/onto/yso/deprecatedconceptscheme");
 
 		//Luodaan ensiksi lista sallituista YSO-ureista. Muita YSO-käsitteitä ei oteta KOKOssa huomioon
 		ResIterator sallitut = this.onto.listResourcesWithProperty(skosInScheme, ysoConceptScheme);
@@ -140,6 +141,18 @@ public class Kokoaja2 {
 			Resource ysoSubj = sallitut.next();
 			this.ysoUrit.add(ysoSubj.getURI());
 		}
+		sallitut.close();
+
+		//Jollei YSO:n deprekoituja käsitteitä oteta huomioon, ne katoavat KOKO:sta. Otetaan ne mielummin deprekoituina mukaan
+		boolean deprekoituYsoMukaan = true;
+
+		if (deprekoituYsoMukaan) {
+			sallitut = this.onto.listResourcesWithProperty(SKOS.inScheme, ysoDeprecatedScheme);
+			while (sallitut.hasNext()) {
+				Resource ysoSubj = sallitut.next();
+				this.ysoUrit.add(ysoSubj.getURI());
+			}
+		} sallitut.close();
 
 		ResIterator resIter = this.onto.listResourcesWithProperty(skosInScheme, ysoConceptScheme);
 		while (resIter.hasNext()) {
@@ -148,6 +161,17 @@ public class Kokoaja2 {
 				this.lisaaResurssiKokoon(ysoSubj, ysoSubj, true);
 				this.koko.add(ysoSubj, RDF.type, ysoConcept);
 			}
+		} resIter.close();
+		if (deprekoituYsoMukaan) {
+			resIter = this.onto.listResourcesWithProperty(skosInScheme, ysoDeprecatedScheme);
+			while (resIter.hasNext()) {
+				Resource ysoSubj = resIter.nextResource();
+				if (!this.mustaLista.contains(ysoSubj)) {
+					this.lisaaResurssiKokoon(ysoSubj, ysoSubj, true);
+					this.koko.add(ysoSubj, RDF.type, ysoConcept);
+				}
+			} resIter.close();
+
 		}
 
 		// kaivetaan KOKOon viela isReplacedBy-tyyppiset suhteet
@@ -982,6 +1006,7 @@ public class Kokoaja2 {
 		int i = 0;
 		Model aiempiKoko = JenaHelpers.lueMalliModeliksi(aiemmanKokonpolku);
 		Property skosPrefLabel = aiempiKoko.createProperty(this.skosNs + "prefLabel");
+		Resource deprekoitu = this.koko.createResource("http://purl.org/finnonto/schema/skosext#DeprecatedConcept");
 		aiempiKoko = JenaHelpers.muunnaKielikoodittomatLabelitSuomenkielisiksi(aiempiKoko, skosPrefLabel);
 
 		HashMap<Resource, String> nykyKokonPrefLabelitMap = new HashMap<Resource, String>();
@@ -1007,6 +1032,12 @@ public class Kokoaja2 {
 		while (resIter.hasNext()) {
 			uudenKokonResurssit.remove(resIter.nextResource());
 		}
+		//Poistetaan deprekoidut laskuista
+		resIter = this.koko.listResourcesWithProperty(RDF.type, deprekoitu);
+		while (resIter.hasNext()) {
+			uudenKokonResurssit.remove(resIter.nextResource());
+		}
+
 		System.out.println("Uudessa KOKOssa on " + uudenKokonResurssit.size() + " uutta käsitettä.");
 		i = 0; 
 		for (Resource uusi:uudenKokonResurssit) {
@@ -1333,6 +1364,8 @@ public class Kokoaja2 {
 
 		Literal ulkopNimi = this.koko.createLiteral("hierarkian ulkopuoliset", "fi");
 
+		Resource deprekoitu = this.koko.createResource("http://purl.org/finnonto/schema/skosext#DeprecatedConcept");
+
 		StmtIterator ulkopuolisenNimi = aiempiKoko.listStatements(null, prefLabel, ulkopNimi);
 		if ( ulkopuolisenNimi.hasNext() ) {
 			ulkopuoliset = ulkopuolisenNimi.next().getSubject();
@@ -1366,7 +1399,8 @@ public class Kokoaja2 {
 		
 		for (Resource r : ylatasonResurssit) {
 
-			if (!sallittuYlataso.contains(r)) {
+			// Lisaksi huolehditaan ettei deprekoidut käsitteet päädy hierarkian ulkopuolisiin
+			if (!sallittuYlataso.contains(r) && !r.hasProperty(RDF.type, deprekoitu)) {
 				r.addProperty(broader, ulkopuoliset);
 
 				/*  Toivottuna korjauksena muokataan hierarkian ulkopuolisten käsitteiden prefLabeleita
