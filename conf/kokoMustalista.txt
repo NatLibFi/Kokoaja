@@ -77,3 +77,4 @@ http://www.yso.fi/onto/juho/p7432
 http://www.yso.fi/onto/kauno/p5100
 http://www.yso.fi/onto/tero/p15880
 http://www.yso.fi/onto/tero/p24115
+http://www.yso.fi/onto/soto/p1594
