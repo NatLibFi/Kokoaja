@@ -650,12 +650,16 @@ public class Kokoaja2 {
 
 	public HashMap<String, HashSet<Resource>> tuotaPrefLabelKokoSubjektitMap(String lang) {
 		Property skosPrefLabel = this.onto.createProperty(skosNs + "prefLabel");
+		Resource deprekoitu = this.koko.createResource("http://purl.org/finnonto/schema/skosext#DeprecatedConcept");
 
 		HashMap<String, HashSet<Resource>> prefLabelKokoSubjektitMap = new HashMap<String, HashSet<Resource>>();
 		StmtIterator iter = this.koko.listStatements((Resource)null, skosPrefLabel, (RDFNode)null);
 		while (iter.hasNext()) {
 			Statement stmt = iter.nextStatement();
 			if (stmt.getLanguage().equals(lang)) {
+				// Ei oteta huomioon deprekoitujen käsitteiden prefLabeleita
+				if (stmt.getSubject().hasProperty(RDF.type, deprekoitu))
+					continue;
 				Resource subj = stmt.getSubject();
 				String labelString = ((Literal)stmt.getObject()).getLexicalForm();
 				HashSet<Resource> subjektitSet = new HashSet<Resource>();
@@ -769,7 +773,6 @@ public class Kokoaja2 {
 				if (this.kuuluuKokoUriTaulukkoon(ontoSubj)) {
 					if (!this.ontoKokoResurssivastaavuudetMap.containsKey(ontoSubj))
 						this.ontoKokoResurssivastaavuudetMap.put(ontoSubj, kokoSubj);
-						System.out.println("Kirjoitetaan vastaavuustaulukkoon " + ontoSubj + " " + kokoSubj);
 				}
 			}
 			for (Resource r : ryhma) {
@@ -784,6 +787,32 @@ public class Kokoaja2 {
 			this.haeAikaleimat(ryhma, kokoSubj);
 
 		}
+		//valitaan lopuksi jokaiselle uudelle koko-käsitteelle yso-pohjainen prefLabel niissä tapauksissa joissa prefLabelit ovat tulleet ysosta ja erikois-ontoista
+		Property ysoPref = this.koko.createProperty("http://purl.org/finnonto/schema/skosext#ysoPrefLabel");
+		ArrayList<Statement> lisattavat = new ArrayList<Statement>();
+		ArrayList<Statement> poistettavat = new ArrayList<Statement>();
+		StmtIterator kokoConIter = this.koko.listStatements(null, RDF.type, SKOS.Concept);
+
+		while (kokoConIter.hasNext()) {
+			Statement s = kokoConIter.next();
+			Resource kokoCon = s.getSubject();
+			if (kokoCon.hasProperty(ysoPref)) {
+				poistettavat.addAll(kokoCon.listProperties(ysoPref).toSet());
+				poistettavat.addAll(kokoCon.listProperties(SKOS.prefLabel).toSet());
+				StmtIterator kokoConPrefLabelIter = kokoCon.listProperties(SKOS.prefLabel);
+				while (kokoConPrefLabelIter.hasNext()) {
+					Statement prefStmt = kokoConPrefLabelIter.next();
+					lisattavat.add(this.koko.createStatement(prefStmt.getSubject(), SKOS.altLabel, prefStmt.getObject()));
+				}
+				StmtIterator kokoConYsoPrefLabelIter = kokoCon.listProperties(ysoPref);
+				while (kokoConYsoPrefLabelIter.hasNext()) {
+					Statement ysoPrefStmt = kokoConYsoPrefLabelIter.next();
+					lisattavat.add(this.koko.createStatement(ysoPrefStmt.getSubject(), SKOS.prefLabel, ysoPrefStmt.getObject()));
+				}
+			}
+		}
+		this.koko.add(lisattavat);
+		this.koko.remove(poistettavat);
 	}
 	/*
 	 * KOKO-URIttamisen jälkeen siivotaan kokosta pois dct:isreplacedby erikoisontologiasubjektit
@@ -871,13 +900,21 @@ public class Kokoaja2 {
 	}
 
 	private void muutaKokoSubj(Resource vanhaSubj, Resource uusiSubj) {
+		Property ysoPrefLabel = this.koko.createProperty("http://purl.org/finnonto/schema/skosext#ysoPrefLabel");
+		Resource ysoCon = this.koko.createProperty("http://www.yso.fi/onto/yso-meta/Concept");
+		Resource deprekoitu = this.koko.createResource("http://purl.org/finnonto/schema/skosext#DeprecatedConcept");
 		HashSet<Statement> poistettavat = new HashSet<Statement>();
 		HashSet<Statement> lisattavat = new HashSet<Statement>();
 		StmtIterator iter = this.koko.listStatements(vanhaSubj, (Property)null, (RDFNode)null);
 		while (iter.hasNext()) {
 			Statement stmt = iter.nextStatement();
 			poistettavat.add(stmt);
-			lisattavat.add(this.koko.createStatement(uusiSubj, stmt.getPredicate(), stmt.getObject()));
+			//Lisätään huomio prefLabeleista - jos kyseessä on yso-käsite jota ei ole deprekoitu, tallennetaan prefLabel ysoPrefLabelina myöhempää erottelua varten
+			if (stmt.getPredicate().equals(SKOS.prefLabel) && stmt.getSubject().hasProperty(RDF.type, ysoCon) && !stmt.getSubject().hasProperty(RDF.type, deprekoitu)) {
+				lisattavat.add(this.koko.createStatement(uusiSubj, ysoPrefLabel, stmt.getObject()));
+			} else {
+				lisattavat.add(this.koko.createStatement(uusiSubj, stmt.getPredicate(), stmt.getObject()));
+			}
 		}
 		for (Statement s:poistettavat) this.koko.remove(s);
 		for (Statement s:lisattavat) this.koko.add(s);
@@ -969,6 +1006,7 @@ public class Kokoaja2 {
 	public void tulostaPrefLabelMuutoksetEdelliseenVerrattuna(Model aiempiKoko, String lang) {
 		System.out.println("KOKOn prefLabel muutokset edelliseen versioon verrattuna kielellä " + lang + ":");
 		Property skosPrefLabel = aiempiKoko.createProperty(this.skosNs + "prefLabel");
+		Resource deprekoitu = this.koko.createResource("http://purl.org/finnonto/schema/skosext#DeprecatedConcept");
 		int i = 0;
 
 		HashMap<Resource, String> nykyKokonPrefLabelitMap = new HashMap<Resource, String>();
@@ -976,6 +1014,9 @@ public class Kokoaja2 {
 		while (iter.hasNext()) {
 			Statement stmt = iter.nextStatement();
 			if (stmt.getLanguage().equals(lang)) {
+				//Ei oteta huomioon deprekoitujen käsitteiden muutoksia
+				if (stmt.getSubject().hasProperty(RDF.type, deprekoitu))
+					continue;
 				String fiLabelString = ((Literal)stmt.getObject()).getLexicalForm();
 				nykyKokonPrefLabelitMap.put(stmt.getSubject(), fiLabelString);
 			}
@@ -1014,6 +1055,9 @@ public class Kokoaja2 {
 		while (iter.hasNext()) {
 			Statement stmt = iter.nextStatement();
 			if (stmt.getLanguage().equals("fi")) {
+				//Ei huomioida muutoksia deprekoiduissa käsitteissä
+				if (stmt.getSubject().hasProperty(RDF.type, deprekoitu))
+					continue;
 				String fiLabelString = ((Literal)stmt.getObject()).getLexicalForm();
 				nykyKokonPrefLabelitMap.put(stmt.getSubject(), fiLabelString);
 			}
@@ -1345,7 +1389,7 @@ public class Kokoaja2 {
 		this.kirjoitaUudetUriVastaavuudet(uusienUrivastaavuuksienPolku);
 		
 		this.korjaaHierarkia(edellisenKokonPolku);
-		
+
 		System.out.println("Labelin perusteella romautettiin " + this.romautetut + ".");
 	}
 

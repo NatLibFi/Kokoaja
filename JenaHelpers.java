@@ -1,14 +1,9 @@
-import java.io.BufferedOutputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.HashMap;
 import java.util.HashSet;
 
 import org.apache.jena.ontology.OntModel;
 import org.apache.jena.ontology.OntModelSpec;
 import org.apache.jena.rdf.model.*;
-import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.*;
 
 public class JenaHelpers {
@@ -16,17 +11,7 @@ public class JenaHelpers {
 	public static Model lueMalliModeliksi(String polku) {
 		System.out.println("luetaan malli sisään.");
 		Model malli = ModelFactory.createDefaultModel();
-		InputStream in = FileManager.get().open(polku);
-		if (in == null) {
-			throw new IllegalArgumentException("File: " + polku + " not found");
-		}
-		if (polku.endsWith(".ttl")) malli.read(in, "", "TTL");
-		else malli.read(in, "");
-		try {
-			in.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		malli.read(polku);
 		System.out.println("malli luettu sisään.");
 		return malli;
 	}
@@ -34,18 +19,7 @@ public class JenaHelpers {
 	public static OntModel lueMalli(String polku, boolean onTtl) {
 		System.out.println("luetaan malli sisään.");
 		OntModel malli = ModelFactory.createOntologyModel(OntModelSpec.OWL_MEM);
-		InputStream in = FileManager.get().open(polku);
-		if (in == null) {
-			throw new IllegalArgumentException("File: " + polku + " not found");
-		}
-		if (onTtl) malli.read(in, "", "TTL");
-		else malli.read(in, "");
-
-		try {
-			in.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		malli.read(polku);
 		System.out.println("malli luettu sisään.");
 		return malli;
 	}
