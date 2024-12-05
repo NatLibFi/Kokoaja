@@ -55,6 +55,8 @@ public class Kokoaja2 {
 
 	private int romautetut;
 
+	private String[] kielet = {"fi", "sv", "en", "se"};
+
 
 	public Kokoaja2(String uriVastaavuuksiePolku) {
 		this.romautetut = 0;
@@ -158,7 +160,8 @@ public class Kokoaja2 {
 			Resource ysoSubj = resIter.nextResource();
 			if (!this.mustaLista.contains(ysoSubj)) {
 				this.lisaaResurssiKokoon(ysoSubj, ysoSubj, true);
-				this.koko.add(ysoSubj, RDF.type, ysoConcept);
+				if (!ysoSubj.hasProperty(RDF.type, SKOSXL.Label)) // ei väitetä skosxl-labeleita ysokäsitteiksi
+					this.koko.add(ysoSubj, RDF.type, ysoConcept);
 			}
 		} resIter.close();
 		if (deprekoituYsoMukaan) {
@@ -443,7 +446,7 @@ public class Kokoaja2 {
 				Statement stmt = iter.nextStatement();
 				if (stmt.getLanguage().equals("fi")) {
 					fiCandidateLabelSet.add(((Literal)stmt.getObject()).getLexicalForm());
-					poistettavat.add(stmt);
+					//poistettavat.add(stmt); ei poisteta candidateLabeleita kuin vasta purittamisen jälkeen
 				}
 			}
 
@@ -543,7 +546,13 @@ public class Kokoaja2 {
 					} else {
 						for (Resource res:resSet) romautettuRes = res;
 					}
-					romautettuMap.put(broaderitString, romautettuRes);
+					// riisutaan sulkutarkenteet pois sulkutarkenteelta
+					if (broaderitString.contains("(")) {
+						String sulkutarkenteetonBroader = broaderitString.substring(0, broaderitString.indexOf("(")).trim();
+						romautettuMap.put(sulkutarkenteetonBroader, romautettuRes);
+					} else {
+						romautettuMap.put(broaderitString, romautettuRes);
+					}
 				}
 				if (romautettuMap.size() > 1) {
 					this.lisaaSulkutarkenteet(romautettuMap);
@@ -623,9 +632,20 @@ public class Kokoaja2 {
 					String prefLabelString = ((Literal)stmt.getObject()).getLexicalForm();
 					poistettavat.add(stmt);
 					if (tarkenne.length() > 0) {
-						tarkenne = "(" + tarkenne + ")";
-						if (!prefLabelString.contains(tarkenne))
-								prefLabelString += " " + tarkenne;
+						String tarkenteeton = "";
+						String tarkenteet = "";
+						if (prefLabelString.contains("(")) {
+							// yhdistetään sulkutarkenteita
+							tarkenteeton = prefLabelString.substring(0, prefLabelString.indexOf("(")).trim();
+							tarkenteet = prefLabelString.substring(prefLabelString.indexOf("(")).replace("(", "").replace(")", "").trim();
+						} else tarkenteeton = prefLabelString;
+						if (!prefLabelString.contains(tarkenne)) {
+								if (tarkenteet.length() > 0) tarkenne = "(" + tarkenteet + ", " + tarkenne + ")";
+								else tarkenne = "("+ tarkenne + ")";
+
+								prefLabelString = tarkenteeton + " " + tarkenne;
+						}
+
 					}
 					lisattavat.add(this.koko.createStatement(subj, SKOS.prefLabel, this.koko.createLiteral(prefLabelString, "fi")));
 				}
@@ -774,6 +794,7 @@ public class Kokoaja2 {
 		}
 		//valitaan lopuksi jokaiselle uudelle koko-käsitteelle yso-pohjainen prefLabel niissä tapauksissa joissa prefLabelit ovat tulleet ysosta ja erikois-ontoista
 		Property ysoPref = this.koko.createProperty("http://purl.org/finnonto/schema/skosext#ysoPrefLabel");
+		Property candidateLabel = this.koko.createProperty(skosextNs + "candidateLabel");
 		ArrayList<Statement> lisattavat = new ArrayList<Statement>();
 		ArrayList<Statement> poistettavat = new ArrayList<Statement>();
 		StmtIterator kokoConIter = this.koko.listStatements(null, RDF.type, SKOS.Concept);
@@ -784,6 +805,7 @@ public class Kokoaja2 {
 			if (kokoCon.hasProperty(ysoPref)) {
 				poistettavat.addAll(kokoCon.listProperties(ysoPref).toSet());
 				poistettavat.addAll(kokoCon.listProperties(SKOS.prefLabel).toSet());
+				poistettavat.addAll(kokoCon.listProperties(candidateLabel).toSet());
 				StmtIterator kokoConPrefLabelIter = kokoCon.listProperties(SKOS.prefLabel);
 				while (kokoConPrefLabelIter.hasNext()) {
 					Statement prefStmt = kokoConPrefLabelIter.next();
@@ -794,10 +816,29 @@ public class Kokoaja2 {
 					Statement ysoPrefStmt = kokoConYsoPrefLabelIter.next();
 					lisattavat.add(this.koko.createStatement(ysoPrefStmt.getSubject(), SKOS.prefLabel, ysoPrefStmt.getObject()));
 				}
+			} else {
+				// Käsitteellä on useampi prefLabel mutta ei selkeää yso-labelia
+				List<Statement> prefLabels = kokoCon.listProperties(SKOS.prefLabel).toList();
+				if (prefLabels.size() > 1) {
+					Statement lyhin = prefLabels.get(0);
+					// valitse lyhyempi prefLabeliksi, pitempi altLabeliksi
+					for (Statement duplicatePrfStmt : prefLabels) {
+						if (duplicatePrfStmt.getLiteral().getLexicalForm().length() < lyhin.getLiteral().getLexicalForm().length())
+							lyhin = duplicatePrfStmt;
+					}
+					for (Statement duplicatePreStatement : prefLabels) {
+						if (duplicatePreStatement.equals(lyhin))
+							lisattavat.add(lyhin);
+						else {
+							poistettavat.add(duplicatePreStatement);
+							lisattavat.add(this.koko.createStatement(duplicatePreStatement.getSubject(), SKOS.altLabel, duplicatePreStatement.getObject()));
+						}
+					}
+				}
 			}
 		}
-		this.koko.add(lisattavat);
 		this.koko.remove(poistettavat);
+		this.koko.add(lisattavat);
 	}
 	/*
 	 * KOKO-URIttamisen jälkeen siivotaan kokosta pois dct:isreplacedby erikoisontologiasubjektit
@@ -1313,6 +1354,7 @@ public class Kokoaja2 {
 		this.vaihtoehtoinenMuutaUritKokoUreiksi();
 		this.siivoaLopuksiOntoSubjektit(replacedbyPolku);
 		this.korjaaLopuksiObjectit();
+		this.korjaaLopuksiLabelit();
 		this.lisaaExactMatchitAiemmassaKokossaOlleisiin(edellisenKokonPolku, replacedbyPolku);
 		this.tarkistaEtteiKorvattuihinMeneSuhteitaJaPuraMahdollisetKorvaavuusKetjut();
 		this.tulostaMuutoksetEdelliseenVerrattuna(edellisenKokonPolku);
@@ -1322,6 +1364,47 @@ public class Kokoaja2 {
 		//this.korjaaSulkutarkenteet();
 				
 		System.out.println("Labelin perusteella romautettiin " + this.romautetut + ".");
+	}
+
+	private void korjaaLopuksiLabelit() {
+		System.out.println("Korjataan KOKOn labelit.");
+		ArrayList<Statement> poistettavat = new ArrayList<Statement>();
+		StmtIterator iter = this.koko.listStatements(null, RDF.type, SKOS.Concept);
+
+		while (iter.hasNext()) {
+			Statement stm = iter.next();
+			Resource res = stm.getSubject();
+			for (String lang : this.kielet) {
+
+				// Jos käsitteellä on sama label preffinä ja jonain muuna, poistetaan muut
+				Statement prefSt = res.getProperty(SKOS.prefLabel, lang);
+				if (prefSt != null) {
+					Literal pref = res.getProperty(SKOS.prefLabel, lang).getLiteral();
+
+					StmtIterator prefCheckIter = this.koko.listStatements(res, null, pref);
+					while (prefCheckIter.hasNext()) {
+						Statement prefCheckStmt = prefCheckIter.next();
+						if (prefCheckStmt.getPredicate().equals(SKOS.altLabel) ||
+								prefCheckStmt.getPredicate().equals(SKOS.hiddenLabel)) {
+							poistettavat.add(prefCheckStmt);
+						}
+
+					} prefCheckIter.close();
+				}
+				// Jos käsitteellä on sama label hiddeninä ja altina, poistetaan hidden
+				StmtIterator hiddenIter = res.listProperties(SKOS.hiddenLabel, lang);
+				while (hiddenIter.hasNext()) {
+					Statement hiddenStmt = hiddenIter.next();
+					Literal hidden = hiddenStmt.getLiteral();
+					if (res.hasProperty(SKOS.altLabel, hidden)) {
+						poistettavat.add(hiddenStmt);
+					}
+				} hiddenIter.close();
+
+			}
+		} iter.close();
+		System.out.println("KOKOsta poistettiin " + poistettavat.size() + " kpl ylimääräisiä labeleita.");
+		this.koko.remove(poistettavat);
 	}
 
 	/*
