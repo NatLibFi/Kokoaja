@@ -1103,7 +1103,7 @@ public class Kokoaja2 {
 		i = 0; 
 		for (Resource uusi:uudenKokonResurssit) {
 			i++;
-			System.out.println(i + "." + uusi.getURI() + " = " + nykyKokonPrefLabelitMap.get(uusi));
+			System.out.println(i + ". " + uusi.getURI() + " = " + nykyKokonPrefLabelitMap.get(uusi));
 		}
 	}
 
