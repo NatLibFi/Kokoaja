@@ -1,113 +1,113 @@
-19:40:16.475 [main] DEBUG org.apache.jena.riot.system.stream.JenaIOEnvironment -- Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
-19:40:16.605 [main] DEBUG org.apache.jena.info -- System architecture: 64 bit
-19:40:16.624 [main] DEBUG org.apache.jena.dboe.System -- System architecture: 64 bit
+14:01:55.936 [main] DEBUG org.apache.jena.riot.system.stream.JenaIOEnvironment -- Failed to find configuration: location-mapping.ttl;location-mapping.rdf;etc/location-mapping.rdf;etc/location-mapping.ttl
+14:01:56.121 [main] DEBUG org.apache.jena.info -- System architecture: 64 bit
+14:01:56.155 [main] DEBUG org.apache.jena.dboe.System -- System architecture: 64 bit
 Luetaan URI-vastaavuudet tiedostosta kokoUriVastaavuudet.txt
 luetaan malli sisään.
-19:40:17.168 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/yso/yso-skos.ttl
-19:40:17.188 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/yso/yso-skos.ttl (LocatorFile)
+14:01:57.042 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/yso/yso-skos.ttl
+14:01:57.049 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/yso/yso-skos.ttl (LocatorFile)
 malli luettu sisään.
 Luetaan ../Finto-data/vocabularies/jupo/jupo-skos.ttl
 luetaan malli sisään.
-19:40:22.715 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/jupo/jupo-skos.ttl
-19:40:22.715 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/jupo/jupo-skos.ttl (LocatorFile)
+14:02:04.701 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/jupo/jupo-skos.ttl
+14:02:04.701 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/jupo/jupo-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 0 http://www.yso.fi/onto/liito-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/muso/muso-tynkäraato.ttl
 luetaan malli sisään.
-19:40:26.057 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/muso/muso-tynkäraato.ttl
-19:40:26.058 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/muso/muso-tynkäraato.ttl (LocatorFile)
+14:02:08.769 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/muso/muso-tynkäraato.ttl
+14:02:08.771 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/muso/muso-tynkäraato.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 0 http://www.yso.fi/onto/muso-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/soto/soto-skos.ttl
 luetaan malli sisään.
-19:40:26.077 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/soto/soto-skos.ttl
-19:40:26.077 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/soto/soto-skos.ttl (LocatorFile)
+14:02:08.811 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/soto/soto-skos.ttl
+14:02:08.811 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/soto/soto-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 2389 http://www.yso.fi/onto/soto-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/tsr/tsr-skos.ttl
 luetaan malli sisään.
-19:40:27.288 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/tsr/tsr-skos.ttl
-19:40:27.288 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/tsr/tsr-skos.ttl (LocatorFile)
+14:02:10.542 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/tsr/tsr-skos.ttl
+14:02:10.543 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/tsr/tsr-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 5103 http://www.yso.fi/onto/tsr-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/maotao/maotao-skos.ttl
 luetaan malli sisään.
-19:40:29.813 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/maotao/maotao-skos.ttl
-19:40:29.813 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/maotao/maotao-skos.ttl (LocatorFile)
+14:02:13.288 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/maotao/maotao-skos.ttl
+14:02:13.288 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/maotao/maotao-skos.ttl (LocatorFile)
 malli luettu sisään.
-Lisätään KOKOon 11415 http://www.yso.fi/onto/mao-meta/Concept -tyyppistä resurssia.
+Lisätään KOKOon 11420 http://www.yso.fi/onto/mao-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/kito/kito-skos.ttl
 luetaan malli sisään.
-19:40:33.255 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/kito/kito-skos.ttl
-19:40:33.255 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/kito/kito-skos.ttl (LocatorFile)
+14:02:18.855 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/kito/kito-skos.ttl
+14:02:18.856 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/kito/kito-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 847 http://www.yso.fi/onto/kito-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/kauno/kauno-skos.ttl
 luetaan malli sisään.
-19:40:34.379 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/kauno/kauno-skos.ttl
-19:40:34.379 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/kauno/kauno-skos.ttl (LocatorFile)
+14:02:20.445 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/kauno/kauno-skos.ttl
+14:02:20.446 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/kauno/kauno-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 6058 http://www.yso.fi/onto/kauno-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/kto/kto-skos.ttl
 luetaan malli sisään.
-19:40:37.929 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/kto/kto-skos.ttl
-19:40:37.929 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/kto/kto-skos.ttl (LocatorFile)
+14:02:25.236 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/kto/kto-skos.ttl
+14:02:25.237 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/kto/kto-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 953 http://www.yso.fi/onto/kto-meta/Concept -tyyppistä resurssia.
 Tyhjä node : http://www.yso.fi/onto/kto/p672 skos:exactMatch
-Tripleä [http://www.yso.fi/onto/kto/p672, http://www.w3.org/2004/02/skos/core#exactMatch, _:7909d96ff37f6e9661dff0950f46cf36] ei otettu mukaan KOKOon
+Tripleä [http://www.yso.fi/onto/kto/p672, http://www.w3.org/2004/02/skos/core#exactMatch, _:af50af7fd0b88ed707934476d6edd02a] ei otettu mukaan KOKOon
 Luetaan ../Finto-data/vocabularies/liiko/mero-skos.ttl
 luetaan malli sisään.
-19:40:39.561 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/liiko/mero-skos.ttl
-19:40:39.561 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/liiko/mero-skos.ttl (LocatorFile)
+14:02:27.318 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/liiko/mero-skos.ttl
+14:02:27.319 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/liiko/mero-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 3650 http://www.yso.fi/onto/mero-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/maotao/maotao-skos.ttl
 luetaan malli sisään.
-19:40:42.810 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/maotao/maotao-skos.ttl
-19:40:42.810 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/maotao/maotao-skos.ttl (LocatorFile)
+14:02:30.903 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/maotao/maotao-skos.ttl
+14:02:30.903 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/maotao/maotao-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 2514 http://www.yso.fi/onto/tao-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/kulo/kulo-tynkäraato.ttl
 luetaan malli sisään.
-19:40:46.353 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/kulo/kulo-tynkäraato.ttl
-19:40:46.353 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/kulo/kulo-tynkäraato.ttl (LocatorFile)
+14:02:36.332 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/kulo/kulo-tynkäraato.ttl
+14:02:36.332 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/kulo/kulo-tynkäraato.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 0 http://www.yso.fi/onto/kulo-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/tero/tero-skos-koko.ttl
 luetaan malli sisään.
-19:40:46.371 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/tero/tero-skos-koko.ttl
-19:40:46.371 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/tero/tero-skos-koko.ttl (LocatorFile)
+14:02:36.360 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/tero/tero-skos-koko.ttl
+14:02:36.361 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/tero/tero-skos-koko.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 3396 http://www.yso.fi/onto/tero-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/afo/afo-skos.ttl
 luetaan malli sisään.
-19:40:49.292 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/afo/afo-skos.ttl
-19:40:49.293 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/afo/afo-skos.ttl (LocatorFile)
+14:02:39.667 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/afo/afo-skos.ttl
+14:02:39.668 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/afo/afo-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 5988 http://www.yso.fi/onto/afo-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/oma/oma-skos.ttl
 luetaan malli sisään.
-19:40:50.898 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/oma/oma-skos.ttl
-19:40:50.898 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/oma/oma-skos.ttl (LocatorFile)
+14:02:41.850 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/oma/oma-skos.ttl
+14:02:41.851 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/oma/oma-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 1592 http://www.yso.fi/onto/oma-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/juho/juho-skos.ttl
 luetaan malli sisään.
-19:40:53.841 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/juho/juho-skos.ttl
-19:40:53.841 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/juho/juho-skos.ttl (LocatorFile)
+14:02:45.913 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/juho/juho-skos.ttl
+14:02:45.913 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/juho/juho-skos.ttl (LocatorFile)
 malli luettu sisään.
-Lisätään KOKOon 1641 http://www.yso.fi/onto/juho-meta/Concept -tyyppistä resurssia.
+Lisätään KOKOon 1642 http://www.yso.fi/onto/juho-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/valo/valo-skos.ttl
 luetaan malli sisään.
-19:40:57.117 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/valo/valo-skos.ttl
-19:40:57.117 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/valo/valo-skos.ttl (LocatorFile)
+14:02:51.547 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/valo/valo-skos.ttl
+14:02:51.548 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/valo/valo-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 1933 http://www.yso.fi/onto/valo-meta/Concept -tyyppistä resurssia.
 Luetaan ../Finto-data/vocabularies/jupo/jupo-skos.ttl
 luetaan malli sisään.
-19:40:59.444 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/jupo/jupo-skos.ttl
-19:40:59.444 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/jupo/jupo-skos.ttl (LocatorFile)
+14:02:55.172 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/jupo/jupo-skos.ttl
+14:02:55.173 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/jupo/jupo-skos.ttl (LocatorFile)
 malli luettu sisään.
 Lisätään KOKOon 5837 http://www.yso.fi/onto/jupo-meta/Concept -tyyppistä resurssia.
 Käsitteellä http://www.yso.fi/onto/afo/p7809 ei ollut jarkeviä labeleita eikä sitä lisätty KOKOon.
@@ -121,9 +121,9 @@ Ongelma romautuksien labeleissa:  -- http://www.yso.fi/onto/valo/p219 -- http://
 Ongelma romautuksien labeleissa:  -- http://www.yso.fi/onto/kauno/p2178 -- http://www.yso.fi/onto/yso/p10936 pyykinpesu
 Ongelma romautuksien labeleissa:  -- http://www.yso.fi/onto/valo/p537 -- http://www.yso.fi/onto/yso/p27515 viestintäteoriat
 Ongelma romautuksien labeleissa:  -- http://www.yso.fi/onto/valo/p537 -- http://www.yso.fi/onto/valo/p536 väriteoriat
-Kokossa käsitteitä: 74829
-Linkitettyjä käsitteitä oli 85299
-Siivouksen jälkeen linkitettyjä on 10504
+Kokossa käsitteitä: 75069
+Linkitettyjä käsitteitä oli 85545
+Siivouksen jälkeen linkitettyjä on 10521
 Tripleä [http://www.yso.fi/onto/liito/p11509, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/jupo/p6327] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/liito/p3262, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/jupo/p5986] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/liito/p5232, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/jupo/p5524] ei otettu mukaan KOKOon
@@ -5161,6 +5161,7 @@ Tripleä [http://www.yso.fi/onto/liito/p13252, http://purl.org/dc/terms/isReplac
 Tripleä [http://www.yso.fi/onto/liito/p4257, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/jupo/p141] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/juho/p1743, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p10654] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/juho/p1942, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p6308] ei otettu mukaan KOKOon
+Tripleä [http://www.yso.fi/onto/juho/p2960, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p40236] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/liito/p13164, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/jupo/p5275] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/liito/p13478, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/jupo/p3596] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/muso/p67019, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p29944] ei otettu mukaan KOKOon
@@ -5438,6 +5439,7 @@ Tripleä [http://www.yso.fi/onto/muso/p770, http://purl.org/dc/terms/isReplacedB
 Tripleä [http://www.yso.fi/onto/juho/p2637, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p27934] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/kulo/k673, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p3547] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/liito/p13515, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/jupo/p3783] ei otettu mukaan KOKOon
+Tripleä [http://www.yso.fi/onto/juho/p6547, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p11228] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/liito/p13254, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/jupo/p6233] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/juho/p13890, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p5234] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/kulo/k1443, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p19343] ei otettu mukaan KOKOon
@@ -7588,8 +7590,8 @@ Tripleä [http://www.yso.fi/onto/juho/p5836, http://purl.org/dc/terms/isReplaced
 Tripleä [http://www.yso.fi/onto/tao/p2389, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/mao/p5352] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/juho/p9485, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p9381] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/juho/p9451, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p4183] ei otettu mukaan KOKOon
-Tripleä [http://www.yso.fi/onto/tao/p2049, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/mao/p367] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/tao/p2455, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/mao/p271] ei otettu mukaan KOKOon
+Tripleä [http://www.yso.fi/onto/tao/p2049, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/mao/p367] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/juho/p14003, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p1959] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/tao/p874, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/mao/p3157] ei otettu mukaan KOKOon
 Tripleä [http://www.yso.fi/onto/juho/p4335, http://purl.org/dc/terms/isReplacedBy, http://www.yso.fi/onto/yso/p11284] ei otettu mukaan KOKOon
@@ -12730,18 +12732,18 @@ Käsitteelle http://www.yso.fi/onto/mao/p11070 ei löytynyt vastaavaa koko-uria.
 Käsitteelle http://www.yso.fi/onto/mao/p11070 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
 Käsitteelle http://www.yso.fi/onto/tero/D000485 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
 Käsitteelle http://www.yso.fi/onto/tsr/p9337 ei löytynyt vastaavaa koko-uria. Poistetaan viittaus uriin.
-Kokossa käsitteitä urittamisen jälkeen: 61511
+Kokossa käsitteitä urittamisen jälkeen: 61759
 Korjataan KOKOn labelit.
-KOKOsta poistettiin 13854 kpl ylimääräisiä labeleita.
+KOKOsta poistettiin 13871 kpl ylimääräisiä labeleita.
 Lisätään linkit aiemmassa KOKOssa olleisiin käsitteisiin.
 luetaan malli sisään.
-19:41:12.644 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl
-19:41:12.645 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl (LocatorFile)
+14:03:12.343 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl
+14:03:12.343 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl (LocatorFile)
 malli luettu sisään.
-19:41:17.701 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/koko/koko-replacedby.ttl
-19:41:17.702 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/koko/koko-replacedby.ttl (LocatorFile)
+14:03:20.325 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/koko/koko-replacedby.ttl
+14:03:20.326 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/koko/koko-replacedby.ttl (LocatorFile)
 1. ongelma: Edellisessä KOKOssa oli käsite, jolle ei loytynyt vastinetta uuteen KOKOon: hierarkian ulkopuoliset -- http://www.yso.fi/onto/koko/p88222
-Lisättiin 18658 replacedByta aiemmasta KOKOsta.
+Lisättiin 18657 replacedByta aiemmasta KOKOsta.
 Tarkistetaan ettei korvattuihin mene suhteita ja puretaan mahdolliset korvaavuusketjut.
 poistettiin:
 lisättiin:
@@ -12751,117 +12753,402 @@ lisättiin:
 Tarkistettu.
 Tulostetaan prefLabel-muutokset edelliseen KOKOon verrattuna.
 luetaan malli sisään.
-19:41:19.043 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl
-19:41:19.043 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl (LocatorFile)
+14:03:22.475 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl
+14:03:22.475 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl (LocatorFile)
 malli luettu sisään.
 KOKOn prefLabel muutokset edelliseen versioon verrattuna kielellä fi:
-1. http://www.yso.fi/onto/koko/p55862 -- sotateollisuus => puolustustarviketeollisuus
-2. http://www.yso.fi/onto/koko/p72897 -- verkkotallennus => pilvitallennus
-3. http://www.yso.fi/onto/koko/p32353 -- julkaisutoiminta => sähköinen julkaisutoiminta
-4. http://www.yso.fi/onto/koko/p31718 -- maatalous => maanviljely
-5. http://www.yso.fi/onto/koko/p17590 -- poltto => palaminen
-6. http://www.yso.fi/onto/koko/p13523 -- haikalat => hait
-7. http://www.yso.fi/onto/koko/p34340 -- klinkkerit => klinkkerilaatat
-8. http://www.yso.fi/onto/koko/p72979 -- gallikaaninen laulu => latinalainen kirkkolaulu
-9. http://www.yso.fi/onto/koko/p18948 -- työnkuva => toimenkuvat
-10. http://www.yso.fi/onto/koko/p1394 -- vanhemmat => adoptiovanhemmat
-11. http://www.yso.fi/onto/koko/p31823 -- kehitys => kehittäminen
-12. http://www.yso.fi/onto/koko/p48712 -- hambo (tanssit) => hambot (sävellykset)
-13. http://www.yso.fi/onto/koko/p32049 -- konkretismi => konkreettinen taide
-14. http://www.yso.fi/onto/koko/p25775 -- elävän mallin maalaus => elävän mallin piirustus
+1. http://www.yso.fi/onto/koko/p4131 -- pelihimo => peliriippuvuus (mielenterveyshäiriöt, riippuvuus)
+2. http://www.yso.fi/onto/koko/p55319 -- aggregaatit (laitteet) => sähköaggregaatit
+3. http://www.yso.fi/onto/koko/p11591 -- opiskelutekniikka => opiskelutekniikat
+4. http://www.yso.fi/onto/koko/p69557 -- vuodat (luonnonmateriaalit) => vuodat ja taljat
+5. http://www.yso.fi/onto/koko/p12860 -- palomiehet => pelastajat (palo- ja pelastusala)
+6. http://www.yso.fi/onto/koko/p85378 -- talopakettitalot => pakettitalot
+7. http://www.yso.fi/onto/koko/p72979 -- gallikaaninen laulu => latinalainen kirkkolaulu
+8. http://www.yso.fi/onto/koko/p17923 -- ICF => ICF-luokitus
+9. http://www.yso.fi/onto/koko/p85972 -- itseohjautuvat laivat => miehittämättömät vesikulkuneuvot
+10. http://www.yso.fi/onto/koko/p5247 -- runonlaulu => runolaulu
+11. http://www.yso.fi/onto/koko/p13523 -- haikalat => hait
+12. http://www.yso.fi/onto/koko/p10809 -- kertomarunot => eeppiset runot
+13. http://www.yso.fi/onto/koko/p56721 -- ekoterapia => luontoterapia
+14. http://www.yso.fi/onto/koko/p96583 -- tinaoksidit => tinadioksidi
+15. http://www.yso.fi/onto/koko/p34340 -- klinkkerit => klinkkerilaatat
+16. http://www.yso.fi/onto/koko/p86270 -- ketšuan kieli => ketšualaiset kielet
+17. http://www.yso.fi/onto/koko/p4013 -- lomitus => maatalouslomitus (keskinäinen toiminta, työ)
+18. http://www.yso.fi/onto/koko/p13707 -- runonlaulajat => runolaulajat
+19. http://www.yso.fi/onto/koko/p72897 -- verkkotallennus => pilvitallennus
+20. http://www.yso.fi/onto/koko/p10152 -- showt => show't
+21. http://www.yso.fi/onto/koko/p34489 -- megaliittikulttuuri => megaliittikulttuurit
+22. http://www.yso.fi/onto/koko/p4593 -- drag showt => drag show't
+23. http://www.yso.fi/onto/koko/p8683 -- sufilaisuus => suufilaisuus
 KOKOn prefLabel muutokset edelliseen versioon verrattuna kielellä sv:
-1. http://www.yso.fi/onto/koko/p24427 -- yrken => ordningsvakter
-2. http://www.yso.fi/onto/koko/p6879 -- V-diagram => V-heuristik
-3. http://www.yso.fi/onto/koko/p4914 -- balanserade styrkort => balanserat styrkort
-4. http://www.yso.fi/onto/koko/p31226 -- erfarenhetsberättelse => oral history (minneshistoria)
-5. http://www.yso.fi/onto/koko/p34340 -- klinker => klinkerplattor
-6. http://www.yso.fi/onto/koko/p48882 -- brudvalser => bröllopsmarscher
-7. http://www.yso.fi/onto/koko/p53267 -- servicebutiker => trafikbutiker
-8. http://www.yso.fi/onto/koko/p32049 -- konkretism => konkret konst
-9. http://www.yso.fi/onto/koko/p36763 -- förenhetligande => lagharmonisering
-10. http://www.yso.fi/onto/koko/p7034 -- rättsantropologi => juridisk antropologi
-11. http://www.yso.fi/onto/koko/p34380 -- migrering => ämnestransport
-12. http://www.yso.fi/onto/koko/p13523 -- hajfiskar => hajar
-13. http://www.yso.fi/onto/koko/p32713 -- mobiltjänster => mobilkommunikationstjänster (teletjänster)
-14. http://www.yso.fi/onto/koko/p17590 -- bränning => förbränning
-15. http://www.yso.fi/onto/koko/p16282 -- invandring => utvandring
-16. http://www.yso.fi/onto/koko/p25675 -- Helsingfors Olympiastadion => Helsingfors olympiastadion
-17. http://www.yso.fi/onto/koko/p48712 -- hambo (danser) => hambor (kompositioner)
-18. http://www.yso.fi/onto/koko/p34386 -- kunskap => lösningar (svar)
-19. http://www.yso.fi/onto/koko/p5583 -- hospitalisering => institutionalisering (psykologi)
-20. http://www.yso.fi/onto/koko/p14052 -- sparvar => sparvfinkar
-21. http://www.yso.fi/onto/koko/p35390 -- stugor => storstugor (rum)
-22. http://www.yso.fi/onto/koko/p4629 -- omstridda fenomen => gränskunskap (paranormala fenomen)
-23. http://www.yso.fi/onto/koko/p56091 -- silkesterrier => silkyterrier
-24. http://www.yso.fi/onto/koko/p32353 -- publikationsverksamhet => elektronisk publicering
-25. http://www.yso.fi/onto/koko/p53534 -- Yom kippur-kriget => oktoberkriget (1973)
-26. http://www.yso.fi/onto/koko/p15342 -- regionalförvaltning => regionförvaltning
-27. http://www.yso.fi/onto/koko/p72897 -- nätlagring => molnlagring
-28. http://www.yso.fi/onto/koko/p65181 -- sömnyoga => tibetansk drömyoga
-29. http://www.yso.fi/onto/koko/p53806 -- insändare => debattinlägg
-30. http://www.yso.fi/onto/koko/p11635 -- dansmusik => dansgrenar
-Uudessa KOKOssa on 58 uutta käsitettä.
-1.http://www.yso.fi/onto/koko/p96676 = vasikoiden vierihoito
-2.http://www.yso.fi/onto/koko/p96677 = haploryhmät
-3.http://www.yso.fi/onto/koko/p96674 = siviilivalmius
-4.http://www.yso.fi/onto/koko/p96675 = twerkkaus
-5.http://www.yso.fi/onto/koko/p96678 = saarivaltiot
-6.http://www.yso.fi/onto/koko/p96679 = linnanpäälliköt
-7.http://www.yso.fi/onto/koko/p96680 = monipaikkaisuus (yhteiskunnalliset ominaisuudet)
-8.http://www.yso.fi/onto/koko/p96683 = oikeuslääketieteellinen antropologia
-9.http://www.yso.fi/onto/koko/p96684 = lännendouglaskuusi
-10.http://www.yso.fi/onto/koko/p96681 = merenpinnan nousu
-11.http://www.yso.fi/onto/koko/p96682 = ravinnekuormitus (vesistönkuormitus)
-12.http://www.yso.fi/onto/koko/p96687 = laki eläinten hyvinvoinnista
-13.http://www.yso.fi/onto/koko/p96688 = jakojärjestelmät (eläkejärjestelmät)
-14.http://www.yso.fi/onto/koko/p96685 = aromanttisuus
-15.http://www.yso.fi/onto/koko/p96686 = pääaineet (oppiaineet)
-16.http://www.yso.fi/onto/koko/p96689 = säteilytoiminta
-17.http://www.yso.fi/onto/koko/p96690 = sosiaalisen läsnäolon teoria
-18.http://www.yso.fi/onto/koko/p96691 = koulupuutarhat
-19.http://www.yso.fi/onto/koko/p96694 = implementaatiotiede
-20.http://www.yso.fi/onto/koko/p96692 = somaattiset mutaatiot
-21.http://www.yso.fi/onto/koko/p96693 = data-avaruudet
-22.http://www.yso.fi/onto/koko/p96638 = hydroksyylit
-23.http://www.yso.fi/onto/koko/p96639 = purentavirheet
-24.http://www.yso.fi/onto/koko/p96637 = varastot (elottomat fyysiset kokonaisuudet)
-25.http://www.yso.fi/onto/koko/p96640 = El Niño -ilmiö
-26.http://www.yso.fi/onto/koko/p96649 = rahastoivat eläkejärjestelmät
-27.http://www.yso.fi/onto/koko/p96643 = umpilähteet
-28.http://www.yso.fi/onto/koko/p96644 = kaasukaarihitsaus
-29.http://www.yso.fi/onto/koko/p96641 = yksittäiset rakennukset
-30.http://www.yso.fi/onto/koko/p96642 = ketut (suku)
-31.http://www.yso.fi/onto/koko/p96647 = diagnostiset menetelmät
-32.http://www.yso.fi/onto/koko/p96648 = tiedepääoma
-33.http://www.yso.fi/onto/koko/p96645 = La Niña -ilmiö
-34.http://www.yso.fi/onto/koko/p96646 = avolähteet (säteilylähteet)
-35.http://www.yso.fi/onto/koko/p96650 = positiointiteoria
-36.http://www.yso.fi/onto/koko/p96651 = syväväärennökset
-37.http://www.yso.fi/onto/koko/p96654 = kaarihitsaus
-38.http://www.yso.fi/onto/koko/p96655 = kasvulevyt
-39.http://www.yso.fi/onto/koko/p96652 = uskonnollinen oikeisto
-40.http://www.yso.fi/onto/koko/p96653 = säteilylähteet
-41.http://www.yso.fi/onto/koko/p96658 = geenisäätely
-42.http://www.yso.fi/onto/koko/p96659 = kvanttipiirit
-43.http://www.yso.fi/onto/koko/p96656 = lämpöpuhaltimet
-44.http://www.yso.fi/onto/koko/p96657 = looginen ristiriita
-45.http://www.yso.fi/onto/koko/p96661 = nanokuidut
-46.http://www.yso.fi/onto/koko/p96662 = kelaatio
-47.http://www.yso.fi/onto/koko/p96660 = bolometrit
-48.http://www.yso.fi/onto/koko/p96665 = kaksiulotteiset materiaalit
-49.http://www.yso.fi/onto/koko/p96666 = narratiivinen identiteetti
-50.http://www.yso.fi/onto/koko/p96663 = viranomaisvalvonta
-51.http://www.yso.fi/onto/koko/p96664 = hypopituitarismi
-52.http://www.yso.fi/onto/koko/p96669 = readymade-teokset
-53.http://www.yso.fi/onto/koko/p96667 = oppimisanalytiikka
-54.http://www.yso.fi/onto/koko/p96668 = kielitausta
-55.http://www.yso.fi/onto/koko/p96672 = epäsosiaalinen persoonallisuus
-56.http://www.yso.fi/onto/koko/p96673 = synnytystapa
-57.http://www.yso.fi/onto/koko/p96670 = sulamisvesi
-58.http://www.yso.fi/onto/koko/p96671 = digitaaliset tuotepassit
+1. http://www.yso.fi/onto/koko/p56721 -- ekoterapi => naturterapi
+2. http://www.yso.fi/onto/koko/p12860 -- brandmän => räddningspersoner (brand- och räddningsbranschen)
+3. http://www.yso.fi/onto/koko/p4131 -- spelmani => spelberoende
+4. http://www.yso.fi/onto/koko/p32778 -- delning => arbetsfördelning
+5. http://www.yso.fi/onto/koko/p59816 -- tofflor => tossor
+6. http://www.yso.fi/onto/koko/p4914 -- balanserade styrkort => balanserat styrkort
+7. http://www.yso.fi/onto/koko/p33170 -- mönsterstickade plagg => mönsterstickningar
+8. http://www.yso.fi/onto/koko/p4629 -- omstridda fenomen => gränskunskap (paranormala fenomen)
+9. http://www.yso.fi/onto/koko/p72897 -- nätlagring => molnlagring
+10. http://www.yso.fi/onto/koko/p17923 -- ICF => ICF-klassifikationen
+11. http://www.yso.fi/onto/koko/p11591 -- studieteknik => studietekniker
+12. http://www.yso.fi/onto/koko/p53806 -- insändare => debattinlägg
+13. http://www.yso.fi/onto/koko/p53267 -- servicebutiker => trafikbutiker
+14. http://www.yso.fi/onto/koko/p65181 -- sömnyoga => tibetansk drömyoga
+15. http://www.yso.fi/onto/koko/p5583 -- hospitalisering => institutionalisering (psykologi)
+16. http://www.yso.fi/onto/koko/p13523 -- hajfiskar => hajar
+17. http://www.yso.fi/onto/koko/p34380 -- migrering => ämnestransport
+18. http://www.yso.fi/onto/koko/p13950 -- höftskador => höftfel
+19. http://www.yso.fi/onto/koko/p36751 -- evenemang för allmänheten => offentliga tillställningar
+20. http://www.yso.fi/onto/koko/p6879 -- V-diagram => V-heuristik
+21. http://www.yso.fi/onto/koko/p13128 -- språkstammar => språkfamiljer
+22. http://www.yso.fi/onto/koko/p69557 -- hudar => hudar och fällar
+23. http://www.yso.fi/onto/koko/p16497 -- ekonomidirektörer => ekonomichefer
+24. http://www.yso.fi/onto/koko/p25202 -- humpa (kompositioner) => humpor (kompositioner)
+25. http://www.yso.fi/onto/koko/p2662 -- specialsjukvård => specialiserad sjukvård
+26. http://www.yso.fi/onto/koko/p74086 -- vändbara stickade plagg => vändbara stickningar
+27. http://www.yso.fi/onto/koko/p15342 -- regionalförvaltning => regionförvaltning
+28. http://www.yso.fi/onto/koko/p34340 -- klinker => klinkerplattor
+29. http://www.yso.fi/onto/koko/p85972 -- självstyrande fartyg => obemannade vattenfarkoster
+30. http://www.yso.fi/onto/koko/p30693 -- fodral => puppor
+31. http://www.yso.fi/onto/koko/p35390 -- stugor => storstugor (rum)
+32. http://www.yso.fi/onto/koko/p34489 -- megalitkulturen => megalitkulturer
+33. http://www.yso.fi/onto/koko/p36163 -- blåsmaskiner => blåsare (apparater)
+34. http://www.yso.fi/onto/koko/p53534 -- Yom kippur-kriget => oktoberkriget (1973)
+35. http://www.yso.fi/onto/koko/p56091 -- silkesterrier => silkyterrier
+36. http://www.yso.fi/onto/koko/p55274 -- slaget vid Koljonvirta => slaget vid Virta bro
+37. http://www.yso.fi/onto/koko/p93134 -- neuropsykiatriska störningar => neuropsykiatriska funktionsnedsättningar
+38. http://www.yso.fi/onto/koko/p5943 -- narkomaner => personer med drogberoende
+39. http://www.yso.fi/onto/koko/p7034 -- rättsantropologi => juridisk antropologi
+40. http://www.yso.fi/onto/koko/p1141 -- positiv attityd => positivitet
+41. http://www.yso.fi/onto/koko/p48882 -- brudvalser => bröllopsmarscher
+42. http://www.yso.fi/onto/koko/p69667 -- strukturstickning => strukturstickningar
+43. http://www.yso.fi/onto/koko/p72979 -- gallikansk sång => latinsk kyrkosång
+44. http://www.yso.fi/onto/koko/p33908 -- rymdskepp => rymdfarkoster
+45. http://www.yso.fi/onto/koko/p31226 -- erfarenhetsberättelse => oral history (minneshistoria)
+46. http://www.yso.fi/onto/koko/p31718 -- jordbruk => lantbruk
+47. http://www.yso.fi/onto/koko/p25675 -- Helsingfors Olympiastadion => Helsingfors olympiastadion
+48. http://www.yso.fi/onto/koko/p50119 -- folklustspel => folkskådespel
+49. http://www.yso.fi/onto/koko/p55319 -- aggregat (anordningar) => elaggregat
+50. http://www.yso.fi/onto/koko/p70316 -- spetsstickning => spetsstickningar
+51. http://www.yso.fi/onto/koko/p96583 -- tennoxider => tenndioxid
+52. http://www.yso.fi/onto/koko/p14052 -- sparvar => sparvfinkar
+53. http://www.yso.fi/onto/koko/p48790 -- laika (musik) => laiko (musik)
+54. http://www.yso.fi/onto/koko/p11635 -- dansmusik => dansgrenar
+Uudessa KOKOssa on 310 uutta käsitettä.
+1.http://www.yso.fi/onto/koko/p52646 = työnkuva (tieto)
+2.http://www.yso.fi/onto/koko/p96797 = lindy hop (tanssit)
+3.http://www.yso.fi/onto/koko/p96798 = välineellistetty maahantulo
+4.http://www.yso.fi/onto/koko/p96795 = tottelemattomuus (ominaisuudet)
+5.http://www.yso.fi/onto/koko/p96796 = vettäminen
+6.http://www.yso.fi/onto/koko/p96799 = rajojen asettaminen (psykologia)
+7.http://www.yso.fi/onto/koko/p96759 = nambikwaralaiset kielet
+8.http://www.yso.fi/onto/koko/p96753 = keresiläiset kielet
+9.http://www.yso.fi/onto/koko/p96754 = maidulaiset kielet
+10.http://www.yso.fi/onto/koko/p96751 = harakmbutkielet
+11.http://www.yso.fi/onto/koko/p96752 = arawakilaiset kielet
+12.http://www.yso.fi/onto/koko/p96757 = cochimilais-yumalaiset kielet
+13.http://www.yso.fi/onto/koko/p96758 = tukanolaiset kielet
+14.http://www.yso.fi/onto/koko/p96755 = karibilaiset kielet
+15.http://www.yso.fi/onto/koko/p96756 = tekistlateekkikielet
+16.http://www.yso.fi/onto/koko/p96760 = barbakolaiset kielet
+17.http://www.yso.fi/onto/koko/p96761 = bororolaiset kielet
+18.http://www.yso.fi/onto/koko/p96764 = aimarakielet
+19.http://www.yso.fi/onto/koko/p96765 = caddolaiset kielet
+20.http://www.yso.fi/onto/koko/p96762 = guaycurulaiset kielet
+21.http://www.yso.fi/onto/koko/p96763 = na-deneläiset kielet
+22.http://www.yso.fi/onto/koko/p96768 = otomangelaiset kielet
+23.http://www.yso.fi/onto/koko/p96769 = chumashilaiset kielet
+24.http://www.yso.fi/onto/koko/p96766 = misumalpakielet
+25.http://www.yso.fi/onto/koko/p96767 = makro-je-kielet
+26.http://www.yso.fi/onto/koko/p96771 = tupilaiset kielet
+27.http://www.yso.fi/onto/koko/p96772 = siouxkielet
+28.http://www.yso.fi/onto/koko/p96770 = chocolaiset kielet
+29.http://www.yso.fi/onto/koko/p96775 = satsuma
+30.http://www.yso.fi/onto/koko/p96776 = klementiini
+31.http://www.yso.fi/onto/koko/p96773 = mataguaylaiset kielet
+32.http://www.yso.fi/onto/koko/p96774 = algilaiset kielet
+33.http://www.yso.fi/onto/koko/p96779 = helleaallot
+34.http://www.yso.fi/onto/koko/p96777 = chichamilaiset kielet
+35.http://www.yso.fi/onto/koko/p96778 = kylkirusto
+36.http://www.yso.fi/onto/koko/p96782 = lukemisen edistäminen
+37.http://www.yso.fi/onto/koko/p96783 = viisauskirjallisuus
+38.http://www.yso.fi/onto/koko/p96780 = ryhmäkiinteys
+39.http://www.yso.fi/onto/koko/p96781 = talousosaaminen
+40.http://www.yso.fi/onto/koko/p96786 = tomosynteesi
+41.http://www.yso.fi/onto/koko/p96787 = geenifuusio
+42.http://www.yso.fi/onto/koko/p96784 = vanhusasiavaltuutetut
+43.http://www.yso.fi/onto/koko/p96785 = Rubikin kuutio
+44.http://www.yso.fi/onto/koko/p96788 = kehotteet (tekoäly)
+45.http://www.yso.fi/onto/koko/p96789 = perhoslaskennat
+46.http://www.yso.fi/onto/koko/p96790 = hiilivuoto
+47.http://www.yso.fi/onto/koko/p96793 = lajintuntemus
+48.http://www.yso.fi/onto/koko/p96794 = sukitus
+49.http://www.yso.fi/onto/koko/p96791 = polkuanalyysi
+50.http://www.yso.fi/onto/koko/p96792 = vastuulajit (luonnonsuojelu)
+51.http://www.yso.fi/onto/koko/p96717 = Lewyn kappaleet
+52.http://www.yso.fi/onto/koko/p96718 = IgA-nefropatia
+53.http://www.yso.fi/onto/koko/p96715 = kapybara
+54.http://www.yso.fi/onto/koko/p96716 = periapikaalinen periodontiitti
+55.http://www.yso.fi/onto/koko/p96719 = pikkujoutsen
+56.http://www.yso.fi/onto/koko/p96710 = gallikaaninen laulu
+57.http://www.yso.fi/onto/koko/p96713 = Untamalan kirkko
+58.http://www.yso.fi/onto/koko/p96714 = pemfigus
+59.http://www.yso.fi/onto/koko/p96711 = häävalssit
+60.http://www.yso.fi/onto/koko/p96712 = eteisväliseinän aukot
+61.http://www.yso.fi/onto/koko/p96728 = muuliaasi
+62.http://www.yso.fi/onto/koko/p96729 = Paimion parantola
+63.http://www.yso.fi/onto/koko/p96726 = korvakäytävä
+64.http://www.yso.fi/onto/koko/p96727 = Enontekiön kirkko
+65.http://www.yso.fi/onto/koko/p96720 = uudenseelanninenglanti
+66.http://www.yso.fi/onto/koko/p96721 = Sodankylän vanha kirkko
+67.http://www.yso.fi/onto/koko/p96724 = Kuiperin vyöhyke
+68.http://www.yso.fi/onto/koko/p96725 = aivoperäinen neurotrofinen tekijä
+69.http://www.yso.fi/onto/koko/p96722 = porilaiset
+70.http://www.yso.fi/onto/koko/p96723 = stokastinen optimointi
+71.http://www.yso.fi/onto/koko/p96739 = manon kieli
+72.http://www.yso.fi/onto/koko/p96737 = esteettinen hammashoito
+73.http://www.yso.fi/onto/koko/p96738 = halloumi
+74.http://www.yso.fi/onto/koko/p96731 = Sodankylän kirkko
+75.http://www.yso.fi/onto/koko/p96732 = laki ajoneuvo- ja liikennepalveluhankintojen ympäristö- ja energiatehokkuusvaatimuksista
+76.http://www.yso.fi/onto/koko/p96730 = rinosinuiitti
+77.http://www.yso.fi/onto/koko/p96735 = kumppanuusvanhemmuus
+78.http://www.yso.fi/onto/koko/p96736 = ytterbium
+79.http://www.yso.fi/onto/koko/p96733 = kiviuunit (muinaisjäännökset)
+80.http://www.yso.fi/onto/koko/p96734 = kliininen neuropsykologia
+81.http://www.yso.fi/onto/koko/p96748 = mapuchelaiset kielet
+82.http://www.yso.fi/onto/koko/p96749 = chinookilaiset kielet
+83.http://www.yso.fi/onto/koko/p96742 = kiowalais-tanolaiset kielet
+84.http://www.yso.fi/onto/koko/p96743 = totonaakkikielet
+85.http://www.yso.fi/onto/koko/p96740 = mixeläis-zoquelaiset kielet
+86.http://www.yso.fi/onto/koko/p96741 = chonkielet
+87.http://www.yso.fi/onto/koko/p96746 = wakashilaiset kielet
+88.http://www.yso.fi/onto/koko/p96747 = tsimshianilaiset kielet
+89.http://www.yso.fi/onto/koko/p96744 = guahibolaiset kielet
+90.http://www.yso.fi/onto/koko/p96745 = muskogeelaiset kielet
+91.http://www.yso.fi/onto/koko/p96750 = zamucolaiset kielet
+92.http://www.yso.fi/onto/koko/p96706 = sähköiset julkaisut
+93.http://www.yso.fi/onto/koko/p96707 = palaminen
+94.http://www.yso.fi/onto/koko/p96704 = järjestyksenvalvojat
+95.http://www.yso.fi/onto/koko/p96705 = ratkaisut (vastaukset)
+96.http://www.yso.fi/onto/koko/p96708 = maastamuutto
+97.http://www.yso.fi/onto/koko/p96709 = kotelot (suojukset)
+98.http://www.yso.fi/onto/koko/p96702 = lakien yhdenmukaistaminen
+99.http://www.yso.fi/onto/koko/p96703 = tanssimusiikki
+100.http://www.yso.fi/onto/koko/p96700 = naturalismi (filosofia)
+101.http://www.yso.fi/onto/koko/p96701 = adoptiovanhemmat
+102.http://www.yso.fi/onto/koko/p96676 = vasikoiden vierihoito
+103.http://www.yso.fi/onto/koko/p96677 = haploryhmät
+104.http://www.yso.fi/onto/koko/p96674 = siviilivalmius
+105.http://www.yso.fi/onto/koko/p96675 = twerkkaus
+106.http://www.yso.fi/onto/koko/p96678 = saarivaltiot
+107.http://www.yso.fi/onto/koko/p96679 = linnanpäälliköt
+108.http://www.yso.fi/onto/koko/p96680 = monipaikkaisuus (yhteiskunnalliset ominaisuudet)
+109.http://www.yso.fi/onto/koko/p96683 = oikeuslääketieteellinen antropologia
+110.http://www.yso.fi/onto/koko/p96684 = lännendouglaskuusi
+111.http://www.yso.fi/onto/koko/p96681 = merenpinnan nousu
+112.http://www.yso.fi/onto/koko/p96682 = ravinnekuormitus (vesistönkuormitus)
+113.http://www.yso.fi/onto/koko/p96687 = laki eläinten hyvinvoinnista
+114.http://www.yso.fi/onto/koko/p96688 = jakojärjestelmät (eläkejärjestelmät)
+115.http://www.yso.fi/onto/koko/p96685 = aromanttisuus
+116.http://www.yso.fi/onto/koko/p96686 = pääaineet (oppiaineet)
+117.http://www.yso.fi/onto/koko/p96689 = säteilytoiminta
+118.http://www.yso.fi/onto/koko/p96690 = sosiaalisen läsnäolon teoria
+119.http://www.yso.fi/onto/koko/p96691 = koulupuutarhat
+120.http://www.yso.fi/onto/koko/p96694 = implementaatiotiede
+121.http://www.yso.fi/onto/koko/p96695 = hambot (sävellykset)
+122.http://www.yso.fi/onto/koko/p96692 = somaattiset mutaatiot
+123.http://www.yso.fi/onto/koko/p96693 = data-avaruudet
+124.http://www.yso.fi/onto/koko/p96698 = tuvat (rakennukset)
+125.http://www.yso.fi/onto/koko/p96699 = toimenkuvat
+126.http://www.yso.fi/onto/koko/p96696 = puolustustarviketeollisuus
+127.http://www.yso.fi/onto/koko/p96697 = kokeet (tutkimustoiminta)
+128.http://www.yso.fi/onto/koko/p96638 = hydroksyylit
+129.http://www.yso.fi/onto/koko/p96639 = purentavirheet
+130.http://www.yso.fi/onto/koko/p96637 = varastot (elottomat fyysiset kokonaisuudet)
+131.http://www.yso.fi/onto/koko/p96640 = El Niño -ilmiö
+132.http://www.yso.fi/onto/koko/p96649 = rahastoivat eläkejärjestelmät
+133.http://www.yso.fi/onto/koko/p96643 = umpilähteet
+134.http://www.yso.fi/onto/koko/p96644 = kaasukaarihitsaus
+135.http://www.yso.fi/onto/koko/p96641 = yksittäiset rakennukset
+136.http://www.yso.fi/onto/koko/p96642 = ketut (suku)
+137.http://www.yso.fi/onto/koko/p96647 = diagnostiset menetelmät
+138.http://www.yso.fi/onto/koko/p96648 = tiedepääoma
+139.http://www.yso.fi/onto/koko/p96645 = La Niña -ilmiö
+140.http://www.yso.fi/onto/koko/p96646 = avolähteet (säteilylähteet)
+141.http://www.yso.fi/onto/koko/p96650 = positiointiteoria
+142.http://www.yso.fi/onto/koko/p96651 = syväväärennökset
+143.http://www.yso.fi/onto/koko/p96654 = kaarihitsaus
+144.http://www.yso.fi/onto/koko/p96655 = kasvulevyt
+145.http://www.yso.fi/onto/koko/p96652 = uskonnollinen oikeisto
+146.http://www.yso.fi/onto/koko/p96653 = säteilylähteet
+147.http://www.yso.fi/onto/koko/p96658 = geenisäätely
+148.http://www.yso.fi/onto/koko/p96659 = kvanttipiirit
+149.http://www.yso.fi/onto/koko/p96656 = lämpöpuhaltimet
+150.http://www.yso.fi/onto/koko/p96657 = looginen ristiriita
+151.http://www.yso.fi/onto/koko/p96661 = nanokuidut
+152.http://www.yso.fi/onto/koko/p96662 = kelaatio
+153.http://www.yso.fi/onto/koko/p96660 = bolometrit
+154.http://www.yso.fi/onto/koko/p96665 = kaksiulotteiset materiaalit
+155.http://www.yso.fi/onto/koko/p96666 = narratiivinen identiteetti
+156.http://www.yso.fi/onto/koko/p96663 = viranomaisvalvonta
+157.http://www.yso.fi/onto/koko/p96664 = hypopituitarismi
+158.http://www.yso.fi/onto/koko/p96669 = readymade-teokset
+159.http://www.yso.fi/onto/koko/p96667 = oppimisanalytiikka
+160.http://www.yso.fi/onto/koko/p96668 = kielitausta
+161.http://www.yso.fi/onto/koko/p96672 = epäsosiaalinen persoonallisuus
+162.http://www.yso.fi/onto/koko/p96673 = synnytystapa
+163.http://www.yso.fi/onto/koko/p96670 = sulamisvesi
+164.http://www.yso.fi/onto/koko/p96671 = digitaaliset tuotepassit
+165.http://www.yso.fi/onto/koko/p96904 = karboksylaatio
+166.http://www.yso.fi/onto/koko/p96905 = arboristit (ammattiin tai työtehtävään liittyvä rooli)
+167.http://www.yso.fi/onto/koko/p96902 = keuhkopussi (kalvot)
+168.http://www.yso.fi/onto/koko/p96903 = agaroosi
+169.http://www.yso.fi/onto/koko/p96908 = arkikuntoutus
+170.http://www.yso.fi/onto/koko/p96909 = paimenmuistot
+171.http://www.yso.fi/onto/koko/p96906 = mysteerinäytelmät
+172.http://www.yso.fi/onto/koko/p96907 = sopranista (äänialat)
+173.http://www.yso.fi/onto/koko/p96900 = egyptiläinen mytologia
+174.http://www.yso.fi/onto/koko/p96901 = siirapit
+175.http://www.yso.fi/onto/koko/p96915 = pantomiimimusiikki
+176.http://www.yso.fi/onto/koko/p96916 = peroksisomit
+177.http://www.yso.fi/onto/koko/p96913 = psilosybiini
+178.http://www.yso.fi/onto/koko/p96914 = sopranistat (laulajat)
+179.http://www.yso.fi/onto/koko/p96919 = turvavaljaat (turvavarusteet)
+180.http://www.yso.fi/onto/koko/p96917 = fosfataasit
+181.http://www.yso.fi/onto/koko/p96918 = villimehiläiset
+182.http://www.yso.fi/onto/koko/p96911 = taisteluhelikopterit (sotilashelikopterit)
+183.http://www.yso.fi/onto/koko/p96912 = avaruussota
+184.http://www.yso.fi/onto/koko/p96910 = kaveritaidot
+185.http://www.yso.fi/onto/koko/p96926 = geomerkintä
+186.http://www.yso.fi/onto/koko/p96927 = allerginen herkistyminen
+187.http://www.yso.fi/onto/koko/p96924 = sininen talous
+188.http://www.yso.fi/onto/koko/p96925 = piikkiproteiinit
+189.http://www.yso.fi/onto/koko/p96928 = rasvansiirto
+190.http://www.yso.fi/onto/koko/p96929 = tutkapoikkipinta-ala
+191.http://www.yso.fi/onto/koko/p96922 = yleisnimet
+192.http://www.yso.fi/onto/koko/p96923 = giljotiini
+193.http://www.yso.fi/onto/koko/p96920 = appellatiivistuminen (muutos)
+194.http://www.yso.fi/onto/koko/p96921 = kiinnikkeet (kudokset)
+195.http://www.yso.fi/onto/koko/p96937 = konkreettinen taide
+196.http://www.yso.fi/onto/koko/p96938 = elävän mallin piirustus
+197.http://www.yso.fi/onto/koko/p96935 = takaisinottovelvollisuus
+198.http://www.yso.fi/onto/koko/p96936 = romanssit (kirjallisuudenhistoria)
+199.http://www.yso.fi/onto/koko/p96939 = illusionismi (filosofia)
+200.http://www.yso.fi/onto/koko/p96930 = vankien poistumisluvat
+201.http://www.yso.fi/onto/koko/p96933 = löydöt (muu rooli)
+202.http://www.yso.fi/onto/koko/p96934 = varjolaivasto
+203.http://www.yso.fi/onto/koko/p96931 = generatiivinen tekoäly
+204.http://www.yso.fi/onto/koko/p96932 = DNA-kopiomäärän vaihtelut
+205.http://www.yso.fi/onto/koko/p96940 = tyyppisuunnitelmat
+206.http://www.yso.fi/onto/koko/p96941 = esivalmisteiset talot
+207.http://www.yso.fi/onto/koko/p96944 = sarjatuotantotalot
+208.http://www.yso.fi/onto/koko/p96945 = jakaminen
+209.http://www.yso.fi/onto/koko/p96942 = talomallit
+210.http://www.yso.fi/onto/koko/p96943 = talopaketit (palvelut)
+211.http://www.yso.fi/onto/koko/p96874 = misinformaatio
+212.http://www.yso.fi/onto/koko/p96875 = femtech
+213.http://www.yso.fi/onto/koko/p96872 = lehtikuvitukset
+214.http://www.yso.fi/onto/koko/p96873 = renderöinti (tietokonegrafiikka)
+215.http://www.yso.fi/onto/koko/p96878 = beetahajoaminen
+216.http://www.yso.fi/onto/koko/p96879 = kielikäsitykset
+217.http://www.yso.fi/onto/koko/p96876 = mikroympäristö (fysiologia)
+218.http://www.yso.fi/onto/koko/p96877 = kieli-ideologiat
+219.http://www.yso.fi/onto/koko/p96881 = digitaaliset tokenit
+220.http://www.yso.fi/onto/koko/p96882 = nakba
+221.http://www.yso.fi/onto/koko/p96880 = merenhallinta
+222.http://www.yso.fi/onto/koko/p96885 = alfahajoaminen
+223.http://www.yso.fi/onto/koko/p96886 = digitaalinen keskuspankkiraha
+224.http://www.yso.fi/onto/koko/p96883 = eksogamia
+225.http://www.yso.fi/onto/koko/p96884 = puuttuvat havainnot (tilastotiede)
+226.http://www.yso.fi/onto/koko/p96889 = kvanttimateriaalit
+227.http://www.yso.fi/onto/koko/p96887 = pedagoginen hyvinvointi
+228.http://www.yso.fi/onto/koko/p96888 = opiskeluhyvinvointi
+229.http://www.yso.fi/onto/koko/p96892 = Säynätsalon kunnantalo
+230.http://www.yso.fi/onto/koko/p96893 = Alvar Aallon ateljee
+231.http://www.yso.fi/onto/koko/p96890 = Kansaneläkelaitoksen päätoimitalo
+232.http://www.yso.fi/onto/koko/p96891 = Alvar Aallon kotitalo
+233.http://www.yso.fi/onto/koko/p96896 = omakuntoutus
+234.http://www.yso.fi/onto/koko/p96897 = DAW-ohjelmat
+235.http://www.yso.fi/onto/koko/p96894 = endogamia
+236.http://www.yso.fi/onto/koko/p96895 = Muuratsalon koetalo
+237.http://www.yso.fi/onto/koko/p96898 = välikorvan ilmastointi
+238.http://www.yso.fi/onto/koko/p96899 = varalaskupaikat (liikennealueet)
+239.http://www.yso.fi/onto/koko/p96838 = mikroverisuonet
+240.http://www.yso.fi/onto/koko/p96839 = Liettuan itsenäisyyssodat
+241.http://www.yso.fi/onto/koko/p96836 = mikroglia
+242.http://www.yso.fi/onto/koko/p96837 = Liedon kirkko
+243.http://www.yso.fi/onto/koko/p96830 = gånglåt-sävelmät
+244.http://www.yso.fi/onto/koko/p96831 = hormonaalinen ehkäisy
+245.http://www.yso.fi/onto/koko/p96834 = vesirokko (virustaudit)
+246.http://www.yso.fi/onto/koko/p96835 = myeliiniproteiinit
+247.http://www.yso.fi/onto/koko/p96832 = leukodystrofiat
+248.http://www.yso.fi/onto/koko/p96833 = Indokiinan sota (1946-1954)
+249.http://www.yso.fi/onto/koko/p96849 = mikrosysteemit (mikrotekniikka)
+250.http://www.yso.fi/onto/koko/p96847 = Tottesundin kartano
+251.http://www.yso.fi/onto/koko/p96848 = työläisolympialaiset
+252.http://www.yso.fi/onto/koko/p96841 = spartakiadit
+253.http://www.yso.fi/onto/koko/p96842 = termokarsti
+254.http://www.yso.fi/onto/koko/p96840 = israelilaiset
+255.http://www.yso.fi/onto/koko/p96845 = välttelykäyttäytyminen
+256.http://www.yso.fi/onto/koko/p96846 = normikriittisyys
+257.http://www.yso.fi/onto/koko/p96843 = kompromissit
+258.http://www.yso.fi/onto/koko/p96844 = aktiivikerros (maaperä)
+259.http://www.yso.fi/onto/koko/p96858 = ohjelmoinnillinen ajattelu
+260.http://www.yso.fi/onto/koko/p96859 = yksittäiset kirkkorakennukset
+261.http://www.yso.fi/onto/koko/p96852 = epoksidointi
+262.http://www.yso.fi/onto/koko/p96853 = pelastuspaketit (talous)
+263.http://www.yso.fi/onto/koko/p96850 = solarpunk
+264.http://www.yso.fi/onto/koko/p96851 = muotioikeus
+265.http://www.yso.fi/onto/koko/p96856 = kuva-avusteinen haastattelu
+266.http://www.yso.fi/onto/koko/p96857 = ydinpelote
+267.http://www.yso.fi/onto/koko/p96854 = visuaalinen tutkimus
+268.http://www.yso.fi/onto/koko/p96855 = pietsosähköinen ilmiö
+269.http://www.yso.fi/onto/koko/p96860 = säätiölaki (2015)
+270.http://www.yso.fi/onto/koko/p96869 = lantionpohja
+271.http://www.yso.fi/onto/koko/p96863 = liiketoiminnan etiikka
+272.http://www.yso.fi/onto/koko/p96864 = avaruusajoneuvot
+273.http://www.yso.fi/onto/koko/p96861 = rodut (eläimet)
+274.http://www.yso.fi/onto/koko/p96862 = palmikkoneuleet
+275.http://www.yso.fi/onto/koko/p96867 = deminutiivit
+276.http://www.yso.fi/onto/koko/p96868 = munarakkulaneste
+277.http://www.yso.fi/onto/koko/p96865 = kenraalimajurit
+278.http://www.yso.fi/onto/koko/p96866 = kirkkojärjestykset
+279.http://www.yso.fi/onto/koko/p96870 = turvallisuusviranomaiset
+280.http://www.yso.fi/onto/koko/p96871 = alustatyö
+281.http://www.yso.fi/onto/koko/p96805 = pomolaiset kielet
+282.http://www.yso.fi/onto/koko/p96806 = chibchalaiset kielet
+283.http://www.yso.fi/onto/koko/p96803 = urulais-chipayalaiset kielet
+284.http://www.yso.fi/onto/koko/p96804 = salishilaiset kielet
+285.http://www.yso.fi/onto/koko/p96809 = slaavilainen mytologia
+286.http://www.yso.fi/onto/koko/p96807 = utilaiset kielet
+287.http://www.yso.fi/onto/koko/p96808 = miraakkelinäytelmät
+288.http://www.yso.fi/onto/koko/p96801 = voguing
+289.http://www.yso.fi/onto/koko/p96802 = sosiaaliset representaatiot
+290.http://www.yso.fi/onto/koko/p96800 = somaattiset menetelmät
+291.http://www.yso.fi/onto/koko/p96816 = ampumakoulutus (sotilaskoulutus)
+292.http://www.yso.fi/onto/koko/p96817 = hallitusammattilaiset
+293.http://www.yso.fi/onto/koko/p96814 = sadut tyhmästä paholaisesta
+294.http://www.yso.fi/onto/koko/p96815 = työeläimet
+295.http://www.yso.fi/onto/koko/p96818 = läheisyyskoreografit
+296.http://www.yso.fi/onto/koko/p96819 = allianssimallit
+297.http://www.yso.fi/onto/koko/p96812 = diskordianismi
+298.http://www.yso.fi/onto/koko/p96813 = löytämättömät varannot
+299.http://www.yso.fi/onto/koko/p96810 = ländlerit (sävellykset)
+300.http://www.yso.fi/onto/koko/p96811 = bagelit
+301.http://www.yso.fi/onto/koko/p96827 = pentlandiitti
+302.http://www.yso.fi/onto/koko/p96828 = Vanantaan kartano
+303.http://www.yso.fi/onto/koko/p96825 = nanomuovi
+304.http://www.yso.fi/onto/koko/p96826 = sarvilakit
+305.http://www.yso.fi/onto/koko/p96829 = ei-koodaava RNA
+306.http://www.yso.fi/onto/koko/p96820 = dekontaminaatio (puhdistus)
+307.http://www.yso.fi/onto/koko/p96823 = lantionpohjan laskeuma
+308.http://www.yso.fi/onto/koko/p96824 = digitaalinen turvallisuus
+309.http://www.yso.fi/onto/koko/p96821 = erikoisoperaatiot (sotilasoperaatiot)
+310.http://www.yso.fi/onto/koko/p96822 = yksinmatkailu
 Uudet KOKO-URI-vastaavuudet kirjoitettu tiedostoon kokoUriVastaavuudet-test.txt
 luetaan malli sisään.
-19:41:24.124 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl
-19:41:24.124 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl (LocatorFile)
+14:03:30.860 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Not mapped: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl
+14:03:30.860 [main] DEBUG org.apache.jena.riot.system.stream.StreamManager -- Found: ../Finto-data/vocabularies/koko/koko-skos_edellinen.ttl (LocatorFile)
 malli luettu sisään.
-Labelin perusteella romautettiin 2999.
+Labelin perusteella romautettiin 3007.
