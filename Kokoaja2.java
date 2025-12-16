@@ -34,6 +34,7 @@ public class Kokoaja2 {
 	private final String XSDNs = "http://www.w3.org/2001/XMLSchema#";
 
 	private Model koko;
+	private Model yso;
 	private Model onto;
 	private Model aikaLeimat;
 
@@ -126,7 +127,7 @@ public class Kokoaja2 {
 	}
 
 	public void lueYso(String ysonPolku) {
-		this.onto = JenaHelpers.lueMalliModeliksi(ysonPolku); 
+		this.yso = JenaHelpers.lueMalliModeliksi(ysonPolku);
 
 		// luodaan YSOConcept-tyyppiluokka
 		this.luoYSOConceptTyyppiLuokkaKokoon();
@@ -137,7 +138,7 @@ public class Kokoaja2 {
 		Resource ysoDeprecatedScheme = this.koko.createResource("http://www.yso.fi/onto/yso/deprecatedconceptscheme");
 
 		//Luodaan ensiksi lista sallituista YSO-ureista. Muita YSO-käsitteitä ei oteta KOKOssa huomioon
-		ResIterator sallitut = this.onto.listResourcesWithProperty(SKOS.inScheme, ysoConceptScheme);
+		ResIterator sallitut = this.yso.listResourcesWithProperty(SKOS.inScheme, ysoConceptScheme);
 		while (sallitut.hasNext()) {
 			Resource ysoSubj = sallitut.next();
 			this.ysoUrit.add(ysoSubj.getURI());
@@ -148,14 +149,14 @@ public class Kokoaja2 {
 		boolean deprekoituYsoMukaan = true;
 
 		if (deprekoituYsoMukaan) {
-			sallitut = this.onto.listResourcesWithProperty(SKOS.inScheme, ysoDeprecatedScheme);
+			sallitut = this.yso.listResourcesWithProperty(SKOS.inScheme, ysoDeprecatedScheme);
 			while (sallitut.hasNext()) {
 				Resource ysoSubj = sallitut.next();
 				this.ysoUrit.add(ysoSubj.getURI());
 			}
 		} sallitut.close();
 
-		ResIterator resIter = this.onto.listResourcesWithProperty(SKOS.inScheme, ysoConceptScheme);
+		ResIterator resIter = this.yso.listResourcesWithProperty(SKOS.inScheme, ysoConceptScheme);
 		while (resIter.hasNext()) {
 			Resource ysoSubj = resIter.nextResource();
 			if (!this.mustaLista.contains(ysoSubj)) {
@@ -165,7 +166,7 @@ public class Kokoaja2 {
 			}
 		} resIter.close();
 		if (deprekoituYsoMukaan) {
-			resIter = this.onto.listResourcesWithProperty(SKOS.inScheme, ysoDeprecatedScheme);
+			resIter = this.yso.listResourcesWithProperty(SKOS.inScheme, ysoDeprecatedScheme);
 			while (resIter.hasNext()) {
 				Resource ysoSubj = resIter.nextResource();
 				if (!this.mustaLista.contains(ysoSubj)) {
@@ -177,7 +178,7 @@ public class Kokoaja2 {
 		}
 
 		// kaivetaan KOKOon viela isReplacedBy-tyyppiset suhteet
-		StmtIterator iter = this.onto.listStatements((Resource)null, DCTerms.isReplacedBy, (RDFNode)null);
+		StmtIterator iter = this.yso.listStatements((Resource)null, DCTerms.isReplacedBy, (RDFNode)null);
 		while (iter.hasNext()) {
 			Statement stmt = iter.nextStatement();
 			Resource subject = stmt.getSubject();
@@ -185,15 +186,15 @@ public class Kokoaja2 {
 			if (!this.mustaLista.contains(subject)) {
 
 				//Jottei tapahtuisi jakautuvia korvaavuussuhteita, valitaan jokaiselle replaced-suhteelle vain yksi sopiva seuraaja
-				object = this.haeKorvaava(subject, this.onto);
+				object = this.haeKorvaava(subject, this.yso);
 				this.koko.add(subject, DCTerms.isReplacedBy, object);
 				this.ontoKokoResurssivastaavuudetJotkaNykyKokossaMap.put(subject, object);
 			}
 		}
 
 		//Jos uusin YSO sanoo että tätä käsitettä ei enää käytetä, otetaan siitä tieto talteen
-		Resource deprecatedScheme = this.onto.createResource("http://www.yso.fi/onto/yso/deprecatedconceptscheme");
-		StmtIterator i = this.onto.listStatements(null, SKOS.inScheme, deprecatedScheme);
+		Resource deprecatedScheme = this.yso.createResource("http://www.yso.fi/onto/yso/deprecatedconceptscheme");
+		StmtIterator i = this.yso.listStatements(null, SKOS.inScheme, deprecatedScheme);
 		while (i.hasNext()) {
 			this.deprekoidut.add(i.next().getSubject().getURI());
 		}
@@ -234,7 +235,8 @@ public class Kokoaja2 {
 	 *  jolloin prefLabeleista tulee skosext:candidateLabeleita
 	 */
 	private void lisaaResurssiKokoon(Resource ontoSubj, Resource kokoSubj, boolean primaryLabelSource) {
-		Property skosextCandidateLabel = this.onto.createProperty(skosextNs + "candidateLabel");
+		Model onto = ontoSubj.getModel();
+		Property skosextCandidateLabel = onto.createProperty(skosextNs + "candidateLabel");
 
 		HashSet<Property> propertytJoitaEiHalutaKokoon = new HashSet<Property>();
 		propertytJoitaEiHalutaKokoon.add(SKOS.inScheme);
@@ -245,7 +247,7 @@ public class Kokoaja2 {
 
 
 		//Käsitteellä pitää olla vähintään prefLabel tai isReplacedBy, jotta sitä voidaan ottaa KOKOon
-		if (!this.onto.contains(ontoSubj, SKOS.prefLabel) && !this.onto.contains(ontoSubj, DCTerms.isReplacedBy)) {
+		if (!onto.contains(ontoSubj, SKOS.prefLabel) && !onto.contains(ontoSubj, DCTerms.isReplacedBy)) {
 			return;
 		}
 
@@ -256,7 +258,7 @@ public class Kokoaja2 {
 		this.ontoKokoResurssivastaavuudetJotkaNykyKokossaMap.put(ontoSubj, kokoSubj);
 		//this.kokoFiLabelitResurssitMap.put(this.ontoFiResurssitLabelitMap.get(ontoSubj), kokoSubj);
 		this.koko.add(kokoSubj, SKOS.exactMatch, ontoSubj);
-		StmtIterator iter = this.onto.listStatements(ontoSubj, (Property)null, (RDFNode)null);
+		StmtIterator iter = onto.listStatements(ontoSubj, (Property)null, (RDFNode)null);
 		while (iter.hasNext()) {
 			Statement stmt = iter.nextStatement();
 
@@ -302,11 +304,10 @@ public class Kokoaja2 {
 		// kaivetaan HashSettiin kaikki erikoisontologian oman tyyppiset kasitteet
 		HashSet<Resource> ontonOntoTyyppisetResurssit = new HashSet<Resource>();
 		ResIterator resIter = this.onto.listResourcesWithProperty(RDF.type, ontoTyyppi);
-		//Resource deprecated = this.onto.createResource(skosextNs+"DeprecatedConcept");
+		Resource deprecated = this.onto.createResource(skosextNs+"DeprecatedConcept");
 
 		while (resIter.hasNext()) {
 			Resource ontoSubj = resIter.nextResource();
-			//lisättiin tarkistus deprekoitujen käsitteiden välttämiseksi -> tämä pois, tällainen tarkistus tulisi koskea vain YSOa - muutoin erikoisontologian käsitteen koko-vastine (siis vanha) putoaa pois kokosta
 
 			if (!this.mustaLista.contains(ontoSubj)) {
 				ontonOntoTyyppisetResurssit.add(ontoSubj);
@@ -327,12 +328,15 @@ public class Kokoaja2 {
 						!obj.getNameSpace().equals(this.kokoNs)) {
 					//lisätty tarkistus siitä ettei linkata deprekoituihin resursseihin
 					if ( !obj.hasProperty(DCTerms.isReplacedBy) && !this.deprekoidut.contains(obj.getURI())) {
-						HashSet<Resource> matchitSet = new HashSet<Resource>();
-						if (ontonExactMatchitMap.containsKey(subj)) {
-							matchitSet = ontonExactMatchitMap.get(subj);
+						// tarkistetaan vielä että linkattu resurssi ei ole ysossa deprekoitu
+						if (!obj.getNameSpace().equals("http://www.yso.fi/onto/yso/") || !this.yso.contains(obj, OWL.deprecated)) {
+							HashSet<Resource> matchitSet = new HashSet<Resource>();
+							if (ontonExactMatchitMap.containsKey(subj)) {
+								matchitSet = ontonExactMatchitMap.get(subj);
+							}
+							matchitSet.add((Resource)(stmt.getObject()));
+							ontonExactMatchitMap.put(subj, matchitSet);
 						}
-						matchitSet.add((Resource)(stmt.getObject()));
-						ontonExactMatchitMap.put(subj, matchitSet);
 					}
 				}
 			} catch (NullPointerException e) { //jos data on virheellistä
@@ -343,7 +347,8 @@ public class Kokoaja2 {
 		resIter = this.onto.listResourcesWithProperty(RDF.type, ontoTyyppi);
 		while (resIter.hasNext()) {
 			Resource ontoSubj = resIter.nextResource();
-			if (!this.mustaLista.contains(ontoSubj)) {
+			// lisätty tarkistus ettei deprekoitua erikoisontokäsitteitä oteta mukaan
+			if (!this.mustaLista.contains(ontoSubj) && !!this.onto.contains(ontoSubj, RDF.type, deprecated)) {
 				ontoUritVektori.add(ontoSubj.getURI());
 			}
 		}
@@ -699,6 +704,8 @@ public class Kokoaja2 {
 		System.out.println("Linkitettyjä käsitteitä oli " + kaikkiLinkitetytKasitteet.size());
 		this.siivoaPoisTuplaVastaavuudet(kaikkiLinkitetytKasitteet);
 		System.out.println("Siivouksen jälkeen linkitettyjä on " + kaikkiLinkitetytKasitteet.size());
+		this.siivoaPoisViittauksetDeprekoituihin(kaikkiLinkitetytKasitteet);
+
 
 		for (Statement linkki : kaikkiLinkitetytKasitteet) {
 
@@ -750,7 +757,7 @@ public class Kokoaja2 {
 			Vector<Resource> ryhmanKokot = new Vector<Resource>();
 			for (Resource r : ryhma) {
 				Resource uusiKoko = this.ontoKokoResurssivastaavuudetMap.get(r);
-				if (uusiKoko != null) {
+				if (uusiKoko != null && !ryhmanKokot.contains(uusiKoko)) {
 					ryhmanKokot.add(uusiKoko);
 				} 
 			}
@@ -1587,6 +1594,45 @@ public class Kokoaja2 {
 	}
 
 
+	private void siivoaPoisViittauksetDeprekoituihin(HashSet<Statement> kaikkiLinkitetytKasitteet) {
+		HashSet<Statement> pois = new HashSet<Statement>();
+
+		for (Statement s : kaikkiLinkitetytKasitteet) {
+			if (s.getPredicate().equals(SKOS.exactMatch)) {
+				Boolean subDep = false, objDep = false;
+				Resource sub = s.getSubject();
+				Resource obj = s.getResource();
+
+				// tarkistetaan vielä tapaukset, joissa erikoisontosta on annettu linkkejä (deprekoituihin) yso-käsitteisiin
+				if (obj.getNameSpace().equals("http://www.yso.fi/onto/yso/")) {
+					Statement objDepStatement = this.yso.getProperty(obj, OWL.deprecated);
+					if (objDepStatement == null) objDep = false;
+					else objDep = objDepStatement.getObject().asLiteral().getBoolean();
+					if (objDep) {
+						pois.add(s);
+					}
+				}
+
+				Statement subDepStatement = sub.getModel().getProperty(sub, OWL.deprecated);
+				if (subDepStatement == null) subDep = false;
+				else subDep = subDepStatement.getObject().asLiteral().getBoolean();
+				if (subDep) {
+					pois.add(s);
+					continue;
+				}
+
+				Statement objDepStatement = obj.getModel().getProperty(obj, OWL.deprecated);
+				if (objDepStatement == null) objDep = false;
+				else objDep = objDepStatement.getObject().asLiteral().getBoolean();
+				if (objDep) {
+					pois.add(s);
+				}
+			}
+		}
+		System.out.println("Poistetaan " +  pois.size() + "kpl exactMatch -linkitettyjä deprekoituja käsitteitä");
+		kaikkiLinkitetytKasitteet.removeAll(pois);
+
+	}
 	private void siivoaPoisTuplaVastaavuudet(HashSet<Statement> kaikkiLinkitetytKasitteet) {
 
 		//poistetaan alkuun kaikki viitaukset itseensä
