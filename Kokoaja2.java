@@ -348,7 +348,7 @@ public class Kokoaja2 {
 		while (resIter.hasNext()) {
 			Resource ontoSubj = resIter.nextResource();
 			// lisätty tarkistus ettei deprekoitua erikoisontokäsitteitä oteta mukaan
-			if (!this.mustaLista.contains(ontoSubj) && !!this.onto.contains(ontoSubj, RDF.type, deprecated)) {
+			if (!this.mustaLista.contains(ontoSubj) && !this.onto.contains(ontoSubj, RDF.type, deprecated)) {
 				ontoUritVektori.add(ontoSubj.getURI());
 			}
 		}
@@ -1610,6 +1610,7 @@ public class Kokoaja2 {
 					else objDep = objDepStatement.getObject().asLiteral().getBoolean();
 					if (objDep) {
 						pois.add(s);
+						continue;
 					}
 				}
 
